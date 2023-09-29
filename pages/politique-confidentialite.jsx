@@ -14,23 +14,23 @@ export default function PolitiqueConfidentialite() {
 	return (
 		<>
 			<Head>
-				<title>Politique de confidentialité</title>
+				<title>Confidentialité</title>
 				<meta
 					name={"description"}
-					content={"En savoir plus sur la politique de confidentialité de Mail Certificate"}
+					content={"En savoir plus sur la politique de confidentialité"}
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Layout>
 				{/* Début de la section d'en-tête */}
 				<PageHeading
-					title="Règlementation"
+					title="Confidentialité"
 					bgSrc="images/about_hero_bg.jpeg"
 					pageLinkText="Politique de confidentialité"
 				/>
 				{/* Fin de la section d'en-tête */}
 
-				<section className="">
+				<section className="m-5">
 					<div>
 						<h1>Politique de confidentialité</h1>
 						<br />

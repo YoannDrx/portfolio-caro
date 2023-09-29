@@ -10,12 +10,16 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 	const copyrightLinks = [
 		{
 			title: "Conditions d’utilisation",
-			href: "/",
+			href: "/conditions-utilisation",
 		},
 		{
 			title: "Politique de confidentialité",
 			href: "/politique-confidentialite",
 		},
+		{
+			title: "Politique de cookies",
+			href: "/politique-cookies",
+		}
 	];
 
 	const serviceMenu = [
