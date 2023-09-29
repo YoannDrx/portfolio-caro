@@ -31,7 +31,7 @@ export default function Header({ variant }) {
 						<Div className="cs-main_header_in">
 							<Div className="cs-main_header_left">
 								<Link className="cs-site_branding" href="/">
-									{/* <img src="/images/logo.svg" alt="Logo" /> */}
+									<img src="/images/logo.svg" alt="Logo" />
 								</Link>
 							</Div>
 							<Div className="cs-main_header_center">
@@ -131,18 +131,11 @@ export default function Header({ variant }) {
 					</Link>
 					<Div className="cs-side_header_box">
 						<h2 className="cs-side_header_heading">
-							Do you have a project in your <br /> mind? Keep connect us.
+							Vous avez des question <br /> concernant vos oeuvres ?
 						</h2>
 					</Div>
 					<Div className="cs-side_header_box">
-						<ContactInfoWidget title="Contact Us" withIcon />
-					</Div>
-					<Div className="cs-side_header_box">
-						<Newsletter
-							title="Subscribe"
-							subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-							placeholder="example@gmail.com"
-						/>
+						<ContactInfoWidget title="Contactez-moi !" withIcon />
 					</Div>
 					<Div className="cs-side_header_box">
 						<SocialWidget />
