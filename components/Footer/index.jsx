@@ -14,7 +14,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 		},
 		{
 			title: "Politique de confidentialité",
-			href: "/",
+			href: "/politique-confidentialite",
 		},
 	];
 
