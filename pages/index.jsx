@@ -14,8 +14,7 @@ import CaseStudy from "../components/CaseStudy";
 import ServiceList from "../components/ServiceList";
 import { useState } from "react";
 import Portfolio from "../components/Portfolio";
-import { Icon } from '@iconify/react';
-
+import { Icon } from "@iconify/react";
 
 export default function Home() {
 	const [itemShow, setItemShow] = useState(6);
@@ -88,70 +87,70 @@ export default function Home() {
 	];
 
 	const portfolioData = [
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_11.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_12.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_13.jpeg',
-      category: 'web_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_14.jpeg',
-      category: 'mobile_apps',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_15.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_16.jpeg',
-      category: 'web_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_11.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_12.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_13.jpeg',
-      category: 'web_design',
-    },
-  ];
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_11.jpeg",
+			category: "ui_ux_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_12.jpeg",
+			category: "logo_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_13.jpeg",
+			category: "web_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_14.jpeg",
+			category: "mobile_apps",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_15.jpeg",
+			category: "ui_ux_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_16.jpeg",
+			category: "web_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_11.jpeg",
+			category: "ui_ux_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_12.jpeg",
+			category: "logo_design",
+		},
+		{
+			title: "Colorful Art Work",
+			subtitle: "See Details",
+			href: "/portfolio/portfolio-details",
+			src: "/images/portfolio_13.jpeg",
+			category: "web_design",
+		},
+	];
 
 	return (
 		<>
@@ -165,7 +164,7 @@ export default function Home() {
 				<Hero3
 					title="Caroline Senyk <br />Music"
 					btnLink="contact"
-					btnText={`Let's talk`}
+					btnText={`Venez discuter`}
 					socialLinksHeading=""
 					heroSocialLinks={heroSocialLinks}
 					bgImageUrl="./images/hero_bg_4.jpg"
@@ -182,58 +181,52 @@ export default function Home() {
 				{/* End Expertises */}
 
 				{/* Start Projects Section */}
-        <Spacing lg="145" md="80" />
-        <Div className="container">
-          <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="90" md="45" />
-          <Div className="row">
-            {portfolioData.slice(0, itemShow).map((item, index) => (
-              <Div
-                className={`${
-                  index === 0 || index === 3 || index === 4
-                    ? 'col-lg-8'
-                    : 'col-lg-4'
-                }`}
-                key={index}
-              >
-                <Portfolio
-                  title={item.title}
-                  subtitle={item.subtitle}
-                  href={item.href}
-                  src={item.src}
-                  variant="cs-style1 cs-type1"
-                />
-                <Spacing lg="25" md="25" />
-              </Div>
-            ))}
-          </Div>
+				<Spacing lg="145" md="80" />
+				<Div className="container">
+					<SectionHeading
+						title="Artistes à découvrir"
+						subtitle="Derniers projets"
+						variant="cs-style1 text-center"
+					/>
+					<Spacing lg="90" md="45" />
+					<Div className="row">
+						{portfolioData.slice(0, itemShow).map((item, index) => (
+							<Div
+								className={`${index === 0 || index === 3 || index === 4 ? "col-lg-8" : "col-lg-4"}`}
+								key={index}
+							>
+								<Portfolio
+									title={item.title}
+									subtitle={item.subtitle}
+									href={item.href}
+									src={item.src}
+									variant="cs-style1 cs-type1"
+								/>
+								<Spacing lg="25" md="25" />
+							</Div>
+						))}
+					</Div>
 
-          <Div className="text-center">
-            {portfolioData.length <= itemShow ? (
-              ''
-            ) : (
-              <>
-                <Spacing lg="65" md="40" />
-                <span
-                  className="cs-text_btn"
-                  onClick={() => setItemShow(itemShow + 3)}
-                >
-                  <span>Load More</span>
-                  <Icon icon="bi:arrow-right" />
-                </span>
-              </>
-            )}
-          </Div>
-        </Div>
-        {/* End Projects Section */}
+					<Div className="text-center">
+						{portfolioData.length <= itemShow ? (
+							""
+						) : (
+							<>
+								<Spacing lg="65" md="40" />
+								<span className="cs-text_btn" onClick={() => setItemShow(itemShow + 3)}>
+									<span>Load More</span>
+									<Icon icon="bi:arrow-right" />
+								</span>
+							</>
+						)}
+					</Div>
+				</Div>
+				{/* End Projects Section */}
 
 				{/* Start Portfolio Section */}
-				
 				<Spacing lg="150" md="80" />
+				<SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center mb-5" />
+
 				{portfolioData1.map((item, index) =>
 					index % 2 === 0 ? (
 						<Div key={index}>
