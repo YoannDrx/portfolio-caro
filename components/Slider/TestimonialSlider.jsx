@@ -11,33 +11,33 @@ export default function TestimonialSlider() {
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        "Grâce à son expertise en gestion des droits d'auteur, Caroline nous avons pu sécuriser notre catalogue musical et maximiser nos revenus. Une ressource inestimable pour tout artiste ou label.",
+      avatarName: 'Claire Dupont',
+      avatarDesignation: 'Directrice Artistique chez MusiCorp',
       ratings: '4',
     },
     {
       testimonialThumb: '/images/testimonial_2.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        "Son accompagnement dans le processus de subvention a été décisif. Nous avons non seulement obtenu le financement, mais aussi une meilleure compréhension des mécanismes de l'industrie.",
+      avatarName: 'Jean Martin',
+      avatarDesignation: 'CEO chez IndieProd',
       ratings: '5',
     },
     {
       testimonialThumb: '/images/testimonial_3.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        "La gestion de notre production musicale n'a jamais été aussi fluide. Du début à la fin, tout a été pris en charge avec un grand professionnalisme.",
+      avatarName: 'Sophie Leroux',
+      avatarDesignation: 'Productrice chez StarRecords',
       ratings: '4.5',
     },
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        "Une expertise solide en droits d'auteur et une capacité à résoudre des problèmes complexes. Cependant, la communication pourrait être améliorée.",
+      avatarName: 'Lucas Bernard',
+      avatarDesignation: 'Artiste Indépendant',
       ratings: '3.5',
     },
   ];

@@ -5,32 +5,32 @@ import Div from '../Div';
 export default function ServiceList() {
   const serviceData = [
     {
-      title: 'WP Development',
+      title: 'Gestion des droits d’auteur',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'Nous sécurisons votre catalogue musical et veillons à la protection de vos œuvres, tout en maximisant leur valeur.',
       imgUrl: '/images/service_7.jpeg',
-      href: '/service/service-details',
+      href: '/service/gestion-droits-auteur',
     },
     {
-      title: 'UI/UX Design',
+      title: 'Production musicale',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'De la pré-production à la distribution, nous gérons chaque étape pour assurer la réussite de vos projets musicaux.',
       imgUrl: '/images/service_8.jpeg',
-      href: '/service/service-details',
+      href: '/service/production-musicale',
     },
     {
-      title: 'Branding',
+      title: 'Obtention de subventions',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'Nous vous guidons à travers le processus complexe d’obtention de subventions pour financer vos projets musicaux.',
       imgUrl: '/images/service_9.jpeg',
-      href: '/service/service-details',
+      href: '/service/obtention-subventions',
     },
     {
-      title: 'Social Ad Campaign',
+      title: 'Consultation en droits d’auteur',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'Bénéficiez de conseils experts pour naviguer dans le paysage juridique des droits d’auteur et protéger efficacement vos œuvres.',
       imgUrl: '/images/service_10.jpeg',
-      href: '/service/service-details',
+      href: '/service/consultation-droits-auteur',
     },
   ];
   const [active, setActive] = useState(0);

@@ -8,15 +8,15 @@ export default function ContactInfoWidget({withIcon, title}) {
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}
-          +44 454 7800 112
+          +33684181884
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          infotech@arino.com
+          contact@carolinesenyk.fr
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
-          50 Wall Street Suite, 44150 <br/>Ohio, United States
+          Paris, 75020<br/>France
         </li>
       </ul>
     </>
