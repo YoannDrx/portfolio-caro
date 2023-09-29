@@ -1,13 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import Cta from "../components/Cta";
-import Div from "../components/Div";
-import FunFact from "../components/FunFact";
 import Layout from "../components/Layout";
 import PageHeading from "../components/PageHeading";
-import SectionHeading from "../components/SectionHeading";
-import TeamSlider from "../components/Slider/TeamSlider";
-import Spacing from "../components/Spacing";
+
 
 export default function ConditionsUtilisation() {
 	return (
@@ -29,7 +24,7 @@ export default function ConditionsUtilisation() {
 				/>
 				{/* Fin de la section d'en-tête */}
 
-				<section className="m-5">
+				<section className="col-lg-8 m-auto">
 					<div>
 						<h1>Conditions d'Utilisation</h1>
 						<h4>Applicables à partir du 29 Septembre 2023</h4>

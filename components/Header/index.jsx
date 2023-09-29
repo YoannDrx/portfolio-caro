@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import SocialWidget from "../Widget/SocialWidget";
-import Newsletter from "../Widget/Newsletter";
 import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import Div from "../Div";
 import Link from "next/link";
