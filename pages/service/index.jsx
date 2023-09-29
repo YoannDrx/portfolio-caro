@@ -5,7 +5,6 @@ import Cta from "../../components/Cta";
 import Div from "../../components/Div";
 import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
-import PricingTableList from "../../components/PricingTable/PricingTableList";
 import SectionHeading from "../../components/SectionHeading";
 import TestimonialSlider from "../../components/Slider/TestimonialSlider";
 import Spacing from "../../components/Spacing";
@@ -39,7 +38,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Gestion des droits d’auteur"
-											link="/service/ui-ux-design"
+											link="/service/gestion-droits-auteur"
 											src="/images/service_1.jpeg"
 											alt="Service"
 										/>
@@ -49,7 +48,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Production musicale"
-											link="/service/reactjs-development"
+											link="/service/production-musicale"
 											src="/images/service_2.jpeg"
 											alt="Service"
 										/>
@@ -58,7 +57,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Obtention de subventions"
-											link="/service/digital-marketing"
+											link="/service/obtention-subventions"
 											src="/images/service_3.jpeg"
 											alt="Service"
 										/>
@@ -68,7 +67,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Musique à l’image"
-											link="/service/technology"
+											link="/service/musique-à-image"
 											src="/images/service_4.jpeg"
 											alt="Service"
 										/>
@@ -79,7 +78,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Consultation en droits d’auteur"
-											link="/service/consultancy"
+											link="/service/consultation-droits-auteur"
 											src="/images/service_5.jpeg"
 											alt="Service"
 										/>
@@ -89,7 +88,7 @@ export default function Service() {
 									<Div className="col-lg-3 col-sm-6">
 										<Card
 											title="Droits d’auteur à l’international"
-											link="/service/creative-design"
+											link="/service/droits-auteur-international"
 											src="/images/service_6.jpeg"
 											alt="Service"
 										/>

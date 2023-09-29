@@ -12,24 +12,24 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Quels types de droits d\'auteur pouvez-vous gérer ?',
+      answer: 'Nous gérons une large gamme de droits d\'auteur, y compris les droits littéraires, musicaux, artistiques et plus encore. Notre expertise couvre également les droits numériques et les licences.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Comment assurez-vous la protection des œuvres ?',
+      answer: 'Nous utilisons des méthodes éprouvées pour enregistrer et protéger les œuvres, y compris des dépôts légaux et des systèmes de gestion des droits numériques.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Quels sont vos tarifs pour la gestion des droits d\'auteur ?',
+      answer: 'Nos tarifs varient en fonction de la complexité et de la portée du projet. Nous offrons des consultations gratuites pour évaluer vos besoins spécifiques.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Comment puis-je vous contacter pour discuter de mon projet ?',
+      answer: 'Vous pouvez nous contacter via notre formulaire en ligne, par e-mail ou par téléphone. Nous sommes également disponibles pour des réunions en personne ou des appels vidéo.'
     },
     {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Fournissez-vous des services de production ?',
+      answer: 'Oui, en plus de la gestion des droits d\'auteur, nous offrons une gamme complète de services de production, y compris la planification, le développement et la post-production.'
     },
   ]
   return (
