@@ -55,7 +55,7 @@ export default function Home() {
 		},
 	];
 
-	const portfolioData1 = [
+	const portfolioData = [
 		{
 			title: "Gestion des droits d'auteur pour artistes indépendants",
 			subtitle: "Projet 01",
@@ -90,7 +90,7 @@ export default function Home() {
 		},
 	];
 
-	const portfolioData = [
+	const projetData = [
 		{
 			title: "Colorful Art Work",
 			subtitle: "See Details",
@@ -193,7 +193,7 @@ export default function Home() {
 					/>
 					<Spacing lg="90" md="45" />
 					<Div className="row">
-						{portfolioData.slice(0, itemShow).map((item, index) => (
+						{projetData.slice(0, itemShow).map((item, index) => (
 							<Div
 								className={`${index === 0 || index === 3 || index === 4 ? "col-lg-8" : "col-lg-4"}`}
 								key={index}
@@ -211,7 +211,7 @@ export default function Home() {
 					</Div>
 
 					<Div className="text-center">
-						{portfolioData.length <= itemShow ? (
+						{projetData.length <= itemShow ? (
 							""
 						) : (
 							<>
@@ -230,7 +230,7 @@ export default function Home() {
 				<Spacing lg="150" md="80" />
 				<SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center mb-5" />
 
-				{portfolioData1.map((item, index) =>
+				{portfolioData.map((item, index) =>
 					index % 2 === 0 ? (
 						<Div key={index}>
 							<Portfolio2
