@@ -3,11 +3,15 @@ import SocialWidget from "../Widget/SocialWidget";
 import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import Div from "../Div";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Header({ variant }) {
 	const [isSticky, setIsSticky] = useState(false);
 	const [sideHeaderToggle, setSideHeaderToggle] = useState(false);
 	const [mobileToggle, setMobileToggle] = useState(false);
+	const [activeLink, setActiveLink] = useState("");
+	const router = useRouter();
+
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
 			if (window.scrollY > 0) {
@@ -17,6 +21,17 @@ export default function Header({ variant }) {
 			}
 		});
 	}, []);
+
+	const handleLinkClick = (path) => {
+		// 2. Mettre à jour activeLink
+		setActiveLink(path);
+		setMobileToggle(false);
+	};
+
+	const isActive = (path) => {
+		// 3. Utilisez activeLink pour la classe CSS
+		return activeLink === path || router.pathname === path;
+	};
 
 	return (
 		<>
@@ -39,55 +54,33 @@ export default function Header({ variant }) {
 										className="cs-nav_list"
 										style={{ display: `${mobileToggle ? "block" : "none"}` }}
 									>
-										<li>
-											<Link href="/" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/") ? "active" : ""}>
+											<Link href="/" onClick={() => handleLinkClick("/")}>
 												Home
 											</Link>
 										</li>
-										<li>
-											<Link href="about" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/about") ? "active" : ""}>
+											<Link href="about" onClick={() => handleLinkClick("/about")}>
 												About
 											</Link>
 										</li>
-										<li>
-											<Link href="/service" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/service") ? "active" : ""}>
+											<Link href="/service" onClick={() => handleLinkClick("/service")}>
 												Services
 											</Link>
 										</li>
-										<li>
-											<Link href="/portfolio" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/portfolio") ? "active" : ""}>
+											<Link href="/portfolio" onClick={() => handleLinkClick("/portfolio")}>
 												Portfolio
 											</Link>
 										</li>
-										{/* <li className="menu-item-has-children">
-											<Link href="/blog" onClick={() => setMobileToggle(false)}>
-												Blog
-											</Link>
-											<DropDown>
-												<ul>
-													<li>
-														<Link href="/blog" onClick={() => setMobileToggle(false)}>
-															Blog
-														</Link>
-													</li>
-													<li>
-														<Link
-															href="/blog/blog-details"
-															onClick={() => setMobileToggle(false)}
-														>
-															Blog Details
-														</Link>
-													</li>
-												</ul>
-											</DropDown>
-										</li> */}
-										<li>
-											<Link href="/contact" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/contact") ? "active" : ""}>
+											<Link href="/contact" onClick={() => handleLinkClick("/contact")}>
 												Contact
 											</Link>
 										</li>
-										<li>
-											<Link href="/faq" onClick={() => setMobileToggle(false)}>
+										<li className={isActive("/faq") ? "active" : ""}>
+											<Link href="/faq" onClick={() => handleLinkClick("/faq")}>
 												Faq
 											</Link>
 										</li>
