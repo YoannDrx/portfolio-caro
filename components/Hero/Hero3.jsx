@@ -1,7 +1,6 @@
 import parse from 'html-react-parser';
 // import WaterWave from 'react-water-wave';
 import Div from '../Div';
-import Button from '../Button';
 import VerticalLinks from '../VerticalLinks';
 import dynamic from 'next/dynamic';
 
@@ -13,10 +12,9 @@ const WaterWave = dynamic(
 );
 export default function Hero3({
   title,
+  subtitle,
   socialLinksHeading,
   heroSocialLinks,
-  btnLink,
-  btnText,
   bgImageUrl,
 }) {
   return (
@@ -29,7 +27,7 @@ export default function Hero3({
           <Div className="container">
             <Div className="cs-hero_text text-center">
               <h1 className="cs-hero_title">{parse(title)}</h1>
-              <Button btnLink={btnLink} btnText={btnText} />
+              <h4 className='subtitle'><i>{subtitle}</i></h4>
             </Div>
           </Div>
         )}

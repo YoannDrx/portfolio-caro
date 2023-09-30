@@ -22,6 +22,10 @@ export default function Home() {
 	// Hero Social Links
 	const heroSocialLinks = [
 		{
+			name: "Parigo",
+			links: "https://www.parigomusic.com/",
+		},
+		{
 			name: "LinkedIn",
 			links: "/",
 		},
@@ -162,9 +166,8 @@ export default function Home() {
 			<Layout>
 				{/* Start Hero Section */}
 				<Hero3
-					title="Caroline Senyk <br />Music"
-					btnLink="contact"
-					btnText={`Venez discuter`}
+					title="Caroline Senyk"
+					subtitle="Copyright | Production"
 					socialLinksHeading=""
 					heroSocialLinks={heroSocialLinks}
 					bgImageUrl="./images/hero_bg_4.jpg"
