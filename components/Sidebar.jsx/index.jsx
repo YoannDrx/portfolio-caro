@@ -9,31 +9,23 @@ import TagWidget from '../Widget/TagWidget'
 export default function Sidebar() {
   const tagData = [
     {
-      title: 'Business',
+      title: 'Droits d’auteur',
       url:'/'
     },
     {
-      title: 'Agency',
+      title: 'Gestion de Projet',
       url:'/'
     },
     {
-      title: 'Artwork',
+      title: 'Production',
       url:'/'
     },
     {
-      title: 'Marketing',
+      title: 'Licences',
       url:'/'
     },
     {
-      title: 'Information',
-      url:'/'
-    },
-    {
-      title: 'Design',
-      url:'/'
-    },
-    {
-      title: 'Wordpress',
+      title: 'Contrats',
       url:'/'
     },
   ]
@@ -43,7 +35,7 @@ export default function Sidebar() {
       url:'/'
     },
     {
-      title: '15 Aug 2022',
+      title: '15 Août 2022',
       url:'/'
     },
     {
@@ -51,60 +43,46 @@ export default function Sidebar() {
       url:'/'
     },
     {
-      title: '11 Dec 2020',
+      title: '11 Déc 2020',
       url:'/'
     },
-    {
-      title: '25 jun 2020',
-      url:'/'
-    }
   ]
   const categoryData = [
     {
-      title: 'Corporate',
+      title: 'Gestion des Droits',
       url:'/'
     },
     {
-      title: 'Company',
+      title: 'Production de Contenu',
       url:'/'
     },
     {
-      title: 'Search Engine',
+      title: 'Gestion de Projet',
       url:'/'
     },
     {
-      title: 'Information',
+      title: 'Contrats et Licences',
       url:'/'
     },
-    {
-      title: 'Painting',
-      url:'/'
-    }
   ]
   const recentPostData = [
     {
-      title: 'How to studio setup...',
+      title: 'Comment gérer les droits d’auteur numériques',
       thumb: '/images/recent_post_1.jpeg',
       href: '/blog/blog-details',
-      date: '15 Aug 2022'
+      date: '15 Août 2022'
     },
     {
-      title: 'Creative people mind...',
+      title: 'Optimisation de la production de contenu',
       thumb: '/images/recent_post_2.jpeg',
       href: '/blog/blog-details',
-      date: '14 Aug 2022'
+      date: '14 Août 2022'
     },
     {
-      title: 'AI take over human...',
+      title: 'Défis de la gestion de projet en production',
       thumb: '/images/recent_post_3.jpeg',
       href: '/blog/blog-details',
-      date: '13 Aug 2022'
-    },
-    {
-      title: 'You should now add...',
-      thumb: '/images/recent_post_4.jpeg',
-      href: '/blog/blog-details',
-      date: '12 Aug 2022'
+      date: '13 Août 2022'
     },
   ]
   return (
@@ -112,18 +90,18 @@ export default function Sidebar() {
       <Div className="cs-sidebar_item">
         <AuthorWidget 
           src='/images/avatar_1.png'
-          name='Kuber Jontra' 
-          description='At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+          name='Votre Nom' 
+          description='Spécialiste en gestion des droits et en production, je partage ici mes connaissances et expériences.'
         />
       </Div>
       <Div className="cs-sidebar_item">
-        <SearchWidget title='Search'/>
+        <SearchWidget title='Recherche'/>
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Categories' data={categoryData}/>
+        <SideMenuWidget title='Catégories' data={categoryData}/>
       </Div>
       <Div className="cs-sidebar_item">
-        <RecentPost title='Archives' data={recentPostData}/>
+        <RecentPost title='Articles Récents' data={recentPostData}/>
       </Div>
       <Div className="cs-sidebar_item">
         <SideMenuWidget title='Archives' data={archiveData}/>

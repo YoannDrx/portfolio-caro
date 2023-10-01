@@ -6,7 +6,7 @@ export default function SearchWidget({title}) {
     <>
       <h4 className="cs-sidebar_widget_title">{title}</h4>
       <form className="cs-sidebar_search">
-        <input type="text" placeholder="Search..." />
+        <input type="text" placeholder="Mot clé..." />
         <button className="cs-sidebar_search_btn">
           <Icon icon="material-symbols:search-rounded" />                   
         </button>
