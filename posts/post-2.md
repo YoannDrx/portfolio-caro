@@ -1,3 +1,10 @@
+---
+title: "Les bases du droit d'auteur dans l'industrie musicale : ce que chaque artiste doit savoir"
+subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
+date: "14 aout 2023"
+category: "Droit d'auteur"
+---
+
 # Les bases du droit d'auteur dans l'industrie musicale : ce que chaque artiste doit savoir
 
 Le **droit d'auteur** dans l'industrie musicale est un sujet complexe et crucial pour chaque artiste. Il s'agit d'un ensemble de lois et de règlements qui visent à protéger les créateurs contre l'utilisation non autorisée de leurs œuvres. Afin de naviguer avec succès dans ces eaux souvent troublées, il est essentiel de comprendre comment le droit d'auteur fonctionne.

@@ -1,3 +1,10 @@
+---
+title: "Comment obtenir des subventions pour votre projet musical ?"
+subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
+date: "29 sept 2023"
+category: "Subventions"
+---
+
 # Comment obtenir des subventions pour votre projet musical ?
 
 ## Introduction aux subventions dans l'industrie musicale
