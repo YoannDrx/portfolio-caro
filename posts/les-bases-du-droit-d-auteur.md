@@ -3,6 +3,7 @@ title: "Les bases du droit d'auteur dans l'industrie musicale : ce que chaque ar
 subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
 date: "14 aout 2023"
 category: "Droit d'auteur"
+slug: "les-bases-du-droit-d-auteur"
 ---
 
 # Les bases du droit d'auteur dans l'industrie musicale : ce que chaque artiste doit savoir

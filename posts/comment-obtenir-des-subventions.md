@@ -3,6 +3,7 @@ title: "Comment obtenir des subventions pour votre projet musical ?"
 subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
 date: "29 sept 2023"
 category: "Subventions"
+slug: "comment-obtenir-des-subventions"
 ---
 
 # Comment obtenir des subventions pour votre projet musical ?
@@ -15,9 +16,9 @@ Avant de plonger dans le processus complexe d'obtention de subventions pour votr
 
 ### Pourquoi les subventions sont-elles importantes ?
 
-- **Le financement :** Les subventions offrent une source de financement essentielle pour de nombreux projets musicaux.
-- **La reconnaissance :** L'obtention d'une subvention est également une forme de reconnaissance.
-- **Le soutien professionnel :** Certaines subventions offrent également aux artistes un accès à des réseaux professionnels.
+-   **Le financement :** Les subventions offrent une source de financement essentielle pour de nombreux projets musicaux.
+-   **La reconnaissance :** L'obtention d'une subvention est également une forme de reconnaissance.
+-   **Le soutien professionnel :** Certaines subventions offrent également aux artistes un accès à des réseaux professionnels.
 
 ## Types de subventions disponibles
 
@@ -35,9 +36,9 @@ Avant de plonger dans le processus complexe d'obtention de subventions pour votr
 
 ## Comment obtenir des subventions pour votre projet musical
 
-- **Comprendre les subventions disponibles:** Renseignez-vous sur les différentes subventions disponibles pour votre type de projet.
-- **Respecter les critères d'éligibilité:** Chaque subvention a ses propres critères d'éligibilité.
-- **Préparer un bon dossier de candidature:** Un bon dossier de candidature doit montrer que votre projet est bien pensé et viable.
+-   **Comprendre les subventions disponibles:** Renseignez-vous sur les différentes subventions disponibles pour votre type de projet.
+-   **Respecter les critères d'éligibilité:** Chaque subvention a ses propres critères d'éligibilité.
+-   **Préparer un bon dossier de candidature:** Un bon dossier de candidature doit montrer que votre projet est bien pensé et viable.
 
 ## Quelques exemples de subventions de l'industrie musicale
 
@@ -45,18 +46,18 @@ Avant de plonger dans le processus complexe d'obtention de subventions pour votr
 
 ## Tableau de comparaison des différentes subventions
 
-| Organisation | Type de subvention | Montant |
-| ------------ | ------------------ | ------- |
-| SACEM        | Production d'album | Variable |
+| Organisation | Type de subvention   | Montant  |
+| ------------ | -------------------- | -------- |
+| SACEM        | Production d'album   | Variable |
 | SPEDIDAM     | Soutien aux artistes | Variable |
 
 ## Critères d'éligibilité
 
-- **Statut professionnel**
-- **Originalité de l'œuvre**
-- **Droits d'auteur**
-- **Projet bien défini**
-- **Impact communautaire**
+-   **Statut professionnel**
+-   **Originalité de l'œuvre**
+-   **Droits d'auteur**
+-   **Projet bien défini**
+-   **Impact communautaire**
 
 > Il est recommandé de planifier et de préparer votre demande de subvention en avance.
 
@@ -69,16 +70,16 @@ Avant de plonger dans le processus complexe d'obtention de subventions pour votr
 
 3. **Évitez ces erreurs courantes**
 
-- **Être vague**
-- **Être trop technique**
-- **Ignorer les détails**
+-   **Être vague**
+-   **Être trop technique**
+-   **Ignorer les détails**
 
 ## Le processus de sélection
 
-- **Qualité artistique**
-- **Valeur culturelle et contribution à l'industrie**
-- **Faisabilité**
-- **Budget**
+-   **Qualité artistique**
+-   **Valeur culturelle et contribution à l'industrie**
+-   **Faisabilité**
+-   **Budget**
 
 > La concurrence pour les subventions est souvent intense.
 

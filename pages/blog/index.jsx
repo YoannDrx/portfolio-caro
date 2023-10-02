@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from "react";
+import React, { useState } from "react";
 import Cta from "../../components/Cta";
 import Div from "../../components/Div";
 import Layout from "../../components/Layout";
@@ -13,7 +13,7 @@ import { getSortedPostsData } from "../../lib/blogUtils";
 export async function getStaticProps() {
 	const allPostsData = await getSortedPostsData();
 
-  console.log("allPostsData >>", allPostsData);
+	console.log("allPostsData >>", allPostsData);
 	return {
 		props: {
 			allPostsData,
@@ -22,6 +22,13 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ allPostsData }) {
+	const [currentPage, setCurrentPage] = useState(1);
+	const postsPerPage = 4;
+	const totalPages = Math.ceil(allPostsData.length / postsPerPage);
+
+	const indexOfLastPost = currentPage * postsPerPage;
+	const indexOfFirstPost = indexOfLastPost - postsPerPage;
+	const currentPosts = allPostsData.slice(indexOfFirstPost, indexOfLastPost);
 	// const postData = [
 	// 	{
 	// 		thumb: "/images/post_4.jpeg",
@@ -70,7 +77,7 @@ export default function Blog({ allPostsData }) {
 				<Div className="container">
 					<Div className="row">
 						<Div className="col-lg-8">
-							{allPostsData.map(({ id, date, title, subtitle, category, contentHtml }, index) => (
+							{currentPosts.map(({ id, date, title, subtitle, category, contentHtml }, index) => (
 								<Div key={id}>
 									<PostStyle2
 										thumb={"/images/post_4.jpeg"}
@@ -78,17 +85,21 @@ export default function Blog({ allPostsData }) {
 										subtitle={subtitle}
 										date={date}
 										category={category || "Non catégorisé"}
-										categoryHref={`/blog/category/${category}`} 
+										categoryHref={`/blog/category/${category}`}
 										href={`/blog/${id}`}
-
 									/>
-                      {/* <div dangerouslySetInnerHTML={{ __html: contentHtml }} /> */}
+									{/* <div dangerouslySetInnerHTML={{ __html: contentHtml }} /> */}
 
 									{allPostsData.length > index + 1 && <Spacing lg="95" md="60" />}
 								</Div>
 							))}
 							<Spacing lg="60" md="40" />
-							<Pagination />
+							{/* <Pagination /> */}
+							<Pagination
+								currentPage={currentPage}
+								setCurrentPage={setCurrentPage}
+								totalPages={totalPages}
+							/>
 						</Div>
 						<Div className="col-xl-3 col-lg-4 offset-xl-1">
 							<Spacing lg="0" md="80" />
