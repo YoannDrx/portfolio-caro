@@ -13,7 +13,6 @@ import { getSortedPostsData } from "../../lib/blogUtils";
 export async function getStaticProps() {
 	const allPostsData = await getSortedPostsData();
 
-	console.log("allPostsData >>", allPostsData);
 	return {
 		props: {
 			allPostsData,
@@ -88,13 +87,10 @@ export default function Blog({ allPostsData }) {
 										categoryHref={`/blog/category/${category}`}
 										href={`/blog/${id}`}
 									/>
-									{/* <div dangerouslySetInnerHTML={{ __html: contentHtml }} /> */}
-
 									{allPostsData.length > index + 1 && <Spacing lg="95" md="60" />}
 								</Div>
 							))}
 							<Spacing lg="60" md="40" />
-							{/* <Pagination /> */}
 							<Pagination
 								currentPage={currentPage}
 								setCurrentPage={setCurrentPage}
@@ -103,7 +99,7 @@ export default function Blog({ allPostsData }) {
 						</Div>
 						<Div className="col-xl-3 col-lg-4 offset-xl-1">
 							<Spacing lg="0" md="80" />
-							<Sidebar />
+							<Sidebar allPostsData={allPostsData} />
 						</Div>
 					</Div>
 				</Div>

@@ -4,6 +4,9 @@ subtitle: ""
 date: "29 sept 2023"
 category: "Sacem"
 slug: "comment-fonctionne-la-sdrm"
+thumb: "/images/recent_post_1.jpeg"
+tags: ["sacem", "droit d'auteur", "musique", "financement", "redevances", "droits voisins", "sdrm"]
+
 ---
 
 # SDRM : son rôle dans la rémunération des droits mécaniques.

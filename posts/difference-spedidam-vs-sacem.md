@@ -4,6 +4,9 @@ subtitle: "guide complet pour les artistes et les promoteurs musicaux"
 date: "29 sept 2023"
 category: "Sacem et spédidam"
 slug: "spedidam-vs-sacem"
+thumb: "/images/recent_post_1.jpeg"
+tags: ["sacem", "spedidam", "droits d'auteur", "musique", "financement", "redevances", "droits voisins"]
+
 ---
 
 # SPEDIDAM vs SACEM : quelles sont les différences et comment cela affecte-t-il les artistes ?

@@ -9,7 +9,7 @@ import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
 import Sidebar from "../../components/Sidebar.jsx";
 import Spacing from "../../components/Spacing";
-import { getAllPostIds, getPostData } from "../../lib/blogUtils";
+import { getAllPostIds, getPostData, getSortedPostsData } from "../../lib/blogUtils";
 
 export async function getStaticPaths() {
 	const paths = getAllPostIds();
@@ -21,16 +21,19 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 	const postData = await getPostData(params.blogId);
+	const allPostsData = await getSortedPostsData();
 	return {
 		props: {
 			postData,
+			allPostsData,
 		},
 	};
 }
 
-export default function BlogDetails({ postData }) {
+export default function BlogDetails({ postData,allPostsData }) {
 	const router = useRouter();
 	const blogId = router.query.blogId;
+
 	return (
 		<>
 			<Head>
@@ -125,7 +128,7 @@ export default function BlogDetails({ postData }) {
 						</Div>
 						<Div className="col-xl-3 col-lg-4 offset-xl-1">
 							<Spacing lg="0" md="80" />
-							<Sidebar />
+							<Sidebar allPostsData={allPostsData}/>
 						</Div>
 					</Div>
 				</Div>

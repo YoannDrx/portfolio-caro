@@ -4,6 +4,8 @@ subtitle: ""
 date: "29 sept 2023"
 category: "Sacem"
 slug: "comment-fonctionne-la-sacem"
+thumb: "/images/recent_post_1.jpeg"
+tags: ["sacem", "droit d'auteur"]
 ---
 
 # Comment fonctionne la SACEM : un guide détaillé pour les artistes.

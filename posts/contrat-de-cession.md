@@ -4,6 +4,9 @@ subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
 date: "29 sept 2023"
 category: "Subventions"
 slug: "contrat-de-cession"
+thumb: "/images/recent_post_1.jpeg"
+tags: ["contrat", "droit", "musique", "cession", "droit d'auteur"]
+
 ---
 
 # Les contrats de cession de droits : ce qu'ils signifient et comment les négocier.

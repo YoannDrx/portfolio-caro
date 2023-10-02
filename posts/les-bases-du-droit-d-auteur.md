@@ -4,6 +4,9 @@ subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
 date: "14 aout 2023"
 category: "Droit d'auteur"
 slug: "les-bases-du-droit-d-auteur"
+thumb: "/images/recent_post_1.jpeg"
+tags: ["sacem", "droit d'auteur", "musique", "financement", "redevances", "droits voisins", "sdrm", "spedidam"]
+
 ---
 
 # Les bases du droit d'auteur dans l'industrie musicale : ce que chaque artiste doit savoir
