@@ -30,6 +30,12 @@
   }
 }
 
+.tag-cloud-link-selected {
+  color: $white;
+  background-color: $accent;
+  border-color: $accent;
+}
+
 .cs-side_menu_widget {
   list-style: none;
   margin: 0;
