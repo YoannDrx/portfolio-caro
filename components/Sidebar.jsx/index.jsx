@@ -6,35 +6,46 @@ import SearchWidget from "../Widget/SearchWidget";
 import SideMenuWidget from "../Widget/SideMenuWidget";
 import TagWidget from "../Widget/TagWidget";
 
-export default function Sidebar({ allPostsData,setSelectedTag, selectedTag }) {
+export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
+	const [uniqueCategories, setUniqueCategories] = useState([]);
 
+	// console.log("uniqueCategories >>", uniqueCategories);
+	// console.log("allPostsData >>", allPostsData);
 
 	useEffect(() => {
-    setLocalPostsData(allPostsData);
+		setLocalPostsData(allPostsData);
 
-    // Créer un ensemble pour stocker des tags uniques
-    const tagSet = new Set();
+		const tagSet = new Set();
+		const categorySet = new Set();
 
-    // Parcourir tous les articles et ajouter les tags à l'ensemble
-    allPostsData.forEach((post) => {
-      if (post.tags) {
-        post.tags.forEach((tag) => {
-          tagSet.add(tag);
-        });
-      }
-    });
+		allPostsData.forEach((post) => {
+			if (post.tags) {
+				post.tags.forEach((tag) => {
+					tagSet.add(tag);
+				});
+			}
+			if (post.category) {
+				categorySet.add(post.category);
+			}
+		});
 
-    // Convertir l'ensemble en tableau
-    setUniqueTags(Array.from(tagSet));
-  }, [allPostsData]);
+		setUniqueTags(Array.from(tagSet));
+		setUniqueCategories(Array.from(categorySet));
+	}, [allPostsData]);
 
-	 // Utiliser uniqueTags pour alimenter TagWidget
-	 const tagData = uniqueTags.map((tag) => ({
-    title: tag,
-    url: `/tags/${tag}`,  // ou toute autre URL que vous souhaitez utiliser
-  }));
+	// Utiliser uniqueTags pour alimenter TagWidget
+	const tagData = uniqueTags.map((tag) => ({
+		title: tag,
+		url: `/tags/${tag}`, // ou toute autre URL que vous souhaitez utiliser
+	}));
+
+	// Utiliser uniqueCategories pour alimenter SideMenuWidget
+	const categoryData = uniqueCategories.map((category) => ({
+		title: category,
+		url: `/categories/${category}`,
+	}));
 
 	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
 
@@ -78,24 +89,26 @@ export default function Sidebar({ allPostsData,setSelectedTag, selectedTag }) {
 			url: "/",
 		},
 	];
-	const categoryData = [
-		{
-			title: "Gestion des Droits",
-			url: "/",
-		},
-		{
-			title: "Production de Contenu",
-			url: "/",
-		},
-		{
-			title: "Gestion de Projet",
-			url: "/",
-		},
-		{
-			title: "Contrats et Licences",
-			url: "/",
-		},
-	];
+
+	// const categoryData = [
+	// 	{
+	// 		title: "Gestion des Droits",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "Production de Contenu",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "Gestion de Projet",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "Contrats et Licences",
+	// 		url: "/",
+	// 	},
+	// ];
+
 	// const recentPostData = [
 	// 	{
 	// 		title: "Comment gérer les droits d’auteur numériques",
@@ -129,7 +142,7 @@ export default function Sidebar({ allPostsData,setSelectedTag, selectedTag }) {
 				<SearchWidget title="Recherche" />
 			</Div>
 			<Div className="cs-sidebar_item">
-			<TagWidget title='Tags' data={tagData} onTagClick={setSelectedTag} selectedTag={selectedTag}/>
+				<TagWidget title="Tags" data={tagData} onTagClick={setSelectedTag} selectedTag={selectedTag} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<SideMenuWidget title="Catégories" data={categoryData} />
