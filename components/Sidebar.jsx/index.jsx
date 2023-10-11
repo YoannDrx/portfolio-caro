@@ -5,14 +5,14 @@ import RecentPost from "../Widget/RecentPost";
 import SearchWidget from "../Widget/SearchWidget";
 import SideMenuWidget from "../Widget/SideMenuWidget";
 import TagWidget from "../Widget/TagWidget";
+import { useRouter } from "next/router";
 
-export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
+export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, setSelectedCategory }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
 	const [uniqueCategories, setUniqueCategories] = useState([]);
-
-	// console.log("uniqueCategories >>", uniqueCategories);
-	// console.log("allPostsData >>", allPostsData);
+	const [searchKeyword, setSearchKeyword] = useState("");
+	const router = useRouter();
 
 	useEffect(() => {
 		setLocalPostsData(allPostsData);
@@ -35,16 +35,46 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
 		setUniqueCategories(Array.from(categorySet));
 	}, [allPostsData]);
 
+	useEffect(() => {
+		let filteredPosts = allPostsData;
+
+		if (searchKeyword) {
+			filteredPosts = allPostsData.filter((post) =>
+				post.title.toLowerCase().includes(searchKeyword.toLowerCase())
+			);
+		}
+
+		setLocalPostsData(filteredPosts);
+	}, [allPostsData, searchKeyword]);
+
+	useEffect(() => {
+		if (router.query.tag) {
+			setSelectedTag(router.query.tag);
+		}
+	}, [router.query]);
+
+	const addTagToFilter = (newTag) => {
+		const newQuery = { ...router.query, tag: newTag };
+		router.push(
+			{
+				pathname: router.pathname,
+				query: newQuery,
+			},
+			undefined,
+			{ scroll: false }
+		);
+	};
+
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
 		title: tag,
-		url: `/tags/${tag}`,
+		url: `tags/${tag}`,
 	}));
 
 	// Utiliser uniqueCategories pour alimenter SideMenuWidget
 	const categoryData = uniqueCategories.map((category) => ({
 		title: category,
-		url: `/categories/${category}`,
+		url: `categories/${category}`,
 	}));
 
 	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
@@ -139,10 +169,10 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
 				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SearchWidget title="Recherche" />
+				<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
 			</Div>
 			<Div className="cs-sidebar_item">
-				<TagWidget title="Tags" data={tagData} onTagClick={setSelectedTag} selectedTag={selectedTag} />
+				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<SideMenuWidget title="Catégories" data={categoryData} uniqueCategories={uniqueCategories} />

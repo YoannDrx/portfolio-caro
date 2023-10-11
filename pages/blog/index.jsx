@@ -22,17 +22,19 @@ export async function getStaticProps() {
 
 export default function Blog({ allPostsData }) {
 	const [currentPage, setCurrentPage] = useState(1);
-  const [selectedTag, setSelectedTag] = useState(null);
+	const [selectedTag, setSelectedTag] = useState(null);
 
-  const postsPerPage = 4;
+	const postsPerPage = 4;
 
-  const filteredPosts = selectedTag ? allPostsData.filter((post) => post.tags && post.tags.includes(selectedTag)) : allPostsData;
+	const filteredPosts = selectedTag
+		? allPostsData.filter((post) => post.tags && post.tags.includes(selectedTag))
+		: allPostsData;
 
-  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+	const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);  // Utilisez filteredPosts ici
+	const indexOfLastPost = currentPage * postsPerPage;
+	const indexOfFirstPost = indexOfLastPost - postsPerPage;
+	const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost); // Utilisez filteredPosts ici
 
 	// const postData = [
 	// 	{
@@ -105,7 +107,11 @@ export default function Blog({ allPostsData }) {
 						</Div>
 						<Div className="col-xl-3 col-lg-4 offset-xl-1">
 							<Spacing lg="0" md="80" />
-							<Sidebar allPostsData={allPostsData} setSelectedTag={setSelectedTag}  selectedTag={selectedTag}/>
+							<Sidebar
+								allPostsData={allPostsData}
+								setSelectedTag={setSelectedTag}
+								selectedTag={selectedTag}
+							/>
 						</Div>
 					</Div>
 				</Div>
