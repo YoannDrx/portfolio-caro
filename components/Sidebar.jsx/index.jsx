@@ -38,7 +38,7 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
 		title: tag,
-		url: `/tags/${tag}`, // ou toute autre URL que vous souhaitez utiliser
+		url: `/tags/${tag}`,
 	}));
 
 	// Utiliser uniqueCategories pour alimenter SideMenuWidget
@@ -145,7 +145,7 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag }) {
 				<TagWidget title="Tags" data={tagData} onTagClick={setSelectedTag} selectedTag={selectedTag} />
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SideMenuWidget title="Catégories" data={categoryData} />
+				<SideMenuWidget title="Catégories" data={categoryData} uniqueCategories={uniqueCategories} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<RecentPost title="Articles Récents" data={firstThreePosts} />
