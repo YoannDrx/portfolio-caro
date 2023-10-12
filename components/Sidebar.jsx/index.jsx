@@ -53,6 +53,12 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 		}
 	}, [router.query]);
 
+	useEffect(() => {
+		if (router.query.category) {
+			setSelectedCategory(router.query.category);
+		}
+	}, [router.query]);
+
 	const addTagToFilter = (newTag) => {
 		const newQuery = { ...router.query, tag: newTag };
 		router.push(
@@ -66,7 +72,22 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 	};
 
 	const addCategoryToFilter = (newCategory) => {
-		setSelectedCategory(newCategory);
+		const newQuery = { ...router.query };
+
+		if (newCategory) {
+			newQuery.category = newCategory;
+		} else {
+			delete newQuery.category;
+		}
+
+		router.push(
+			{
+				pathname: router.pathname,
+				query: newQuery,
+			},
+			undefined,
+			{ scroll: false }
+		);
 	};
 
 	// Utiliser uniqueTags pour alimenter TagWidget

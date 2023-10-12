@@ -2,7 +2,7 @@
 title: "Comment fonctionne la SACEM : un guide détaillé pour les artistes."
 subtitle: ""
 date: "29 sept 2023"
-category: "Sacem"
+category: "Test1"
 slug: "comment-fonctionne-la-sacem"
 thumb: "/images/recent_post_1.jpeg"
 tags: ["sacem", "droit d'auteur", "test de fou"]
