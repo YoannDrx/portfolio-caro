@@ -7,11 +7,18 @@ import SideMenuWidget from "../Widget/SideMenuWidget";
 import TagWidget from "../Widget/TagWidget";
 import { useRouter } from "next/router";
 
-export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, setSelectedCategory, selectedCategory }) {
+export default function Sidebar({
+	allPostsData,
+	setSelectedTag,
+	selectedTag,
+	setSelectedCategory,
+	selectedCategory,
+	setSearchKeyword,
+	searchKeyword,
+}) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
 	const [uniqueCategories, setUniqueCategories] = useState([]);
-	const [searchKeyword, setSearchKeyword] = useState("");
 	const router = useRouter();
 
 	useEffect(() => {
@@ -59,6 +66,12 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 		}
 	}, [router.query]);
 
+	useEffect(() => {
+		if (router.query.keyword) {
+			setSearchKeyword(router.query.keyword);
+		}
+	}, [router.query]);
+
 	const addTagToFilter = (newTag) => {
 		const newQuery = { ...router.query, tag: newTag };
 		router.push(
@@ -90,6 +103,29 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 		);
 	};
 
+	const handleSearch = (newKeyword) => {
+		const newQuery = { ...router.query };
+
+		if (newKeyword) {
+			newQuery.keyword = newKeyword;
+		} else {
+			delete newQuery.keyword;
+		}
+
+		router.push(
+			{
+				pathname: router.pathname,
+				query: newQuery,
+			},
+			undefined,
+			{ scroll: false }
+		);
+
+		setSearchKeyword(newKeyword);
+	};
+
+	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
+
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
 		title: tag,
@@ -101,8 +137,6 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 		title: category,
 		url: `categories/${category}`,
 	}));
-
-	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
 
 	// const tagData = [
 	// 	{
@@ -194,7 +228,7 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
+			<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />

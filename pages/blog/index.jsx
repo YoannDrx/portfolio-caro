@@ -24,6 +24,7 @@ export default function Blog({ allPostsData }) {
 	const [currentPage, setCurrentPage] = useState(1);
 	const [selectedTag, setSelectedTag] = useState(null);
 	const [selectedCategory, setSelectedCategory] = useState(null);
+	const [searchKeyword, setSearchKeyword] = useState(null);
 
 	const postsPerPage = 4;
 
@@ -34,7 +35,9 @@ export default function Blog({ allPostsData }) {
 	const filteredPosts = allPostsData.filter((post) => {
 		let tagCondition = selectedTag ? post.tags && post.tags.includes(selectedTag) : true;
 		let categoryCondition = selectedCategory ? post.category === selectedCategory : true;
-		return tagCondition && categoryCondition;
+		let keywordCondition = searchKeyword ? post.title.toLowerCase().includes(searchKeyword.toLowerCase()) : true;
+
+		return tagCondition && categoryCondition && keywordCondition;
 	});
 
 	const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
@@ -120,6 +123,8 @@ export default function Blog({ allPostsData }) {
 								selectedTag={selectedTag}
 								setSelectedCategory={setSelectedCategory}
 								selectedCategory={selectedCategory}
+								setSearchKeyword={setSearchKeyword}
+								searchKeyword={searchKeyword}
 							/>
 						</Div>
 					</Div>
