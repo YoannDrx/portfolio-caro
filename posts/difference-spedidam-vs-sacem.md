@@ -1,7 +1,7 @@
 ---
 title: "SPEDIDAM vs SACEM : quelles sont les différences et comment cela affecte-t-il les artistes ?"
 subtitle: "guide complet pour les artistes et les promoteurs musicaux"
-date: "29 sept 2023"
+date: "11/05/2019"
 category: "Sacem et spédidam"
 slug: "spedidam-vs-sacem"
 thumb: "/images/recent_post_1.jpeg"

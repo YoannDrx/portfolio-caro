@@ -3,9 +3,10 @@ import Div from "../Div";
 import AuthorWidget from "../Widget/AuthorWidget";
 import RecentPost from "../Widget/RecentPost";
 import SearchWidget from "../Widget/SearchWidget";
-import SideMenuWidget from "../Widget/SideMenuWidget";
+import SideMenuWidget from "../Widget/CategoryMenuWidget";
 import TagWidget from "../Widget/TagWidget";
 import { useRouter } from "next/router";
+import ArchiveMenuWidget from "../Widget/ArchiveMenuWidget";
 
 export default function Sidebar({
 	allPostsData,
@@ -15,10 +16,14 @@ export default function Sidebar({
 	selectedCategory,
 	setSearchKeyword,
 	searchKeyword,
+	setSelectedYear,
+	selectedYear
 }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
 	const [uniqueCategories, setUniqueCategories] = useState([]);
+	const [uniqueYears, setUniqueYears] = useState([]);
+
 	const router = useRouter();
 
 	useEffect(() => {
@@ -26,6 +31,7 @@ export default function Sidebar({
 
 		const tagSet = new Set();
 		const categorySet = new Set();
+		const yearSet = new Set();
 
 		allPostsData.forEach((post) => {
 			if (post.tags) {
@@ -36,8 +42,13 @@ export default function Sidebar({
 			if (post.category) {
 				categorySet.add(post.category);
 			}
+			if (post.date) {
+				const year = new Date(post.date).getFullYear();
+				yearSet.add(year);
+			}
 		});
 
+		setUniqueYears(Array.from(yearSet).sort().reverse());
 		setUniqueTags(Array.from(tagSet));
 		setUniqueCategories(Array.from(categorySet));
 	}, [allPostsData]);
@@ -72,6 +83,12 @@ export default function Sidebar({
 		}
 	}, [router.query]);
 
+	useEffect(() => {
+		if (router.query.year) {
+			setSelectedYear(router.query.year);
+		}
+	}, [router.query]);
+
 	const addTagToFilter = (newTag) => {
 		const newQuery = { ...router.query, tag: newTag };
 		router.push(
@@ -91,6 +108,25 @@ export default function Sidebar({
 			newQuery.category = newCategory;
 		} else {
 			delete newQuery.category;
+		}
+
+		router.push(
+			{
+				pathname: router.pathname,
+				query: newQuery,
+			},
+			undefined,
+			{ scroll: false }
+		);
+	};
+
+	const addYearToFilter = (newYear) => {
+		const newQuery = { ...router.query };
+
+		if (newYear) {
+			newQuery.year = newYear;
+		} else {
+			delete newQuery.year;
 		}
 
 		router.push(
@@ -138,6 +174,12 @@ export default function Sidebar({
 		url: `categories/${category}`,
 	}));
 
+	// Utiliser uniqueYears pour alimenter ArchiveMenuWidget
+	const archiveData = uniqueYears.map((year) => ({
+		title: year.toString(),
+		url: `years/${year}`,
+	}));
+
 	// const tagData = [
 	// 	{
 	// 		title: "Droits d’auteur",
@@ -160,24 +202,25 @@ export default function Sidebar({
 	// 		url: "/",
 	// 	},
 	// ];
-	const archiveData = [
-		{
-			title: "Archives",
-			url: "/",
-		},
-		{
-			title: "15 Août 2022",
-			url: "/",
-		},
-		{
-			title: "20 Sep 2021",
-			url: "/",
-		},
-		{
-			title: "11 Déc 2020",
-			url: "/",
-		},
-	];
+
+	// const archiveData = [
+	// 	{
+	// 		title: "Archives",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "15 Août 2022",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "20 Sep 2021",
+	// 		url: "/",
+	// 	},
+	// 	{
+	// 		title: "11 Déc 2020",
+	// 		url: "/",
+	// 	},
+	// ];
 
 	// const categoryData = [
 	// 	{
@@ -228,7 +271,7 @@ export default function Sidebar({
 				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-			<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
+				<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />
@@ -245,7 +288,7 @@ export default function Sidebar({
 				<RecentPost title="Articles Récents" data={firstThreePosts} />
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SideMenuWidget title="Archives" data={archiveData} />
+				<ArchiveMenuWidget title="Archives" data={archiveData} onYearClick={addYearToFilter} selectedYear={selectedYear} />
 			</Div>
 		</>
 	);

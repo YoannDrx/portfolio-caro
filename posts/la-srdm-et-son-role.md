@@ -1,7 +1,7 @@
 ---
 title: "Comment fonctionne la SDRM : un guide détaillé pour les artistes."
 subtitle: ""
-date: "29 sept 2023"
+date: "11/05/2021"
 category: "Sacem"
 slug: "comment-fonctionne-la-sdrm"
 thumb: "/images/recent_post_1.jpeg"

@@ -1,7 +1,7 @@
 ---
 title: "Comment fonctionne la SACEM : un guide détaillé pour les artistes. éléphant"
 subtitle: ""
-date: "29 sept 2023"
+date: "11/05/2021"
 category: "Test1"
 slug: "comment-fonctionne-la-sacem"
 thumb: "/images/recent_post_1.jpeg"

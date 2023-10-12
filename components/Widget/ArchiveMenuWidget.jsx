@@ -2,7 +2,12 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 import classNames from "classnames";
 
-export default function SideMenuWidget({ title, data, onCategoryClick, selectedCategory }) {
+export default function ArchiveMenuWidget({ title, data, onYearClick, selectedYear }) {
+	const handleClick = (itemTitle) => {
+		if (typeof onYearClick === "function") {
+			onYearClick(itemTitle);
+		}
+	};
 	return (
 		<>
 			<h4 className="cs-sidebar_widget_title">{title}</h4>
@@ -13,11 +18,11 @@ export default function SideMenuWidget({ title, data, onCategoryClick, selectedC
 						<Link
 							href={item.url}
 							className={classNames("category-cloud-link", {
-								"category-selected": item.title === selectedCategory,
+								"category-selected": item.title === selectedYear,
 							})}
 							onClick={(e) => {
 								e.preventDefault();
-								onCategoryClick(item.title);
+								handleClick(item.title);
 							}}
 						>
 							{item.title}

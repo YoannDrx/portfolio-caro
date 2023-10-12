@@ -25,6 +25,8 @@ export default function Blog({ allPostsData }) {
 	const [selectedTag, setSelectedTag] = useState(null);
 	const [selectedCategory, setSelectedCategory] = useState(null);
 	const [searchKeyword, setSearchKeyword] = useState(null);
+	const [selectedYear, setSelectedYear] = useState(null);
+
 
 	const postsPerPage = 4;
 
@@ -33,11 +35,12 @@ export default function Blog({ allPostsData }) {
 	// 	: allPostsData;
 
 	const filteredPosts = allPostsData.filter((post) => {
+		let yearCondition = selectedYear ? new Date(post.date).getFullYear() === parseInt(selectedYear, 10) : true;
 		let tagCondition = selectedTag ? post.tags && post.tags.includes(selectedTag) : true;
 		let categoryCondition = selectedCategory ? post.category === selectedCategory : true;
 		let keywordCondition = searchKeyword ? post.title.toLowerCase().includes(searchKeyword.toLowerCase()) : true;
 
-		return tagCondition && categoryCondition && keywordCondition;
+		return tagCondition && categoryCondition && keywordCondition && yearCondition;
 	});
 
 	const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
@@ -125,6 +128,8 @@ export default function Blog({ allPostsData }) {
 								selectedCategory={selectedCategory}
 								setSearchKeyword={setSearchKeyword}
 								searchKeyword={searchKeyword}
+								setSelectedYear={setSelectedYear}
+								selectedYear={selectedYear}
 							/>
 						</Div>
 					</Div>

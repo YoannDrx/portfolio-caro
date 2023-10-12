@@ -1,7 +1,7 @@
 ---
 title: "Les contrats de cession de droits : ce qu'ils signifient et comment les négocier."
 subtitle: "Guide complet pour les artistes et les promoteurs musicaux"
-date: "29 sept 2023"
+date: "11/05/2023"
 category: "Test1"
 slug: "contrat-de-cession"
 thumb: "/images/recent_post_1.jpeg"
