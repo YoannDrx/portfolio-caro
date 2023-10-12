@@ -17,7 +17,7 @@ export default function Sidebar({
 	setSearchKeyword,
 	searchKeyword,
 	setSelectedYear,
-	selectedYear
+	selectedYear,
 }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
@@ -25,6 +25,9 @@ export default function Sidebar({
 	const [uniqueYears, setUniqueYears] = useState([]);
 
 	const router = useRouter();
+	
+	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
+
 
 	useEffect(() => {
 		setLocalPostsData(allPostsData);
@@ -160,7 +163,6 @@ export default function Sidebar({
 		setSearchKeyword(newKeyword);
 	};
 
-	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
 
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
@@ -180,87 +182,6 @@ export default function Sidebar({
 		url: `years/${year}`,
 	}));
 
-	// const tagData = [
-	// 	{
-	// 		title: "Droits d’auteur",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Gestion de Projet",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Production",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Licences",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Contrats",
-	// 		url: "/",
-	// 	},
-	// ];
-
-	// const archiveData = [
-	// 	{
-	// 		title: "Archives",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "15 Août 2022",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "20 Sep 2021",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "11 Déc 2020",
-	// 		url: "/",
-	// 	},
-	// ];
-
-	// const categoryData = [
-	// 	{
-	// 		title: "Gestion des Droits",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Production de Contenu",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Gestion de Projet",
-	// 		url: "/",
-	// 	},
-	// 	{
-	// 		title: "Contrats et Licences",
-	// 		url: "/",
-	// 	},
-	// ];
-
-	// const recentPostData = [
-	// 	{
-	// 		title: "Comment gérer les droits d’auteur numériques",
-	// 		thumb: "/images/recent_post_1.jpeg",
-	// 		href: "/blog/blog-details",
-	// 		date: "15 Août 2022",
-	// 	},
-	// 	{
-	// 		title: "Optimisation de la production de contenu",
-	// 		thumb: "/images/recent_post_2.jpeg",
-	// 		href: "/blog/blog-details",
-	// 		date: "14 Août 2022",
-	// 	},
-	// 	{
-	// 		title: "Défis de la gestion de projet en production",
-	// 		thumb: "/images/recent_post_3.jpeg",
-	// 		href: "/blog/blog-details",
-	// 		date: "13 Août 2022",
-	// 	},
-	// ];
 	return (
 		<>
 			<Div className="cs-sidebar_item">
@@ -271,7 +192,7 @@ export default function Sidebar({
 				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SearchWidget title="Recherche" setSearchKeyword={setSearchKeyword} />
+				<SearchWidget title="Recherche" setSearchKeyword={handleSearch} />
 			</Div>
 			<Div className="cs-sidebar_item">
 				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />
@@ -288,7 +209,12 @@ export default function Sidebar({
 				<RecentPost title="Articles Récents" data={firstThreePosts} />
 			</Div>
 			<Div className="cs-sidebar_item">
-				<ArchiveMenuWidget title="Archives" data={archiveData} onYearClick={addYearToFilter} selectedYear={selectedYear} />
+				<ArchiveMenuWidget
+					title="Archives"
+					data={archiveData}
+					onYearClick={addYearToFilter}
+					selectedYear={selectedYear}
+				/>
 			</Div>
 		</>
 	);
