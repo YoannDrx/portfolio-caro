@@ -7,7 +7,7 @@ import SideMenuWidget from "../Widget/SideMenuWidget";
 import TagWidget from "../Widget/TagWidget";
 import { useRouter } from "next/router";
 
-export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, setSelectedCategory }) {
+export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, setSelectedCategory, selectedCategory }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
 	const [uniqueCategories, setUniqueCategories] = useState([]);
@@ -63,6 +63,10 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 			undefined,
 			{ scroll: false }
 		);
+	};
+
+	const addCategoryToFilter = (newCategory) => {
+		setSelectedCategory(newCategory);
 	};
 
 	// Utiliser uniqueTags pour alimenter TagWidget
@@ -175,7 +179,12 @@ export default function Sidebar({ allPostsData, setSelectedTag, selectedTag, set
 				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SideMenuWidget title="Catégories" data={categoryData} uniqueCategories={uniqueCategories} />
+				<SideMenuWidget
+					title="Catégories"
+					data={categoryData}
+					onCategoryClick={addCategoryToFilter}
+					selectedCategory={selectedCategory}
+				/>
 			</Div>
 			<Div className="cs-sidebar_item">
 				<RecentPost title="Articles Récents" data={firstThreePosts} />

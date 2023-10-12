@@ -23,12 +23,19 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
 	const [currentPage, setCurrentPage] = useState(1);
 	const [selectedTag, setSelectedTag] = useState(null);
+	const [selectedCategory, setSelectedCategory] = useState(null);
 
 	const postsPerPage = 4;
 
-	const filteredPosts = selectedTag
-		? allPostsData.filter((post) => post.tags && post.tags.includes(selectedTag))
-		: allPostsData;
+	// const filteredPosts = selectedTag
+	// 	? allPostsData.filter((post) => post.tags && post.tags.includes(selectedTag))
+	// 	: allPostsData;
+
+	const filteredPosts = allPostsData.filter((post) => {
+		let tagCondition = selectedTag ? post.tags && post.tags.includes(selectedTag) : true;
+		let categoryCondition = selectedCategory ? post.category === selectedCategory : true;
+		return tagCondition && categoryCondition;
+	});
 
 	const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
@@ -111,6 +118,8 @@ export default function Blog({ allPostsData }) {
 								allPostsData={allPostsData}
 								setSelectedTag={setSelectedTag}
 								selectedTag={selectedTag}
+								setSelectedCategory={setSelectedCategory}
+								selectedCategory={selectedCategory}
 							/>
 						</Div>
 					</Div>
