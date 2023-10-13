@@ -25,7 +25,19 @@ export default function ArchiveMenuWidget({ title, data, onYearClick, selectedYe
 								handleClick(item.title);
 							}}
 						>
-							{item.title}
+								{item.title}
+								{/* delete year */}
+								{item.title === selectedYear ? (
+									<span
+										onClick={(e) => {
+											e.preventDefault();
+											e.stopPropagation();
+											onYearClick(null);
+										}}
+									>
+										<Icon icon="carbon:close" width={18} />
+									</span>
+								) : null}
 						</Link>
 					</li>
 				))}

@@ -22,7 +22,6 @@ export default function CategoryMenuWidget({ title, data, onCategoryClick, selec
 								}
 							}}
 						>
-							<div style={{ display: "flex", alignItems: "center" }}>
 								{item.title}
 								{/* delete category */}
 								{item.title === selectedCategory ? (
@@ -36,7 +35,6 @@ export default function CategoryMenuWidget({ title, data, onCategoryClick, selec
 										<Icon icon="carbon:close" width={18} />
 									</span>
 								) : null}
-							</div>
 						</Link>
 					</li>
 				))}

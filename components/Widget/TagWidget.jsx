@@ -32,7 +32,7 @@ export default function TagWidget({ title, data, onTagClick, selectedTag }) {
 									onTagClick(null);
 								}}
 							>
-								<Icon icon="carbon:close" width={18}/>
+								<Icon icon="carbon:close" width={18} />
 							</span>
 						) : null}
 					</Link>

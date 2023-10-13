@@ -95,13 +95,11 @@ export default function Sidebar({
 		const newQuery = { ...router.query };
 
 		if (newTag === selectedTag) {
-			// Si le tag cliqué est déjà le tag sélectionné, le retirer
 			delete newQuery.tag;
-			setSelectedTag(null); // Mettre à jour l'état local ou le contexte
+			setSelectedTag(null);
 		} else {
-			// Sinon, ajouter le nouveau tag aux filtres
 			newQuery.tag = newTag;
-			setSelectedTag(newTag); // Mettre à jour l'état local ou le contexte
+			setSelectedTag(newTag);
 		}
 
 		router.push(
@@ -116,17 +114,15 @@ export default function Sidebar({
 
 	const addCategoryToFilter = (newCategory) => {
 		const newQuery = { ...router.query };
-	
+
 		if (newCategory === selectedCategory) {
-			// Si la catégorie cliquée est déjà la catégorie sélectionnée, la retirer
 			delete newQuery.category;
-			setSelectedCategory(null); // Mettre à jour l'état local ou le contexte
+			setSelectedCategory(null);
 		} else {
-			// Sinon, ajouter la nouvelle catégorie aux filtres
 			newQuery.category = newCategory;
-			setSelectedCategory(newCategory); // Mettre à jour l'état local ou le contexte
+			setSelectedCategory(newCategory);
 		}
-	
+
 		router.push(
 			{
 				pathname: router.pathname,
@@ -140,10 +136,12 @@ export default function Sidebar({
 	const addYearToFilter = (newYear) => {
 		const newQuery = { ...router.query };
 
-		if (newYear) {
-			newQuery.year = newYear;
-		} else {
+		if (newYear === selectedYear) {
 			delete newQuery.year;
+			setSelectedYear(null);
+		} else {
+			newQuery.year = newYear;
+			setSelectedYear(newYear);
 		}
 
 		router.push(
@@ -195,6 +193,51 @@ export default function Sidebar({
 		url: `years/${year}`,
 	}));
 
+	const updateQueryAndState = (key, value, stateSetter) => {
+		const newQuery = { ...router.query };
+
+		if (value === newQuery[key] || !value) {
+			delete newQuery[key];
+			stateSetter(null);
+		} else {
+			newQuery[key] = value;
+			stateSetter(value);
+		}
+
+		// Supprimer les clés avec des valeurs vides
+		Object.keys(newQuery).forEach((key) => {
+			if (!newQuery[key]) {
+				delete newQuery[key];
+			}
+		});
+
+		router.push(
+			{
+				pathname: router.pathname,
+				query: newQuery,
+			},
+			undefined,
+			{ scroll: false }
+		);
+	};
+
+	const resetAllFilters = () => {
+		setSelectedTag(null);
+		setSelectedCategory(null);
+		setSearchKeyword(null);
+		setSelectedYear(null);
+
+		// Réinitialiser les paramètres d'URL
+		router.push(
+			{
+				pathname: router.pathname,
+				query: {}, // Vide pour supprimer tous les paramètres
+			},
+			undefined,
+			{ scroll: false }
+		);
+	};
+
 	return (
 		<>
 			<Div className="cs-sidebar_item">
@@ -205,29 +248,42 @@ export default function Sidebar({
 				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-				<SearchWidget title="Recherche" setSearchKeyword={handleSearch} />
+				<SearchWidget
+					title="Recherche"
+					setSearchKeyword={(keyword) => updateQueryAndState("keyword", keyword, setSearchKeyword)}
+				/>
 			</Div>
 			<Div className="cs-sidebar_item">
-				<TagWidget title="Tags" data={tagData} onTagClick={addTagToFilter} selectedTag={selectedTag} />
+				<TagWidget
+					title="Tags"
+					data={tagData}
+					onTagClick={(tag) => updateQueryAndState("tag", tag, setSelectedTag)}
+					selectedTag={selectedTag}
+				/>
 			</Div>
 			<Div className="cs-sidebar_item">
 				<SideMenuWidget
 					title="Catégories"
 					data={categoryData}
-					onCategoryClick={addCategoryToFilter}
+					onCategoryClick={(category) => updateQueryAndState("category", category, setSelectedCategory)}
 					selectedCategory={selectedCategory}
 				/>
 			</Div>
-			<Div className="cs-sidebar_item">
-				<RecentPost title="Articles Récents" data={firstThreePosts} />
-			</Div>
+
 			<Div className="cs-sidebar_item">
 				<ArchiveMenuWidget
 					title="Archives"
 					data={archiveData}
-					onYearClick={addYearToFilter}
+					onYearClick={(year) => updateQueryAndState("year", year, setSelectedYear)}
 					selectedYear={selectedYear}
 				/>
+				<button className="reset-button" onClick={resetAllFilters}>
+					Réinitialiser tous les filtres X
+				</button>
+			</Div>
+
+			<Div className="cs-sidebar_item">
+				<RecentPost title="Articles Récents" data={firstThreePosts} />
 			</Div>
 		</>
 	);
