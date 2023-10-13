@@ -35,8 +35,7 @@ export default function Blog({ allPostsData }) {
 		setCurrentPage,
 	} = useBlogFilters();
 
-
-console.log("searchKeyword >>", searchKeyword);
+	console.log("searchKeyword >>", searchKeyword);
 	const postsPerPage = 4;
 
 	const filteredPosts = allPostsData.filter((post) => {
@@ -53,6 +52,21 @@ console.log("searchKeyword >>", searchKeyword);
 	const indexOfLastPost = currentPage * postsPerPage;
 	const indexOfFirstPost = indexOfLastPost - postsPerPage;
 	const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+	// Formatage de la date
+	const formatDate = (dateString) => {
+		try {
+			const [day, month, year] = dateString.split("/");
+			const isoDate = `${year}-${month}-${day}`;
+
+			const options = { year: "numeric", month: "long", day: "numeric" };
+			return new Intl.DateTimeFormat("fr-FR", options).format(new Date(isoDate));
+		} catch (e) {
+			console.error("Erreur de formatage de la date: ", e);
+			return "Date inconnue";
+		}
+	};
+	const formattedDate = formatDate("2021-02-11");
 
 	return (
 		<>
@@ -76,7 +90,7 @@ console.log("searchKeyword >>", searchKeyword);
 										thumb={"/images/post_4.jpeg"}
 										title={title}
 										subtitle={subtitle}
-										date={date}
+										date={formatDate(date)}
 										category={category || "Non catégorisé"}
 										categoryHref={`/blog/category/${category}`}
 										href={`/blog/${id}`}
