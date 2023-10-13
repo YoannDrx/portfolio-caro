@@ -17,10 +17,26 @@ export default function CategoryMenuWidget({ title, data, onCategoryClick, selec
 							})}
 							onClick={(e) => {
 								e.preventDefault();
-								onCategoryClick(item.title);
+								if (item.title !== selectedCategory) {
+									onCategoryClick(item.title);
+								}
 							}}
 						>
-							{item.title}
+							<div style={{ display: "flex", alignItems: "center" }}>
+								{item.title}
+								{/* delete category */}
+								{item.title === selectedCategory ? (
+									<span
+										onClick={(e) => {
+											e.preventDefault();
+											e.stopPropagation();
+											onCategoryClick(null);
+										}}
+									>
+										<Icon icon="carbon:close" width={18} />
+									</span>
+								) : null}
+							</div>
 						</Link>
 					</li>
 				))}

@@ -116,13 +116,17 @@ export default function Sidebar({
 
 	const addCategoryToFilter = (newCategory) => {
 		const newQuery = { ...router.query };
-
-		if (newCategory) {
-			newQuery.category = newCategory;
-		} else {
+	
+		if (newCategory === selectedCategory) {
+			// Si la catégorie cliquée est déjà la catégorie sélectionnée, la retirer
 			delete newQuery.category;
+			setSelectedCategory(null); // Mettre à jour l'état local ou le contexte
+		} else {
+			// Sinon, ajouter la nouvelle catégorie aux filtres
+			newQuery.category = newCategory;
+			setSelectedCategory(newCategory); // Mettre à jour l'état local ou le contexte
 		}
-
+	
 		router.push(
 			{
 				pathname: router.pathname,

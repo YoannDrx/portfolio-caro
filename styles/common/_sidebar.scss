@@ -60,11 +60,11 @@
 }
 
 .category-selected {
-  background-color: $accent;
-  border-color: $accent;
-  border-radius: 2px;
-  padding: 3px 15px;
-  color: $white !important;
+	background-color: $accent;
+	border-color: $accent;
+	border-radius: 2px;
+	padding: 3px 15px;
+	color: $white !important;
 }
 
 .cs-side_menu_widget {
@@ -75,7 +75,7 @@
 		padding-left: 26px;
 		position: relative;
 		svg {
-			position: absolute;
+			// position: absolute;
 			left: -4px;
 			top: 2px;
 			font-size: 22px;

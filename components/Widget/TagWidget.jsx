@@ -18,7 +18,7 @@ export default function TagWidget({ title, data, onTagClick, selectedTag }) {
 						onClick={(e) => {
 							e.preventDefault();
 							if (tag.title !== selectedTag) {
-								onTagClick(tag.title); // Ajouter le tag seulement s'il n'est pas déjà sélectionné
+								onTagClick(tag.title);
 							}
 						}}
 					>
@@ -26,14 +26,13 @@ export default function TagWidget({ title, data, onTagClick, selectedTag }) {
 						{/* delete tag */}
 						{tag.title === selectedTag ? (
 							<span
-								className="tagcloud-remove"
 								onClick={(e) => {
 									e.preventDefault();
-									e.stopPropagation(); // Pour empêcher le clic de se propager au lien parent
-									onTagClick(null); // Désélectionner le tag
+									e.stopPropagation();
+									onTagClick(null);
 								}}
 							>
-								<Icon icon="carbon:close" />
+								<Icon icon="carbon:close" width={18}/>
 							</span>
 						) : null}
 					</Link>
