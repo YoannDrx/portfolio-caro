@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useState } from "react";
+import React from "react";
 import Cta from "../../components/Cta";
 import Div from "../../components/Div";
 import Layout from "../../components/Layout";

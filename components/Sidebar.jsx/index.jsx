@@ -25,9 +25,8 @@ export default function Sidebar({
 	const [uniqueYears, setUniqueYears] = useState([]);
 
 	const router = useRouter();
-	
-	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
 
+	const firstThreePosts = localPostsData ? localPostsData.slice(0, 3) : [];
 
 	useEffect(() => {
 		setLocalPostsData(allPostsData);
@@ -93,7 +92,18 @@ export default function Sidebar({
 	}, [router.query]);
 
 	const addTagToFilter = (newTag) => {
-		const newQuery = { ...router.query, tag: newTag };
+		const newQuery = { ...router.query };
+
+		if (newTag === selectedTag) {
+			// Si le tag cliqué est déjà le tag sélectionné, le retirer
+			delete newQuery.tag;
+			setSelectedTag(null); // Mettre à jour l'état local ou le contexte
+		} else {
+			// Sinon, ajouter le nouveau tag aux filtres
+			newQuery.tag = newTag;
+			setSelectedTag(newTag); // Mettre à jour l'état local ou le contexte
+		}
+
 		router.push(
 			{
 				pathname: router.pathname,
@@ -162,7 +172,6 @@ export default function Sidebar({
 
 		setSearchKeyword(newKeyword);
 	};
-
 
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
