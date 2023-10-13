@@ -9,6 +9,7 @@ import PostStyle2 from "../../components/Post/PostStyle2";
 import Sidebar from "../../components/Sidebar.jsx";
 import Spacing from "../../components/Spacing";
 import { getSortedPostsData } from "../../lib/blogUtils";
+import { useBlogFilters } from "../../context/BlogFilterContext";
 
 export async function getStaticProps() {
 	const allPostsData = await getSortedPostsData();
@@ -21,18 +22,20 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ allPostsData }) {
-	const [currentPage, setCurrentPage] = useState(1);
-	const [selectedTag, setSelectedTag] = useState(null);
-	const [selectedCategory, setSelectedCategory] = useState(null);
-	const [searchKeyword, setSearchKeyword] = useState(null);
-	const [selectedYear, setSelectedYear] = useState(null);
-
+	const {
+		selectedTag,
+		setSelectedTag,
+		selectedCategory,
+		setSelectedCategory,
+		searchKeyword,
+		setSearchKeyword,
+		selectedYear,
+		setSelectedYear,
+		currentPage,
+		setCurrentPage,
+	} = useBlogFilters();
 
 	const postsPerPage = 4;
-
-	// const filteredPosts = selectedTag
-	// 	? allPostsData.filter((post) => post.tags && post.tags.includes(selectedTag))
-	// 	: allPostsData;
 
 	const filteredPosts = allPostsData.filter((post) => {
 		let yearCondition = selectedYear ? new Date(post.date).getFullYear() === parseInt(selectedYear, 10) : true;
@@ -47,40 +50,8 @@ export default function Blog({ allPostsData }) {
 
 	const indexOfLastPost = currentPage * postsPerPage;
 	const indexOfFirstPost = indexOfLastPost - postsPerPage;
-	const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost); // Utilisez filteredPosts ici
+	const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
 
-	// const postData = [
-	// 	{
-	// 		thumb: "/images/post_4.jpeg",
-	// 		title: "Gestion des droits d’auteur à l’ère du numérique",
-	// 		subtitle:
-	// 			"La gestion des droits d’auteur est devenue de plus en plus complexe avec l’avènement du numérique. Découvrez comment naviguer dans ce nouvel environnement.",
-	// 		date: "07 Mar 2022",
-	// 		category: "Droit d’auteur",
-	// 		categoryHref: "/blog",
-	// 		href: "/blog/blog-details",
-	// 	},
-	// 	{
-	// 		thumb: "/images/post_5.jpeg",
-	// 		title: "Comment optimiser la production de contenu",
-	// 		subtitle:
-	// 			"La production de contenu est un élément clé de toute stratégie de marketing. Apprenez comment optimiser vos processus pour une meilleure efficacité.",
-	// 		date: "05 Mar 2022",
-	// 		category: "Production",
-	// 		categoryHref: "/blog",
-	// 		href: "/blog/blog-details",
-	// 	},
-	// 	{
-	// 		thumb: "/images/post_6.jpeg",
-	// 		title: "Les défis de la gestion de projet en production",
-	// 		subtitle:
-	// 			"La gestion de projet en production présente son propre ensemble de défis. Voici quelques conseils pour les surmonter.",
-	// 		date: "04 Mar 2022",
-	// 		category: "Gestion de Projet",
-	// 		categoryHref: "/blog",
-	// 		href: "/blog/blog-details",
-	// 	},
-	// ];
 	return (
 		<>
 			<Head>
