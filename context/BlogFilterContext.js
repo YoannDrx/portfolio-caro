@@ -3,7 +3,11 @@ import React, { createContext, useContext, useState } from "react";
 const BlogFilterContext = createContext();
 
 export const useBlogFilters = () => {
-	return useContext(BlogFilterContext);
+	const context = useContext(BlogFilterContext);
+	if (!context) {
+		throw new Error("useBlogFilters doit être utilisé dans un composant enfant de BlogFilterProvider");
+	}
+	return context;
 };
 
 export const BlogFilterProvider = ({ children }) => {

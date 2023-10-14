@@ -7,22 +7,26 @@ import SideMenuWidget from "../Widget/CategoryMenuWidget";
 import TagWidget from "../Widget/TagWidget";
 import { useRouter } from "next/router";
 import ArchiveMenuWidget from "../Widget/ArchiveMenuWidget";
+import { useBlogFilters } from "../../context/BlogFilterContext";
 
-export default function Sidebar({
-	allPostsData,
-	setSelectedTag,
-	selectedTag,
-	setSelectedCategory,
-	selectedCategory,
-	setSearchKeyword,
-	searchKeyword,
-	setSelectedYear,
-	selectedYear,
-}) {
+export default function Sidebar({ allPostsData }) {
 	const [localPostsData, setLocalPostsData] = useState(allPostsData);
 	const [uniqueTags, setUniqueTags] = useState([]);
 	const [uniqueCategories, setUniqueCategories] = useState([]);
 	const [uniqueYears, setUniqueYears] = useState([]);
+
+	const {
+		selectedTag,
+		setSelectedTag,
+		selectedCategory,
+		setSelectedCategory,
+		searchKeyword,
+		setSearchKeyword,
+		selectedYear,
+		setSelectedYear,
+		currentPage,
+		setCurrentPage,
+	} = useBlogFilters();
 
 	const router = useRouter();
 
@@ -71,109 +75,16 @@ export default function Sidebar({
 		if (router.query.tag) {
 			setSelectedTag(router.query.tag);
 		}
-	}, [router.query]);
-
-	useEffect(() => {
 		if (router.query.category) {
 			setSelectedCategory(router.query.category);
 		}
-	}, [router.query]);
-
-	useEffect(() => {
 		if (router.query.keyword) {
 			setSearchKeyword(router.query.keyword);
 		}
-	}, [router.query]);
-
-	useEffect(() => {
 		if (router.query.year) {
 			setSelectedYear(router.query.year);
 		}
 	}, [router.query]);
-
-	const addTagToFilter = (newTag) => {
-		const newQuery = { ...router.query };
-
-		if (newTag === selectedTag) {
-			delete newQuery.tag;
-			setSelectedTag(null);
-		} else {
-			newQuery.tag = newTag;
-			setSelectedTag(newTag);
-		}
-
-		router.push(
-			{
-				pathname: router.pathname,
-				query: newQuery,
-			},
-			undefined,
-			{ scroll: false }
-		);
-	};
-
-	const addCategoryToFilter = (newCategory) => {
-		const newQuery = { ...router.query };
-
-		if (newCategory === selectedCategory) {
-			delete newQuery.category;
-			setSelectedCategory(null);
-		} else {
-			newQuery.category = newCategory;
-			setSelectedCategory(newCategory);
-		}
-
-		router.push(
-			{
-				pathname: router.pathname,
-				query: newQuery,
-			},
-			undefined,
-			{ scroll: false }
-		);
-	};
-
-	const addYearToFilter = (newYear) => {
-		const newQuery = { ...router.query };
-
-		if (newYear === selectedYear) {
-			delete newQuery.year;
-			setSelectedYear(null);
-		} else {
-			newQuery.year = newYear;
-			setSelectedYear(newYear);
-		}
-
-		router.push(
-			{
-				pathname: router.pathname,
-				query: newQuery,
-			},
-			undefined,
-			{ scroll: false }
-		);
-	};
-
-	const handleSearch = (newKeyword) => {
-		const newQuery = { ...router.query };
-
-		if (newKeyword) {
-			newQuery.keyword = newKeyword;
-		} else {
-			delete newQuery.keyword;
-		}
-
-		router.push(
-			{
-				pathname: router.pathname,
-				query: newQuery,
-			},
-			undefined,
-			{ scroll: false }
-		);
-
-		setSearchKeyword(newKeyword);
-	};
 
 	// Utiliser uniqueTags pour alimenter TagWidget
 	const tagData = uniqueTags.map((tag) => ({
@@ -193,6 +104,33 @@ export default function Sidebar({
 		url: `years/${year}`,
 	}));
 
+	// const updateQueryAndState = (key, value, stateSetter) => {
+	// 	const newQuery = { ...router.query };
+
+	// 	if (value === newQuery[key] || !value) {
+	// 		delete newQuery[key];
+	// 		stateSetter(null);
+	// 	} else {
+	// 		newQuery[key] = value;
+	// 		stateSetter(value);
+	// 	}
+
+	// 	// Supprimer les clés avec des valeurs vides
+	// 	Object.keys(newQuery).forEach((key) => {
+	// 		if (!newQuery[key]) {
+	// 			delete newQuery[key];
+	// 		}
+	// 	});
+
+	// 	router.push(
+	// 		{
+	// 			pathname: router.pathname,
+	// 			query: newQuery,
+	// 		},
+	// 		undefined,
+	// 		{ scroll: false }
+	// 	);
+	// };
 	const updateQueryAndState = (key, value, stateSetter) => {
 		const newQuery = { ...router.query };
 
@@ -211,9 +149,16 @@ export default function Sidebar({
 			}
 		});
 
+		let targetPath = router.pathname; // change this line
+
+		// Si vous êtes dans la page [blogId], changez targetPath pour aller vers la page /blog
+		if (router.pathname.includes("[blogId]")) {
+			targetPath = "/blog";
+		}
+
 		router.push(
 			{
-				pathname: router.pathname,
+				pathname: targetPath,
 				query: newQuery,
 			},
 			undefined,
@@ -221,17 +166,37 @@ export default function Sidebar({
 		);
 	};
 
+	// const resetAllFilters = () => {
+	// 	setSelectedTag(null);
+	// 	setSelectedCategory(null);
+	// 	setSearchKeyword(null);
+	// 	setSelectedYear(null);
+
+	// 	router.push(
+	// 		{
+	// 			pathname: router.pathname,
+	// 			query: {},
+	// 		},
+	// 		undefined,
+	// 		{ scroll: false }
+	// 	);
+	// };
 	const resetAllFilters = () => {
 		setSelectedTag(null);
 		setSelectedCategory(null);
 		setSearchKeyword(null);
 		setSelectedYear(null);
 
-		// Réinitialiser les paramètres d'URL
+		let targetPath = router.pathname;
+
+		if (router.pathname.includes("[blogId]")) {
+			targetPath = "/blog";
+		}
+
 		router.push(
 			{
-				pathname: router.pathname,
-				query: {}, // Vide pour supprimer tous les paramètres
+				pathname: targetPath,
+				query: {},
 			},
 			undefined,
 			{ scroll: false }

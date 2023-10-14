@@ -42,9 +42,12 @@ export default function Blog({ allPostsData }) {
 		let yearCondition = selectedYear ? new Date(post.date).getFullYear() === parseInt(selectedYear, 10) : true;
 		let tagCondition = selectedTag ? post.tags && post.tags.includes(selectedTag) : true;
 		let categoryCondition = selectedCategory ? post.category === selectedCategory : true;
-		let keywordCondition = searchKeyword ? post.title.toLowerCase().includes(searchKeyword.toLowerCase()) : true;
 
-		return tagCondition && categoryCondition && keywordCondition && yearCondition;
+		if (searchKeyword) {
+			return post.title.toLowerCase().includes(searchKeyword.toLowerCase());
+		}
+
+		return tagCondition && categoryCondition && yearCondition;
 	});
 
 	const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
