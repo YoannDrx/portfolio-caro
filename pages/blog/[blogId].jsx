@@ -63,31 +63,6 @@ export default function BlogDetails({ postData, allPostsData }) {
 										</Link>
 									</Div>
 									<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-
-									{/* <h2 className="cs-post_title">{postData.title}</h2>
-									<p>
-										La gestion des droits d'auteur est un enjeu crucial dans le monde de la
-										production numérique. Cet article explore les meilleures pratiques pour gérer
-										efficacement les droits d'auteur et les licences dans un environnement de
-										production.
-									</p>
-									<blockquote className="cs-primary_font">
-										"La gestion des droits est non seulement une obligation légale, mais aussi une
-										responsabilité éthique."
-										<small>Votre Nom</small>
-									</blockquote>
-									<p>
-										Dans le secteur de la production, il est essentiel de comprendre les subtilités
-										des droits d'auteur pour éviter les litiges et garantir une exploitation réussie
-										des œuvres. Cela inclut la connaissance des licences, des contrats et des
-										différentes législations en vigueur.
-									</p>
-									<h3>Importance de la gestion des contrats</h3>
-									<p>
-										La gestion des contrats est un élément clé pour assurer le respect des droits
-										d'auteur. Il est crucial de disposer de contrats clairs et détaillés pour chaque
-										projet, afin de définir les droits et les obligations de chaque partie.
-									</p> */}
 								</Div>
 							</Div>
 							<Spacing lg="30" md="30" />
