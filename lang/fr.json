@@ -1,0 +1,13 @@
+{
+	"header": {
+		"navbar": {
+			"à-propos": "À propos",
+			"mes-expertises": "mes expertises",
+			"portfolio": "Portfolio",
+			"contact": "Contact",
+			"blog": "Blog",
+			"faq": "FAQ",
+			"langue": "Langue"
+		}
+	}
+}

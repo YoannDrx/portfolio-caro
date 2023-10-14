@@ -4,6 +4,9 @@ import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import Div from "../Div";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
+import DropDown from "./DropDown";
+import { readableLocale } from "../../lib/i18n";
 
 export default function Header({ variant }) {
 	const [isSticky, setIsSticky] = useState(false);
@@ -11,6 +14,7 @@ export default function Header({ variant }) {
 	const [mobileToggle, setMobileToggle] = useState(false);
 	const [activeLink, setActiveLink] = useState("");
 	const router = useRouter();
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
@@ -61,33 +65,70 @@ export default function Header({ variant }) {
 										</li>
 										<li className={isActive("/about") ? "active" : ""}>
 											<Link href="about" onClick={() => handleLinkClick("/about")}>
-												About
+												{t("header.navbar.à-propos")}
 											</Link>
 										</li>
 										<li className={isActive("/service") ? "active" : ""}>
 											<Link href="/service" onClick={() => handleLinkClick("/service")}>
-												Services
+												{t("header.navbar.mes-expertises")}
 											</Link>
 										</li>
 										<li className={isActive("/portfolio") ? "active" : ""}>
 											<Link href="/portfolio" onClick={() => handleLinkClick("/portfolio")}>
-												Portfolio
+												{t("header.navbar.portfolio")}
 											</Link>
 										</li>
 										<li className={isActive("/contact") ? "active" : ""}>
 											<Link href="/contact" onClick={() => handleLinkClick("/contact")}>
-												Contact
+												{t("header.navbar.contact")}
 											</Link>
 										</li>
 										<li className={isActive("/blog") ? "active" : ""}>
 											<Link href="/blog" onClick={() => handleLinkClick("/blog")}>
-												Blog
+												{t("header.navbar.blog")}
 											</Link>
 										</li>
 										<li className={isActive("/faq") ? "active" : ""}>
 											<Link href="/faq" onClick={() => handleLinkClick("/faq")}>
-												Faq
+												{t("header.navbar.faq")}
 											</Link>
+										</li>
+										<li className="menu-item-has-children">
+											<Link href="/blog" onClick={() => setMobileToggle(false)}>
+												{t("header.navbar.langue")}
+											</Link>
+											<DropDown>
+												{/* {readableLocale(router.locale)} */}
+												<ul>
+													<li>
+														<Link
+															href={t(router.pathname, { lng: "fr" })}
+															locale="fr"
+															onClick={() => setMobileToggle(false)}
+														>
+															Francais
+														</Link>
+													</li>
+													<li>
+														<Link
+															href={t(router.pathname, { lng: "en" })}
+															locale="en"
+															onClick={() => setMobileToggle(false)}
+														>
+															English
+														</Link>
+													</li>
+													<li>
+														<Link
+															href={t(router.pathname, { lng: "de" })}
+															locale="de"
+															onClick={() => setMobileToggle(false)}
+														>
+															Deutch
+														</Link>
+													</li>
+												</ul>
+											</DropDown>
 										</li>
 									</ul>
 									<span
