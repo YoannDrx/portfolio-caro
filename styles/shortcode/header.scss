@@ -318,7 +318,7 @@
 	.cs-main_header_center,
 	.cs-top_header_center {
 		position: absolute;
-		left: 50%;
+		left:50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -330,7 +330,7 @@
 			align-items: center;
 			height: 100%;
 			width: 100%;
-			max-width: calc(100% - 300px);
+			max-width: calc(100% - 200px);
 		}
 		.cs-main_header_left {
 			height: 100%;
@@ -713,6 +713,10 @@
 		max-width: 100%;
 		padding: 0 15px;
 	}
+}
+
+.flag-img{
+	margin-right: 15px;
 }
 
 @media screen and (max-width: 991px) {

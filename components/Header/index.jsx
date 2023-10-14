@@ -16,6 +16,8 @@ export default function Header({ variant }) {
 	const router = useRouter();
 	const { t } = useTranslation();
 
+	const currentLanguage = router.locale;
+
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
 			if (window.scrollY > 0) {
@@ -70,7 +72,7 @@ export default function Header({ variant }) {
 										</li>
 										<li className={isActive("/service") ? "active" : ""}>
 											<Link href="/service" onClick={() => handleLinkClick("/service")}>
-												{t("header.navbar.mes-expertises")}
+												{t("header.navbar.expertises")}
 											</Link>
 										</li>
 										<li className={isActive("/portfolio") ? "active" : ""}>
@@ -95,6 +97,31 @@ export default function Header({ variant }) {
 										</li>
 										<li className="menu-item-has-children">
 											<Link href="/blog" onClick={() => setMobileToggle(false)}>
+												{currentLanguage === "fr" && (
+													<img
+														src="/images/flags/fr-flag.png"
+														alt="Drapeau Français"
+														width={30}
+														className="flag-img"
+													/>
+												)}
+												{currentLanguage === "en" && (
+													<img
+														src="/images/flags/en-flag.png"
+														alt="English Flag"
+														width={30}
+														className="flag-img"
+													/>
+												)}
+												{currentLanguage === "de" && (
+													<img
+														src="/images/flags/de-flag.png"
+														alt="English Flag"
+														width={30}
+														className="flag-img"
+													/>
+												)}
+
 												{t("header.navbar.langue")}
 											</Link>
 											<DropDown>
@@ -106,6 +133,12 @@ export default function Header({ variant }) {
 															locale="fr"
 															onClick={() => setMobileToggle(false)}
 														>
+															<img
+																src="/images/flags/fr-flag.png"
+																alt="Drapeau Français"
+																width={30}
+																className="flag-img"
+															/>
 															Francais
 														</Link>
 													</li>
@@ -115,6 +148,12 @@ export default function Header({ variant }) {
 															locale="en"
 															onClick={() => setMobileToggle(false)}
 														>
+															<img
+																src="/images/flags/en-flag.png"
+																alt="English Flag"
+																width={30}
+																className="flag-img"
+															/>
 															English
 														</Link>
 													</li>
@@ -124,6 +163,12 @@ export default function Header({ variant }) {
 															locale="de"
 															onClick={() => setMobileToggle(false)}
 														>
+															<img
+																src="/images/flags/de-flag.png"
+																alt="English Flag"
+																width={30}
+																className="flag-img"
+															/>
 															Deutch
 														</Link>
 													</li>
