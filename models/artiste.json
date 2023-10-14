@@ -1,0 +1,162 @@
+[
+	{
+		"id": 1,
+		"artist_name": "The Beatles",
+		"bio": "The Beatles were an English rock band formed in Liverpool in 1960. The group, whose best-known line-up comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr, are regarded as the most influential band of all time. They were integral to the development of 1960s counterculture and popular music's recognition as an art form. Rooted in skiffle, beat and 1950s rock and roll, their sound incorporated elements of classical music and traditional pop in innovative ways; the band later explored music styles ranging from ballads and Indian music to psychedelia and hard rock. As pioneers in recording, songwriting and artistic presentation, the group revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.",
+		"artist_image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.udiscovermusic.com%2Fartists%2Fthe-beatles%2F&psig=AOvVaw0QZ2X6Q4Q4Q4Q4Q4Q4Q4Q4&ust=1607018026262000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjQ4ZqHlu0CFQAAAAAdAAAAABAD",
+		"social_media_artist": {
+			"soundcloud_link": "https://soundcloud.com/thebeatles",
+			"youtube_link": "https://www.youtube.com/user/thebeatles",
+			"facebook_link": "https://www.facebook.com/thebeatles",
+			"website_link": "https://www.thebeatles.com/"
+		},
+		"artist_tag": ["rock", "pop", "psychedelic"],
+		"albums": [
+			{
+				"id": 1,
+				"album_name": "Album 1",
+				"description": "This is the first album of the Beatles",
+				"release_date": "19-02-22",
+				"album_tag": ["rock", "pop", "psychedelic"],
+				"album_socials_media": {
+					"spotify_link": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+					"deezer_link": "https://www.deezer.com/en/artist/1",
+					"apple_music_link": "https://music.apple.com/us/artist/the-beatles/136975",
+					"video_promo": "https://www.youtube.com/embed/7JL-lkFf5nM"
+				},
+				"artists_who_collaborated_on_this_album": [
+					{
+						"id": 1,
+						"artist_name": "Lulu",
+						"link_to_artist_page": "https://www.link_to_artist_pagepage.com"
+					},
+					{
+						"id": 2,
+						"artist_name": "Lala",
+						"link_to_artist_page": "https://www.youtube.com/embed/7JL-lkFf5nM"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"album_name": "Album 2",
+				"description": "This is the second album of the Beatles",
+				"release_date": "20-01-21",
+				"album_tag": ["rock", "pop", "psychedelic"],
+				"album_socials_media": {
+					"spotify_link": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+					"deezer_link": "https://www.deezer.com/en/artist/1",
+					"apple_music_link": "https://music.apple.com/us/artist/the-beatles/136975",
+					"video_promo": "https://www.youtube.com/embed/7JL-lkFf5nM"
+				},
+				"artists_who_collaborated_on_this_album": [
+					{
+						"id": 1,
+						"artist_name": "Lolo",
+						"link_to_artist_page": "https://www.youtube.com/embed/7JL-lkFf5nM"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"album_name": "Album 3",
+				"description": "This is the third album of the Beatles",
+				"release_date": "12-03-23",
+				"album_tag": ["rock", "pop", "psychedelic"],
+				"album_socials_media": {
+					"spotify_link": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+					"deezer_link": "https://www.deezer.com/en/artist/1",
+					"apple_music_link": "https://music.apple.com/us/artist/the-beatles/136975",
+					"video_promo": "https://www.youtube.com/embed/7JL-lkFf5nM"
+				},
+				"artists_who_collaborated_on_this_album": [
+					{
+						"id": 1,
+						"artist_name": "Lala",
+						"link_to_artist_page": "https://www.youtube.com/embed/7JL-lkFf5nM"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"artist_name": "Queen",
+		"bio": "Queen is a British rock band formed in London in 1970. Known for hits like 'Bohemian Rhapsody' and 'We Will Rock You', they are one of the most iconic bands in history.",
+		"artist_image": "https://example.com/queen.jpg",
+		"social_media_artist": {
+			"soundcloud_link": "https://soundcloud.com/thebeatles",
+			"youtube_link": "https://www.youtube.com/user/thebeatles",
+			"facebook_link": "https://www.facebook.com/thebeatles",
+			"website_link": "https://www.thebeatles.com/"
+		},
+		"artist_tag": ["rock", "classic rock"],
+		"albums": [
+			{
+				"id": 1,
+				"album_name": "A Night at the Opera",
+				"description": "This is one of Queen's most iconic albums.",
+				"release_date": "21-11-1975",
+				"album_tag": ["rock", "classic rock"],
+				"album_socials_media": {
+					"spotify_link": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+					"deezer_link": "https://www.deezer.com/en/artist/1",
+					"apple_music_link": "https://music.apple.com/us/artist/the-beatles/136975",
+					"video_promo": "https://www.youtube.com/embed/7JL-lkFf5nM"
+				},
+				"artists_who_collaborated_on_this_album": [
+					{
+						"id": 1,
+						"artist_name": "Lulu",
+						"link_to_artist_page": "https://www.link_to_artist_pagepage.com"
+					},
+					{
+						"id": 2,
+						"artist_name": "Lala",
+						"link_to_artist_page": "https://www.youtube.com/embed/7JL-lkFf5nM"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"artist_name": "Nirvana",
+		"bio": "Nirvana was an American rock band formed in 1987. They are considered one of the pioneers of grunge music.",
+		"artist_image": "https://example.com/nirvana.jpg",
+		"social_media_artist": {
+			"soundcloud_link": "https://soundcloud.com/thebeatles",
+			"youtube_link": "https://www.youtube.com/user/thebeatles",
+			"facebook_link": "https://www.facebook.com/thebeatles",
+			"website_link": "https://www.thebeatles.com/"
+		},
+		"artist_tag": ["rock", "grunge"],
+		"albums": [
+			{
+				"id": 1,
+				"album_name": "Nevermind",
+				"description": "This is Nirvana's second studio album.",
+				"release_date": "24-09-1991",
+				"album_tag": ["rock", "grunge"],
+				"album_socials_media": {
+					"spotify_link": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+					"deezer_link": "https://www.deezer.com/en/artist/1",
+					"apple_music_link": "https://music.apple.com/us/artist/the-beatles/136975",
+					"video_promo": "https://www.youtube.com/embed/7JL-lkFf5nM"
+				},
+				"artists_who_collaborated_on_this_album": [
+					{
+						"id": 1,
+						"artist_name": "Lulu",
+						"link_to_artist_page": "https://www.link_to_artist_pagepage.com"
+					},
+					{
+						"id": 2,
+						"artist_name": "Lala",
+						"link_to_artist_page": "https://www.youtube.com/embed/7JL-lkFf5nM"
+					}
+				]
+			}
+		]
+	}
+]
