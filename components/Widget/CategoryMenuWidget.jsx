@@ -22,19 +22,19 @@ export default function CategoryMenuWidget({ title, data, onCategoryClick, selec
 								}
 							}}
 						>
-								{item.title}
-								{/* delete category */}
-								{item.title === selectedCategory ? (
-									<span
-										onClick={(e) => {
-											e.preventDefault();
-											e.stopPropagation();
-											onCategoryClick(null);
-										}}
-									>
-										<Icon icon="carbon:close" width={18} />
-									</span>
-								) : null}
+							{item.title}
+							{/* delete category */}
+							{item.title === selectedCategory ? (
+								<span
+									onClick={(e) => {
+										e.preventDefault();
+										e.stopPropagation();
+										onCategoryClick(null);
+									}}
+								>
+									<Icon icon="carbon:close" width={18} />
+								</span>
+							) : null}
 						</Link>
 					</li>
 				))}

@@ -15,8 +15,7 @@ export const BlogFilterProvider = ({ children }) => {
 	const [selectedCategory, setSelectedCategory] = useState(null);
 	const [searchKeyword, setSearchKeyword] = useState(null);
 	const [selectedYear, setSelectedYear] = useState(null);
-  const [currentPage, setCurrentPage] = useState(1);
-
+	const [currentPage, setCurrentPage] = useState(1);
 
 	const value = {
 		selectedTag,
@@ -27,8 +26,8 @@ export const BlogFilterProvider = ({ children }) => {
 		setSearchKeyword,
 		selectedYear,
 		setSelectedYear,
-    currentPage,
-    setCurrentPage
+		currentPage,
+		setCurrentPage,
 	};
 
 	return <BlogFilterContext.Provider value={value}>{children}</BlogFilterContext.Provider>;

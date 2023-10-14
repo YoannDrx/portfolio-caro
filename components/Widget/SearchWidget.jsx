@@ -41,7 +41,11 @@ export default function SearchWidget({ title, setSearchKeyword }) {
 					)}
 				</button>
 			</form>
-			{feedback && <p className="reset-accent" onClick={handleReset}>{feedback}</p>}
+			{feedback && (
+				<p className="reset-accent" onClick={handleReset}>
+					{feedback}
+				</p>
+			)}
 		</>
 	);
 }

@@ -30,7 +30,7 @@ export async function getStaticProps({ params }) {
 	};
 }
 
-export default function BlogDetails({ postData,allPostsData }) {
+export default function BlogDetails({ postData, allPostsData }) {
 	const router = useRouter();
 	const blogId = router.query.blogId;
 
@@ -62,7 +62,7 @@ export default function BlogDetails({ postData,allPostsData }) {
 											Gestion des Droits
 										</Link>
 									</Div>
-                  <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+									<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 
 									{/* <h2 className="cs-post_title">{postData.title}</h2>
 									<p>
@@ -128,7 +128,7 @@ export default function BlogDetails({ postData,allPostsData }) {
 						</Div>
 						<Div className="col-xl-3 col-lg-4 offset-xl-1">
 							<Spacing lg="0" md="80" />
-							<Sidebar allPostsData={allPostsData}/>
+							<Sidebar allPostsData={allPostsData} />
 						</Div>
 					</Div>
 				</Div>
