@@ -1,6 +1,6 @@
 ---
 title: "SDRM: its role in the remuneration of mechanical rights"
-subtitle: "Understanding the workings of the Société pour l'Administration du Droit de Reproduction Mécanique" (Society for the Administration of Mechanical Reproduction Rights)"
+subtitle: "Understanding the workings of the Société pour l'Administration du Droit de Reproduction Mécanique (Society for the Administration of Mechanical Reproduction Rights)"
 date: "11/05/202"
 category: "Copyright"
 slug: "role-sdrm-remuneration-droits-mecaniques"
