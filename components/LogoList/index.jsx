@@ -4,15 +4,15 @@ import Div from '../Div';
 export default function LogoList() {
   const partnerLogos = [
     {
-      src: '/images/partner_1.svg',
+      src: '/images/partner/logo-sacem.png',
       alt: 'Partner',
     },
     {
-      src: '/images/partner_2.svg',
+      src: '/images/partner/logo-scpp.png',
       alt: 'Partner',
     },
     {
-      src: '/images/partner_3.svg',
+      src: '/images/partner/logo-sdrm.png',
       alt: 'Partner',
     },
     {
@@ -28,7 +28,7 @@ export default function LogoList() {
     <Div className="cs-partner_logo_wrap">
       {partnerLogos.map((partnerLogo, index) => (
         <div className="cs-partner_logo" key={index}>
-          <img src={partnerLogo.src} alt={partnerLogo.alt} />
+          <img src={partnerLogo.src} alt={partnerLogo.alt} width={300}/>
         </div>
       ))}
     </Div>
