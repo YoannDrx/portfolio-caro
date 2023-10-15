@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import DropDown from "./DropDown";
-import { readableLocale } from "../../lib/i18n";
 
 export default function Header({ variant }) {
 	const [isSticky, setIsSticky] = useState(false);
@@ -29,13 +28,11 @@ export default function Header({ variant }) {
 	}, []);
 
 	const handleLinkClick = (path) => {
-		// 2. Mettre à jour activeLink
 		setActiveLink(path);
 		setMobileToggle(false);
 	};
 
 	const isActive = (path) => {
-		// 3. Utilisez activeLink pour la classe CSS
 		return activeLink === path || router.pathname === path;
 	};
 
