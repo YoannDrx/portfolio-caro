@@ -59,12 +59,147 @@ export default function ServiceDetails() {
 						</Div>
 					</Div>
 				</Div>
+
+				{/* test */}
+				<Spacing lg="120" md="50" />
+
+				<Div className="container">
+					<Div className="row align-items-center">
+						{/* Image à gauche, Texte à droite */}
+						<Div className="col-xl-5 col-lg-6">
+							<Div className="cs-radius_15 cs-shine_hover_1">
+								<img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
+							</Div>
+							<Spacing lg="0" md="40" />
+						</Div>
+						<Div className="col-lg-6">
+							<h2>Titre Part 1</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								ratione distinctio incidunt quasi omnis nobis commodi quisquam? Illum earum inventore
+								provident mollitia natus quo doloremque obcaecati alias! Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae explicabo,
+								ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae
+								nisi ratione in.
+							</p>
+							<ul>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								</li>
+							</ul>
+						</Div>
+					</Div>
+					<Spacing lg="50" md="30" />
+					<Div className="row align-items-center">
+						{/* Texte à gauche, Image à droite */}
+						<Div className="col-lg-6">
+							<h2>Titre Part 2</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex
+								alias assumenda placeat expedita earum. Eum iste modi itaque error quidem illo pariatur
+								obcaecati. Reiciendis saepe quisquam provident. Lorem ipsum dolor, sit amet consectetur
+								adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum quibusdam illo ducimus
+								nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae
+								distinctio?
+							</p>
+							<br />
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex
+								alias assumenda placeat expedita earum. Eum iste modi itaque error quidem illo pariatur
+								obcaecati. Reiciendis saepe quisquam provident. Lorem ipsum dolor, sit amet consectetur
+								adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum quibusdam illo ducimus
+								nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae
+								distinctio?
+							</p>
+
+							<blockquote>
+								{" "}
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fugit! Voluptate
+								optio sequi cumque libero hic odit officia dolor velit totam, modi, fugit alias!
+								Consectetur suscipit temporibus a debitis earum?
+							</blockquote>
+
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex
+								alias assumenda placeat expedita earum. Eum iste modi itaque error quidem illo pariatur
+								obcaecati. Reiciendis saepe quisquam provident. Lorem ipsum dolor, sit amet consectetur
+								adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum quibusdam illo ducimus
+								nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae
+								distinctio?
+							</p>
+
+							<ul>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+									ratione distinctio incidunt quasi omnis nobis commodi quisquam? Illum earum
+									inventore provident mollitia natus quo doloremque obcaecati alias! Lorem ipsum dolor
+									sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae
+									explicabo, ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio,
+									culpa molestiae nisi ratione in.
+								</li>
+								<li>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+									ratione distinctio incidunt quasi omnis nobis commodi quisquam? Illum earum
+									inventore provident mollitia natus quo doloremque obcaecati alias! Lorem ipsum dolor
+									sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae
+									explicabo, ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio,
+									culpa molestiae nisi ratione in.
+								</li>
+							</ul>
+						</Div>
+						<Div className="col-xl-5 col-lg-6">
+							<Div className="cs-radius_15 cs-shine_hover_1">
+								<img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
+							</Div>
+							<Spacing lg="0" md="40" />
+						</Div>
+					</Div>
+					<Div className="row align-items-center">
+						{/* Image à gauche, Texte à droite */}
+						<Div className="col-xl-5 col-lg-6">
+							<Div className="cs-radius_15 cs-shine_hover_1">
+								<img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
+							</Div>
+							<Spacing lg="0" md="40" />
+						</Div>
+						<Div className="col-lg-6">
+							<h2>Titre Part 3</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus
+								ratione distinctio incidunt quasi omnis nobis commodi quisquam? Illum earum inventore
+								provident mollitia natus quo doloremque obcaecati alias! Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae explicabo,
+								ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae
+								nisi ratione in.
+							</p>
+						</Div>
+					</Div>
+				</Div>
+				{/* test */}
 				<Spacing lg="120" md="50" />
 				<Div className="container">
 					<Div className="row align-items-center">
 						<Div className="col-xl-5 col-lg-6">
 							<Div className="cs-radius_15 cs-shine_hover_1">
-								<img src="/images/service_img_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
+								<img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
 							</Div>
 							<Spacing lg="0" md="40" />
 						</Div>

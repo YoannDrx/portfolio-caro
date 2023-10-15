@@ -15,6 +15,9 @@ import ServiceList from "../components/ServiceList";
 import { useState } from "react";
 import Portfolio from "../components/Portfolio";
 import { Icon } from "@iconify/react";
+import VideoModal from "../components/VideoModal";
+import TeamSlider from "../components/Slider/ProjectSlider";
+import ProjectSlider from "../components/Slider/ProjectSlider";
 
 export default function Home() {
 	const [itemShow, setItemShow] = useState(6);
@@ -173,7 +176,6 @@ export default function Home() {
 					bgImageUrl="./images/hero_bg_4.jpg"
 				/>
 				{/* End Hero Section */}
-
 				{/* Start Expertises */}
 				<Spacing lg="145" md="80" />
 				<Div className="container">
@@ -182,7 +184,6 @@ export default function Home() {
 					<ServiceList />
 				</Div>
 				{/* End Expertises */}
-
 				{/* Start Projects Section */}
 				<Spacing lg="145" md="80" />
 				<Div className="container">
@@ -225,11 +226,9 @@ export default function Home() {
 					</Div>
 				</Div>
 				{/* End Projects Section */}
-
 				{/* Start Portfolio Section */}
-				<Spacing lg="150" md="80" />
+				{/* <Spacing lg="150" md="80" />
 				<SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center mb-5" />
-
 				{portfolioData.map((item, index) =>
 					index % 2 === 0 ? (
 						<Div key={index}>
@@ -256,11 +255,11 @@ export default function Home() {
 							<Spacing lg="100" md="70" />
 						</Div>
 					)
-				)}
+				)} */}
 				{/* End Portfolio Section */}
 
 				{/* Start Case Study Section */}
-				<Spacing lg="45" md="10" />
+				{/* <Spacing lg="45" md="10" />
 				<Div className="container">
 					<SectionHeading
 						title="Obtention de Subventions"
@@ -280,33 +279,51 @@ export default function Home() {
 					bgUrl="/images/case_study_1.jpeg"
 					href="/case-study-details"
 				/>
-				<Spacing lg="150" md="80" />
+				<Spacing lg="150" md="80" /> */}
 				{/* End Case Study Section */}
-
-				{/* Start Testimonial Section */}
-				<TestimonialSlider />
-				{/* End Testimonial Section */}
 
 				{/* Start MovingText Section */}
 				<Spacing lg="125" md="70" />
-				<MovingText text="Créez librement. Vos oeuvres entre de bonnes mains." />
+				<div onClick={() => setShowModal(true)}>
+					<MovingText text="Le track de la semaine : Téléraptor -- " />
+				</div>
 				<Spacing lg="105" md="70" />
+
+				<Div className="container">
+					<VideoModal
+						videoSrc={"https://www.youtube.com/watch?v=SyagJTQVvPw"}
+						bgUrl={
+							"https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/386598005_861429018816503_308010468001017714_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6tH4K73ZWuEAX-rldib&_nc_ht=scontent-cdg4-3.xx&oh=00_AfA6lMB9TcA0OjzJPKhqNRXtbTPYWWJyxep6Ds5ETH6EkQ&oe=65301529"
+						}
+					/>
+				</Div>
 				{/* End MovingText Section */}
 
+				{/* Début de la section Équipe */}
+				{/* Vous pouvez supprimer cette section si elle n'est pas pertinente pour vous */}
+				<Spacing lg="145" md="80" />
+				<Div className="container">
+					<SectionHeading title="Les projets récents" subtitle="Actus" variant="cs-style1" />
+					<Spacing lg="85" md="45" />
+					<ProjectSlider />
+					<Spacing lg="85" md="45" />
+				</Div>
+				{/* Fin de la section Équipe */}
 				{/* Start LogoList Section */}
 				<Div className="container">
+					<Spacing lg="85" md="45" />
+
 					<LogoList />
 				</Div>
-				<Spacing lg="150" md="80" />
+				<Spacing lg="85" md="45" />
 				{/* End LogoList Section */}
-
 				{/* Start CTA Section */}
 				<Div className="container">
 					<Cta
-						title="Unissons nos forces pour <br /> protéger et valoriser votre <i>art</i>"
-						btnText="Discutons ensemble"
-						btnLink="/contact"
-						bgSrc="/images/cta_bg_3.jpeg"
+						title="De la musique <br /> pour vos <i>images</i> ? "
+						btnText="cliquez ici"
+						btnLink="https://www.parigomusic.com/"
+						bgSrc="/images/orange-texture.jpg"
 					/>
 				</Div>
 				{/* End CTA Section */}
