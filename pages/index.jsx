@@ -173,7 +173,6 @@ export default function Home() {
 					bgImageUrl="./images/hero_bg_4.jpg"
 				/>
 				{/* End Hero Section */}
-
 				{/* Start Expertises */}
 				<Spacing lg="145" md="80" />
 				<Div className="container">
@@ -182,7 +181,6 @@ export default function Home() {
 					<ServiceList />
 				</Div>
 				{/* End Expertises */}
-
 				{/* Start Projects Section */}
 				<Spacing lg="145" md="80" />
 				<Div className="container">
@@ -225,11 +223,9 @@ export default function Home() {
 					</Div>
 				</Div>
 				{/* End Projects Section */}
-
 				{/* Start Portfolio Section */}
 				<Spacing lg="150" md="80" />
 				<SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center mb-5" />
-
 				{portfolioData.map((item, index) =>
 					index % 2 === 0 ? (
 						<Div key={index}>
@@ -258,7 +254,6 @@ export default function Home() {
 					)
 				)}
 				{/* End Portfolio Section */}
-
 				{/* Start Case Study Section */}
 				<Spacing lg="45" md="10" />
 				<Div className="container">
@@ -282,31 +277,26 @@ export default function Home() {
 				/>
 				<Spacing lg="150" md="80" />
 				{/* End Case Study Section */}
-
-				{/* Start Testimonial Section */}
-				<TestimonialSlider />
-				{/* End Testimonial Section */}
-
 				{/* Start MovingText Section */}
 				<Spacing lg="125" md="70" />
-				<MovingText text="Créez librement. Vos oeuvres entre de bonnes mains." />
+				<div onClick={() => setShowModal(true)}>
+					<MovingText text="Le track de la semaine : Téléraptor -- " />
+				</div>{" "}
 				<Spacing lg="105" md="70" />
 				{/* End MovingText Section */}
-
 				{/* Start LogoList Section */}
 				<Div className="container">
 					<LogoList />
 				</Div>
 				<Spacing lg="150" md="80" />
 				{/* End LogoList Section */}
-
 				{/* Start CTA Section */}
 				<Div className="container">
 					<Cta
-						title="Unissons nos forces pour <br /> protéger et valoriser votre <i>art</i>"
-						btnText="Discutons ensemble"
-						btnLink="/contact"
-						bgSrc="/images/cta_bg_3.jpeg"
+						title="De la musique <br /> pour vos <i>images</i> ? "
+						btnText="cliquez ici"
+						btnLink="https://www.parigomusic.com/"
+						bgSrc="/images/orange-texture.jpg"
 					/>
 				</Div>
 				{/* End CTA Section */}
