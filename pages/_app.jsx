@@ -6,7 +6,6 @@ import { BlogFilterProvider } from "../context/BlogFilterContext";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "../lang/en";
-import de from "../lang/de";
 import fr from "../lang/fr";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
@@ -15,9 +14,6 @@ i18n.use(initReactI18next).init({
 	resources: {
 		en: {
 			translation: en,
-		},
-		de: {
-			translation: de,
 		},
 		fr: {
 			translation: fr,
