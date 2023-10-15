@@ -1,7 +1,7 @@
 ---
-title: "Collective management of copyright: how does it work internationally?
+title: "Collective management of copyright: how does it work internationally?"
 subtitle: "Collective management organizations (CMOs) around the world"
-date: "11/05/2021
+date: "11/05/2021"
 category: "Copyright"
 slug: "collective-management-of-copyright"
 thumb: "/images/recent_post_1.jpeg"
