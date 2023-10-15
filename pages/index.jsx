@@ -15,6 +15,7 @@ import ServiceList from "../components/ServiceList";
 import { useState } from "react";
 import Portfolio from "../components/Portfolio";
 import { Icon } from "@iconify/react";
+import VideoModal from "../components/VideoModal";
 
 export default function Home() {
 	const [itemShow, setItemShow] = useState(6);
@@ -278,10 +279,18 @@ export default function Home() {
 				<Spacing lg="150" md="80" />
 				{/* End Case Study Section */}
 				{/* Start MovingText Section */}
-				<Spacing lg="125" md="70" />
+				{/* <Spacing lg="125" md="70" /> */}
 				<div onClick={() => setShowModal(true)}>
 					<MovingText text="Le track de la semaine : Téléraptor -- " />
-				</div>{" "}
+				</div>
+				<Spacing lg="105" md="70" />
+
+				<VideoModal
+					videoSrc={"https://www.youtube.com/watch?v=SyagJTQVvPw"}
+					bgUrl={
+						"https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/386598005_861429018816503_308010468001017714_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6tH4K73ZWuEAX-rldib&_nc_ht=scontent-cdg4-3.xx&oh=00_AfA6lMB9TcA0OjzJPKhqNRXtbTPYWWJyxep6Ds5ETH6EkQ&oe=65301529"
+					}
+				/>
 				<Spacing lg="105" md="70" />
 				{/* End MovingText Section */}
 				{/* Start LogoList Section */}
