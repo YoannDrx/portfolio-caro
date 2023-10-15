@@ -2,9 +2,9 @@ import React from "react";
 import Div from "../Div";
 import ContactInfoWidget from "../Widget/ContactInfoWidget";
 import MenuWidget from "../Widget/MenuWidget";
-import Newsletter from "../Widget/Newsletter";
 import SocialWidget from "../Widget/SocialWidget";
 import TextWidget from "../Widget/TextWidget";
+import RecentPostFooter from "../Widget/RecentPostFooter";
 
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 	const copyrightLinks = [
@@ -19,7 +19,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 		{
 			title: "Politique de cookies",
 			href: "/politique-cookies",
-		}
+		},
 	];
 
 	const serviceMenu = [
@@ -38,6 +38,23 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 		{
 			title: "Consultation en droits d’auteur",
 			href: "/service/consultation-droits-auteur",
+		},
+	];
+
+	const firstTwoPosts = [
+		{
+			title: "Comment protéger votre musique?",
+			href: "/blog/comment-proteger-musique",
+			date: "2021-02-11",
+			thumb: "/images/recent_post_1.jpeg",
+			slug : "comment-proteger-musique"
+		},
+		{
+			title: "Comment protéger votre musique?",
+			href: "/blog/comment-proteger-musique",
+			date: "2021-02-11",
+			thumb: "/images/recent_post_1.jpeg",
+			slug : "comment-proteger-musique"
 		},
 	];
 
@@ -68,11 +85,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 						</Div>
 						<Div className="col-lg-3 col-sm-6">
 							<Div className="cs-footer_item">
-								<Newsletter
-									title="Newsletter"
-									subtitle="Restez à jour avec les dernières actualités et tendances en droits d’auteur et production musicale."
-									placeholder="example@gmail.com"
-								/>
+								<RecentPostFooter title="Articles Récents" data={firstTwoPosts} />
 							</Div>
 						</Div>
 					</Div>
