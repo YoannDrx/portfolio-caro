@@ -85,6 +85,11 @@ export default function Header({ variant }) {
 											</Link>
 										</li>
 										<li className={isActive("/faq") ? "active" : ""}>
+											<Link href="/labels" onClick={() => handleLinkClick("/faq")}>
+												Labels
+											</Link>
+										</li>
+										<li className={isActive("/faq") ? "active" : ""}>
 											<Link href="/faq" onClick={() => handleLinkClick("/faq")}>
 												Faq
 											</Link>

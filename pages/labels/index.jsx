@@ -8,7 +8,7 @@ import SectionHeading from '../../components/SectionHeading';
 import Spacing from '../../components/Spacing';
 import Team from '../../components/Team';
 
-export default function TeamPage() {
+export default function LabelPage() {
   const teamData = [
     {
       memberImage: '/images/member_1.jpeg',
@@ -108,14 +108,14 @@ export default function TeamPage() {
       </Head>
       <Layout>
         <PageHeading
-          title="Our Team"
+          title="Les Labels"
           bgSrc="images/team_hero_bg.jpeg"
-          pageLinkText="Team"
+          pageLinkText="Labels"
         />
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Meet our awesome <br/>team members"
+            title="Découvrez <br/> de nouveaux talents."
             subtitle="Our Team"
             variant="cs-style1 text-center"
           />

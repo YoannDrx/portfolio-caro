@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import Div from '../Div';
 import Team from '../Team';
 
-export default function TeamSlider() {
+export default function ProjectSlider() {
   /** Team Member Data **/
   const teamData = [
     {
