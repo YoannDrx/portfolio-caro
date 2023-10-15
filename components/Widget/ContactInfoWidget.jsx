@@ -9,15 +9,6 @@ export default function ContactInfoWidget({ withIcon, title }) {
 				<li>
 					{withIcon ? (
 						<span className="cs-accent_color">
-							<Icon icon="material-symbols:add-call-rounded" />
-						</span>
-					) : (
-						"www.parigomusic.com"
-					)}
-				</li>
-				<li>
-					{withIcon ? (
-						<span className="cs-accent_color">
 							<Icon icon="mdi:envelope" />
 						</span>
 					) : (
