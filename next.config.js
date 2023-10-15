@@ -1,13 +1,14 @@
 /** @type {import('next').NextConfig} */
 const en = require ('./lang/en.json')
-const de = require ('./lang/de.json')
+const fr = require ('./lang/fr.json')
+
 
 const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 
 	i18n: {
-		locales: ["fr", "en", "de"],
+		locales: ["fr", "en",],
 		defaultLocale: "fr",
 	},
 	async rewrites() {
@@ -21,7 +22,7 @@ const nextConfig = {
 					  }
 					: null
 			),
-			...Object.entries(de).map(([key, value]) =>
+			...Object.entries(fr).map(([key, value]) =>
 				key[0] === "/"
 					? {
 							source: `${value}`,

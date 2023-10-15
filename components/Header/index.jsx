@@ -113,14 +113,6 @@ export default function Header({ variant }) {
 														className="flag-img"
 													/>
 												)}
-												{currentLanguage === "de" && (
-													<img
-														src="/images/flags/de-flag.png"
-														alt="English Flag"
-														width={30}
-														className="flag-img"
-													/>
-												)}
 
 												{t("header.navbar.langue")}
 											</Link>
@@ -155,21 +147,6 @@ export default function Header({ variant }) {
 																className="flag-img"
 															/>
 															English
-														</Link>
-													</li>
-													<li>
-														<Link
-															href={t(router.pathname, { lng: "de" })}
-															locale="de"
-															onClick={() => setMobileToggle(false)}
-														>
-															<img
-																src="/images/flags/de-flag.png"
-																alt="English Flag"
-																width={30}
-																className="flag-img"
-															/>
-															Deutch
 														</Link>
 													</li>
 												</ul>
