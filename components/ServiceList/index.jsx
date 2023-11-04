@@ -1,69 +1,25 @@
-import Link from 'next/link';
-import React, { useState } from 'react';
-import Div from '../Div';
+import Link from "next/link";
+import React, { useState } from "react";
+import Div from "../Div";
 
-export default function ServiceList() {
-  const serviceData = [
-    {
-      title: 'Gestion des droits d’auteur',
-      subtitle:
-        'Nous sécurisons votre catalogue musical et veillons à la protection de vos œuvres, tout en maximisant leur valeur.',
-      imgUrl: '/images/service_7.jpeg',
-      href: '/service/gestion-droits-auteur',
-    },
-    {
-      title: 'Production musicale',
-      subtitle:
-        'De la pré-production à la distribution, nous gérons chaque étape pour assurer la réussite de vos projets musicaux.',
-      imgUrl: '/images/service_8.jpeg',
-      href: '/service/production-musicale',
-    },
-    {
-      title: 'Obtention de subventions',
-      subtitle:
-        'Nous vous guidons à travers le processus complexe d’obtention de subventions pour financer vos projets musicaux.',
-      imgUrl: '/images/service_9.jpeg',
-      href: '/service/obtention-subventions',
-    },
-    {
-      title: 'Consultation en droits d’auteur',
-      subtitle:
-        'Bénéficiez de conseils experts pour naviguer dans le paysage juridique des droits d’auteur et protéger efficacement vos œuvres.',
-      imgUrl: '/images/service_10.jpeg',
-      href: '/service/consultation-droits-auteur',
-    },
-  ];
+export default function ServiceList({ services }) {
   const [active, setActive] = useState(0);
-  const handelActive = index => {
+  const handelActive = (index) => {
     setActive(index);
   };
   return (
     <Div className="cs-iconbox_3_list">
-      {serviceData.map((item, index) => (
-        <Div
-          className={`cs-hover_tab ${active === index ? 'active' : ''}`}
-          key={index}
-          onMouseEnter={() => handelActive(index)}
-        >
-          <Link href={item.href} className="cs-iconbox cs-style3">
+      {services.map((service, index) => (
+        <Div className={`cs-hover_tab ${active === index ? "active" : ""}`} key={index} onMouseEnter={() => handelActive(index)}>
+          <Link href={service.href} className="cs-iconbox cs-style3">
             <>
               <Div className="cs-image_layer cs-style1 cs-size_md">
                 <Div className="cs-image_layer_in">
-                  <img
-                    src={item.imgUrl}
-                    alt="Thumb"
-                    className="w-100 cs-radius_15"
-                  />
+                  <img src={service.imgUrl} alt="Thumb" className="w-100 cs-radius_15" />
                 </Div>
               </Div>
               <span className="cs-iconbox_icon cs-center">
-                <svg
-                  width={30}
-                  height={29}
-                  viewBox="0 0 30 29"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg width={30} height={29} viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z"
                     fill="currentColor"
@@ -71,8 +27,8 @@ export default function ServiceList() {
                 </svg>
               </span>
               <Div className="cs-iconbox_in">
-                <h2 className="cs-iconbox_title">{item.title}</h2>
-                <Div className="cs-iconbox_subtitle">{item.subtitle}</Div>
+                <h2 className="cs-iconbox_title">{service.title}</h2>
+                <Div className="cs-iconbox_subtitle">{service.description}</Div>
               </Div>
             </>
           </Link>
