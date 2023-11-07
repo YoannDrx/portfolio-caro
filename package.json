@@ -26,8 +26,6 @@
     "react-water-wave": "^2.0.1",
     "react-youtube": "^10.1.0",
     "remark": "^15.0.1",
-    "remark-gfm": "^4.0.0",
-    "remark-html": "^16.0.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^9.0.5"
   },

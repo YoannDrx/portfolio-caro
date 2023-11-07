@@ -13,11 +13,10 @@ import TestimonialSlider from "../../components/Slider/TestimonialSlider";
 import Spacing from "../../components/Spacing";
 import fs from "fs";
 import path from "path";
-import { remark } from "remark";
-import html from "remark-html";
 import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import matter from "gray-matter";
+import ImageAndTextRight from "../../components/ImageAndTextRight";
+import ImageAndTextLeft from "../../components/ImageAndTextLeft";
 
 export async function getStaticProps({ params }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
@@ -29,29 +28,26 @@ export async function getStaticProps({ params }) {
   // Utiliser gray-matter pour analyser les métadonnées du contenu du fichier
   const matterResult = matter(fileContents);
 
-  // Fonction pour découper le contenu Markdown en sections
+  // matterResult.data contient les métadonnées YAML
+  const metaData = matterResult.data;
+
   const splitMarkdownIntoSections = (markdownContent) => {
     const sectionDelimiter = "<!-- section:end -->";
-    return markdownContent.split(sectionDelimiter).map((section) => section.replace("<!-- section:start -->", "").trim());
+    return markdownContent
+      .split(sectionDelimiter)
+      .map((section) => section.replace("<!-- section:start -->", "").replace("<!-- section:end -->", "").trim());
   };
 
-  // Diviser le contenu en sections
+  // Diviser le contenu en sections Markdown
   const markdownSections = splitMarkdownIntoSections(matterResult.content);
-
-  // Convertir chaque section Markdown en HTML
-  const htmlSections = await Promise.all(
-    markdownSections.map(async (section) => {
-      const processedContent = await remark().use(html).process(section);
-      return processedContent.toString();
-    })
-  );
 
   // Retourner les sections HTML et les métadonnées comme props de la page
   return {
     props: {
-      htmlSections,
+      markdownSections,
       ...matterResult.data,
       serviceId: params.serviceId,
+      metaData,
     },
   };
 }
@@ -66,12 +62,24 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: "blocking", // ou 'blocking' si vous souhaitez SSR pour les nouvelles routes
+    fallback: "blocking",
   };
 }
 
-export default function ServiceDetails({ htmlSections, contentHtml, serviceId }) {
+export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   const router = useRouter();
+
+  // Utiliser les métadonnées directement
+  const { title, description, imgUrl, titlePart1, descPart1, titlePart2, descPart2, titlePart3, descPart3 } = metaData;
+
+  // Utiliser les sections Markdown
+  const title1 = markdownSections[0];
+  const desc1 = markdownSections[1];
+  const title2 = markdownSections[2];
+  const desc2 = markdownSections[3];
+  const title3 = markdownSections[4];
+  const desc3 = markdownSections[5];
+
   return (
     <>
       <Head>
@@ -80,160 +88,119 @@ export default function ServiceDetails({ htmlSections, contentHtml, serviceId })
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Détails du Service" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={serviceId} />
+        <PageHeading title="Mes expertises" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={serviceId} />
         <Spacing lg="145" md="80" />
         <Div className="container">
-          <SectionHeading
-            title="Processus de gestion des droits"
-            subtitle="Gestion des Droits d'Auteur"
-            variant="cs-style1 text-center"
-          />
+          <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" />
           <Spacing lg="90" md="45" />
           <Div className="row">
             <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_1.svg"
-                title="Identification"
-                subtitle="Identification des œuvres et des ayants droit, suivi des licences et des contrats."
-              />
+              <IconBox icon="/images/icons/service_icon_1.svg" title={titlePart1} subtitle={descPart1} />
               <Spacing lg="30" md="30" />
             </Div>
             <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_2.svg"
-                title="Monétisation"
-                subtitle="Stratégies pour maximiser les revenus générés par les droits d'auteur."
-              />
+              <IconBox icon="/images/icons/service_icon_2.svg" title={titlePart2} subtitle={descPart2} />
               <Spacing lg="30" md="30" />
             </Div>
             <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_3.svg"
-                title="Protection"
-                subtitle="Mise en place de mesures pour protéger les œuvres et les droits d'auteur."
-              />
+              <IconBox icon="/images/icons/service_icon_3.svg" title={titlePart3} subtitle={descPart3} />
               <Spacing lg="30" md="30" />
             </Div>
           </Div>
         </Div>
 
-        <Div className="container">
-          <article dangerouslySetInnerHTML={{ __html: htmlSections[0] }} />
-        </Div>
+        <ImageAndTextRight title={title1} imagePath="/images/post_1.jpeg" altText="Service">
+          <ReactMarkdown
+            children={desc1}
+            components={{
+              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+              a: ({ node, ...props }) => <a className={"link"} {...props} />,
+              p: ({ node, ...props }) => {
+                // Vérifier si le texte du paragraphe commence par "=>"
+                const children = React.Children.toArray(props.children);
+                const firstChild = children[0];
 
-        <Div className="container">
-          <article dangerouslySetInnerHTML={{ __html: htmlSections[1] }} />
-          {/* <ReactMarkdown remarkPlugins={[remarkGfm]} children={serviceContent} /> */}
-        </Div>
+                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
 
-        {/* test */}
+                // Si le premier enfant est un tableau, vérifier son premier élément
+                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
+
+                // Sinon, retourner un paragraphe normal
+                return <p {...props} />;
+              },
+            }}
+          />
+        </ImageAndTextRight>
+
+        <ImageAndTextLeft title={title2} imagePath="/images/post_1.jpeg" altText="Service">
+          <ReactMarkdown
+            children={desc2}
+            components={{
+              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+              a: ({ node, ...props }) => <a className={"link"} {...props} />,
+              p: ({ node, ...props }) => {
+                // Vérifier si le texte du paragraphe commence par "=>"
+                const children = React.Children.toArray(props.children);
+                const firstChild = children[0];
+
+                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
+
+                // Si le premier enfant est un tableau, vérifier son premier élément
+                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
+
+                // Sinon, retourner un paragraphe normal
+                return <p {...props} />;
+              },
+            }}
+          />
+        </ImageAndTextLeft>
+
+        <ImageAndTextRight title={title3} imagePath="/images/post_1.jpeg" altText="Service">
+          <ReactMarkdown
+            children={desc3}
+            components={{
+              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+              a: ({ node, ...props }) => <a className={"link"} {...props} />,
+              p: ({ node, ...props }) => {
+                // Vérifier si le texte du paragraphe commence par "=>"
+                const children = React.Children.toArray(props.children);
+                const firstChild = children[0];
+
+                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
+
+                // Si le premier enfant est un tableau, vérifier son premier élément
+                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                  // Appliquer un style personnalisé ou une classe CSS
+                  return <p className={"subtitleMarkdown"} {...props} />;
+                }
+
+                // Sinon, retourner un paragraphe normal
+                return <p {...props} />;
+              },
+            }}
+          />
+        </ImageAndTextRight>
+
         <Spacing lg="120" md="50" />
 
-        <Div className="container">
-          <Div className="row align-items-center">
-            {/* Image à gauche, Texte à droite */}
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-6">
-              <h2>Titre Part 1</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus ratione distinctio incidunt
-                quasi omnis nobis commodi quisquam? Illum earum inventore provident mollitia natus quo doloremque obcaecati alias!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae explicabo,
-                ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae nisi ratione in.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus</li>
-              </ul>
-            </Div>
-          </Div>
-          <Spacing lg="50" md="30" />
-          <Div className="row align-items-center">
-            {/* Texte à gauche, Image à droite */}
-            <Div className="col-lg-6">
-              <h2>Titre Part 2</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex alias assumenda placeat
-                expedita earum. Eum iste modi itaque error quidem illo pariatur obcaecati. Reiciendis saepe quisquam provident.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum
-                quibusdam illo ducimus nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae distinctio?
-              </p>
-              <br />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex alias assumenda placeat
-                expedita earum. Eum iste modi itaque error quidem illo pariatur obcaecati. Reiciendis saepe quisquam provident.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum
-                quibusdam illo ducimus nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae distinctio?
-              </p>
-
-              <blockquote>
-                {" "}
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fugit! Voluptate optio sequi cumque libero
-                hic odit officia dolor velit totam, modi, fugit alias! Consectetur suscipit temporibus a debitis earum?
-              </blockquote>
-
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem doloremque, ex alias assumenda placeat
-                expedita earum. Eum iste modi itaque error quidem illo pariatur obcaecati. Reiciendis saepe quisquam provident.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cupiditate sed quas ex deserunt, laborum
-                quibusdam illo ducimus nemo quaerat similique amet, velit quasi eum officia molestias asperiores vitae distinctio?
-              </p>
-
-              <ul>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus ratione distinctio incidunt
-                  quasi omnis nobis commodi quisquam? Illum earum inventore provident mollitia natus quo doloremque obcaecati
-                  alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae
-                  explicabo, ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae nisi ratione
-                  in.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus ratione distinctio incidunt
-                  quasi omnis nobis commodi quisquam? Illum earum inventore provident mollitia natus quo doloremque obcaecati
-                  alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae
-                  explicabo, ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae nisi ratione
-                  in.
-                </li>
-              </ul>
-            </Div>
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-          </Div>
-          <Div className="row align-items-center">
-            {/* Image à gauche, Texte à droite */}
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-6">
-              <h2>Titre Part 3</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga minima delectus ratione distinctio incidunt
-                quasi omnis nobis commodi quisquam? Illum earum inventore provident mollitia natus quo doloremque obcaecati alias!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore numquam blanditiis beatae explicabo,
-                ipsa porro soluta ducimus corporis hic iusto maiores, minus neque optio, culpa molestiae nisi ratione in.
-              </p>
-            </Div>
-          </Div>
-        </Div>
-        {/* test */}
-        <Spacing lg="120" md="50" />
         <Div className="container">
           <Div className="row align-items-center">
             <Div className="col-xl-5 col-lg-6">
