@@ -3,6 +3,12 @@ title: "Gestion de la distribution physique et digitale"
 description: "description de la gestion de la distribution physique et digitale"
 slug: "gestion-distribution"
 imgUrl: "/images/service_7.jpeg"
+titlePart1: ""
+descPart1: ""
+titlePart2: ""
+descPart2: ""
+titlePart3: ""
+descPart3: ""
 ---
 
 # GESTION DE LA DISTRIBUTION PHYSIQUE ET DIGITALE
