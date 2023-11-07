@@ -1,6 +1,6 @@
 ---
 title: "La gestions des droits d’auteur"
-description: "Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que 'compositeur' fait est à celui qui en compose la musique."
+description: "Le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson"
 slug: "droits-auteur"
 imgUrl: "/images/service_7.jpeg"
 titlePart1: "Les Droits d’auteur"

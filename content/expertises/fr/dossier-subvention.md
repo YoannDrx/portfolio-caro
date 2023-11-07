@@ -3,6 +3,12 @@ title: "Gestion des dossiers de subvention"
 description: "description de la gestion des dossiers de subvention"
 slug: "dossier-subvention"
 imgUrl: "/images/service_7.jpeg"
+titlePart1: ""
+descPart1: ""
+titlePart2: ""
+descPart2: ""
+titlePart3: ""
+descPart3: ""
 ---
 
 # Gestion des dossiers de subvention

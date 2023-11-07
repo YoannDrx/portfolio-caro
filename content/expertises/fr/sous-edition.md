@@ -3,6 +3,12 @@ title: "La sous-édition musicale"
 description: "description de la sous édition"
 slug: "sous-edition"
 imgUrl: "/images/service_7.jpeg"
+titlePart1: ""
+descPart1: ""
+titlePart2: ""
+descPart2: ""
+titlePart3: ""
+descPart3: ""
 ---
 
 # La Gestion des œuvres en sous-édition

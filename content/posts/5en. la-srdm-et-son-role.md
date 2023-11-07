@@ -1,6 +1,6 @@
 ---
 title: "SDRM: its role in the remuneration of mechanical rights"
-subtitle: "Understanding the workings of the Société pour l'Administration du Droit de Reproduction Mécanique (Society for the Administration of Mechanical Reproduction Rights)"
+subtitle: "Understanding the workings of the Société pour l'Administration du Droit de Reproduction Mécanique"
 date: "11/05/202"
 category: "Copyright"
 slug: "role-sdrm-remuneration-droits-mecaniques"
@@ -27,8 +27,8 @@ SDRM plays a pivotal role in the protection, collection and redistribution of me
 
 ## Authorization procedures (source SDRM)
 
--   When you obtain authorization from SDRM, it's important to note that it applies only to reproduction rights for the production of a record. However, aspects such as moral rights, derivative rights - including the right of arrangement, the right of adaptation and the right of translation - do not fall within this scope. Similarly, authorization does not extend to rights related to copyright.
--   To request authorization, your profile must meet certain conditions. You must be of legal age, or the legal representative of a minor or a person under guardianship or trusteeship.
+- When you obtain authorization from SDRM, it's important to note that it applies only to reproduction rights for the production of a record. However, aspects such as moral rights, derivative rights - including the right of arrangement, the right of adaptation and the right of translation - do not fall within this scope. Similarly, authorization does not extend to rights related to copyright.
+- To request authorization, your profile must meet certain conditions. You must be of legal age, or the legal representative of a minor or a person under guardianship or trusteeship.
 
 ## Instructions for obtaining authorization.
 
@@ -59,8 +59,8 @@ Simply send us your request number in the "text" field of your order or as a com
 1. Don't forget to [make your authorization request online](http://clients.sacem.fr/autorisations) When you take the initiative, you'll have the opportunity to create your own OPO (Work by Work) producer account. This will give you the opportunity to list all the works you wish to reproduce. Once you have completed your application and accepted the terms and conditions, you will receive an application number.
 2. SDRM will then check that the works you wish to reproduce belong to the repertoires it represents. You will receive, directly to your online account, an estimate detailing the amount of royalties to be paid.
 3. There are several ways to pay royalties to SDRM:
-    - by credit card, by logging on to your producer account [OPO online](http://clients.sacem.fr/autorisations);
-    - by bank transfer, using the SDRM bank details available on [the online help section](http://opo.sacem.fr/);
-    - by check, payable to SDRM, to be sent to this address: SDRM (OPO) 225, avenue Charles de Gaulle 92528 Neuilly-sur-Seine cedex. Please note the number(s) of your request(s) on the back of the cheque;
-    - in cash, if you prefer to pay on site at our premises in Neuilly-sur-Seine, provided that the amount does not exceed €1,100 including tax.
+   - by credit card, by logging on to your producer account [OPO online](http://clients.sacem.fr/autorisations);
+   - by bank transfer, using the SDRM bank details available on [the online help section](http://opo.sacem.fr/);
+   - by check, payable to SDRM, to be sent to this address: SDRM (OPO) 225, avenue Charles de Gaulle 92528 Neuilly-sur-Seine cedex. Please note the number(s) of your request(s) on the back of the cheque;
+   - in cash, if you prefer to pay on site at our premises in Neuilly-sur-Seine, provided that the amount does not exceed €1,100 including tax.
 4. Confirmation of your authorization will be sent to you by e-mail once your payment has been received by SDRM. You will then receive a receipted debit note, which will act as your invoice.
