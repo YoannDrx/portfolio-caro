@@ -1,0 +1,44 @@
+{
+  "expertises": [
+    {
+      "id": 1,
+      "slug": "gestion-droits-auteur",
+      "title": "Gestion des droits d’auteur",
+      "subtitle": "Nous vous aidons à développer votre carrière et à maximiser vos revenus.",
+      "imgUrl": "/images/service_7.jpeg",
+      "href": "/expertise/gestion-droits-auteur",
+      "sections": {
+        "droitDauteur": {},
+        "droitVoisin": {},
+        "gestionAdministrative": {}
+      }
+    },
+    {
+      "id": 2,
+      "slug": "production-musicale",
+      "title": "Sous-édition",
+      "subtitle": "Nous vous aidons à développer votre carrière et à maximiser vos revenus.",
+      "imgUrl": "/images/service_8.jpeg",
+      "href": "/expertise/production-musicale",
+      "sections": {}
+    },
+    {
+      "id": 3,
+      "slug": "obtention-subventions",
+      "title": "Gestion de la distribution physique et digitale",
+      "subtitle": "Nous vous aidons à développer votre carrière et à maximiser vos revenus.",
+      "imgUrl": "/images/service_9.jpeg",
+      "href": "/expertise/obtention-subventions",
+      "sections": {}
+    },
+    {
+      "id": 4,
+      "slug": "consultation-droits-auteur",
+      "title": "Gestion des dossiers de subvention",
+      "subtitle": "Nous vous aidons à développer votre carrière et à maximiser vos revenus.",
+      "imgUrl": "/images/service_10.jpeg",
+      "href": "/expertise/consultation-droits-auteur",
+      "sections": {}
+    }
+  ]
+}
