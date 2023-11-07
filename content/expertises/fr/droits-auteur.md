@@ -1,25 +1,28 @@
 ---
-title: "Les Droits d’auteur"
+title: "La gestions des droits d’auteur"
 description: "Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que 'compositeur' fait est à celui qui en compose la musique."
 slug: "droits-auteur"
 imgUrl: "/images/service_7.jpeg"
+titlePart1: "Les Droits d’auteur"
+descPart1: "Gérer les droits d’auteur"
+titlePart2: "Les Droits voisins"
+descPart2: "Gérer les droits d’artiste-interprète"
+titlePart3: "La Gestion des œuvres en sous-édition"
+descPart3: "La sous-édition"
 ---
 
 <!-- section:start -->
 
-# Part 1 : Les Droits d’auteur
+Part 1 : Les Droits d’auteur
 
 <!-- section:end -->
+<!-- section:start -->
 
-![Mon image](/images/service_7.jpeg "Titre facultatif")
+=> **Gérer les droits d’auteur :**
 
-- **Gérer les droits d’auteur :**
-
-Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que 'compositeur' fait est à celui qui en compose la musique.
+> Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que 'compositeur' fait est à celui qui en compose la musique.
 
 Ces deux acteurs jouissent de droits de propriété équivalents sur leurs créations, d'où le terme d’"auteur-compositeur". En réalité, cela peut désigner deux personnes différentes.
-
-<!-- section:start -->
 
 Cependant, il se peut qu'une seule et même personne remplisse ces deux rôles, assumant ainsi simultanément le rôle d'auteur et de compositeur. De plus, nous distinguons les compositions musicales sans parole, dans lesquelles seuls les compositeurs interviennent.
 
@@ -29,7 +32,7 @@ Cela implique que l'auteur est le propriétaire du texte qu'il a écrit et que l
 
 L'éditeur musical représente un partenaire essentiel pour l’auteur-compositeur. Il a pour rôle d'aider ces derniers à exploiter leurs œuvres pour développer leur carrière. Ainsi, l'éditeur cherchera toutes opportunités possibles pour promouvoir et diffuser l'œuvre musicale en question (paroles et musique, ensemble ou séparément).
 
-- **Rédiger les contrats de cession et d’édition**
+=> **Rédiger les contrats de cession et d’édition**
 
 En matière de contrats dans le domaine musical, le contrat de cession et d’édition musicale se distingue comme l'unique contrat qui bénéficie d'une réglementation stricte, ainsi qu'un modèle approuvé par les syndicats professionnels.
 
@@ -43,7 +46,7 @@ Il est important de préciser que même si l'auteur-compositeur est également i
 
 Le contrat de cession et d’édition sera enregistré à la SACEM afin de documenter toutes les œuvres faisant l’objet de ce contrat.
 
-- **Rédiger les pactes de préférence éditoriale :**
+=> **Rédiger les pactes de préférence éditoriale :**
 
 Lorsque l’auteur-compositeur conclut un accord de cession et d'édition avec un éditeur, il cède ses droits d'auteur sur des œuvres déjà créées.
 
@@ -61,7 +64,7 @@ Ainsi, si l'éditeur décide d'exercer son droit de préférence, l’auteur-com
 
 Et si l’éditeur refuse l’œuvre présentée, alors l’auteur-compositeur est LIBRE de l’exploiter lui-même ou de la proposer à un autre éditeur.
 
-- **Superviser la répartition des droits patrimoniaux :**
+=> **Superviser la répartition des droits patrimoniaux :**
 
 Tels qu'évoqués par leur appellation, les droits patrimoniaux représentent le patrimoine des auteurs et des compositeurs, ce sont des droits économiques.
 
@@ -69,12 +72,14 @@ En effet, ces droits permettent à l'auteur-compositeur d'être rémunéré en �
 
 Sur le plan juridique, on distingue 2 catégories principales d'exploitation de la musique qui nécessitent l'accord des créateurs. Cela correspond essentiellement aux 2 principaux modes d'exploitation d'une œuvre musicale :
 
-- **La diffusion de l'œuvre musicale à un public : si quelqu’un souhaite interpréter une œuvre musicale devant un public ou la diffuser auprès d’une audience, les auteurs-compositeurs doivent être rémunérés et leur autorisation est requise. C’est ce qu’on appelle le DROIT DE REPRÉSENTATION.**
+=> **La diffusion de l'œuvre musicale à un public**
+Si quelqu’un souhaite interpréter une œuvre musicale devant un public ou la diffuser auprès d’une audience, les auteurs-compositeurs doivent être rémunérés et leur autorisation est requise. C’est ce qu’on appelle le DROIT DE REPRÉSENTATION.
+
 - La fixation d’une œuvre sur un support : l'impression de l'œuvre sur une partition musicale (qui est un support physique), l’enregistrement et la gravure sur un CD ou un vinyle, l’enregistrement sous un format numérique nécessitent également l’autorisation et la rémunération des auteurs-compositeurs. Il s’agit du **DROIT DE REPRODUCTION**.
 
 > _De nos jours, les droits patrimoniaux sur une œuvre musicale demeurent en vigueur pendant une durée de 70 ans après le décès du dernier ayant-droit : l’œuvre continue de générer des droits pendant toute la vie de l’auteur-compositeur jusqu’à 70 ans après sa mort._
 
-- **Rechercher et identifier les œuvres non identifiées à la SACEM :**
+=> **Rechercher et identifier les œuvres non identifiées à la SACEM :**
 
 La Sacem a pris des mesures concernant les « irrépartissables », à savoir les droits d’auteur générés par des œuvres non identifiées qui finissent par être reversés au compte de gestion de la société, faute de pouvoir les attribuer.
 
@@ -82,9 +87,16 @@ _Il est possible en tant qu’éditeur ou auteur d’accéder à l’application
 
 Ce service a été développé dans le but de nous permettre de donner tout élément d’information en notre possession de nature à aider à identifier les titulaires de droits, soit les auteurs, compositeurs et éditeurs, des œuvres en instance d’identification à la Sacem. Dès revendication des droits et vérification des informations transmises (ayants-droits, code COCV de l’œuvre, correction orthographique du nom de l’œuvre…) les montants de droits mis en suspend seront versés lors de la prochaine répartition correspondante.
 
-# Part 2 : Les Droits voisins
+<!-- section:end -->
+<!-- section:start -->
 
-- **Gérer les droits d’artiste-interprète :**
+Part 2 : Les Droits voisins
+
+<!-- section:end -->
+
+<!-- section:start -->
+
+=> **Gérer les droits d’artiste-interprète :**
 
 Un artiste-interprète est défini comme la personne qui chante, récite, joue ou exécute de toute autre manière une œuvre littéraire ou artistique : cela englobe les chanteurs, choristes, musiciens, danseurs, comédiens, acrobates ainsi que les artistes de cirque ou de marionnettes.
 
@@ -110,13 +122,13 @@ Il existe cependant certaines exceptions où l'autorisation de l'artiste n'est p
 
 En contrepartie de ce "droit perdu", il a été décidé de compenser l'artiste-interprète : ainsi, conformément à la loi Lang de 1985, deux formes de compensations financières ont été introduites :
 
-- **La rémunération équitable** :
+=> **La rémunération équitable** :
 
 En 1985, une solution a été conçue pour permettre aux utilisateurs de musique (y compris ceux de la radio, de la télévision, des établissements de soirée, des bars, des supermarchés, des restaurants, en fait, tous les lieux publics qui diffusent de la musique) de pouvoir diffuser des enregistrements qui ont été commercialisés sans obligation de solliciter préalablement l'autorisation des artistes ou des producteurs. Cette solution, nommée "Rémunération équitable", implique le versement d'une redevance par ces utilisateurs. La tâche de collecter cette Rémunération équitable auprès des lieux de diffusion et des stations de radio/télévision a été confiée à une organisation appelée la SPRÉ. (lien vers le site)
 
 _La Rémunération équitable est ensuite redistribuée de façon équitable entre les producteurs phonographiques et les artistes-interprètes, en passant respectivement par leurs sociétés de gestion collective._
 
-- **La copie privée** :
+=> **La copie privée** :
 
 Instaurée en 1985, la copie privée est une compensation financière rattachée au droit de propriété de l'artiste sur son oeuvre. Selon la loi française, seul l'artiste possède le droit d'autoriser ou d'interdire la reproduction de son interprétation ou sa copie.
 
@@ -130,19 +142,19 @@ Il a été décidé que les fabricants et les importateurs de supports vierges s
 
 _Les droits patrimoniaux ont une durée actuelle de 70 ans à compter de la mise à la disposition du public de l’enregistrement. Après cela, l’œuvre rejoint le domaine public._
 
-- **Rédiger les contrats d’artiste (principal ou d’accompagnement)**
+=> **Rédiger les contrats d’artiste (principal ou d’accompagnement)**
 
 Le "contrat d'artiste", également dénommé "contrat d'enregistrement exclusif", est un contrat conclue entre le producteur de musique et l'artiste-interprète pour réaliser et commercialiser un enregistrement. L'enregistrement des interprétations des artistes appartient à ces derniers.
 
 _Dans la plupart des cas, le producteur phonographique est une entreprise ou une association, souvent appelée "label" ou "maison de disques"._
 
-- **L'Artiste Principal :**
+=> **L'Artiste Principal :**
 
 L'artiste-interprète principal peut être un individu sur un projet solo, ou un soliste au sein d'un orchestre. Parfois, un groupe musical est considéré en tant qu'artiste principal.
 
 L'artiste principal est irremplaçable, et sans ce dernier, le concert est annulé. Il s'agit de l'artiste dont le nom figure sur la pochette de l'album.
 
-- **L'Artiste d'Accompagnement**
+=> **L'Artiste d'Accompagnement**
 
 L'artiste-interprète d'accompagnement, également nommé musicien additionnel, est engagé pour une session d'enregistrement, un concert ou même une tournée. Il peut être choriste, musicien de studio quel que soit son instrument.
 
@@ -154,7 +166,7 @@ La différence entre l'artiste principal et l'artiste d'accompagnement ne change
 
 "contrat d'enregistrement" ou une feuille de présence Spedidam et sera généralement rémunéré par prestations.
 
-- **Superviser les dépenses en tant que producteur phonographique :**
+=> **Superviser les dépenses en tant que producteur phonographique :**
 
 En qualité de producteur phonographique, vous êtes chargé de financer l’enregistrement ainsi que de la réalisation du master. Cela s'applique pour des enregistrements de plusieurs types : un titre unique, un EP de 4 titres ou un album complet de plusieurs titres.
 
@@ -196,7 +208,7 @@ En d'autres termes, le producteur a désormais le pouvoir de donner ou de refuse
 
 Pour obtenir l'autorisation de diffuser son enregistrement, le producteur doit, en amont, avoir reçu l'approbation de tous les musiciens impliqués.
 
-- **Rédiger et superviser les contrats de licence :**
+=> **Rédiger et superviser les contrats de licence :**
 
 Le producteur phonographique est celui qui a financé l’enregistrement et qui détient la propriété DU MASTER.
 
@@ -204,9 +216,7 @@ Désormais, son objectif est de commercialiser son enregistrement, ce qui signif
 
 **Pour ce faire, trois actions principales lui sont indispensables** :
 
-► La fabrication de copies (s'il souhaite commercialiser des supports physiques - CD,
-
-Vinyles...)
+► La fabrication de copies (s'il souhaite commercialiser des supports physiques - CD, Vinyles...)
 
 ► La distribution de son enregistrement (sur Internet, être référencé sur tous les plateformes de streaming et/ou être vendu dans le maximum de points de vente)
 
@@ -230,7 +240,7 @@ Il opte plutôt pour l'INVESTISSEMENT dans la commercialisation : il assure la p
 
 _L'éditeur PHONOGRAPHIQUE, comme son appellation l'indique, sa mission est de commercialiser un "phonogramme" = UN ENREGISTREMENT. Ce dernier peut prendre la forme d'un support physique (CD, Vinyles...) ou numérique._
 
-- **Déposer les œuvres aux organismes de gestion collective des producteurs :**
+=> **Déposer les œuvres aux organismes de gestion collective des producteurs :**
 
 La législation confère aux producteurs le pouvoir d'autoriser l'utilisation de leurs œuvres et de solliciter une compensation financière en conséquence. Ils bénéficient également des "rémunérations légales" (redevance équitable et copie privée). Pour chaque diffusion de leur enregistrement (radio, télévision, internet), l'artiste doit donner son consentement et recevoir une rémunération en retour.
 
@@ -252,7 +262,7 @@ Pour plus d’informations : le site de la SPPF
 
 _Les producteurs sont invités à FAIRE UN CHOIX entre la SCPP et la SPPF._
 
-- **Créer des codes ISRC :**
+=> **Créer des codes ISRC :**
 
 **\*Attention** :  pour déposer ses enregistrements, le producteur phonographique doit attribuer à chacun de ses enregistrements un code ISRC.\*
 
@@ -295,10 +305,17 @@ Aujourd’hui les démarches sont devenues beaucoup plus simple, il vous suffit 
 - si l'enregistrement appartient à un autre producteur,
 - si l'enregistrement dispose déjà d'un code ISRC,
 - si la durée est modifiée de moins de cinq secondes pour une même version.
+<!-- section:end -->
 
-# La Gestion des œuvres en sous-édition
+<!-- section:start -->
 
-- **La sous-édition :**
+Part 3 : La Gestion des œuvres en sous-édition
+
+<!-- section:end -->
+
+<!-- section:start -->
+
+=> **La sous-édition :**
 
 Le Code de la propriété intellectuelle n'évoque pas le cas particulier de la sous-édition. Les principales références en la matière sont donc les règles internes édictées par la Sacem, le contrat type élaboré par la CSDEM, ainsi que les pratiques de la profession, très diversifiées en la matière.
 
@@ -308,7 +325,7 @@ Contractuelle d'abord, parce que Le Code de la propriété intellectuelle oblige
 
 Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interprètes, des professionnels du disque, de l'audiovisuel, du cinéma, de la publicité, du spectacle vivant, des jeux vidéo…du monde entier sans prendre en compte les différences culturelles et les us et coutumes de chaque milieu professionnel.
 
-**Déposer et enregistrer les contrats et les œuvres sous-éditées :**
+=> **Déposer et enregistrer les contrats et les œuvres sous-éditées :**
 
 **Il existe trois sortes de contrats de sous-édition :**
 
@@ -324,7 +341,7 @@ Par lequel un éditeur original cède tout ou partie de son catalogue (l'ensembl
 
 C'est un contrat général pour lequel la cession n'est acquise que pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, les œuvres acquises par la suite par l'éditeur devant faire l'objet de levée d'option de la part du sous-éditeur.
 
-**Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :**
+=> **Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :**
 
 - Le territoire cédé
 
@@ -340,7 +357,7 @@ Il est toutefois à noter que la Sacem interdit à un éditeur de céder le terr
 
 La Cisac (Confédération internationale des sociétés d'auteurs et compositeurs) impose une durée minimale de contrat de trois ans, la prorogation de ce contrat pouvant l'être pour des périodes plus courtes. Dans les faits, ces contrats sont souvent conclus pour une durée initiale allant de trois à cinq ans.
 
-- **Les missions confiées au sous-éditeur :**
+=> **Les missions confiées au sous-éditeur :**
 
 Les missions confiées au sous-éditeur peuvent varier suivant la nature de l'œuvre, l'enjeu lié à chaque type d'exploitation pour celle-ci. Néanmoins, on retrouve certaines constantes, à la base même de la sous-édition :
 
@@ -354,15 +371,16 @@ Concernant l'exploitation phonographique et vidéographique, les contrats de sou
 
 _La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans._
 
-- **Gérer la sous-édition des labels ci-dessous :**
+=> **Gérer la sous-édition des labels ci-dessous :**
 
-# Part 3 : La Gestion Administrative et éditoriale pour des productions d’audiovisuel
+Part 3 : La Gestion Administrative et éditoriale pour des productions d’audiovisuel
 
 _La gestion éditoriale ne cesse de prendre de l'importance avec l'émergence de sociétés d'édition ne souhaitant pas perdre de temps avec les nombreuses contraintes qui pèsent sur l'édition._
 
 _Les éditeurs qui souhaitent se dégager des tâches fastidieuses font donc appel soit à des éditeurs plus structurés, soit à des prestataires spécialisés dans cette activité, afin d'assurer la gestion de leur catalogue éditorial. Le recours à la gestion éditoriale de son catalogue est très fréquent chez les sociétés éditoriales contrôlées par des interprètes, des managers d'interprètes, des producteurs audiovisuels, des producteurs cinématographiques, des agences de publicité, des diffuseurs._
 
-- **Mes missions :**
+**Mes missions :**
+
 - Admission de la structure éditoriale à la Sacem
 - Rédaction des contrats de cession et d’édition
 - Rédaction des documents de dépôt (fiche technique audiovisuelle, relevé musical, bulletins de déclaration)
@@ -374,359 +392,104 @@ La rémunération du gestionnaire se fait sous forme de pourcentage des droits �
 
 Le contrat de gestion éditoriale doit être transmis au service juridique de la Sacem.
 
-- **Gestion administrative et éditoriale pour LITTLE BIG STORY :**
+=> **Gestion administrative et éditoriale pour LITTLE BIG STORY :**
 
 Little Big Story est une société de production audiovisuelle française et basée à Paris, dédiée aux documentaires, aux formats longs et à l’international. Elle entend revisiter les modes narratifs en croisant les formes, les genres et les supports, afin de raconter des histoires qui mettent l’époque à nu. Little Big Story a tiré les leçons d’un marché émietté, et d’une révolution audiovisuelle en cours. Cette démarche est fondée sur l’idée d’un (télé)spectateur-citoyen déjà nourri d’images et exigeant. C’est une démarche d’avenir, porteuse de projets ambitieux et de financements multiples. Par leur forme et leur fond, les projets visent des audiences larges, en France et sur le marché international.
 
-Little Big Story est Lauréat du PRIX DU PRODUCTEUR DE TÉLÉVISION 2018 (catégorie documentaire)
+- [little big story est lauréat du prix du producteur de télévision 2018 (catégorie documentaire)](https://www.film-documentaire.fr/4DACTION/w_liste_generique/S_67401_G)
+- [numero 387 disparu en méditerranée](http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1)
+- [bnp paribas dans les eaux troubles de la plus grande banque européenne](https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0)
+- [l’empire de l’or rouge](https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0)
+- [la democratie du dollar](https://www.13prods.fr/la-democratie-du-dollar/)
+- [taiwan une démocratie à l’ombre de la chine](http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324)
+- [marcus klingberg un pur espion](https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0)
+- [les poisons de poutine – la menace](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0)
+- [les poisons de poutine – une nouvelle guerre froide](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68281_0)
+- [les poisons de poutine – une nouvelle guerre froide (alternative link)](http://www.film-documentaire.fr/4DACTION/w_fiche_film/68282)
+- [les oublies de l'atome](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272)
+- [la femme sans nom – l’histoire de jeanne et baudelaire](https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire)
+- [la femme sans nom – l’histoire de jeanne et baudelaire (alternative link)](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0)
 
-https://www.film-documentaire.fr/4DACTION/w_liste_generique/S_67401_G
-
-NUMERO 387 DISPARU EN MÉDITERRANÉE
-
-http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1
-
-BNP PARIBAS dans les eaux troubles de la plus grande banque européenne
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0
-
-L’EMPIRE DE L’OR ROUGE
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0
-
-LA DEMOCRATIE DU DOLLAR
-
-https://www.13prods.fr/la-democratie-du-dollar/
-
-TAIWAN une démocratie à l’ombre de la Chine
-
-http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324
-
-MARCUS KLINGBERG UN PUR ESPION
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0
-
-LES POISONS DE POUTINE – LA MENACE
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0
-
-LES POISONS DE POUTINE – UNE NOUVELLE GUERRE FROIDE
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/68281_0
-
-LES POISONS DE POUTINE – UNE NOUVELLE GUERRE FROIDE
-
-http://www.film-documentaire.fr/4DACTION/w_fiche_film/68282
-
-LES OUBLIES DE L'ATOME
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272
-
-LA FEMME SANS NOM – L’HISTOIRE DE JEANNE ET BAUDELAIRE
-
-https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0
-
-- **Gestion administrative et éditoriale pour 13 PRODS :**
+=> **Gestion administrative et éditoriale pour 13 PRODS :**
 
 13 Productions est née du rapprochement de deux sociétés de productions 13 production et 13 au sud. Deux sociétés aux profils différents mais complémentaires et compatibles en termes de ligne éditoriale. Fusionnant l’expérience et la modernité, 13 Productions explore et enrichit le cinéma documentaire, tout en assumant sa présence singulière dans le domaine de la fiction. Questionner le monde, enquêter sur ses rouages, souligner les points de fracture et les lignes d’utopie en partageant la vie d’hommes et de femmes engagés, voilà ce qui dynamise l’enthousiasme de 13 productions.
 
-https://www.13prods.fr/
-
-GURS UN SILENCE ASSOURDISSANT
-
-https://www.13prods.fr/gurs-un-silence-assourdissant/
-
-CANCRE ?
-
-https://www.13prods.fr/cancre/
-
-GENERATION GRAND BLEU
-
-https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/
-
-MA CITE MON VILLAGE
-
-https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/
-
-LE PROCES D'AUSCHWITZ LA FIN DU SILENCE
-
-https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/
-
-LES OUVRIERES DU MADE IN France
-
-https://www.13prods.fr/les-ouvrieres-du-made-in-france/
-
-LA GREVE DU SIECLE
-
-https://www.13prods.fr/68lagrevedusiecle/
-
-REVES DE PRINCESSE
-
-https://www.13prods.fr/reves-de-princesses/
-
-MAKATEA LA TERRE CONVOITEE
-
-https://www.13prods.fr/makatea-une-terre-convoitee/
-
-PAR NOS YEUX
-
-https://www.13prods.fr/par-nos-yeux/
-
-39-45 LES RESISTANTES ALLEMANDES
-
-https://www.13prods.fr/39-45-les-resistantes-allemandes/
-
-MAYOTTE LES COMBATTANTES
-
-https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/
-
-LES OUBLIES DE LA JUSTICE
-
-https://www.13prods.fr/les-oublies-de-la-justice/
-
-MAYOTTE L'ENFANCE EN DANGER
-
-https://www.13prods.fr/mayotte-lenfance-en-danger/
-
-LA BROUSSE UNE TERRE EN PARTAGE
-
-https://www.13prods.fr/la-brousse-une-terre-en-partage/
-
-OPERATION BIODIVERSITE
-
-https://www.13prods.fr/operation-biodiversite/
-
-MES PARENTS CES HEROS ORDINAIRES
-
-https://www.13prods.fr/mes-parents-ces-heros-ordinaires/
-
-T GROS
-
-https://www.13prods.fr/t-gros/
-
-GUADELOUPE LES SOLDATS DE LA TERRE
-
-https://www.13prods.fr/les-soldats-de-la-terre/
-
-LES FEMMES DU TROISIEME REICH
-
-https://www.13prods.fr/les-femmes-du-iiie-reich/
-
-A vous de juger
-
-https://www.13prods.fr/a-vous-de-juger/
-
-LE TROISIEME REICH N’AURA PAS LA BOMBE
-
-https://www.13prods.fr/le-3eme-reich-naura-pas-la-bombe/
-
-MIQUELON ENTRE DEUX EAUX
-
-https://www.13prods.fr/entre-deux-eaux/
-
-LES MURS DE LA HONTE
-
-https://www.13prods.fr/les-murs-de-la-honte/
-
-LA RUMEUR D'ORLEANS
-
-https://www.13prods.fr/la-rumeur-dorleans/
-
-MARTINIQUE LA RECONQUETE DE LA TERRE
-
-https://www.13prods.fr/martinique-reconquete-terre/
-
-De Gérard à Mr Collomb itinéraire d'un baron
-
-https://www.13prods.fr/itineraire-d-un-baron/
-
-Gaudin l'heure de l'inventaire
-
-https://www.13prods.fr/gaudin-lheure-de-linventaire/
-
-Juppé un roman bordelais
-
-https://www.13prods.fr/juppe-un-roman-bordelais/
-
-Martine Aubry la dame de Lille
-
-https://www.13prods.fr/aubry-la-dame-de-lille/
-
-PETIT PAYS JE T’AIME BEAUCOUP
-
-https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/
-
-OUTRE MER 100 ANS EN CLICHES
-
-https://www.13prods.fr/outremer-100-ans-en-cliches/
-
-CLEARSTREAM ET MOI
-
-https://www.13prods.fr/clearstream/
-
-KARIM CONTRE MITTAL
-
-https://www.13prods.fr/karim-contre-mittal/
-
-SOLIDARNOSC LA PREMIERE BRECHE
-
-https://www.13prods.fr/solidarnosc-la-premiere-breche/
-
-GUYANE UNDERGROUND
-
-https://www.13prods.fr/guyane-underground/
-
-DECONFINES EN RE
-
-https://www.13prods.fr/deconfines-en-re/
-
-COGOLIN VILLE A PRENDRE
-
-https://www.13prods.fr/cogolin-ville-a-prendre/
-
-NOUS NE SOMMES RIEN SOYONS TOUT
-
-https://www.13prods.fr/nous-ne-sommes-rien-soyons-tout/
-
-DECONNECTES LES OUBLIES DU NUMERIQUE
-
-https://www.13prods.fr/deconnectes-les-oublies-du-numerique/
-
-DIAM A JUL MARSEILLE CAPITALE RAP
-
-https://www.13prods.fr/rap-marseille/
-
-ANDRE MAILFERT L’EPOPEE D’UN FAUSSAIRE INDISTRIEL
-
-https://www.13prods.fr/andre-mailfert/
-
-LA DOUBLE VIE DU COGNAC
-
-https://www.13prods.fr/la-double-vie-du-cognac/
-
-CHANTER A TOUT PRIX
-
-https://www.13prods.fr/chanter-a-tout-prix/
-
-CONCORDAT ET LAICITE, L’EXCEPTION
-
-https://www.13prods.fr/concordat-et-laicite/
-
-PAS FOLLE LA LIBERTE
-
-https://www.13prods.fr/pas-folle-la-liberte/
-
-COMMENT TE DIRE ADIEU
-
-https://www.13prods.fr/comment-te-dire-adieu/
-
-LE TEMPS D'AIMER
-
-https://www.13prods.fr/le-temps-daimer/
-
-L'EVEIL DU DESIR
-
-https://www.13prods.fr/leveil-du-desir/
-
-Les résistants de Mauthausen
-
-https://www.13prods.fr/mauthausen/
-
-LACHE TON SMARTPHONE
-
-https://www.13prods.fr/lache-ton-smartphone/
-
-UNIQUE EN MON GENRE
-
-https://www.13prods.fr/unique-en-mon-genre/
-
-Jean Jouzel dans la bataille du siècle
-
-https://www.13prods.fr/jean-jouzel-la-bataille-du-siecle/
-
-CAHIER D’UN RETOUR EN LANGUE NATALE
-
-https://www.13prods.fr/cahier-dun-retour-en-langue-natale/
-
-LE MINISTERE
-
-https://www.13prods.fr/le-ministere/
-
-MASQUE DE FER
-
-https://www.13prods.fr/masque-de-fer/
-
-Eric Piolle, le pelerin vert
-
-https://www.13prods.fr/eric-piolle-le-pelerin-vert/
-
-Mic Mac à Millau, les paysans face à la mondialisation
-
-https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/
-
-VOTEZ JEUNESSE
-
-https://www.13prods.fr/votez-jeunesse/
-
-J'IRAI CRIER SUR VOS MURS
-
-https://www.13prods.fr/jirai-crier-sur-vos-murs/
-
-Plonger pour guérir
-
-https://www.13prods.fr/plonger-pour-guerir/
-
-Filles de Harkis
-
-https://www.13prods.fr/filles-de-harkis/
-
-Des Antilles au Djebel, les Antillais dans la guerre d’Algérie
-
-https://www.13prods.fr/des-antilles-au-djebel/
-
-SOUS LA LOI DES TALIBANS
-
-https://www.13prods.fr/sous-la-loi-des-talibans/
-
-SOUVENIRS EN CUISINE
-
-https://www.13prods.fr/souvenirs-en-cuisine/
-
-CABRERA UN SECRET REVELE
-
-https://www.13prods.fr/cabrera-un-secret-revele/
-
-LA CLINIQUE DE L'AMOUR
-
-https://www.13prods.fr/la-clinique-de-lamour/
-
-QUAND L'AFRIQUE SAUVA LA France
-
-https://www.13prods.fr/quand-l-afrique-sauva-la-france/
-
-CALANQUES LES USINES DU BOUT DU MONDE
-
-https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/
-
-Almodovar l'insolent de la Mancha
-
-https://www.13prods.fr/almodovar-linsolent-de-la-mancha/
-
-EN JACHERE
-
-https://www.13prods.fr/en-jachere/
-
-AVANT QUE LA GRANDE NACRE MEURE
-
-https://www.13prods.fr/avant-que-la-grande-nacre-meure/
-
-UNE DEUXIEME CHANCE
-
-https://www.13prods.fr/deuxieme-chance/
-
-- **LES CO-PRODUCTIONS AVEC pop’films** :
+- [13 Productions](https://www.13prods.fr/)
+- [Gurs un silence assourdissant](https://www.13prods.fr/gurs-un-silence-assourdissant/)
+- [Cancre ?](https://www.13prods.fr/cancre/)
+- [Génération Grand Bleu](https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/)
+- [Ma cité mon village](https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/)
+- [Le procès d'Auschwitz la fin du silence](https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/)
+- [Les ouvrières du Made in France](https://www.13prods.fr/les-ouvrieres-du-made-in-france/)
+- [La grève du siècle](https://www.13prods.fr/68lagrevedusiecle/)
+- [Rêves de princesses](https://www.13prods.fr/reves-de-princesses/)
+- [Makatea la terre convoitée](https://www.13prods.fr/makatea-une-terre-convoitee/)
+- [Par nos yeux](https://www.13prods.fr/par-nos-yeux/)
+- [39-45 Les résistantes allemandes](https://www.13prods.fr/39-45-les-resistantes-allemandes/)
+- [Mayotte les combattantes](https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/)
+- [Les oubliés de la justice](https://www.13prods.fr/les-oublies-de-la-justice/)
+- [Mayotte l'enfance en danger](https://www.13prods.fr/mayotte-lenfance-en-danger/)
+- [La brousse une terre en partage](https://www.13prods.fr/la-brousse-une-terre-en-partage/)
+- [Opération biodiversité](https://www.13prods.fr/operation-biodiversite/)
+- [Mes parents ces héros ordinaires](https://www.13prods.fr/mes-parents-ces-heros-ordinaires/)
+- [T gros](https://www.13prods.fr/t-gros/)
+- [Guadeloupe les soldats de la terre](https://www.13prods.fr/les-soldats-de-la-terre/)
+- [Les femmes du troisième Reich](https://www.13prods.fr/les-femmes-du-iiie-reich/)
+- [À vous de juger](https://www.13prods.fr/a-vous-de-juger/)
+- [Le troisième Reich n'aura pas la bombe](https://www.13prods.fr/le-3eme-reich-naura-pas-la-bombe/)
+- [Miquelon entre deux eaux](https://www.13prods.fr/entre-deux-eaux/)
+- [Les murs de la honte](https://www.13prods.fr/les-murs-de-la-honte/)
+- [La rumeur d'Orléans](https://www.13prods.fr/la-rumeur-dorleans/)
+- [Martinique la reconquête de la terre](https://www.13prods.fr/martinique-reconquete-terre/)
+- [De Gérard à Mr Collomb itinéraire d'un baron](https://www.13prods.fr/itineraire-d-un-baron/)
+- [Gaudin l'heure de l'inventaire](https://www.13prods.fr/gaudin-lheure-de-linventaire/)
+- [Juppé un roman bordelais](https://www.13prods.fr/juppe-un-roman-bordelais/)
+- [Martine Aubry la dame de Lille](https://www.13prods.fr/aubry-la-dame-de-lille/)
+- [Petit pays je t'aime beaucoup](https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/)
+- [Outre Mer 100 ans en clichés](https://www.13prods.fr/outremer-100-ans-en-cliches/)
+- [Clearstream et moi](https://www.13prods.fr/clearstream/)
+- [Karim contre Mittal](https://www.13prods.fr/karim-contre-mittal/)
+- [Solidarnosc la première brèche](https://www.13prods.fr/solidarnosc-la-premiere-breche/)
+- [Guyane Underground](https://www.13prods.fr/guyane-underground/)
+- [Déconfinés en Ré](https://www.13prods.fr/deconfines-en-re/)
+- [Cogolin ville à prendre](https://www.13prods.fr/cogolin-ville-a-prendre/)
+- [Nous ne sommes rien soyons tout](https://www.13prods.fr/nous-ne-sommes-rien-soyons-tout/)
+- [Déconnectés les oubliés du numérique](https://www.13prods.fr/deconnectes-les-oublies-du-numerique/)
+- [Diam a Jul Marseille capitale rap](https://www.13prods.fr/rap-marseille/)
+- [André Mailfert l'épopée d'un faussaire industriel](https://www.13prods.fr/andre-mailfert/)
+- [La double vie du cognac](https://www.13prods.fr/la-double-vie-du-cognac/)
+- [Chanter à tout prix](https://www.13prods.fr/chanter-a-tout-prix/)
+- [Concordat et laïcité, l'exception](https://www.13prods.fr/concordat-et-laicite/)
+- [Pas folle la liberté](https://www.13prods.fr/pas-folle-la-liberte/)
+- [Comment te dire adieu](https://www.13prods.fr/comment-te-dire-adieu/)
+- [Le temps d'aimer](https://www.13prods.fr/le-temps-daimer/)
+- [L'éveil du désir](https://www.13prods.fr/leveil-du-desir/)
+- [Les résistants de Mauthausen](https://www.13prods.fr/mauthausen/)
+- [Lâche ton smartphone](https://www.13prods.fr/lache-ton-smartphone/)
+- [Unique en mon genre](https://www.13prods.fr/unique-en-mon-genre/)
+- [Jean Jouzel dans la bataille du siècle](https://www.13prods.fr/jean-jouzel-la-bataille-du-siecle/)
+- [Cahier d'un retour en langue natale](https://www.13prods.fr/cahier-dun-retour-en-langue-natale/)
+- [Le ministère](https://www.13prods.fr/le-ministere/)
+- [Masque de fer](https://www.13prods.fr/masque-de-fer/)
+- [Eric Piolle, le pèlerin vert](https://www.13prods.fr/eric-piolle-le-pelerin-vert/)
+- [Mic Mac à Millau, les paysans face à la mondialisation](https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/)
+- [Votez jeunesse](https://www.13prods.fr/votez-jeunesse/)
+- [J'irai crier sur vos murs](https://www.13prods.fr/jirai-crier-sur-vos-murs/)
+- [Plonger pour guérir](https://www.13prods.fr/plonger-pour-guerir/)
+- [Filles de Harkis](https://www.13prods.fr/filles-de-harkis/)
+- [Des Antilles au Djebel, les Antillais dans la guerre d’Algérie](https://www.13prods.fr/des-antilles-au-djebel/)
+- [Sous la loi des Talibans](https://www.13prods.fr/sous-la-loi-des-talibans/)
+- [Souvenirs en cuisine](https://www.13prods.fr/souvenirs-en-cuisine/)
+- [Cabrera un secret révélé](https://www.13prods.fr/cabrera-un-secret-revele/)
+- [La clinique de l'amour](https://www.13prods.fr/la-clinique-de-lamour/)
+- [Quand l'Afrique sauva la France](https://www.13prods.fr/quand-l-afrique-sauva-la-france/)
+- [Calanques les usines du bout du monde](https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/)
+- [Almodovar l'insolent de la Mancha](https://www.13prods.fr/almodovar-linsolent-de-la-mancha/)
+- [En jachère](https://www.13prods.fr/en-jachere/)
+- [Avant que la grande nacre meure](https://www.13prods.fr/avant-que-la-grande-nacre-meure/)
+- [Une deuxième chance](https://www.13prods.fr/deuxieme-chance/)
+
+=> **LES CO-PRODUCTIONS AVEC pop’films** :
 
 Pop’films est une société de production créée en 2021. https://popfilms.fr/
 
@@ -736,39 +499,16 @@ Son parcours dans l’audiovisuel, commencé en 1988 au sein de l’agence Géd�
 
 Aujourd’hui pop’films souhaite collaborer avec les diffuseurs et d’autres producteurs pour continuer à promouvoir la culture dans tous ses états, avec des programmes qui nous aident à prendre du recul sur notre actualité, que ce soit à travers la réflexion ou le divertissement. Plus que tout, pop’films veut défendre une culture populaire et élégante, accessible à tous.
 
-Patrick Edlinger, la liberté au bout des doigts
+- [patrick edlinger, la liberté au bout des doigts](https://popfilms.fr/index.php/edlinger-la-liberte-au-bout-des-doigts/)
+- [naissance d’un héros noir au cinéma, sweet sweetback](https://www.13prods.fr/sweet-sweetback/)
+- [chants grégoriens 2.0](https://www.13prods.fr/chants-gregoriens-2-0/)
+- [jamie lee curtis un cri de liberté à hollywood](https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/)
+- [georges perec, l’homme qui ne voulait pas oublier](https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/)
+- [si loin de la polynésie](https://www.13prods.fr/si-loin-de-la-polynesie/)
+- [jules verne et le défi du tour du monde](https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/)
+- [gorongosa, le parc de la réconciliation](https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/)
 
-https://popfilms.fr/index.php/edlinger-la-liberte-au-bout-des-doigts/
-
-Naissance d’un héros noir au cinéma, SWEET SWEETBACK
-
-https://www.13prods.fr/sweet-sweetback/
-
-CHANTS GREGORIENS 2.0
-
-https://www.13prods.fr/chants-gregoriens-2-0/
-
-JAMIE LEE CURTIS UN CRI DE LIBERTE A HOLLYWOOD
-
-https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/
-
-Georges Perec, l’homme qui ne voulait pas oublier
-
-https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/
-
-SI LOIN DE LA POLYNESIE
-
-https://www.13prods.fr/si-loin-de-la-polynesie/
-
-JULES VERNE ET LE DEFI DU TOUR DU MONDE
-
-https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/
-
-Gorongosa, le parc de la réconciliation
-
-https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/
-
-- **Gestion administrative et éditoriale pour VIA DECOUVERTES FILMS :**
+=> **Gestion administrative et éditoriale pour VIA DECOUVERTES FILMS :**
 
 Via Découvertes Films concentre son activité sur la production de contenus audiovisuels à destination des programmes de télévisions, des institutions et des entreprises.
 
@@ -780,14 +520,9 @@ Découverte, Environnement, Science, Santé, Société, Investigation, Géopolit
 
 Forte de ses 20 années d’expérience, Via Découvertes Films produit aujourd’hui des films documentaires pour les principaux diffuseurs français publics et privés (France Télévisions, Arte, Canal +…), et compte dans son catalogue plus de 150 films distribués et diffusés dans le monde entier.
 
-https://www.viadecouvertes.fr/
+[https://www.viadecouvertes.fr/](https://www.viadecouvertes.fr/)
 
-LES AMOUREUX DE MARIANNE
-
-https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0
-
-AU NOM DE LA MER
-
-https://www.13prods.fr/au-nom-de-la-mer/
+- [les amoureux de marianne](https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0)
+- [au nom de la mer](https://www.13prods.fr/au-nom-de-la-mer/)
 
 <!-- section:end -->
