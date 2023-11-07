@@ -19,7 +19,6 @@ export default function Contact() {
 		e.preventDefault();
 		emailjs.sendForm("service_hdxsuya", "template_zm2ctt7", form.current, "W4SjcLIIqIH2c8aZX").then(
 			(result) => {
-				console.log(result);
 				toast.success("Message envoyé avec succès !", {
 					position: "bottom-right",
 					autoClose: 5000,

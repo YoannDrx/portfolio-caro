@@ -1,0 +1,29 @@
+{
+  "gestionDroitsDauteur": {
+    "title": "Copyright management",
+    "subtitle": "We help you develop your career and maximize your income.",
+    "imgUrl": "/images/service_7.jpeg",
+    "href": "/service/author-rights management",
+    "droitDauteur": {},
+    "droitVoisin": {},
+    "gestionAdministrative": {}
+  },
+  "sousEdition": {
+    "title": "Sub-editing",
+    "subtitle": "We help you develop your career and maximize your income.",
+    "imgUrl": "/images/service_8.jpeg",
+    "href": "/service/musical-production"
+  },
+  "gestionDistribution": {
+    "title": "Management of physical and digital distribution",
+    "subtitle": "We help you develop your career and maximize your income.",
+    "imgUrl": "/images/service_9.jpeg",
+    "href": "/service/obtaining-grants"
+  },
+  "gestionSubvention": {
+    "title": "Management of grant files",
+    "subtitle": "We help you develop your career and maximize your income.",
+    "imgUrl": "/images/service_10.jpeg",
+    "href": "/service/author-rights consultation"
+  }
+}

@@ -35,7 +35,6 @@ export default function Blog({ allPostsData }) {
 		setCurrentPage,
 	} = useBlogFilters();
 
-	console.log("searchKeyword >>", searchKeyword);
 	const postsPerPage = 4;
 
 	const filteredPosts = allPostsData.filter((post) => {
