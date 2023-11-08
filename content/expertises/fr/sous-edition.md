@@ -1,5 +1,5 @@
 ---
-title: "La sous-édition musicale"
+title: "Sous-édition musicale"
 description: "description de la sous édition"
 slug: "sous-edition"
 imgUrl: "/images/service_7.jpeg"
