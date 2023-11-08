@@ -17,12 +17,14 @@ import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import ImageAndTextRight from "../../components/ImageAndTextRight";
 import ImageAndTextLeft from "../../components/ImageAndTextLeft";
+import Image from "next/image";
+import ExpertiseSection from "../../components/ExpertiseSection";
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, locale }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
   const { serviceId } = params;
   // Construire le chemin du fichier markdown basé sur l'identifiant
-  const filePath = path.join(process.cwd(), "content", "expertises", "fr", `${serviceId}.md`);
+  const filePath = path.join(process.cwd(), "content", "expertises", locale, `${serviceId}.md`);
   // Lire le contenu du fichier
   const fileContents = fs.readFileSync(filePath, "utf8");
   // Utiliser gray-matter pour analyser les métadonnées du contenu du fichier
@@ -52,13 +54,38 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export async function getStaticPaths() {
-  const directory = path.join(process.cwd(), "content", "expertises", "fr");
-  const filenames = fs.readdirSync(directory);
+// export async function getStaticPaths({ locales }) {
+//   const directory = path.join(process.cwd(), "content", "expertises", "fr");
+//   const filenames = fs.readdirSync(directory);
 
-  const paths = filenames.map((filename) => ({
-    params: { serviceId: path.parse(filename).name },
-  }));
+//   const paths = locales.flatMap((locale) => {
+//     const directory = path.join(process.cwd(), "content", "expertises", locale);
+//     const filenames = fs.readdirSync(directory);
+//     return filenames.map((filename) => ({
+//       params: { serviceId: path.parse(filename).name },
+//       locale, // spécifiez la locale ici pour chaque chemin
+//     }));
+//   });
+
+//   return {
+//     paths,
+//     fallback: "blocking",
+//   };
+// }
+export async function getStaticPaths({ locales }) {
+  // Assurez-vous que vous parcourez tous les répertoires de langues
+  // et que vous générez des chemins pour chaque fichier markdown.
+  const paths = locales.flatMap((locale) => {
+    const directory = path.join(process.cwd(), "content", "expertises", locale);
+    const filenames = fs.readdirSync(directory);
+    return filenames.map((filename) => {
+      const serviceId = path.parse(filename).name;
+      return {
+        params: { serviceId },
+        locale,
+      };
+    });
+  });
 
   return {
     paths,
@@ -66,6 +93,28 @@ export async function getStaticPaths() {
   };
 }
 
+const serviceExpertises = [
+  {
+    link: "/service/dossier-subvention",
+    text: "Gestion des dossiers de subvention",
+  },
+  {
+    link: "/service/droits-auteur",
+    text: "Gestions des droits d’auteur",
+  },
+  {
+    link: "/service/droits-voisins",
+    text: "Gestions des droits voisins",
+  },
+  {
+    link: "/service/gestion-des-oeuvres",
+    text: "Gestion des oeuvres",
+  },
+  {
+    link: "/service/gestion-distribution",
+    text: "Gestion de la distribution physique et digitale",
+  },
+];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   const router = useRouter();
 
@@ -74,10 +123,13 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
 
   // Utiliser les sections Markdown
   const title1 = markdownSections[0];
+  console.log("title1 >>", title1);
   const desc1 = markdownSections[1];
   const title2 = markdownSections[2];
+  console.log("title2 >>", title2);
   const desc2 = markdownSections[3];
   const title3 = markdownSections[4];
+  console.log("title3 >>", title3);
   const desc3 = markdownSections[5];
 
   return (
@@ -108,130 +160,120 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
             </Div>
           </Div>
         </Div>
+        {title1 !== undefined ? (
+          <ImageAndTextRight title={title1} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={desc1}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                p: ({ node, ...props }) => {
+                  // Vérifier si le texte du paragraphe commence par "=>"
+                  const children = React.Children.toArray(props.children);
+                  const firstChild = children[0];
 
-        <ImageAndTextRight title={title1} imagePath="/images/post_1.jpeg" altText="Service">
-          <ReactMarkdown
-            children={desc1}
-            components={{
-              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
-              a: ({ node, ...props }) => <a className={"link"} {...props} />,
-              p: ({ node, ...props }) => {
-                // Vérifier si le texte du paragraphe commence par "=>"
-                const children = React.Children.toArray(props.children);
-                const firstChild = children[0];
+                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
+                  // Si le premier enfant est un tableau, vérifier son premier élément
+                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est un tableau, vérifier son premier élément
-                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
+                  // Sinon, retourner un paragraphe normal
+                  return <p {...props} />;
+                },
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
 
-                // Sinon, retourner un paragraphe normal
-                return <p {...props} />;
-              },
-            }}
-          />
-        </ImageAndTextRight>
+        {title2 !== undefined ? (
+          <ImageAndTextLeft title={title2} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={desc2}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17", backgroundColor: "white" }} {...props} />,
+                p: ({ node, ...props }) => {
+                  // Vérifier si le texte du paragraphe commence par "=>"
+                  const children = React.Children.toArray(props.children);
+                  const firstChild = children[0];
 
-        <ImageAndTextLeft title={title2} imagePath="/images/post_1.jpeg" altText="Service">
-          <ReactMarkdown
-            children={desc2}
-            components={{
-              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
-              a: ({ node, ...props }) => <a className={"link"} {...props} />,
-              p: ({ node, ...props }) => {
-                // Vérifier si le texte du paragraphe commence par "=>"
-                const children = React.Children.toArray(props.children);
-                const firstChild = children[0];
+                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
+                  // Si le premier enfant est un tableau, vérifier son premier élément
+                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est un tableau, vérifier son premier élément
-                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
+                  // Sinon, retourner un paragraphe normal
+                  return <p {...props} />;
+                },
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
 
-                // Sinon, retourner un paragraphe normal
-                return <p {...props} />;
-              },
-            }}
-          />
-        </ImageAndTextLeft>
+        {title3 !== undefined ? (
+          <ImageAndTextRight title={title3} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={desc3}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17", backgroundColor: "white" }} {...props} />,
+                p: ({ node, ...props }) => {
+                  // Vérifier si le texte du paragraphe commence par "=>"
+                  const children = React.Children.toArray(props.children);
+                  const firstChild = children[0];
 
-        <ImageAndTextRight title={title3} imagePath="/images/post_1.jpeg" altText="Service">
-          <ReactMarkdown
-            children={desc3}
-            components={{
-              h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
-              a: ({ node, ...props }) => <a className={"link"} {...props} />,
-              p: ({ node, ...props }) => {
-                // Vérifier si le texte du paragraphe commence par "=>"
-                const children = React.Children.toArray(props.children);
-                const firstChild = children[0];
+                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
+                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
+                  // Si le premier enfant est un tableau, vérifier son premier élément
+                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
+                    // Appliquer un style personnalisé ou une classe CSS
+                    return <p className={"subtitleMarkdown"} {...props} />;
+                  }
 
-                // Si le premier enfant est un tableau, vérifier son premier élément
-                if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                  // Appliquer un style personnalisé ou une classe CSS
-                  return <p className={"subtitleMarkdown"} {...props} />;
-                }
-
-                // Sinon, retourner un paragraphe normal
-                return <p {...props} />;
-              },
-            }}
-          />
-        </ImageAndTextRight>
+                  // Sinon, retourner un paragraphe normal
+                  return <p {...props} />;
+                },
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
 
         <Spacing lg="120" md="50" />
 
-        <Div className="container">
-          <Div className="row align-items-center">
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/post_1.jpeg" alt="Service" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-6 offset-xl-1">
-              <h2 className="cs-font_50 cs-m0">Nos services les plus demandés</h2>
-              <Spacing lg="50" md="30" />
-              <Div className="row">
-                <Div className="col-lg-6">
-                  <Button btnLink="/service/service-details" btnText="Gestion des licences" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                  <Button btnLink="/service/service-details" btnText="Audit des droits" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                </Div>
-                <Div className="col-lg-6">
-                  <Button btnLink="/service/service-details" btnText="Conseil en production" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                  <Button btnLink="/service/service-details" btnText="Obtention de subventions" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
+        <ExpertiseSection
+          imageSrc="/images/post_1.jpeg"
+          altText="Service"
+          title="En savoir plus sur mes expertises :"
+          services={serviceExpertises}
+        />
         <Spacing lg="150" md="80" />
+
         <TestimonialSlider />
+
         <Spacing lg="145" md="80" />
+
         <Div className="container cs-shape_wrap_4">
           <Div className="cs-shape_4"></Div>
           <Div className="cs-shape_4"></Div>

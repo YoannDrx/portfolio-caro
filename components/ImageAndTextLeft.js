@@ -9,9 +9,9 @@ const ImageAndTextLeft = ({ title, imagePath, altText, children }) => {
           {title}
         </h2>
         <Div className="image-container-right">
-          <img src={imagePath} alt={altText} className="cs-radius-15" />
+          <img src={imagePath} alt={altText} className="cs-radius_15 w-100" />
         </Div>
-        <Div>{children}</Div>
+        <Div className="cs-post cs-style2">{children}</Div>
       </Div>
     </Div>
   );

@@ -1,6 +1,6 @@
-import React from 'react';
-import parse from 'html-react-parser';
-import Div from '../Div';
+import React from "react";
+import parse from "html-react-parser";
+import Div from "../Div";
 
 export default function IconBox({ title, subtitle, icon }) {
   return (
@@ -8,8 +8,8 @@ export default function IconBox({ title, subtitle, icon }) {
       <Div className="cs-iconbox_icon">
         <img src={icon} alt="Icon" />
       </Div>
-      <h2 className="cs-iconbox_title">{parse(title)}</h2>
-      <Div className="cs-iconbox_subtitle">{parse(subtitle)}</Div>
+      <h2 className="cs-iconbox_title">{title}</h2>
+      <Div className="cs-iconbox_subtitle">{subtitle}</Div>
     </Div>
   );
 }

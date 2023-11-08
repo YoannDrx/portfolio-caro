@@ -103,13 +103,25 @@ export default function Header({ variant }) {
                         {/* {readableLocale(router.locale)} */}
                         <ul>
                           <li>
-                            <Link href={t(router.pathname, { lng: "fr" })} locale="fr" onClick={() => setMobileToggle(false)}>
+                            <Link
+                              href={{
+                                pathname: router.pathname,
+                                query: { ...router.query },
+                              }}
+                              locale="fr"
+                              onClick={() => setMobileToggle(false)}>
                               <img src="/images/flags/fr-flag.png" alt="Drapeau Français" width={30} className="flag-img" />
                               Francais
                             </Link>
                           </li>
                           <li>
-                            <Link href={t(router.pathname, { lng: "en" })} locale="en" onClick={() => setMobileToggle(false)}>
+                            <Link
+                              href={{
+                                pathname: router.pathname,
+                                query: { ...router.query },
+                              }}
+                              locale="en"
+                              onClick={() => setMobileToggle(false)}>
                               <img src="/images/flags/en-flag.png" alt="English Flag" width={30} className="flag-img" />
                               English
                             </Link>
