@@ -1,5 +1,5 @@
 ---
-title: "Managing copyrights" "Gestions des droits d'auteur
+title: "Managing copyrights" "Gestions des droits d'auteur"
 description: "The term 'author' refers to the individual who writes the lyrics of a song".
 slug: "droits-auteur"
 imgUrl: "/images/service_7.jpeg"
