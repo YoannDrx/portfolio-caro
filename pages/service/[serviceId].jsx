@@ -20,11 +20,16 @@ import ImageAndTextLeft from "../../components/ImageAndTextLeft";
 import Image from "next/image";
 import ExpertiseSection from "../../components/ExpertiseSection";
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, locale }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
   const { serviceId } = params;
+  console.log("serviceId >>", serviceId);
+
+  console.log("locale >>", locale);
+
   // Construire le chemin du fichier markdown basé sur l'identifiant
-  const filePath = path.join(process.cwd(), "content", "expertises", "fr", `${serviceId}.md`);
+
+  const filePath = path.join(process.cwd(), "content", "expertises", locale, `${serviceId}.md`);
   // Lire le contenu du fichier
   const fileContents = fs.readFileSync(filePath, "utf8");
   // Utiliser gray-matter pour analyser les métadonnées du contenu du fichier
@@ -54,13 +59,38 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export async function getStaticPaths() {
-  const directory = path.join(process.cwd(), "content", "expertises", "fr");
-  const filenames = fs.readdirSync(directory);
+// export async function getStaticPaths({ locales }) {
+//   const directory = path.join(process.cwd(), "content", "expertises", "fr");
+//   const filenames = fs.readdirSync(directory);
 
-  const paths = filenames.map((filename) => ({
-    params: { serviceId: path.parse(filename).name },
-  }));
+//   const paths = locales.flatMap((locale) => {
+//     const directory = path.join(process.cwd(), "content", "expertises", locale);
+//     const filenames = fs.readdirSync(directory);
+//     return filenames.map((filename) => ({
+//       params: { serviceId: path.parse(filename).name },
+//       locale, // spécifiez la locale ici pour chaque chemin
+//     }));
+//   });
+
+//   return {
+//     paths,
+//     fallback: "blocking",
+//   };
+// }
+export async function getStaticPaths({ locales }) {
+  // Assurez-vous que vous parcourez tous les répertoires de langues
+  // et que vous générez des chemins pour chaque fichier markdown.
+  const paths = locales.flatMap((locale) => {
+    const directory = path.join(process.cwd(), "content", "expertises", locale);
+    const filenames = fs.readdirSync(directory);
+    return filenames.map((filename) => {
+      const serviceId = path.parse(filename).name;
+      return {
+        params: { serviceId },
+        locale,
+      };
+    });
+  });
 
   return {
     paths,

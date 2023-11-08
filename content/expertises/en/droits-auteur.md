@@ -1,7 +1,7 @@
 ---
 title: "Managing copyrights" "Gestions des droits d'auteur
 description: "The term 'author' refers to the individual who writes the lyrics of a song".
-slug: "copyright
+slug: "droits-auteur"
 imgUrl: "/images/service_7.jpeg"
 titlePart1: "titlePart1"
 descPart1: "descPart1"

@@ -1,7 +1,7 @@
 ---
 title: "Neighboring rights management
 description: "Descritpion droits voisins"
-slug: "neighboring rights"
+slug: "droits-voisins"
 imgUrl: "/images/service_7.jpeg"
 titlePart1: "titlePart1"
 descPart1: "descPart1"

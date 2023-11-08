@@ -1,18 +1,27 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Div from "../Div";
+import { useRouter } from "next/router";
 
 export default function ServiceList({ services }) {
   const [active, setActive] = useState(0);
-  const handelActive = (index) => {
+  const router = useRouter();
+  const { locale } = router;
+
+  const handleActive = (index) => {
     setActive(index);
   };
   return (
     <Div className="cs-iconbox_3_list">
-      {services.map((service, index) => (
-        <Div className={`cs-hover_tab ${active === index ? "active" : ""}`} key={index} onMouseEnter={() => handelActive(index)}>
-          <Link href={service.href} className="cs-iconbox cs-style3">
-            <>
+      {services.map((service, index) => {
+        const localizedHref = `/${locale}/service/${service.id}`; // Ici, service.id sera défini
+        console.log("service.id >>", service.id);
+        return (
+          <Div
+            className={`cs-hover_tab ${active === index ? "active" : ""}`}
+            key={index}
+            onMouseEnter={() => handleActive(index)}>
+            <Link href={localizedHref} className="cs-iconbox cs-style3">
               <Div className="cs-image_layer cs-style1 cs-size_md">
                 <Div className="cs-image_layer_in">
                   <img src={service.imgUrl} alt="Thumb" className="w-100 cs-radius_15" />
@@ -30,10 +39,10 @@ export default function ServiceList({ services }) {
                 <h2 className="cs-iconbox_title">{service.title}</h2>
                 <Div className="cs-iconbox_subtitle">{service.description}</Div>
               </Div>
-            </>
-          </Link>
-        </Div>
-      ))}
+            </Link>
+          </Div>
+        );
+      })}
     </Div>
   );
 }

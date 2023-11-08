@@ -1,5 +1,5 @@
 ---
-title: "Gestion des dossiers de subvention
+title: "Gestion des dossiers de subvention"
 description: "grant file management description"
 slug: "dossier-subvention"
 imgUrl: "/images/service_7.jpeg"

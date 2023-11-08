@@ -32,6 +32,7 @@ export async function getStaticProps() {
     const { data } = matter(fileContents);
 
     return {
+      id: data.slug,
       href: `/service/${data.slug || path.parse(filename).name}`,
       title: data.title || "Titre par défaut",
       subtitle: data.description || "Sous-titre par défaut",
