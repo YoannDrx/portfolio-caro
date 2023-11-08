@@ -23,12 +23,7 @@ import ExpertiseSection from "../../components/ExpertiseSection";
 export async function getStaticProps({ params, locale }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
   const { serviceId } = params;
-  console.log("serviceId >>", serviceId);
-
-  console.log("locale >>", locale);
-
   // Construire le chemin du fichier markdown basé sur l'identifiant
-
   const filePath = path.join(process.cwd(), "content", "expertises", locale, `${serviceId}.md`);
   // Lire le contenu du fichier
   const fileContents = fs.readFileSync(filePath, "utf8");

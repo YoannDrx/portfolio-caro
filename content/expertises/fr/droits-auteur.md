@@ -1,6 +1,6 @@
 ---
 title: "Gestions des droits d’auteur"
-description: "Le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson"
+description: "Le terme auteur désigne l'individu qui rédige les paroles d'une chanson"
 slug: "droits-auteur"
 imgUrl: "/images/service_7.jpeg"
 titlePart1: "titlePart1"
