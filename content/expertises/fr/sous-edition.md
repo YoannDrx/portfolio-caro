@@ -13,7 +13,7 @@ descPart3: ""
 
 <!-- section:start -->
 
-# La Gestion des œuvres en sous-édition
+### La Gestion des œuvres en sous-édition
 
 <!-- section:end -->
 
