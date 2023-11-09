@@ -1,6 +1,6 @@
 ---
-title: "Sous-édition musicale"
-description: "description de la sous édition"
+title: "Sub-publishing"
+description: "Sub-publishing description"
 slug: "sous-edition"
 imgUrl: "/images/service_7.jpeg"
 titlePart1: ""
@@ -11,62 +11,54 @@ titlePart3: ""
 descPart3: ""
 ---
 
-# La Gestion des œuvres en sous-édition
+<!-- section:start -->
 
-- **La sous-édition :**
+# Management of sub-edition works
 
-Le Code de la propriété intellectuelle n'évoque pas le cas particulier de la sous-édition. Les principales références en la matière sont donc les règles internes édictées par la Sacem, le contrat type élaboré par la CSDEM, ainsi que les pratiques de la profession, très diversifiées en la matière.
+<!-- section:end -->
 
-Pour un éditeur, se faire représenter à l'étranger répond à une double exigence : contractuelle et commerciale.
+=> **The sub-edition:**
 
-Contractuelle d'abord, parce que Le Code de la propriété intellectuelle oblige l'éditeur à assurer à l'œuvre éditée « une exploitation permanente et suivie et une diffusion commerciale ». Or, la quasi-totalité des contrats d'édition à commencer par le contrat type élaboré par la CSDEM prévoit une cession du droit de propriété incorporelle pour l'univers entier.
+The Intellectual Property Code does not mention the particular case of sub-publishing. The main references in this area are therefore the internal rules issued by Sacem, the standard contract drawn up by the CSDEM, as well as the practices of the profession, which are very diverse in this area.
 
-Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interprètes, des professionnels du disque, de l'audiovisuel, du cinéma, de la publicité, du spectacle vivant, des jeux vidéo…du monde entier sans prendre en compte les différences culturelles et les us et coutumes de chaque milieu professionnel.
+For a publisher, being represented abroad meets a dual requirement: contractual and commercial.
 
-**Déposer et enregistrer les contrats et les œuvres sous-éditées :**
+Contractual first, because the Intellectual Property Code requires the publisher to ensure “permanent and continued exploitation and commercial distribution” for the published work. However, almost all publishing contracts, starting with the standard contract drawn up by the CSDEM, provide for a transfer of intangible property rights for the entire universe.
 
-**Il existe trois sortes de contrats de sous-édition :**
+Commercially then, to promote its catalog effectively among performers, recording professionals, audiovisual professionals, cinema, advertising, live shows, video games... all over the world without taking into account cultural differences and customs. and customs of each professional environment.
 
-- Le contrat particulier
+=> **File and register contracts and sub-published works:**
 
-Par lequel un éditeur original cède une ou plusieurs œuvres de son catalogue pour un ou plusieurs territoires, pour une période donnée.
+**There are three types of sub-publishing contracts:**
 
-- Le contrat général
+1. **The special contract**: By which an original publisher transfers one or more works from its catalog for one or more territories, for a given period.
 
-Par lequel un éditeur original cède tout ou partie de son catalogue (l'ensemble des œuvres d'un auteur/compositeur, l'ensemble des œuvres d'un genre musical, etc.) pour un ou plusieurs territoires, pour une période donnée. Dans ce type de contrat, la cession est généralement faite pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, ainsi que celles que l'éditeur acquerra pendant la durée du contrat.
+2. **The general contract**: By which an original publisher transfers all or part of its catalog (all the works of an author/composer, all the works of a musical genre, etc.) for one or more territories, for a given period. In this type of contract, the transfer is generally made for the works present in the publisher's catalog at the time of signing, as well as those that the publisher will acquire during the duration of the contract.
 
-- Le contrat d'option
+3. **The option contract**: This is a general contract for which the transfer is only acquired for the works present in the publisher's catalog at the time of signing, the works subsequently acquired by the publisher having to be the subject of exercise of option by the sub-publisher.
 
-C'est un contrat général pour lequel la cession n'est acquise que pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, les œuvres acquises par la suite par l'éditeur devant faire l'objet de levée d'option de la part du sous-éditeur.
+> In these sub-publishing contracts, the publisher and the sub-publisher agree on the framework of their collaboration and determine together in particular:
 
-**Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :**
+**The ceded territory which can be either:**
 
-- Le territoire cédé
+- the original territory of the sub-publisher.
+- the sub-publisher's home territory plus other territories.
+- the whole world. _(It should be noted, however, that Sacem prohibits a publisher from transferring the territory where it is domiciled to a sub-publisher)_.
 
-Il peut être soit :
+- The duration of the contract: Cisac (International Confederation of Societies of Authors and Composers) imposes a minimum contract duration of three years, with this contract being able to be extended for shorter periods. In fact, these contracts are often concluded for an initial period ranging from three to five years.
 
-- le territoire d'origine du sous-éditeur ;
-- le territoire d'origine du sous-éditeur plus d'autres territoires
-- le monde entier.
+=> **The missions entrusted to the sub-editor:**
 
-Il est toutefois à noter que la Sacem interdit à un éditeur de céder le territoire où il est domicilié à un sous-éditeur.
+The missions entrusted to the sub-publisher may vary depending on the nature of the work, the issues linked to each type of exploitation for it. Nevertheless, we find certain constants, at the very basis of sub-publishing:
 
-- La durée du contrat :
+- the sub-publisher always represents the original publisher before the collective management society of the transferred territory. He therefore collects from the latter all or part of the rights accruing to the original publisher (see below), and is responsible for verifying the rights distributed;
+- the sub-publisher is always mandated to generate new exploitations on its territory. These include phonographic, videographic exploitation and all types of performance of the work. Graphics exploitation and synchronization may be subject to specific processing (direct management by the original publisher or necessary agreement from the original publisher).
 
-La Cisac (Confédération internationale des sociétés d'auteurs et compositeurs) impose une durée minimale de contrat de trois ans, la prorogation de ce contrat pouvant l'être pour des périodes plus courtes. Dans les faits, ces contrats sont souvent conclus pour une durée initiale allant de trois à cinq ans.
+Concerning phonographic and videographic exploitation, sub-publishing contracts provide for the collection of mechanical reproduction rights by the sub-publisher, according to one of the following two clauses to the exclusion of any other variant:
 
-- **Les missions confiées au sous-éditeur :**
+- the sales clause: collection on any media sold in the territory assigned to the sub-publisher, regardless of the country of manufacture of the media;
+- the manufacturing clause: collection on any support manufactured in the territory assigned to the sub-publisher, regardless of the country of sale of the support.
 
-Les missions confiées au sous-éditeur peuvent varier suivant la nature de l'œuvre, l'enjeu lié à chaque type d'exploitation pour celle-ci. Néanmoins, on retrouve certaines constantes, à la base même de la sous-édition :
+> Sub-publishing is a major aspect of the exploitation of a work abroad. As part of a rational operation, the sub-publisher supports the stage performance, local adaptations and covers, it generates and manages with the publisher the ancillary uses of the disc (use in cinema, advertising, audiovisual, Internet, etc.) and allows the control and proper repatriation of rights generated in a country. All on an exclusive basis, and for at least three years.
 
-- le sous-éditeur représente toujours l'éditeur original auprès de la société de gestion collective du territoire cédé. Il perçoit donc auprès de celle-ci tout ou partie des droits revenant à l'éditeur original (voir plus loin), et a la responsabilité de la vérification des droits répartis ;
-- le sous-éditeur est toujours mandaté pour générer de nouvelles exploitations sur son territoire. Celles-ci incluent l'exploitation phonographique, vidéographique et tous types d'exécution de l'œuvre. L'exploitation graphique et la synchronisation peuvent faire l'objet d'un traitement spécifique (gestion en direct par l'éditeur original ou accord nécessaire de l'éditeur original).
-
-Concernant l'exploitation phonographique et vidéographique, les contrats de sous-édition prévoient la perception des droits de reproduction mécanique par le sous-éditeur, suivant l'une des deux clauses suivantes à l'exclusion de toute autre variante :
-
-- la clause de vente : perception sur tout support vendu dans le territoire cédé au sous-éditeur, quel que soit le pays de fabrication du support ;
-- la clause de fabrication : perception sur tout support fabriqué dans le territoire cédé au sous-éditeur, quel que soit le pays de vente du support.
-
-_La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans._
-
-- **Gérer la sous-édition des labels ci-dessous :**
+- **Manage the sub-editing of the labels below:**
