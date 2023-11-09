@@ -13,7 +13,7 @@ descPart3: ""
 
 <!-- section:start -->
 
-# Management of sub-edition works
+### Management of sub-edition works
 
 <!-- section:end -->
 
