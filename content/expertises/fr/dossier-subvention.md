@@ -1,78 +1,82 @@
 ---
 title: "Gestion des dossiers de subvention"
 description: "description de la gestion des dossiers de subvention"
+intro: "L'objectif principal des organismes de subvention est de dynamiser l'économie musicale en faisant circuler les fonds. Plus fondamentalement, l'essence de ces aides financières est de stimuler la création artistique tout en renforçant la pérennité de l'emploi pour les artistes. L'aide demandée doit alors servir à renforcer le budget et ainsi, enrichir la mise en œuvre du projet."
 slug: "dossier-subvention"
 imgUrl: "/images/service_7.jpeg"
-titlePart1: ""
-descPart1: ""
-titlePart2: ""
-descPart2: ""
-titlePart3: ""
-descPart3: ""
+img1: ""
+img2: ""
+img3: ""
+img4: ""
+img5: ""
 ---
 
 <!-- section:start -->
 
-Gestion des dossiers de subvention
-
-<!-- section:end -->
-
-L'objectif principal des organismes de subvention est de dynamiser l'économie musicale en faisant circuler les fonds. Plus fondamentalement, l'essence de ces aides financières est de stimuler la création artistique tout en renforçant la pérennité de l'emploi pour les artistes. L'aide demandée doit alors servir à renforcer le budget et ainsi, enrichir la mise en œuvre du projet.
-
 > Le but d’une demande de subvention est de présenter un reflet fidèle et honnête du projet : il faut y mentionner tous les éléments, y compris les autres aides demandées. N’oubliez pas que les organismes communiquent entre eux et recoupent les informations.
 
-**Respecter les conventions collectives :**
+### **Respecter les conventions collectives :**
 
 Dans le cadre d'un projet musical, l'organisme de financement voudra savoir combien d'artistes et de techniciens y contribuent, et comment et dans quelle mesure ils sont rémunérés.
 L'emploi d'artistes professionnels implique le versement de salaires, le paiement de cotisations sociales et le respect des rémunérations minimales fixées par la législation.
 C'est ici que les conventions collectives entrent en jeu.
 
-> Une convention collective est un document officiel déterminant les conditions de travail et les salaires spécifiques à chaque secteur professionnel. Il existe des centaines de ces conventions.
-
-> Il est donc crucial de consulter la convention collective de son domaine d'activité pour connaître le salaire minimum imposé et les conditions de travail spécifiques applicables.
+> Une convention collective est un document officiel déterminant les conditions de travail et les salaires spécifiques à chaque secteur professionnel. Il existe des centaines de ces conventions. Il est donc crucial de consulter la convention collective de son domaine d'activité pour connaître le salaire minimum imposé et les conditions de travail spécifiques applicables.
 
 Par exemple, si vous êtes une maison de disques employant des musiciens et des techniciens pour l'enregistrement d'un album en studio, vous devrez vous référer à la convention collective de **l'édition phonographique.**
 
 Dans le cas où vous prévoyez d'organiser un concert dans une salle en location, il est recommandé de consulter la convention collective **des entreprises du secteur privé du spectacle vivant** pour vérifier les salaires minimums à déclarer.
 
-**Construire un budget prévisionnel et estimer le montant de l’aide :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Construire un budget prévisionnel et estimer le montant de l’aide :**
 
 L'objectif d'un budget prévisionnel est de mettre en chiffres la stratégie d'expansion d'un projet. Il n'est pas nécessaire pour les professionnels de passer en revue des biographies ou des descriptions artistiques pour juger de la faisabilité d'un projet. Une analyse du budget est souvent suffisante, car elle permet d'envisager au mieux les dépenses futures.
 
 > Les professionnels cherchent à évaluer dans un budget prévisionnel la cohérence entre les coûts projetés pour le développement du projet et les recettes anticipées.
 
-Le montant de l'aide financière est déterminé **EN SE BASANT SUR LE MONTANT DES DÉPENSES**.
+Le montant de l'aide financière est déterminé _EN SE BASANT SUR LE MONTANT DES DÉPENSES_.
 
-Il est à noter qu'un organisme de gestion collective ne subventionnera JAMAIS un budget de manière intégrale. L'aide financière accordée ne couvrira qu'une partie des dépenses, d'où la nécessité de fournir un budget parfaitement ajusté pour solliciter le montant maximal.
+Il est à noter qu'un organisme de gestion collective ne subventionnera **JAMAIS** un budget de manière intégrale. L'aide financière accordée ne couvrira qu'une partie des dépenses, d'où la nécessité de fournir un budget parfaitement ajusté pour solliciter le montant maximal.
 
-**Réunir les documents administratifs, promotionnels et les justificatifs :**
+<!-- section:end -->
+<!-- section:start -->
 
-- Toutes les factures et devis datés et signés
-- Les preuves que les cotisations à certains organismes ont bien été payées (attestation URSAFF ou AUDIENS)
-- Les contrats de distribution ou de licence ainsi que les contrats d’enregistrement
-- Les bulletins de salaire des intermittents
-- Les biographies des artistes/descriptif du projet
-- Tous les documents promotionnels : le dossier de presse, le plan média (soit la stratégie de promotion auprès de la presse et les objectifs visés), les futures dates de concerts et/ou de tournée
-- N’hésitez pas à rédiger une note de production qui explique point par point la nature de toutes vos dépenses
+### **Réunir les documents administratifs, promotionnels et les justificatifs :**
 
-**Gérer son dossier de subvention stratégiquement :**
+- _Toutes les factures et devis_ datés et signés
+- _Les preuves_ que les _cotisations_ à certains organismes ont bien été payées (attestation URSAFF ou AUDIENS)
+- _Les contrats_ de _distribution_ ou de _licence_ ainsi que les contrats d’_enregistrement_
+- _Les bulletins_ de salaire des intermittents
+- _Les biographies_ des artistes/descriptif du projet
+- _Tous les documents promotionnels :_ le dossier de presse, le plan média (soit la stratégie de promotion auprès de la presse et les objectifs visés), les futures dates de concerts et/ou de tournée
+- N’hésitez pas à rédiger _une note de production_ qui explique point par point la nature de toutes vos dépenses
 
-Plus le projet sera développé sous un aspect économique et commercial, plus les chances d’obtenir des aides financières augmenteront.
+<!-- section:end -->
+<!-- section:start -->
+
+### **Gérer son dossier de subvention stratégiquement :**
+
+> Plus le projet sera développé sous un aspect économique et commercial, plus les chances d’obtenir des aides financières augmenteront.
 
 Préparez un rétroplanning pour chaque demande d’aide :
 
-- Créer l’espace client/adhérent en ligne
-- Anticiper le dépôt des œuvres/enregistrements
-- Préparer la demande
-- Récupérer des documents et justificatifs demandés
-- Établir le budget prévisionnel
-- Déposer le dossier
-- Respecter le calendrier des commissions
-- Anticiper la date de sortie du projet en fonction de la date de réponse de l’organisme
-- Anticiper le versement de l’aide (ou de l’acompte)
-- Préparer les documents complémentaires à envoyer (factures, justificatifs…)
+- _Créer_ l’espace client/adhérent en ligne
+- _Anticiper_ le dépôt des œuvres/enregistrements
+- _Préparer_ la demande
+- _Récupérer_ des documents et justificatifs demandés
+- _Établir_ le budget prévisionnel
+- _Déposer_ le dossier
+- _Respecter_ le calendrier des commissions
+- _Anticiper_ la date de sortie du projet en fonction de la date de réponse de l’organisme
+- _Anticiper_ le versement de l’aide (ou de l’acompte)
+- _Préparer_ les documents complémentaires à envoyer (factures, justificatifs…)
 
-**Les aides pour les éditeurs et auteurs-compositeurs-interprètes :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Les aides pour les éditeurs et auteurs-compositeurs-interprètes :**
 
 ![sacem](https://lh7-us.googleusercontent.com/R__L0TXssREfQ7SlUl4M2YaOjlTs5sBsiHCdGeH47iQXXxZwULhcrmb0ROzPDB3LPiSA88KGgSuIBrgHCZIkctcdQBamj3_WS2iv_QglSzx_I8tbxXusY-gSebr3lBflD0q1uQGeX80pXzm8ggq7iQ)
 
@@ -89,15 +93,14 @@ L’ADAMI est l’organisme qui va collecter puis répartir **l’argent dû au
 
 Dans la mesure où il s’agit d’aides qui s’adressent à des professionnels en activité, les aides sont **peu accessibles aux débutants**.
 
-### SPPF : Aide à l’enregistrement d’un album
-
+SPPF : Aide à l’enregistrement d’un album
 Pour bénéficier de cette aide, il faut bien entendu que vous ayez déjà une structure juridique (même une association) et être adhérent à la SPPF. Si vous n’êtes pas adhérent, vous pouvez néanmoins bénéficier d’une aide, si vous avez signé **_[un contrat de licence](https://a-contretemps.com/contrats-musique-contrat-licence-exclusive/)_** avec un label qui, lui, est adhérent à la SPPF.
 
 **_[Rubrique “Aide à la création”](https://www.sppf.com/subventions/creation-production/)_**
 
 ![scpp](https://lh7-us.googleusercontent.com/LsolrpP6_985q9ohnIGt4J-stGZBhFDKaJ-HzwvOz7FG3jMJbHLFeEMrXliQIvn4mHAInEJU_V9knl1lW1IQ6kdGowXkBLgQMp8_HihGuZ1cv_V0YUCWfd_nu86dLoRTmsHbr-Hdmfgzmaz9u7wQlA)
 
-### SCPP : Aide à la création de phonogrammes
+SCPP : Aide à la création de phonogrammes
 
 **_[Règles d’attribution](https://www.scpp.fr/SCPP/Home/AIDES/R%E8glesdattributiondesaides/tabid/144/Default.aspx#ancre2)_**.
 
