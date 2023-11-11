@@ -13,11 +13,7 @@ descPart3: ""
 
 <!-- section:start -->
 
-### La Gestion des œuvres en sous-édition
-
-<!-- section:end -->
-
-=> **La sous-édition :**
+### **La Gestion des œuvres en sous-édition**
 
 Le Code de la propriété intellectuelle n'évoque pas le cas particulier de la sous-édition. Les principales références en la matière sont donc les règles internes édictées par la Sacem, le contrat type élaboré par la CSDEM, ainsi que les pratiques de la profession, très diversifiées en la matière.
 
@@ -27,7 +23,10 @@ Contractuelle d'abord, parce que Le Code de la propriété intellectuelle oblige
 
 Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interprètes, des professionnels du disque, de l'audiovisuel, du cinéma, de la publicité, du spectacle vivant, des jeux vidéo…du monde entier sans prendre en compte les différences culturelles et les us et coutumes de chaque milieu professionnel.
 
-=> **Déposer et enregistrer les contrats et les œuvres sous-éditées :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Déposer et enregistrer les contrats et les œuvres sous-éditées :**
 
 **Il existe trois sortes de contrats de sous-édition :**
 
@@ -47,7 +46,10 @@ Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interp
 
 - La durée du contrat : La Cisac (Confédération internationale des sociétés d'auteurs et compositeurs) impose une durée minimale de contrat de trois ans, la prorogation de ce contrat pouvant l'être pour des périodes plus courtes. Dans les faits, ces contrats sont souvent conclus pour une durée initiale allant de trois à cinq ans.
 
-=> **Les missions confiées au sous-éditeur :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Les missions confiées au sous-éditeur :**
 
 Les missions confiées au sous-éditeur peuvent varier suivant la nature de l'œuvre, l'enjeu lié à chaque type d'exploitation pour celle-ci. Néanmoins, on retrouve certaines constantes, à la base même de la sous-édition :
 
@@ -62,3 +64,4 @@ Concernant l'exploitation phonographique et vidéographique, les contrats de sou
 > La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans.
 
 - **Gérer la sous-édition des labels ci-dessous :**
+<!-- section:end -->

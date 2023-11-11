@@ -10,14 +10,11 @@ img4: ""
 img5: ""
 ---
 
-  <!-- section:start -->
+<!-- section:start -->
 
 La gestion éditoriale ne cesse de prendre de l'importance avec l'émergence de sociétés d'édition ne souhaitant pas perdre de temps avec les nombreuses contraintes qui pèsent sur l'édition.
 
 Les éditeurs qui souhaitent se dégager des tâches fastidieuses font donc appel soit à des éditeurs plus structurés, soit à des prestataires spécialisés dans cette activité, afin d'assurer la gestion de leur catalogue éditorial. Le recours à la gestion éditoriale de son catalogue est très fréquent chez les sociétés éditoriales contrôlées par des interprètes, des managers d'interprètes, des producteurs audiovisuels, des producteurs cinématographiques, des agences de publicité, des diffuseurs.
-
-<!-- section:end -->
-<!-- section:start -->
 
 ### **Mes missions :**
 
@@ -52,8 +49,9 @@ Little Big Story est une société de production audiovisuelle française et bas
 - [les oublies de l'atome](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272)
 - [la femme sans nom – l’histoire de jeanne et baudelaire](https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire)
 - [la femme sans nom – l’histoire de jeanne et baudelaire (alternative link)](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0)
-  <!-- section:end -->
-  <!-- section:start -->
+
+<!-- section:end -->
+<!-- section:start -->
 
 ### **Gestion administrative et éditoriale pour 13 PRODS :**
 
@@ -133,10 +131,11 @@ Little Big Story est une société de production audiovisuelle française et bas
 - [En jachère](https://www.13prods.fr/en-jachere/)
 - [Avant que la grande nacre meure](https://www.13prods.fr/avant-que-la-grande-nacre-meure/)
 - [Une deuxième chance](https://www.13prods.fr/deuxieme-chance/)
-  <!-- section:end -->
-  <!-- section:start -->
 
-### **LES CO-PRODUCTIONS AVEC "Pop’films"** :
+<!-- section:end -->
+<!-- section:start -->
+
+### **Gestion administrative et éditoriales des co-productions avec "Pop’films"** :
 
 Pop’films est une société de production créée en 2021. https://popfilms.fr/
 
