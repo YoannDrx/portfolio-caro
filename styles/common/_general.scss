@@ -1703,10 +1703,22 @@ h3 + p {
   margin-top: 35px;
 }
 
+ul {
+  margin-bottom: 45px;
+}
+
+.mdImage {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
 // IMAGE FLOAT LEFT
 .image-container {
   float: left;
   margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1724,6 +1736,8 @@ h3 + p {
 .image-container-right {
   float: right;
   margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
