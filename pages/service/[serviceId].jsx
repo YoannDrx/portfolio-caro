@@ -54,27 +54,7 @@ export async function getStaticProps({ params, locale }) {
   };
 }
 
-// export async function getStaticPaths({ locales }) {
-//   const directory = path.join(process.cwd(), "content", "expertises", "fr");
-//   const filenames = fs.readdirSync(directory);
-
-//   const paths = locales.flatMap((locale) => {
-//     const directory = path.join(process.cwd(), "content", "expertises", locale);
-//     const filenames = fs.readdirSync(directory);
-//     return filenames.map((filename) => ({
-//       params: { serviceId: path.parse(filename).name },
-//       locale, // spécifiez la locale ici pour chaque chemin
-//     }));
-//   });
-
-//   return {
-//     paths,
-//     fallback: "blocking",
-//   };
-// }
 export async function getStaticPaths({ locales }) {
-  // Assurez-vous que vous parcourez tous les répertoires de langues
-  // et que vous générez des chemins pour chaque fichier markdown.
   const paths = locales.flatMap((locale) => {
     const directory = path.join(process.cwd(), "content", "expertises", locale);
     const filenames = fs.readdirSync(directory);
@@ -125,6 +105,11 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
   const part3 = markdownSections[2];
   const part4 = markdownSections[3];
   const part5 = markdownSections[4];
+  const part6 = markdownSections[5];
+  const part7 = markdownSections[6];
+  const part8 = markdownSections[7];
+
+  console.log("part7 >>", part7);
 
   return (
     <>
@@ -141,7 +126,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
           <Spacing lg="90" md="45" />
         </Div>
 
-        {part1 !== undefined ? (
+        {part1 !== undefined || "" ? (
           <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
               children={part1}
@@ -151,12 +136,13 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
               }}
             />
           </ImageAndTextRight>
         ) : null}
 
-        {part2 !== undefined ? (
+        {part2 !== undefined || "" ? (
           <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
               children={part2}
@@ -166,12 +152,13 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
               }}
             />
           </ImageAndTextLeft>
         ) : null}
 
-        {part3 !== undefined ? (
+        {part3 !== undefined || "" ? (
           <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
               children={part3}
@@ -181,12 +168,13 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
               }}
             />
           </ImageAndTextRight>
         ) : null}
 
-        {part4 !== undefined ? (
+        {part4 !== undefined || "" ? (
           <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
               children={part4}
@@ -196,12 +184,13 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
               }}
             />
           </ImageAndTextLeft>
         ) : null}
 
-        {part5 !== undefined ? (
+        {part5 !== undefined || "" ? (
           <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
               children={part5}
@@ -211,9 +200,58 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
               }}
             />
           </ImageAndTextRight>
+        ) : null}
+
+        {part6 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={part6}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
+
+        {part7 !== undefined || "" ? (
+          <ImageAndTextRight title={""} imagePath="" altText="Service">
+            <ReactMarkdown
+              children={part7}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
+
+        {part8 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath="" altText="Service">
+            <ReactMarkdown
+              children={part8}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
         ) : null}
 
         <Spacing lg="120" md="50" />
