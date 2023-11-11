@@ -116,21 +116,15 @@ const serviceExpertises = [
   },
 ];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
-  const router = useRouter();
-
   // Utiliser les métadonnées directement
-  const { title, description, imgUrl, titlePart1, descPart1, titlePart2, descPart2, titlePart3, descPart3 } = metaData;
+  const { title } = metaData;
 
   // Utiliser les sections Markdown
-  const title1 = markdownSections[0];
-  console.log("title1 >>", title1);
-  const desc1 = markdownSections[1];
-  const title2 = markdownSections[2];
-  console.log("title2 >>", title2);
-  const desc2 = markdownSections[3];
-  const title3 = markdownSections[4];
-  console.log("title3 >>", title3);
-  const desc3 = markdownSections[5];
+  const part1 = markdownSections[0];
+  const part2 = markdownSections[1];
+  const part3 = markdownSections[2];
+  const part4 = markdownSections[3];
+  const part5 = markdownSections[4];
 
   return (
     <>
@@ -145,116 +139,78 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         <Div className="container">
           <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" />
           <Spacing lg="90" md="45" />
-          <Div className="row">
-            <Div className="col-lg-4">
-              <IconBox icon="/images/icons/service_icon_1.svg" title={titlePart1} subtitle={descPart1} />
-              <Spacing lg="30" md="30" />
-            </Div>
-            <Div className="col-lg-4">
-              <IconBox icon="/images/icons/service_icon_2.svg" title={titlePart2} subtitle={descPart2} />
-              <Spacing lg="30" md="30" />
-            </Div>
-            <Div className="col-lg-4">
-              <IconBox icon="/images/icons/service_icon_3.svg" title={titlePart3} subtitle={descPart3} />
-              <Spacing lg="30" md="30" />
-            </Div>
-          </Div>
         </Div>
-        {title1 !== undefined ? (
-          <ImageAndTextRight title={title1} imagePath="/images/post_1.jpeg" altText="Service">
+
+        {part1 !== undefined ? (
+          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
-              children={desc1}
+              children={part1}
               components={{
-                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
                 a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
-                p: ({ node, ...props }) => {
-                  // Vérifier si le texte du paragraphe commence par "=>"
-                  const children = React.Children.toArray(props.children);
-                  const firstChild = children[0];
-
-                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
-
-                  // Si le premier enfant est un tableau, vérifier son premier élément
-                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
-
-                  // Sinon, retourner un paragraphe normal
-                  return <p {...props} />;
-                },
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
               }}
             />
           </ImageAndTextRight>
         ) : null}
 
-        {title2 !== undefined ? (
-          <ImageAndTextLeft title={title2} imagePath="/images/post_1.jpeg" altText="Service">
+        {part2 !== undefined ? (
+          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
-              children={desc2}
+              children={part2}
               components={{
-                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
                 a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
-                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17", backgroundColor: "white" }} {...props} />,
-                p: ({ node, ...props }) => {
-                  // Vérifier si le texte du paragraphe commence par "=>"
-                  const children = React.Children.toArray(props.children);
-                  const firstChild = children[0];
-
-                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
-
-                  // Si le premier enfant est un tableau, vérifier son premier élément
-                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
-
-                  // Sinon, retourner un paragraphe normal
-                  return <p {...props} />;
-                },
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
               }}
             />
           </ImageAndTextLeft>
         ) : null}
 
-        {title3 !== undefined ? (
-          <ImageAndTextRight title={title3} imagePath="/images/post_1.jpeg" altText="Service">
+        {part3 !== undefined ? (
+          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
             <ReactMarkdown
-              children={desc3}
+              children={part3}
               components={{
-                h3: ({ node, ...props }) => <h3 className={"heading"} {...props} />,
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
                 a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
-                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17", backgroundColor: "white" }} {...props} />,
-                p: ({ node, ...props }) => {
-                  // Vérifier si le texte du paragraphe commence par "=>"
-                  const children = React.Children.toArray(props.children);
-                  const firstChild = children[0];
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
 
-                  // Si le premier enfant est une chaîne et commence par "=>", appliquer le style
-                  if (typeof firstChild === "string" && firstChild.startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
+        {part4 !== undefined ? (
+          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={part4}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
 
-                  // Si le premier enfant est un tableau, vérifier son premier élément
-                  if (Array.isArray(firstChild) && typeof firstChild[0] === "string" && firstChild[0].startsWith("=>")) {
-                    // Appliquer un style personnalisé ou une classe CSS
-                    return <p className={"subtitleMarkdown"} {...props} />;
-                  }
-
-                  // Sinon, retourner un paragraphe normal
-                  return <p {...props} />;
-                },
+        {part5 !== undefined ? (
+          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
+            <ReactMarkdown
+              children={part5}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
               }}
             />
           </ImageAndTextRight>

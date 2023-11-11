@@ -1695,12 +1695,12 @@ label {
   text-decoration: underline;
 }
 
-.subtitleMarkdown {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  // border-bottom: 3px solid #17bff2;
-  text-decoration: underline;
+.cs-post.cs-style2 .mdTitle {
+  display: inline;
+}
+
+h3 + p {
+  margin-top: 35px;
 }
 
 // IMAGE FLOAT LEFT
