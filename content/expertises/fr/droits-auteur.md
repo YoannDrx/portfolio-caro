@@ -82,5 +82,3 @@ La Sacem a pris des mesures concernant les « irrépartissables », à savoir le
 > Il est possible en tant qu’éditeur ou auteur d’accéder à l’application que la Sacem met à notre disposition pour nous permettre de consulter les œuvres en instance d’identification : cette application s’appelle ONI (Œuvres Non Identifiées).
 
 Ce service a été développé dans le but de nous permettre de donner tout élément d’information en notre possession de nature à aider à identifier les titulaires de droits, soit les auteurs, compositeurs et éditeurs, des œuvres en instance d’identification à la Sacem. Dès revendication des droits et vérification des informations transmises _(ayants-droits, code COCV de l’œuvre, correction orthographique du nom de l’œuvre…)_ les montants de droits mis en suspens seront versés lors de la prochaine répartition correspondante.
-
-<!-- section:end -->
