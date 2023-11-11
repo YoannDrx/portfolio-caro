@@ -211,4 +211,3 @@ Aujourd’hui les démarches sont devenues beaucoup plus simple, il vous suffit 
 - si l'enregistrement appartient à un autre producteur,
 - si l'enregistrement dispose déjà d'un code ISRC,
 - si la durée est modifiée de moins de cinq secondes pour une même version.
-<!-- section:end -->

@@ -122,8 +122,12 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         <PageHeading title="Mes expertises" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={serviceId} />
         <Spacing lg="145" md="80" />
         <Div className="container">
-          <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" />
-          <Spacing lg="90" md="45" />
+          <SectionHeading
+            title={title}
+            subtitle="Comprendre"
+            variant="cs-style1 text-center"
+            intro="Le terme 'distribution' fait référence à la troisième phase de production d'un enregistrement, qu'il s'agisse d'un album, d'un Ep ou d'un maxi. Cette phase englobe la commercialisation du produit à l'intention des consommateurs potentiels."
+          />
         </Div>
 
         {part1 !== undefined || "" ? (
