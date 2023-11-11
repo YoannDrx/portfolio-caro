@@ -1,81 +1,25 @@
 ---
-title: "Gestion des oeuvres"
+title: "Gestion administrative et éditoriale"
 description: "Description de la gestion des oeuvres"
-slug: "gestion-des-oeuvres"
+slug: "gestion-administrative-et-editoriale"
 imgUrl: "/images/service_7.jpeg"
-titlePart1: "titlePart1"
-descPart1: "descPart1"
-titlePart2: ""
-descPart2: ""
-titlePart3: ""
-descPart3: ""
+img1: ""
+img2: ""
+img3: ""
+img4: ""
+img5: ""
 ---
 
-<!-- section:start -->
+  <!-- section:start -->
 
-La Gestion des œuvres en sous-édition
+La gestion éditoriale ne cesse de prendre de l'importance avec l'émergence de sociétés d'édition ne souhaitant pas perdre de temps avec les nombreuses contraintes qui pèsent sur l'édition.
+
+Les éditeurs qui souhaitent se dégager des tâches fastidieuses font donc appel soit à des éditeurs plus structurés, soit à des prestataires spécialisés dans cette activité, afin d'assurer la gestion de leur catalogue éditorial. Le recours à la gestion éditoriale de son catalogue est très fréquent chez les sociétés éditoriales contrôlées par des interprètes, des managers d'interprètes, des producteurs audiovisuels, des producteurs cinématographiques, des agences de publicité, des diffuseurs.
 
 <!-- section:end -->
-
 <!-- section:start -->
 
-=> **La sous-édition :**
-
-Le Code de la propriété intellectuelle n'évoque pas le cas particulier de la sous-édition. Les principales références en la matière sont donc les règles internes édictées par la Sacem, le contrat type élaboré par la CSDEM, ainsi que les pratiques de la profession, très diversifiées en la matière.
-
-Pour un éditeur, se faire représenter à l'étranger répond à une double exigence : contractuelle et commerciale.
-
-Contractuelle d'abord, parce que Le Code de la propriété intellectuelle oblige l'éditeur à assurer à l'œuvre éditée « une exploitation permanente et suivie et une diffusion commerciale ». Or, la quasi-totalité des contrats d'édition à commencer par le contrat type élaboré par la CSDEM prévoit une cession du droit de propriété incorporelle pour l'univers entier.
-
-Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interprètes, des professionnels du disque, de l'audiovisuel, du cinéma, de la publicité, du spectacle vivant, des jeux vidéo…du monde entier sans prendre en compte les différences culturelles et les us et coutumes de chaque milieu professionnel.
-
-=> **Déposer et enregistrer les contrats et les œuvres sous-éditées :**
-
-**Il existe trois sortes de contrats de sous-édition :**
-
-- Le contrat particulier : Par lequel un éditeur original cède une ou plusieurs œuvres de son catalogue pour un ou plusieurs territoires, pour une période donnée.
-
-- Le contrat général : Par lequel un éditeur original cède tout ou partie de son catalogue (l'ensemble des œuvres d'un auteur/compositeur, l'ensemble des œuvres d'un genre musical, etc.) pour un ou plusieurs territoires, pour une période donnée. Dans ce type de contrat, la cession est généralement faite pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, ainsi que celles que l'éditeur acquerra pendant la durée du contrat.
-
-- Le contrat d'option : C'est un contrat général pour lequel la cession n'est acquise que pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, les œuvres acquises par la suite par l'éditeur devant faire l'objet de levée d'option de la part du sous-éditeur.
-
-=> **Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :**
-
-Le territoire cédé peut être soit :
-
-- le territoire d'origine du sous-éditeur ;
-- le territoire d'origine du sous-éditeur plus d'autres territoires
-- le monde entier.
-
-Il est toutefois à noter que la Sacem interdit à un éditeur de céder le territoire où il est domicilié à un sous-éditeur.
-
-- La durée du contrat :
-
-La Cisac (Confédération internationale des sociétés d'auteurs et compositeurs) impose une durée minimale de contrat de trois ans, la prorogation de ce contrat pouvant l'être pour des périodes plus courtes. Dans les faits, ces contrats sont souvent conclus pour une durée initiale allant de trois à cinq ans.
-
-=> **Les missions confiées au sous-éditeur :**
-
-Les missions confiées au sous-éditeur peuvent varier suivant la nature de l'œuvre, l'enjeu lié à chaque type d'exploitation pour celle-ci. Néanmoins, on retrouve certaines constantes, à la base même de la sous-édition :
-
-- le sous-éditeur représente toujours l'éditeur original auprès de la société de gestion collective du territoire cédé. Il perçoit donc auprès de celle-ci tout ou partie des droits revenant à l'éditeur original (voir plus loin), et a la responsabilité de la vérification des droits répartis ;
-- le sous-éditeur est toujours mandaté pour générer de nouvelles exploitations sur son territoire. Celles-ci incluent l'exploitation phonographique, vidéographique et tous types d'exécution de l'œuvre. L'exploitation graphique et la synchronisation peuvent faire l'objet d'un traitement spécifique (gestion en direct par l'éditeur original ou accord nécessaire de l'éditeur original).
-
-Concernant l'exploitation phonographique et vidéographique, les contrats de sous-édition prévoient la perception des droits de reproduction mécanique par le sous-éditeur, suivant l'une des deux clauses suivantes à l'exclusion de toute autre variante :
-
-- la clause de vente : perception sur tout support vendu dans le territoire cédé au sous-éditeur, quel que soit le pays de fabrication du support ;
-- la clause de fabrication : perception sur tout support fabriqué dans le territoire cédé au sous-éditeur, quel que soit le pays de vente du support.
-
-> La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans.
-
-=> **Gérer la sous-édition des labels ci-dessous :**
-
-Part 3 : La Gestion Administrative et éditoriale pour des productions d’audiovisuel
-
-> La gestion éditoriale ne cesse de prendre de l'importance avec l'émergence de sociétés d'édition ne souhaitant pas perdre de temps avec les nombreuses contraintes qui pèsent sur l'édition.
-
-> Les éditeurs qui souhaitent se dégager des tâches fastidieuses font donc appel soit à des éditeurs plus structurés, soit à des prestataires spécialisés dans cette activité, afin d'assurer la gestion de leur catalogue éditorial. Le recours à la gestion éditoriale de son catalogue est très fréquent chez les sociétés éditoriales contrôlées par des interprètes, des managers d'interprètes, des producteurs audiovisuels, des producteurs cinématographiques, des agences de publicité, des diffuseurs.
-
-**Mes missions :**
+### **Mes missions :**
 
 - Admission de la structure éditoriale à la Sacem
 - Rédaction des contrats de cession et d’édition
@@ -88,7 +32,10 @@ La rémunération du gestionnaire se fait sous forme de pourcentage des droits �
 
 Le contrat de gestion éditoriale doit être transmis au service juridique de la Sacem.
 
-=> **Gestion administrative et éditoriale pour LITTLE BIG STORY :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Gestion administrative et éditoriale pour LITTLE BIG STORY :**
 
 Little Big Story est une société de production audiovisuelle française et basée à Paris, dédiée aux documentaires, aux formats longs et à l’international. Elle entend revisiter les modes narratifs en croisant les formes, les genres et les supports, afin de raconter des histoires qui mettent l’époque à nu. Little Big Story a tiré les leçons d’un marché émietté, et d’une révolution audiovisuelle en cours. Cette démarche est fondée sur l’idée d’un (télé)spectateur-citoyen déjà nourri d’images et exigeant. C’est une démarche d’avenir, porteuse de projets ambitieux et de financements multiples. Par leur forme et leur fond, les projets visent des audiences larges, en France et sur le marché international.
 
@@ -105,8 +52,10 @@ Little Big Story est une société de production audiovisuelle française et bas
 - [les oublies de l'atome](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272)
 - [la femme sans nom – l’histoire de jeanne et baudelaire](https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire)
 - [la femme sans nom – l’histoire de jeanne et baudelaire (alternative link)](https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0)
+  <!-- section:end -->
+  <!-- section:start -->
 
-=> **Gestion administrative et éditoriale pour 13 PRODS :**
+### **Gestion administrative et éditoriale pour 13 PRODS :**
 
 13 Productions est née du rapprochement de deux sociétés de productions 13 production et 13 au sud. Deux sociétés aux profils différents mais complémentaires et compatibles en termes de ligne éditoriale. Fusionnant l’expérience et la modernité, 13 Productions explore et enrichit le cinéma documentaire, tout en assumant sa présence singulière dans le domaine de la fiction. Questionner le monde, enquêter sur ses rouages, souligner les points de fracture et les lignes d’utopie en partageant la vie d’hommes et de femmes engagés, voilà ce qui dynamise l’enthousiasme de 13 productions.
 
@@ -184,8 +133,10 @@ Little Big Story est une société de production audiovisuelle française et bas
 - [En jachère](https://www.13prods.fr/en-jachere/)
 - [Avant que la grande nacre meure](https://www.13prods.fr/avant-que-la-grande-nacre-meure/)
 - [Une deuxième chance](https://www.13prods.fr/deuxieme-chance/)
+  <!-- section:end -->
+  <!-- section:start -->
 
-=> **LES CO-PRODUCTIONS AVEC "Pop’films"** :
+### **LES CO-PRODUCTIONS AVEC "Pop’films"** :
 
 Pop’films est une société de production créée en 2021. https://popfilms.fr/
 
@@ -204,7 +155,10 @@ Aujourd’hui pop’films souhaite collaborer avec les diffuseurs et d’autres 
 - [jules verne et le défi du tour du monde](https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/)
 - [gorongosa, le parc de la réconciliation](https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/)
 
-=> **Gestion administrative et éditoriale pour VIA DECOUVERTES FILMS :**
+<!-- section:end -->
+<!-- section:start -->
+
+### **Gestion administrative et éditoriale pour VIA DECOUVERTES FILMS :**
 
 Via Découvertes Films concentre son activité sur la production de contenus audiovisuels à destination des programmes de télévisions, des institutions et des entreprises.
 
@@ -220,3 +174,4 @@ Forte de ses 20 années d’expérience, Via Découvertes Films produit aujourd�
 
 - [les amoureux de marianne](https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0)
 - [au nom de la mer](https://www.13prods.fr/au-nom-de-la-mer/)
+<!-- section:end -->
