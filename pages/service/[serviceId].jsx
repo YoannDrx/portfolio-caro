@@ -19,6 +19,7 @@ import ImageAndTextRight from "../../components/ImageAndTextRight";
 import ImageAndTextLeft from "../../components/ImageAndTextLeft";
 import Image from "next/image";
 import ExpertiseSection from "../../components/ExpertiseSection";
+import ClickableImageGrid from "../../components/ClickableImageGrid";
 
 export async function getStaticProps({ params, locale }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
@@ -97,9 +98,9 @@ const serviceExpertises = [
 ];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   // Utiliser les métadonnées directement
-  const { title, intro, img1, img2, img3, img4, img5, img6 } = metaData;
+  const { title, intro, img1, img2, img3, img4, img5, img6, labels } = metaData;
 
-  console.log("img1 >>", img1);
+  console.log("labels >>", labels);
 
   // Utiliser les sections Markdown
   const part1 = markdownSections[0];
@@ -252,6 +253,9 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
             />
           </ImageAndTextLeft>
         ) : null}
+
+        {/* grid de petite image rectangulaire cliquable */}
+        <ClickableImageGrid labels={labels} />
 
         <Spacing lg="120" md="50" />
 

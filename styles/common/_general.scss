@@ -1714,6 +1714,53 @@ ul {
   max-width: 100%;
 }
 
+// labels
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.imageLink {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.labelImage {
+  width: 100%;
+}
+
+// clickable image labels
+.imageLink {
+  text-decoration: none;
+}
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: white;
+  font-size: 12px;
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 1;
+}
+
 // IMAGE FLOAT LEFT
 .image-container {
   float: left;
