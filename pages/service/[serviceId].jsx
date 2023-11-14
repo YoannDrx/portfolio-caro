@@ -97,7 +97,9 @@ const serviceExpertises = [
 ];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   // Utiliser les métadonnées directement
-  const { title, intro } = metaData;
+  const { title, intro, img1, img2, img3, img4, img5, img6 } = metaData;
+
+  console.log("img1 >>", img1);
 
   // Utiliser les sections Markdown
   const part1 = markdownSections[0];
@@ -108,8 +110,6 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
   const part6 = markdownSections[5];
   const part7 = markdownSections[6];
   const part8 = markdownSections[7];
-
-  console.log("part7 >>", part7);
 
   return (
     <>
@@ -126,7 +126,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         </Div>
 
         {part1 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextRight title={""} imagePath={img1} altText="Service">
             <ReactMarkdown
               children={part1}
               components={{
@@ -142,7 +142,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part2 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img2} altText="Service">
             <ReactMarkdown
               children={part2}
               components={{
@@ -158,7 +158,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part3 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextRight title={""} imagePath={img3} altText="Service">
             <ReactMarkdown
               children={part3}
               components={{
@@ -174,7 +174,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part4 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img4} altText="Service">
             <ReactMarkdown
               children={part4}
               components={{
@@ -190,7 +190,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part5 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextRight title={""} imagePath={img5} altText="Service">
             <ReactMarkdown
               children={part5}
               components={{
@@ -206,7 +206,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part6 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath="/images/post_1.jpeg" altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img6} altText="Service">
             <ReactMarkdown
               children={part6}
               components={{

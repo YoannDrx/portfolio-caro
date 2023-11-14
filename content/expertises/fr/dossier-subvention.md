@@ -4,11 +4,11 @@ description: "description de la gestion des dossiers de subvention"
 intro: "L'objectif principal des organismes de subvention est de dynamiser l'économie musicale en faisant circuler les fonds. Plus fondamentalement, l'essence de ces aides financières est de stimuler la création artistique tout en renforçant la pérennité de l'emploi pour les artistes. L'aide demandée doit alors servir à renforcer le budget et ainsi, enrichir la mise en œuvre du projet."
 slug: "dossier-subvention"
 imgUrl: "/images/service_7.jpeg"
-img1: ""
-img2: ""
-img3: ""
-img4: ""
-img5: ""
+img1: "/images/subvention/photo1-subvention.JPG"
+img2: "/images/subvention/photo2-subvention.JPG"
+img3: "/images/subvention/photo3-subvention.JPG"
+img4: "/images/subvention/photo4-subvention.JPG"
+img5: "/images/subvention/photo5-subvention.JPG"
 ---
 
 <!-- section:start -->

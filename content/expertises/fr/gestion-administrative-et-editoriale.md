@@ -3,11 +3,11 @@ title: "Gestion administrative et éditoriale"
 description: "Description de la gestion des oeuvres"
 slug: "gestion-administrative-et-editoriale"
 imgUrl: "/images/service_7.jpeg"
-img1: ""
-img2: ""
-img3: ""
-img4: ""
-img5: ""
+img1: "/images/gestion-admin/photo1-gestionadmin.JPG"
+img2: "/images/gestion-admin/photo2-gestionadmin.JPG"
+img3: "/images/gestion-admin/photo3-gestionadmin.JPG"
+img4: "/images/gestion-admin/photo4-gestionadmin.JPG"
+img5: "/images/gestion-admin/photo5-gestionadmin.JPG"
 ---
 
 <!-- section:start -->

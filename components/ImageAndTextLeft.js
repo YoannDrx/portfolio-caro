@@ -14,7 +14,7 @@ const ImageAndTextLeft = ({ title, imagePath, altText, children }) => {
         </Div>
         <Div className="cs-post cs-style2">{children}</Div>
       </Div>
-      <Spacing lg="30" md="50" />
+      <Spacing lg="50" md="20" />
     </Div>
   );
 };

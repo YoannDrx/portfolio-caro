@@ -4,11 +4,11 @@ description: "description de la gestion de la distribution physique et digitale"
 intro: "Le terme 'distribution' fait référence à la troisième phase de production d'un enregistrement, qu'il s'agisse d'un album, d'un Ep ou d'un maxi. Cette phase englobe la commercialisation du produit à l'intention des consommateurs potentiels."
 slug: "gestion-distribution"
 imgUrl: "/images/service_7.jpeg"
-img1: ""
-img2: ""
-img3: ""
-img4: ""
-img5: ""
+img1: "/images/gestion-distrib/photo1-gestiondistrib.JPG"
+img2: "/images/gestion-distrib/photo2-gestiondistrib.JPG"
+img3: "/images/gestion-distrib/photo3-gestiondistrib.JPG"
+img4: "/images/gestion-distrib/photo4-gestiondistrib.JPG"
+img5: "/images/gestion-distrib/photo5-gestiondistrib.JPG"
 ---
 
 <!-- section:start -->

@@ -3,6 +3,11 @@ title: "Gestion des oeuvres en sous-édition"
 description: "description de la sous édition"
 slug: "sous-edition"
 imgUrl: "/images/service_7.jpeg"
+img1: "/images/sous-edition/photo1-soused.JPG"
+img2: "/images/sous-edition/photo1-soused.JPG"
+img3: "/images/sous-edition/photo1-soused.JPG"
+img4: "/images/sous-edition/photo1-soused.JPG"
+img5: "/images/sous-edition/photo1-soused.JPG"
 ---
 
 <!-- section:start -->

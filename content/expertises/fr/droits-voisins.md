@@ -3,11 +3,12 @@ title: "Gestion des droits voisins"
 description: "Descritpion droits voisins"
 slug: "droits-voisins"
 imgUrl: "/images/service_7.jpeg"
-img1: ""
-img2: ""
-img3: ""
-img4: ""
-img5: ""
+img1: "/images/droit-voisin/photo1-droitsvoisins.JPG"
+img2: "/images/droit-voisin/photo2-droitsvoisins.JPG"
+img3: "/images/droit-voisin/photo7-droitsvoisins.JPG"
+img4: "/images/droit-voisin/photo4-droitsvoisins.JPG"
+img5: "/images/droit-voisin/photo5-droitsvoisins.JPG"
+img6: "/images/droit-voisin/photo6-droitsvoisins.JPG"
 ---
 
 <!-- section:start -->

@@ -5,8 +5,6 @@ import Spacing from "./Spacing";
 const ImageAndTextRight = ({ title, imagePath, altText, children }) => {
   return (
     <Div className="container">
-      <Spacing lg="30" md="50" />
-
       <Div className="">
         <h2 className="text-center" style={{ color: "#ff4b17", marginBlock: "50px", marginTop: "50px" }}>
           {title}
