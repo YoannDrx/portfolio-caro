@@ -9,6 +9,7 @@ img2: "/images/gestion-distrib/photo2-gestiondistrib.JPG"
 img3: "/images/gestion-distrib/photo3-gestiondistrib.JPG"
 img4: "/images/gestion-distrib/photo4-gestiondistrib.JPG"
 img5: "/images/gestion-distrib/photo5-gestiondistrib.JPG"
+img6: "/images/gestion-distrib/photo6-gestiondistrib.JPG"
 ---
 
 <!-- section:start -->
