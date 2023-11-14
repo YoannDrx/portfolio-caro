@@ -254,8 +254,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
           </ImageAndTextLeft>
         ) : null}
 
-        {/* grid de petite image rectangulaire cliquable */}
-        <ClickableImageGrid labels={labels} />
+        {labels ? <ClickableImageGrid labels={labels} /> : null}
 
         <Spacing lg="120" md="50" />
 
