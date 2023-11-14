@@ -1723,13 +1723,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 400px;
 }
 
 @media (max-width: 768px) {
   .image-container {
     float: none;
     width: 100%;
-    margin: 0 0 20px 0;
+    margin: 0 auto;
   }
 }
 
@@ -1742,6 +1743,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 400px;
 }
 .clearfix::after {
   content: "";
