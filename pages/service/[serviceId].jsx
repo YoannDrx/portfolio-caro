@@ -1,11 +1,8 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import React from "react";
 import Accordion from "../../components/Accordion";
-import Button from "../../components/Button";
 import Cta from "../../components/Cta";
 import Div from "../../components/Div";
-import IconBox from "../../components/IconBox";
 import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
 import SectionHeading from "../../components/SectionHeading";
@@ -17,7 +14,6 @@ import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import ImageAndTextRight from "../../components/ImageAndTextRight";
 import ImageAndTextLeft from "../../components/ImageAndTextLeft";
-import Image from "next/image";
 import ExpertiseSection from "../../components/ExpertiseSection";
 import ClickableImageGrid from "../../components/ClickableImageGrid";
 
@@ -255,6 +251,8 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {labels ? <ClickableImageGrid labels={labels} /> : null}
+
+        {/* <DocumentairesGallery labels={labels} /> */}
 
         <Spacing lg="120" md="50" />
 
