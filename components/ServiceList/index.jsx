@@ -15,7 +15,6 @@ export default function ServiceList({ services }) {
     <Div className="cs-iconbox_3_list">
       {services.map((service, index) => {
         const localizedHref = `/${locale}/service/${service.id}`; // Ici, service.id sera défini
-        console.log("service.id >>", service.id);
         return (
           <Div
             className={`cs-hover_tab ${active === index ? "active" : ""}`}
