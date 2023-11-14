@@ -202,7 +202,7 @@ export default function Home({ services }) {
           subtitle="Copyright | Production"
           socialLinksHeading=""
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="./images/hero_bg_4.jpg"
+          bgImageUrl="./images/home/photocouverture.JPG"
         />
         {/* End Hero Section */}
         {/* Start Expertises */}
