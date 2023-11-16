@@ -5,7 +5,7 @@ import Spacing from "./Spacing";
 import ModalImage from "react-modal-image";
 import Div from "./Div";
 
-export default function DocumentairesGallery({ labels }) {
+export default function DocumentairesGallery({ labels, documentaires }) {
   const [active, setActive] = useState("all");
   const [itemShow, setItemShow] = useState(10);
 
@@ -184,7 +184,7 @@ export default function DocumentairesGallery({ labels }) {
       </Div>
       <Spacing lg="90" md="45" />
       <Div className="cs-masonry_4_col">
-        {portfolioData.slice(0, itemShow).map((item, index) => (
+        {documentaires.slice(0, itemShow).map((item, index) => (
           <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
             <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
               <Div className="cs-lightbox_item">
@@ -192,7 +192,7 @@ export default function DocumentairesGallery({ labels }) {
               </Div>
               <Div className="cs-portfolio_hover" />
               <span className="cs-plus" />
-              <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
+              <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.srcLg}")` }} />
               <Div className="cs-portfolio_info">
                 <Div className="cs-portfolio_info_bg cs-accent_bg" />
                 <h2 className="cs-portfolio_title">{item.title}</h2>
@@ -204,7 +204,7 @@ export default function DocumentairesGallery({ labels }) {
       </Div>
       <Div className="container">
         <Div className="text-center">
-          {portfolioData.length <= itemShow ? (
+          {documentaires.length <= itemShow ? (
             ""
           ) : (
             <>
