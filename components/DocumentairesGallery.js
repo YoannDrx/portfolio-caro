@@ -11,21 +11,21 @@ export default function DocumentairesGallery({ labels }) {
 
   const portfolioData = [
     {
-      title: "Colorful Art Work",
-      subtitle: "View Large",
+      title: "Titre 1",
+      subtitle: "Subtitle 1",
       href: "/portfolio/portfolio-details",
       src: "https://www.5doigts2pieds.fr/blog/wp-content/uploads/2022/03/Bikila-EVO-6-800x473.jpg",
       srcLg: "/images/portfolio_21_lg.jpeg",
-      category: "wedding",
+      category: "label-1",
       height: 299,
     },
     {
-      title: "Colorful Art Work",
-      subtitle: "View Large",
+      title: "Titre 2",
+      subtitle: "Subtitle 2",
       href: "/portfolio/portfolio-details",
       src: "https://www.verywellfit.com/thmb/dAxgATiA7Fv1yJ7gj8St5Z9c3pA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tips-for-proper-running-form-4020227-2165-ef4e9ba9dadb4f6c95529a14ae035912.jpg",
       srcLg: "/images/portfolio_25_lg.jpeg",
-      category: "portrait",
+      category: "label-2",
       height: 622,
     },
     {

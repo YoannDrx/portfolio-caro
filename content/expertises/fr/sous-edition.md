@@ -2,7 +2,7 @@
 title: "Gestion des oeuvres en sous-édition"
 description: "description de la sous édition"
 slug: "sous-edition"
-imgUrl: "/images/service_7.jpeg"
+imgHome: "/images/sous-edition/Home-PhotoGestionSoused.JPG"
 img1: "/images/sous-edition/photo1-soused.JPG"
 img2: "/images/sous-edition/photo2-soused.JPG"
 img3: "/images/sous-edition/photo3-soused.JPG"

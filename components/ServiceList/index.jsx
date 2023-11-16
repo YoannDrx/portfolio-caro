@@ -23,7 +23,7 @@ export default function ServiceList({ services }) {
             <Link href={localizedHref} className="cs-iconbox cs-style3">
               <Div className="cs-image_layer cs-style1 cs-size_md">
                 <Div className="cs-image_layer_in">
-                  <img src={service.imgUrl} alt="Thumb" className="w-100 cs-radius_15" />
+                  <img src={service.imgHome} alt="Thumb" className="w-100 cs-radius_15" />
                 </Div>
               </Div>
               <span className="cs-iconbox_icon cs-center">

@@ -2,7 +2,7 @@
 title: "Gestion des droits d’auteur"
 description: "Le terme auteur désigne l'individu qui rédige les paroles d'une chanson"
 slug: "droits-auteur"
-imgUrl: "/images/service_7.jpeg"
+imgHome: "/images/droit-auteur/Home-PHOTODROITSDAUTEUR.JPG"
 img1: "/images/droit-auteur/photo1-droitsdauteur.JPG"
 img2: "/images/droit-auteur/photo2-droitsdauteur.JPG"
 img3: "/images/droit-auteur/photo3-droitsdauteur.JPG"
