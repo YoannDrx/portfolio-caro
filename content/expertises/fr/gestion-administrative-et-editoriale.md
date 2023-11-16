@@ -5,9 +5,13 @@ slug: "gestion-administrative-et-editoriale"
 imgHome: "/images/gestion-admin/Home-PhotoGestionEditoriale.JPG"
 img1: "/images/gestion-admin/photo1-gestionadmin.jpeg"
 img2: "/images/gestion-admin/photo2-gestionadmin.jpeg"
+img2Link: "https://www.film-documentaire.fr/4DACTION/w_liste_generique/S_67401_G"
 img3: "/images/gestion-admin/photo3-gestionadmin.jpeg"
+img3Link: "https://www.13prods.fr"
 img4: "/images/gestion-admin/photo4-gestionadmin.jpeg"
+img4Link: "https://popfilms.fr"
 img5: "/images/gestion-admin/photo5-gestionadmin.jpeg"
+img5Link: "https://www.viadecouvertes.fr/"
 ---
 
 <!-- section:start -->
@@ -34,7 +38,7 @@ Le contrat de gestion éditoriale doit être transmis au service juridique de la
 
 ### **Gestion administrative et éditoriale pour LITTLE BIG STORY :**
 
-Little Big Story est une société de production audiovisuelle française et basée à Paris, dédiée aux documentaires, aux formats longs et à l’international. Elle entend revisiter les modes narratifs en croisant les formes, les genres et les supports, afin de raconter des histoires qui mettent l’époque à nu. Little Big Story a tiré les leçons d’un marché émietté, et d’une révolution audiovisuelle en cours. Cette démarche est fondée sur l’idée d’un (télé)spectateur-citoyen déjà nourri d’images et exigeant. C’est une démarche d’avenir, porteuse de projets ambitieux et de financements multiples. Par leur forme et leur fond, les projets visent des audiences larges, en France et sur le marché international.[little big story est lauréat du prix du producteur de télévision 2018 (catégorie documentaire)](https://www.film-documentaire.fr/4DACTION/w_liste_generique/S_67401_G)
+Little Big Story est une société de production audiovisuelle française et basée à Paris, dédiée aux documentaires, aux formats longs et à l’international. Elle entend revisiter les modes narratifs en croisant les formes, les genres et les supports, afin de raconter des histoires qui mettent l’époque à nu. Little Big Story a tiré les leçons d’un marché émietté, et d’une révolution audiovisuelle en cours. Cette démarche est fondée sur l’idée d’un (télé)spectateur-citoyen déjà nourri d’images et exigeant. C’est une démarche d’avenir, porteuse de projets ambitieux et de financements multiples. Par leur forme et leur fond, les projets visent des audiences larges, en France et sur le marché international. Little big story est lauréat du prix du producteur de télévision 2018 (catégorie documentaire).
 
 - [numero 387 disparu en méditerranée](http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1)
 - [bnp paribas dans les eaux troubles de la plus grande banque européenne](https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0)
@@ -55,7 +59,6 @@ Little Big Story est une société de production audiovisuelle française et bas
 ### **Gestion administrative et éditoriale pour 13 PRODS :**
 
 13 Productions est née du rapprochement de deux sociétés de productions 13 production et 13 au sud. Deux sociétés aux profils différents mais complémentaires et compatibles en termes de ligne éditoriale. Fusionnant l’expérience et la modernité, 13 Productions explore et enrichit le cinéma documentaire, tout en assumant sa présence singulière dans le domaine de la fiction. Questionner le monde, enquêter sur ses rouages, souligner les points de fracture et les lignes d’utopie en partageant la vie d’hommes et de femmes engagés, voilà ce qui dynamise l’enthousiasme de 13 productions.
-[13 Productions](https://www.13prods.fr/)
 
 - [Gurs un silence assourdissant](https://www.13prods.fr/gurs-un-silence-assourdissant/)
 - [Cancre ?](https://www.13prods.fr/cancre/)
@@ -136,7 +139,7 @@ Little Big Story est une société de production audiovisuelle française et bas
 
 ### **Gestion administrative et éditoriales des co-productions avec "Pop’films"** :
 
-Pop’films est une société de production créée en 2021. https://popfilms.fr/
+Pop’films est une société de production créée en 2021.
 
 Elle s’appuie sur l’expérience de Sylvie Gautier, productrice et réalisatrice, qui a travaillé sur plus de 250 programmes télévisés depuis 1997, d’abord chez Gédéon Programmes (1997-2002) puis chez Camera lucida (2002-2021) pour toutes les chaînes que ce soient France Télévisions, Arte France, Histoire TV, Ushuaïa, Voyages, LCP, Public Sénat, KTO TV, TV5 Monde ou encore Planète + ou STM WEO en France et à l’étranger pour Discovery US, RTBF, RTS…
 
@@ -167,8 +170,6 @@ Privilégiant ainsi les rencontres et les lieux insolites, Via Découvertes Film
 Découverte, Environnement, Science, Santé, Société, Investigation, Géopolitique sont autant de thématiques qu’ils traitent, sans oublier le « film de mer », véritable spécificité de l’entreprise.
 
 Forte de ses 20 années d’expérience, Via Découvertes Films produit aujourd’hui des films documentaires pour les principaux diffuseurs français publics et privés (France Télévisions, Arte, Canal +…), et compte dans son catalogue plus de 150 films distribués et diffusés dans le monde entier.
-
-[https://www.viadecouvertes.fr/](https://www.viadecouvertes.fr/)
 
 - [les amoureux de marianne](https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0)
 - [au nom de la mer](https://www.13prods.fr/au-nom-de-la-mer/)

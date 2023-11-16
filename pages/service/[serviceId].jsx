@@ -95,7 +95,7 @@ const serviceExpertises = [
 ];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   // Utiliser les métadonnées directement
-  const { title, intro, img1, img2, img3, img4, img5, img6, labels } = metaData;
+  const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link } = metaData;
 
   console.log("labels >>", labels);
 
@@ -124,7 +124,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         </Div>
 
         {part1 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath={img1} altText="Service">
+          <ImageAndTextRight title={""} imagePath={img1} link="" altText="Service">
             <ReactMarkdown
               children={part1}
               components={{
@@ -140,7 +140,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part2 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath={img2} altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img2} link={img2Link} altText="Service">
             <ReactMarkdown
               children={part2}
               components={{
@@ -156,7 +156,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part3 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath={img3} altText="Service">
+          <ImageAndTextRight title={""} imagePath={img3} link={img3Link} altText="Service">
             <ReactMarkdown
               children={part3}
               components={{
@@ -172,7 +172,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part4 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath={img4} altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img4} link={img4Link} altText="Service">
             <ReactMarkdown
               children={part4}
               components={{
@@ -188,7 +188,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part5 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath={img5} altText="Service">
+          <ImageAndTextRight title={""} imagePath={img5} link={img5Link} altText="Service">
             <ReactMarkdown
               children={part5}
               components={{
