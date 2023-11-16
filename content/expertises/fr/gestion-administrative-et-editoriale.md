@@ -12,6 +12,972 @@ img4: "/images/gestion-admin/photo4-gestionadmin.jpeg"
 img4Link: "https://popfilms.fr"
 img5: "/images/gestion-admin/photo5-gestionadmin.jpeg"
 img5Link: "https://www.viadecouvertes.fr/"
+documentaires:
+  # little-big-story
+  - {
+      title: "Numero 387 disparu en méditerranée",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/numeo387.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/numeo387.jpeg",
+      link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1",
+      category: "little-big-story",
+      height: "622",
+    }
+  - {
+      title: "BNP Paribas dans les eaux troubles de la plus grande banque européenne",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/bnp-paribas.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/bnp-paribas.jpeg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0",
+      category: "little-big-story",
+      height: "299",
+    }
+  - {
+      title: "L'empire de l'or rouge",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/lempire-de-lor-rouge.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/lempire-de-lor-rouge.jpeg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0",
+      category: "little-big-story",
+      height: "622",
+    }
+  - {
+      title: "La démocratie du dollar",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/la-democratie-du-dollar.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/la-democratie-du-dollar.jpeg",
+      link: "https://www.13prods.fr/la-democratie-du-dollar/",
+      category: "little-big-story",
+      height: "299",
+    }
+  - {
+      title: "Taiwan une démocratie à l’ombre de la Chine",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/taiwan.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/taiwan.jpeg",
+      link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "Marcus Klingberg un pur espion",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/marcus-klinberg.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/marcus-klinberg.jpg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "Les poisons de Poutine – La menace",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-la-menace.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-la-menace-large.jpg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "Les poisons de Poutine – Une nouvelle guerre froide",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68281_0",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "Les poisons de Poutine – Une nouvelle guerre froide (alternative link)",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-une-nouvelle-guerre-froide-alternative.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-une-nouvelle-guerre-froide-alternative-large.jpg",
+      link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/68282",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "Les oublies de l'atome",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/les-oublies-de-latome.png",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/les-oublies-de-latome.png",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "La femme sans nom – L’histoire de Jeanne et Baudelaire",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/la-femme-sans-nom.png",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/la-femme-sans-nom.png",
+      link: "https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
+      category: "little-big-story",
+      height: "",
+    }
+  - {
+      title: "La femme sans nom – L’histoire de Jeanne et Baudelaire (alternative link)",
+      subtitle: "little-big-story",
+      href: "/images/gestion-admin/little-big-story/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire-alternative.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/little-big-story/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire-alternative-large.jpg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0",
+      category: "little-big-story",
+      height: "",
+    }
+  # 13-prods
+  - {
+      title: "Gurs un silence assourdissant",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/gurs.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/gurs.jpeg",
+      link: "https://www.13prods.fr/gurs-un-silence-assourdissant/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Cancre ?",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/cancre.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/cancre.jpeg",
+      link: "https://www.13prods.fr/cancre/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Génération Grand Bleu",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/generation-grand-bleu.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/generation-grand-bleu.jpg",
+      link: "https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Ma cité mon village",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/ma-cite-mon-village.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/ma-cite-mon-village.jpg",
+      link: "https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Le procès d'Auschwitz la fin du silence",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/le-proces-dauschwitz.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/le-proces-dauschwitz.jpeg",
+      link: "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Les ouvrières du Made in France",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-ouvrieres-du-made-in-france.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-ouvrieres-du-made-in-france.jpeg",
+      link: "https://www.13prods.fr/les-ouvrieres-du-made-in-france/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "La grève du siècle",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/la-greve-du-siecle.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/la-greve-du-siecle.jpeg",
+      link: "https://www.13prods.fr/68lagrevedusiecle/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Rêves de princesses",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/reves-de-princesse.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/reves-de-princesse.jpeg",
+      link: "https://www.13prods.fr/reves-de-princesses/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Makatea la terre convoitée",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/makatea.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/makatea.jpeg",
+      link: "https://www.13prods.fr/makatea-une-terre-convoitee/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Par nos yeux",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/par-nos-yeux.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/par-nos-yeux.jpeg",
+      link: "https://www.13prods.fr/par-nos-yeux/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "39-45 Les résistantes allemandes",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-resistantes-alllemandes.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-resistantes-alllemandes.png",
+      link: "https://www.13prods.fr/39-45-les-resistantes-allemandes/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Mayotte les combattantes",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/mayotte-les-combattantes.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/mayotte-les-combattantes.jpeg",
+      link: "https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Les oubliés de la justice",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-oublies-de-la-justice.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-oublies-de-la-justice.jpeg",
+      link: "https://www.13prods.fr/les-oublies-de-la-justice/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Mayotte l'enfance en danger",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/mayotte-lenfance-en-danger.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/mayotte-lenfance-en-danger.jpeg",
+      link: "https://www.13prods.fr/mayotte-lenfance-en-danger/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "La brousse une terre en partage",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/labrousse.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/labrousse.jpeg",
+      link: "https://www.13prods.fr/la-brousse-une-terre-en-partage/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Opération biodiversité",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/operation-biodiversite.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/operation-biodiversite.png",
+      link: "https://www.13prods.fr/operation-biodiversite/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Mes parents ces héros ordinaires",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/mes-parents.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/mes-parents.jpeg",
+      link: "https://www.13prods.fr/mes-parents-ces-heros-ordinaires/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "T gros",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/tgros.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/tgros.png",
+      link: "https://www.13prods.fr/t-gros/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Guadeloupe les soldats de la terre",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/guadeloupe.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/guadeloupe.jpeg",
+      link: "https://www.13prods.fr/les-soldats-de-la-terre/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Les femmes du troisième Reich",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-femmes-du-troisieme-reich.webp",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-femmes-du-troisieme-reich.webp",
+      link: "https://www.13prods.fr/les-femmes-du-iiie-reich/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "À vous de juger",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/a-vous-de-juger.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/a-vous-de-juger.jpeg",
+      link: "https://www.13prods.fr/a-vous-de-juger/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Le troisième Reich n'aura pas la bombe",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/le-iiieme-reich-naurapaslabombe.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/le-iiieme-reich-naurapaslabombe.jpeg",
+      link: "https://www.13prods.fr/le-3eme-reich-naura-pas-la-bombe/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Miquelon entre deux eaux",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/miquelon-entre-deux-eaux.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/miquelon-entre-deux-eaux.jpeg",
+      link: "https://www.13prods.fr/entre-deux-eaux/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Les murs de la honte",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-murs-de-la-honte.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-murs-de-la-honte-large.jpg",
+      link: "https://www.13prods.fr/les-murs-de-la-honte/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "La rumeur d'Orléans",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/la-rumeur-dorleans.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/la-rumeur-dorleans.jpeg",
+      link: "https://www.13prods.fr/la-rumeur-dorleans/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Martinique la reconquête de la terre",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/martinique-la-reconquete.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/martinique-la-reconquete.jpeg",
+      link: "https://www.13prods.fr/martinique-reconquete-terre/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "De Gérard à Mr Collomb itinéraire d'un baron",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/de-gerard-a-monsieur.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/de-gerard-a-monsieur.jpeg",
+      link: "https://www.13prods.fr/itineraire-d-un-baron/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Gaudin l'heure de l'inventaire",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/gaudin.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/gaudin.jpg",
+      link: "https://www.13prods.fr/gaudin-lheure-de-linventaire/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Juppé un roman bordelais",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/juppe.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/juppe.jpg",
+      link: "https://www.13prods.fr/juppe-un-roman-bordelais/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Martine Aubry la dame de Lille",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/martineaubry.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/martineaubry.jpg",
+      link: "https://www.13prods.fr/aubry-la-dame-de-lille/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Petit pays je t'aime beaucoup",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/petit-pays.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/petit-pays.jpeg",
+      link: "https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Outre Mer 100 ans en clichés",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/outremer.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/outremer.jpeg",
+      link: "https://www.13prods.fr/outremer-100-ans-en-cliches/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Clearstream et moi",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/clearstream.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/clearstream.jpeg",
+      link: "https://www.13prods.fr/clearstream/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Karim contre Mittal",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/karim-contre-mittal.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/karim-contre-mittal.jpeg",
+      link: "https://www.13prods.fr/karim-contre-mittal/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Solidarnosc la première brèche",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/solidarnosc.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/solidarnosc.jpeg",
+      link: "https://www.13prods.fr/solidarnosc-la-premiere-breche/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Guyane Underground",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/guyane-underground.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/guyane-underground.jpeg",
+      link: "https://www.13prods.fr/guyane-underground/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Déconfinés en Ré",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/deconfines.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/deconfines.jpeg",
+      link: "https://www.13prods.fr/deconfines-en-re/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Cogolin ville à prendre",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/cogolin.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/cogolin.png",
+      link: "https://www.13prods.fr/cogolin-ville-a-prendre/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Nous ne sommes rien soyons tout",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/nous-ne-sommes-rien.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/nous-ne-sommes-rien.jpeg",
+      link: "https://www.13prods.fr/nous-ne-sommes-rien-soyons-tout/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Déconnectés les oubliés du numérique",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/deconnectes.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/deconnectes.jpeg",
+      link: "https://www.13prods.fr/deconnectes-les-oublies-du-numerique/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Diam a Jul Marseille capitale rap",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/marseille-capitale-du-rap.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/marseille-capitale-du-rap.jpeg",
+      link: "https://www.13prods.fr/rap-marseille/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "André Mailfert l'épopée d'un faussaire industriel",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/andre-mailfert.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/andre-mailfert.jpeg",
+      link: "https://www.13prods.fr/andre-mailfert/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "La double vie du cognac",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/la-double-vie-du-cognac.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/la-double-vie-du-cognac.png",
+      link: "https://www.13prods.fr/la-double-vie-du-cognac/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Chanter à tout prix",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/chanter-a-tout-prix.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/chanter-a-tout-prix.jpeg",
+      link: "https://www.13prods.fr/chanter-a-tout-prix/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Concordat et laïcité, l'exception",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/concordat-et-laicite-lexception.jpg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/concordat-et-laicite-lexception-large.jpg",
+      link: "https://www.13prods.fr/concordat-et-laicite/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Pas folle la liberté",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/pas-folle-la-liberte.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/pas-folle-la-liberte.png",
+      link: "https://www.13prods.fr/pas-folle-la-liberte/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Comment te dire adieu",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/comment-te-dire-adieu.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/comment-te-dire-adieu.png",
+      link: "https://www.13prods.fr/comment-te-dire-adieu/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Le temps d'aimer",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/le-temps-daimer.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/le-temps-daimer.jpeg",
+      link: "https://www.13prods.fr/le-temps-daimer/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "L'éveil du désir",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/leveil-du-désir.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/leveil-du-désir.jpeg",
+      link: "https://www.13prods.fr/leveil-du-desir/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Les résistants de Mauthausen",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/les-resistants-de-mauthausen.webp",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-resistants-de-mauthausen.webp",
+      link: "https://www.13prods.fr/mauthausen/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Lâche ton smartphone",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/lache-ton-smartphone.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/lache-ton-smartphone.png",
+      link: "https://www.13prods.fr/lache-ton-smartphone/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Unique en mon genre",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/unique-en-mon-genre.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/unique-en-mon-genre.jpeg",
+      link: "https://www.13prods.fr/unique-en-mon-genre/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Jean Jouzel dans la bataille du siècle",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/jean-jouzel.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/jean-jouzel.jpeg",
+      link: "https://www.13prods.fr/jean-jouzel-la-bataille-du-siecle/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Cahier d'un retour en langue natale",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/cahier-d-un-retour.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/cahier-d-un-retour.png",
+      link: "https://www.13prods.fr/cahier-dun-retour-en-langue-natale/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Le ministère",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/le-ministere.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/le-ministere.jpeg",
+      link: "https://www.13prods.fr/le-ministere/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Masque de fer",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/le-masque-de-fer.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/le-masque-de-fer.jpeg",
+      link: "https://www.13prods.fr/masque-de-fer/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Eric Piolle, le pèlerin vert",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/eric-piolle.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/eric-piolle.png",
+      link: "https://www.13prods.fr/eric-piolle-le-pelerin-vert/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Mic Mac à Millau, les paysans face à la mondialisation",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/micmac.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/micmac.jpeg",
+      link: "https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Votez jeunesse",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/votez-jeunesse.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/votez-jeunesse.jpeg",
+      link: "https://www.13prods.fr/votez-jeunesse/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "J'irai crier sur vos murs",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/j-irai-crier-sur-vos-murs.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/j-irai-crier-sur-vos-murs.jpeg",
+      link: "https://www.13prods.fr/jirai-crier-sur-vos-murs/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Plonger pour guérir",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/plonger-pour-guerir.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/plonger-pour-guerir.jpeg",
+      link: "https://www.13prods.fr/plonger-pour-guerir/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Filles de Harkis",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/filles-de-harkis.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/filles-de-harkis.png",
+      link: "https://www.13prods.fr/filles-de-harkis/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Des Antilles au Djebel, les Antillais dans la guerre d’Algérie",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/des-antilles-au-djebel.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/des-antilles-au-djebel.jpeg",
+      link: "https://www.13prods.fr/des-antilles-au-djebel/",
+      category: "13-prods",
+      height: "",
+      s,
+    }
+  - {
+      title: "Sous la loi des Talibans",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/sous-la-loi-des-talibans.webp",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/sous-la-loi-des-talibans.webp",
+      link: "https://www.13prods.fr/sous-la-loi-des-talibans/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Souvenirs en cuisine",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/souvenirs-en-cuisine.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/souvenirs-en-cuisine.jpeg",
+      link: "https://www.13prods.fr/souvenirs-en-cuisine/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Cabrera un secret révélé",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/cabrera-un-secret.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/cabrera-un-secret.jpeg",
+      link: "https://www.13prods.fr/cabrera-un-secret-revele/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "La clinique de l'amour",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/la-clinique-de-lamour.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/la-clinique-de-lamour.jpeg",
+      link: "https://www.13prods.fr/la-clinique-de-lamour/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Quand l'Afrique sauva la France",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/quand-lafrique-sauva.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/quand-lafrique-sauva.jpeg",
+      link: "https://www.13prods.fr/quand-l-afrique-sauva-la-france/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Calanques les usines du bout du monde",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/calanques.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/calanques.jpeg",
+      link: "https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Almodovar l'insolent de la Mancha",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/almodovar.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/almodovar.jpeg",
+      link: "https://www.13prods.fr/almodovar-linsolent-de-la-mancha/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "En jachère",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/enjachere.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/enjachere.jpeg",
+      link: "https://www.13prods.fr/en-jachere/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Avant que la grande nacre meure",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/avant-que-la-grande-nacre-meure.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/avant-que-la-grande-nacre-meure.jpeg",
+      link: "https://www.13prods.fr/avant-que-la-grande-nacre-meure/",
+      category: "13-prods",
+      height: "",
+    }
+  - {
+      title: "Une deuxième chance",
+      subtitle: "13-prods",
+      href: "/images/gestion-admin/13-prods/une-deuxieme-chance.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/une-deuxieme-chance.jpeg",
+      link: "https://www.13prods.fr/deuxieme-chance/",
+      category: "13-prods",
+      height: "",
+    }
+    # Pop Films
+  - {
+      title: "Patrick Edlinger, la liberté au bout des doigts",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/edlinger.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/edlinger.jpeg",
+      link: "https://popfilms.fr/index.php/edlinger-la-liberte-au-bout-des-doigts/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Naissance d’un héros noir au cinéma, Sweet Sweetback",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/sweet-sweetback.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/sweet-sweetback.jpeg",
+      link: "https://www.13prods.fr/sweet-sweetback/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Chants grégoriens 2.0",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/chants-gregoriens.png",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/chants-gregoriens.png",
+      link: "https://www.13prods.fr/chants-gregoriens-2-0/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Jamie Lee Curtis un cri de liberté à Hollywood",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/jamie-lee-curtis.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/jamie-lee-curtis.jpeg",
+      link: "https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Georges Perec, l’homme qui ne voulait pas oublier",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/georges-perec.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/georges-perec.jpeg",
+      link: "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Si loin de la Polynésie",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/si-loin-de-la-polynesie.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/si-loin-de-la-polynesie.jpeg",
+      link: "https://www.13prods.fr/si-loin-de-la-polynesie/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Jules Verne et le défi du tour du monde",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/jules-verne.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/jules-verne.jpeg",
+      link: "https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/",
+      category: "pop-films",
+      height: "",
+    }
+  - {
+      title: "Gorongosa, le parc de la réconciliation",
+      subtitle: "pop-films",
+      href: "/images/gestion-admin/pop-films/gorongosa.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/pop-films/gorongosa.jpeg",
+      link: "https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/",
+      category: "pop-films",
+      height: "",
+    }
+    # Via découvertes films
+  - {
+      title: "Les amoureux de Marianne",
+      subtitle: "via-decouvertes-films",
+      href: "/images/gestion-admin/via-decouvertes-films/les-amoureux-de-marianne.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/via-decouvertes-films/les-amoureux-de-marianne.jpeg",
+      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0",
+      category: "via-decouvertes-films",
+      height: "",
+    }
+  - {
+      title: "Au nom de la mer",
+      subtitle: "via-decouvertes-films",
+      href: "/images/gestion-admin/via-decouvertes-films/au-nom-de-la-mer.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/via-decouvertes-films/au-nom-de-la-mer.jpeg",
+      link: "https://www.13prods.fr/au-nom-de-la-mer/",
+      category: "via-decouvertes-films",
+      height: "",
+    }
+  - {
+      title: "Leila une vie à Miquelon",
+      subtitle: "via-decouvertes-films",
+      href: "/images/gestion-admin/via-decouvertes-films/leila une vie a miquelon.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/via-decouvertes-films/leila une vie a miquelon.jpeg",
+      link: "https://www.13prods.fr/au-nom-de-la-mer/ ",
+      category: "via-decouvertes-films",
+      height: "",
+    }
 ---
 
 <!-- section:start -->
@@ -137,7 +1103,7 @@ Little Big Story est une société de production audiovisuelle française et bas
 <!-- section:end -->
 <!-- section:start -->
 
-### **Gestion administrative et éditoriales des co-productions avec "Pop’films"** :
+### **Gestion administrative et éditoriales des co-productions avec "Pop’films" :**
 
 Pop’films est une société de production créée en 2021.
 

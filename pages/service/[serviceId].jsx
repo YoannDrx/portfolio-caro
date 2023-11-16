@@ -95,8 +95,10 @@ const serviceExpertises = [
 ];
 export default function ServiceDetails({ markdownSections, serviceId, metaData }) {
   // Utiliser les métadonnées directement
-  const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link } = metaData;
+  const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link, documentaires } =
+    metaData;
 
+  console.log("documentaires >>", documentaires);
   console.log("labels >>", labels);
 
   // Utiliser les sections Markdown
@@ -253,7 +255,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
 
         {labels ? <ClickableImageGrid labels={labels} /> : null}
 
-        <DocumentairesGallery labels={labels} />
+        <DocumentairesGallery labels={labels} documentaires={documentaires} />
 
         <Spacing lg="120" md="50" />
 
