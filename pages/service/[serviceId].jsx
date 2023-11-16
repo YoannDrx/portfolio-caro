@@ -16,6 +16,7 @@ import ImageAndTextRight from "../../components/ImageAndTextRight";
 import ImageAndTextLeft from "../../components/ImageAndTextLeft";
 import ExpertiseSection from "../../components/ExpertiseSection";
 import ClickableImageGrid from "../../components/ClickableImageGrid";
+import DocumentairesGallery from "../../components/DocumentairesGallery";
 
 export async function getStaticProps({ params, locale }) {
   // Extraire l'identifiant de service à partir des paramètres de la route
@@ -252,7 +253,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
 
         {labels ? <ClickableImageGrid labels={labels} /> : null}
 
-        {/* <DocumentairesGallery labels={labels} /> */}
+        <DocumentairesGallery labels={labels} />
 
         <Spacing lg="120" md="50" />
 

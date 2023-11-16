@@ -36,7 +36,7 @@ export async function getStaticProps() {
       href: `/service/${data.slug || path.parse(filename).name}`,
       title: data.title || "Titre par défaut",
       subtitle: data.description || "Sous-titre par défaut",
-      imgUrl: data.imgUrl || "/images/service_7.jpeg",
+      imgHome: data.imgHome || "/images/service_7.jpeg",
       description: data.description || "Description par défaut",
     };
   });
