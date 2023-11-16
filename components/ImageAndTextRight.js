@@ -2,7 +2,7 @@ import React from "react";
 import Div from "./Div";
 import Spacing from "./Spacing";
 
-const ImageAndTextRight = ({ title, imagePath, altText, children }) => {
+const ImageAndTextRight = ({ title, imagePath, altText, children, link }) => {
   return (
     <Div className="container">
       <Div className="">
@@ -10,7 +10,18 @@ const ImageAndTextRight = ({ title, imagePath, altText, children }) => {
           {title}
         </h2>
         <Div className="image-container">
-          {imagePath ? <img src={imagePath} alt={altText} className="cs-radius_15 w-100" /> : null}
+          {imagePath && (
+            <Div className="image-wrapper">
+              <a href={link || "#"} target={link ? "_blank" : "_self"} rel="noopener noreferrer">
+                <img src={imagePath} alt={altText} className="cs-radius_15 w-100" />
+                {link && (
+                  <Div className="overlay">
+                    <span>Voir le site →</span>
+                  </Div>
+                )}
+              </a>
+            </Div>
+          )}
         </Div>
         <Div className="cs-post cs-style2">{children}</Div>
       </Div>
