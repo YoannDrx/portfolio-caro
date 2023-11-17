@@ -255,7 +255,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
 
         {labels ? <ClickableImageGrid labels={labels} /> : null}
 
-        <DocumentairesGallery labels={labels} documentaires={documentaires} />
+        {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
 
         <Spacing lg="120" md="50" />
 
