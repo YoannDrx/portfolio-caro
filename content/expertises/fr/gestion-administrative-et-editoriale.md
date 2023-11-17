@@ -77,9 +77,9 @@ documentaires:
   - {
       title: "Les poisons de Poutine – La menace",
       subtitle: "little-big-story",
-      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-la-menace.jpg",
+      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
       src: "",
-      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-la-menace-large.jpg",
+      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0",
       category: "little-big-story",
       height: "",
@@ -91,16 +91,6 @@ documentaires:
       src: "",
       srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68281_0",
-      category: "little-big-story",
-      height: "",
-    }
-  - {
-      title: "Les poisons de Poutine – Une nouvelle guerre froide (alternative link)",
-      subtitle: "little-big-story",
-      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-une-nouvelle-guerre-froide-alternative.jpg",
-      src: "",
-      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine-une-nouvelle-guerre-froide-alternative-large.jpg",
-      link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/68282",
       category: "little-big-story",
       height: "",
     }
@@ -121,16 +111,6 @@ documentaires:
       src: "",
       srcLg: "/images/gestion-admin/little-big-story/la-femme-sans-nom.png",
       link: "https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
-      category: "little-big-story",
-      height: "",
-    }
-  - {
-      title: "La femme sans nom – L’histoire de Jeanne et Baudelaire (alternative link)",
-      subtitle: "little-big-story",
-      href: "/images/gestion-admin/little-big-story/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire-alternative.jpg",
-      src: "",
-      srcLg: "/images/gestion-admin/little-big-story/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire-alternative-large.jpg",
-      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68288_0",
       category: "little-big-story",
       height: "",
     }
