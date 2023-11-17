@@ -98,9 +98,6 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
   const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link, documentaires } =
     metaData;
 
-  console.log("documentaires >>", documentaires);
-  console.log("labels >>", labels);
-
   // Utiliser les sections Markdown
   const part1 = markdownSections[0];
   const part2 = markdownSections[1];
