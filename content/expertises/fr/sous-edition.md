@@ -1,4 +1,5 @@
 ---
+id: "5"
 title: "Gestion des oeuvres en sous-édition"
 description: "description de la sous édition"
 slug: "sous-edition"

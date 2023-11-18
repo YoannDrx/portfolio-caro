@@ -1,4 +1,5 @@
 ---
+id: "3"
 title: "Gestion administrative et éditoriale"
 description: "Description de la gestion des oeuvres"
 slug: "gestion-administrative-et-editoriale"

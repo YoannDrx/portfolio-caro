@@ -84,7 +84,23 @@
   .cs-hero_subtitle {
     font-size: 18px;
     line-height: 1.9em;
-    color: $primary;
+
+    background-color: #ff4b17;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 8px;
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .subtitle {
+    background-color: #ff4b17;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 0px;
   }
 
   .subtitle-wrapper {
@@ -508,7 +524,7 @@
       font-size: 80px;
     }
     .cs-hero_subtitle {
-      font-size: 16px;
+      font-size: 12px;
     }
   }
   .cs-hero.cs-style3 {
@@ -953,13 +969,3 @@
 //     bottom: 220px;
 //   }
 // }
-
-.subtitle {
-  background-color: #ff4b17;
-  color: white;
-  font-size: 14px;
-  border-radius: 20px;
-  padding: 10px 20px;
-  display: inline-block;
-  margin-top: 0px;
-}

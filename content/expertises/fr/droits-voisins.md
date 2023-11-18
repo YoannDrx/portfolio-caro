@@ -1,4 +1,5 @@
 ---
+id: "2"
 title: "Gestion des droits voisins"
 description: "Descritpion droits voisins"
 slug: "droits-voisins"

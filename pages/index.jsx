@@ -5,18 +5,13 @@ import Layout from "../components/Layout";
 import LogoList from "../components/LogoList";
 import MovingText from "../components/MovingText";
 import SectionHeading from "../components/SectionHeading";
-import TestimonialSlider from "../components/Slider/TestimonialSlider";
 import Spacing from "../components/Spacing";
 import Hero3 from "../components/Hero/Hero3";
-import Portfolio2 from "../components/Portfolio/Portfolio2";
-import Portfolio3 from "../components/Portfolio/Portfolio3";
-import CaseStudy from "../components/CaseStudy";
 import ServiceList from "../components/ServiceList";
 import { useState } from "react";
 import Portfolio from "../components/Portfolio";
 import { Icon } from "@iconify/react";
 import VideoModal from "../components/VideoModal";
-import TeamSlider from "../components/Slider/ProjectSlider";
 import ProjectSlider from "../components/Slider/ProjectSlider";
 import fs from "fs";
 import path from "path";
@@ -32,7 +27,8 @@ export async function getStaticProps() {
     const { data } = matter(fileContents);
 
     return {
-      id: data.slug,
+      id: data.id,
+      slug: data.slug,
       href: `/service/${data.slug || path.parse(filename).name}`,
       title: data.title || "Titre par défaut",
       subtitle: data.description || "Sous-titre par défaut",
@@ -64,61 +60,6 @@ export default function Home({ services }) {
     {
       name: "Contact",
       links: "/contact",
-    },
-  ];
-
-  // FunFact Data
-  const funfaceData = [
-    {
-      title: "Global Happy Clients",
-      factNumber: "40K",
-    },
-    {
-      title: "Project Completed",
-      factNumber: "50K",
-    },
-    {
-      title: "Team Members",
-      factNumber: "245",
-    },
-    {
-      title: "Digital products",
-      factNumber: "550",
-    },
-  ];
-
-  const portfolioData = [
-    {
-      title: "Gestion des droits d'auteur pour artistes indépendants",
-      subtitle: "Projet 01",
-      btnText: "Voir les détails",
-      btnLink: "/portfolio/gestion-droits-auteur",
-      imageUrl: "/images/portfolio_35.jpeg",
-      category: "Droit d'auteur",
-    },
-    {
-      title: "Licences et distribution de musique en ligne",
-      subtitle: "Projet 02",
-      btnText: "Voir les détails",
-      btnLink: "/portfolio/licences-distribution",
-      imageUrl: "/images/portfolio_36.jpeg",
-      category: "Distribution",
-    },
-    {
-      title: "Conformité et audits de droits d'auteur",
-      subtitle: "Projet 03",
-      btnText: "Voir les détails",
-      btnLink: "/portfolio/conformite-audits",
-      imageUrl: "/images/portfolio_37.jpeg",
-      category: "Conformité",
-    },
-    {
-      title: "Consultation en gestion de catalogue musical",
-      subtitle: "Projet 04",
-      btnText: "Voir les détails",
-      btnLink: "/portfolio/gestion-catalogue",
-      imageUrl: "/images/portfolio_38.jpeg",
-      category: "Consultation",
     },
   ];
 
