@@ -17,12 +17,12 @@ documentaires:
   - {
       title: "Numero 387 disparu en méditerranée",
       subtitle: "little-big-story",
-      href: "/images/gestion-admin/little-big-story/numeo387.jpeg",
+      href: "/images/gestion-admin/little-big-story/387.jpeg",
       src: "",
-      srcLg: "/images/gestion-admin/little-big-story/numeo387.jpeg",
+      srcLg: "/images/gestion-admin/little-big-story/387.jpeg",
       link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1",
       category: "little-big-story",
-      height: "622",
+      height: "",
     }
   - {
       title: "BNP Paribas dans les eaux troubles de la plus grande banque européenne",
@@ -32,7 +32,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/bnp-paribas.jpeg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0",
       category: "little-big-story",
-      height: "299",
+      height: "200",
     }
   - {
       title: "L'empire de l'or rouge",
@@ -42,7 +42,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/lempire-de-lor-rouge.jpeg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0",
       category: "little-big-story",
-      height: "622",
+      height: "200",
     }
   - {
       title: "La démocratie du dollar",
@@ -52,7 +52,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/la-democratie-du-dollar.jpeg",
       link: "https://www.13prods.fr/la-democratie-du-dollar/",
       category: "little-big-story",
-      height: "299",
+      height: "",
     }
   - {
       title: "Taiwan une démocratie à l’ombre de la Chine",
@@ -62,7 +62,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/taiwan.jpeg",
       link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
       category: "little-big-story",
-      height: "",
+      height: "150",
     }
   - {
       title: "Marcus Klingberg un pur espion",
@@ -75,24 +75,14 @@ documentaires:
       height: "",
     }
   - {
-      title: "Les poisons de Poutine – La menace",
+      title: "Les poisons de Poutine",
       subtitle: "little-big-story",
       href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
       src: "",
       srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0",
       category: "little-big-story",
-      height: "",
-    }
-  - {
-      title: "Les poisons de Poutine – Une nouvelle guerre froide",
-      subtitle: "little-big-story",
-      href: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
-      src: "",
-      srcLg: "/images/gestion-admin/little-big-story/les-poisons-de-poutine.jpg",
-      link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68281_0",
-      category: "little-big-story",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les oublies de l'atome",
@@ -123,7 +113,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/gurs.jpeg",
       link: "https://www.13prods.fr/gurs-un-silence-assourdissant/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Cancre ?",
@@ -133,7 +123,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/cancre.jpeg",
       link: "https://www.13prods.fr/cancre/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Génération Grand Bleu",
@@ -143,7 +133,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/generation-grand-bleu.jpg",
       link: "https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Ma cité mon village",
@@ -153,7 +143,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/ma-cite-mon-village.jpg",
       link: "https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Le procès d'Auschwitz la fin du silence",
@@ -163,7 +153,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/le-proces-dauschwitz.jpeg",
       link: "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les ouvrières du Made in France",
@@ -183,7 +173,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/la-greve-du-siecle.jpeg",
       link: "https://www.13prods.fr/68lagrevedusiecle/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Rêves de princesses",
@@ -193,7 +183,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/reves-de-princesse.jpeg",
       link: "https://www.13prods.fr/reves-de-princesses/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Makatea la terre convoitée",
@@ -203,7 +193,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/makatea.jpeg",
       link: "https://www.13prods.fr/makatea-une-terre-convoitee/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Par nos yeux",
@@ -213,7 +203,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/par-nos-yeux.jpeg",
       link: "https://www.13prods.fr/par-nos-yeux/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "39-45 Les résistantes allemandes",
@@ -223,7 +213,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/les-resistantes-alllemandes.png",
       link: "https://www.13prods.fr/39-45-les-resistantes-allemandes/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Mayotte les combattantes",
@@ -233,7 +223,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/mayotte-les-combattantes.jpeg",
       link: "https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les oubliés de la justice",
@@ -243,7 +233,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/les-oublies-de-la-justice.jpeg",
       link: "https://www.13prods.fr/les-oublies-de-la-justice/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Mayotte l'enfance en danger",
@@ -253,7 +243,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/mayotte-lenfance-en-danger.jpeg",
       link: "https://www.13prods.fr/mayotte-lenfance-en-danger/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "La brousse une terre en partage",
@@ -263,7 +253,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/labrousse.jpeg",
       link: "https://www.13prods.fr/la-brousse-une-terre-en-partage/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Opération biodiversité",
@@ -273,7 +263,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/operation-biodiversite.png",
       link: "https://www.13prods.fr/operation-biodiversite/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Mes parents ces héros ordinaires",
@@ -283,7 +273,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/mes-parents.jpeg",
       link: "https://www.13prods.fr/mes-parents-ces-heros-ordinaires/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "T gros",
@@ -303,7 +293,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/guadeloupe.jpeg",
       link: "https://www.13prods.fr/les-soldats-de-la-terre/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les femmes du troisième Reich",
@@ -313,7 +303,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/les-femmes-du-troisieme-reich.webp",
       link: "https://www.13prods.fr/les-femmes-du-iiie-reich/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "À vous de juger",
@@ -323,7 +313,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/a-vous-de-juger.jpeg",
       link: "https://www.13prods.fr/a-vous-de-juger/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Le troisième Reich n'aura pas la bombe",
@@ -343,7 +333,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/miquelon-entre-deux-eaux.jpeg",
       link: "https://www.13prods.fr/entre-deux-eaux/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les murs de la honte",
@@ -363,7 +353,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/la-rumeur-dorleans.jpeg",
       link: "https://www.13prods.fr/la-rumeur-dorleans/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Martinique la reconquête de la terre",
@@ -373,7 +363,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/martinique-la-reconquete.jpeg",
       link: "https://www.13prods.fr/martinique-reconquete-terre/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "De Gérard à Mr Collomb itinéraire d'un baron",
@@ -383,7 +373,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/de-gerard-a-monsieur.jpeg",
       link: "https://www.13prods.fr/itineraire-d-un-baron/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Gaudin l'heure de l'inventaire",
@@ -393,7 +383,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/gaudin.jpg",
       link: "https://www.13prods.fr/gaudin-lheure-de-linventaire/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Juppé un roman bordelais",
@@ -403,7 +393,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/juppe.jpg",
       link: "https://www.13prods.fr/juppe-un-roman-bordelais/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Martine Aubry la dame de Lille",
@@ -413,7 +403,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/martineaubry.jpg",
       link: "https://www.13prods.fr/aubry-la-dame-de-lille/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Petit pays je t'aime beaucoup",
@@ -423,7 +413,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/petit-pays.jpeg",
       link: "https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Outre Mer 100 ans en clichés",
@@ -433,7 +423,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/outremer.jpeg",
       link: "https://www.13prods.fr/outremer-100-ans-en-cliches/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Clearstream et moi",
@@ -443,7 +433,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/clearstream.jpeg",
       link: "https://www.13prods.fr/clearstream/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Karim contre Mittal",
@@ -453,7 +443,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/karim-contre-mittal.jpeg",
       link: "https://www.13prods.fr/karim-contre-mittal/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Solidarnosc la première brèche",
@@ -463,7 +453,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/solidarnosc.jpeg",
       link: "https://www.13prods.fr/solidarnosc-la-premiere-breche/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Guyane Underground",
@@ -493,7 +483,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/cogolin.png",
       link: "https://www.13prods.fr/cogolin-ville-a-prendre/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Nous ne sommes rien soyons tout",
@@ -513,7 +503,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/deconnectes.jpeg",
       link: "https://www.13prods.fr/deconnectes-les-oublies-du-numerique/",
       category: "13-prods",
-      height: "",
+      height: "250",
     }
   - {
       title: "Diam a Jul Marseille capitale rap",
@@ -533,7 +523,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/andre-mailfert.jpeg",
       link: "https://www.13prods.fr/andre-mailfert/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "La double vie du cognac",
@@ -543,7 +533,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/la-double-vie-du-cognac.png",
       link: "https://www.13prods.fr/la-double-vie-du-cognac/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Chanter à tout prix",
@@ -553,7 +543,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/chanter-a-tout-prix.jpeg",
       link: "https://www.13prods.fr/chanter-a-tout-prix/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Concordat et laïcité, l'exception",
@@ -573,7 +563,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/pas-folle-la-liberte.png",
       link: "https://www.13prods.fr/pas-folle-la-liberte/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Comment te dire adieu",
@@ -583,7 +573,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/comment-te-dire-adieu.png",
       link: "https://www.13prods.fr/comment-te-dire-adieu/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Le temps d'aimer",
@@ -603,7 +593,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/leveil-du-désir.jpeg",
       link: "https://www.13prods.fr/leveil-du-desir/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Les résistants de Mauthausen",
@@ -613,7 +603,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/les-resistants-de-mauthausen.webp",
       link: "https://www.13prods.fr/mauthausen/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Lâche ton smartphone",
@@ -623,7 +613,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/lache-ton-smartphone.png",
       link: "https://www.13prods.fr/lache-ton-smartphone/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Unique en mon genre",
@@ -633,7 +623,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/unique-en-mon-genre.jpeg",
       link: "https://www.13prods.fr/unique-en-mon-genre/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Jean Jouzel dans la bataille du siècle",
@@ -663,7 +653,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/le-ministere.jpeg",
       link: "https://www.13prods.fr/le-ministere/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Masque de fer",
@@ -673,7 +663,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/le-masque-de-fer.jpeg",
       link: "https://www.13prods.fr/masque-de-fer/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Eric Piolle, le pèlerin vert",
@@ -683,7 +673,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/eric-piolle.png",
       link: "https://www.13prods.fr/eric-piolle-le-pelerin-vert/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Mic Mac à Millau, les paysans face à la mondialisation",
@@ -693,7 +683,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/micmac.jpeg",
       link: "https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Votez jeunesse",
@@ -703,7 +693,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/votez-jeunesse.jpeg",
       link: "https://www.13prods.fr/votez-jeunesse/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "J'irai crier sur vos murs",
@@ -713,7 +703,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/j-irai-crier-sur-vos-murs.jpeg",
       link: "https://www.13prods.fr/jirai-crier-sur-vos-murs/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Plonger pour guérir",
@@ -733,7 +723,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/filles-de-harkis.png",
       link: "https://www.13prods.fr/filles-de-harkis/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Des Antilles au Djebel, les Antillais dans la guerre d’Algérie",
@@ -764,7 +754,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/souvenirs-en-cuisine.jpeg",
       link: "https://www.13prods.fr/souvenirs-en-cuisine/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Cabrera un secret révélé",
@@ -774,7 +764,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/cabrera-un-secret.jpeg",
       link: "https://www.13prods.fr/cabrera-un-secret-revele/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "La clinique de l'amour",
@@ -784,7 +774,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/la-clinique-de-lamour.jpeg",
       link: "https://www.13prods.fr/la-clinique-de-lamour/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Quand l'Afrique sauva la France",
@@ -804,7 +794,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/calanques.jpeg",
       link: "https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "Almodovar l'insolent de la Mancha",
@@ -814,7 +804,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/almodovar.jpeg",
       link: "https://www.13prods.fr/almodovar-linsolent-de-la-mancha/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
   - {
       title: "En jachère",
@@ -844,7 +834,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/une-deuxieme-chance.jpeg",
       link: "https://www.13prods.fr/deuxieme-chance/",
       category: "13-prods",
-      height: "",
+      height: "200",
     }
     # Pop Films
   - {
@@ -875,7 +865,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/chants-gregoriens.png",
       link: "https://www.13prods.fr/chants-gregoriens-2-0/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Jamie Lee Curtis un cri de liberté à Hollywood",
@@ -885,7 +875,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/jamie-lee-curtis.jpeg",
       link: "https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Georges Perec, l’homme qui ne voulait pas oublier",
@@ -895,7 +885,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/georges-perec.jpeg",
       link: "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Si loin de la Polynésie",
@@ -905,7 +895,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/si-loin-de-la-polynesie.jpeg",
       link: "https://www.13prods.fr/si-loin-de-la-polynesie/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Jules Verne et le défi du tour du monde",
@@ -915,7 +905,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/jules-verne.jpeg",
       link: "https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Gorongosa, le parc de la réconciliation",
@@ -925,7 +915,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/gorongosa.jpeg",
       link: "https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/",
       category: "pop-films",
-      height: "",
+      height: "200",
     }
     # Via découvertes films
   - {
@@ -936,7 +926,7 @@ documentaires:
       srcLg: "/images/gestion-admin/via-decouvertes-films/les-amoureux-de-marianne.jpeg",
       link: "https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0",
       category: "via-decouvertes-films",
-      height: "",
+      height: "200",
     }
   - {
       title: "Au nom de la mer",
@@ -956,7 +946,7 @@ documentaires:
       srcLg: "/images/gestion-admin/via-decouvertes-films/leila une vie a miquelon.jpeg",
       link: "https://www.13prods.fr/au-nom-de-la-mer/ ",
       category: "via-decouvertes-films",
-      height: "",
+      height: "200",
     }
 ---
 

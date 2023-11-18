@@ -12,7 +12,7 @@
   border-radius: 15px;
   overflow: hidden;
   position: relative;
-  height: 500px;
+  height: 622px;
   display: block;
   position: relative;
   .cs-portfolio_hover {
@@ -38,7 +38,7 @@
     transition: all 0.4s ease;
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       height: 4px;
       width: 100%;
@@ -96,7 +96,7 @@
     padding-right: 30px;
     color: $secondary;
     &::after {
-      content: '';
+      content: "";
       height: 1px;
       width: 20px;
       background-color: currentColor;
@@ -164,11 +164,7 @@
   &.cs-type2 {
     border-radius: 5px;
     .cs-portfolio_hover {
-      background: linear-gradient(
-        180deg,
-        rgba(255, 74, 23, 0.7) 0%,
-        rgba(0, 0, 0, 0.8) 100%
-      );
+      background: linear-gradient(180deg, rgba(255, 74, 23, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
     }
     .cs-portfolio_info_bg {
       display: none;
@@ -216,11 +212,7 @@
     height: 600px;
     width: 600px;
     border-radius: 50%;
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(41, 0, 208, 0.2) 0%,
-      rgba(24, 24, 24, 0.2) 100%
-    );
+    background: radial-gradient(50% 50% at 50% 50%, rgba(41, 0, 208, 0.2) 0%, rgba(24, 24, 24, 0.2) 100%);
     filter: blur(50px);
   }
   .cs-portfolio_img.active {
