@@ -3,29 +3,35 @@ import Div from "./Div";
 import Spacing from "./Spacing";
 
 const ImageAndTextRight = ({ title, imagePath, altText, children, link }) => {
+  // Fonction de rendu pour l'image avec ou sans lien
+  const renderImage = () => {
+    // Si un lien est fourni, utilisez le tag <a>
+    if (link) {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <img src={imagePath} alt={altText} className="cs-radius_15 w-100" />
+          <Div className="overlay">
+            <span>Voir le site →</span>
+          </Div>
+        </a>
+      );
+    }
+
+    // Sinon, retournez simplement l'image
+    return <img src={imagePath} alt={altText} className="cs-radius_15 w-100" />;
+  };
+
   return (
     <Div className="container">
-      <Div className="">
-        <h2 className="text-center" style={{ color: "#ff4b17", marginBlock: "50px", marginTop: "50px" }}>
-          {title}
-        </h2>
-        <Div className="image-container">
-          {imagePath && (
-            <Div className="image-wrapper">
-              <a href={link || "#"} target={link ? "_blank" : "_self"} rel="noopener noreferrer">
-                <img src={imagePath} alt={altText} className="cs-radius_15 w-100" />
-                {link && (
-                  <Div className="overlay">
-                    <span>Voir le site →</span>
-                  </Div>
-                )}
-              </a>
-            </Div>
-          )}
-        </Div>
-        <Div className="cs-post cs-style2">{children}</Div>
+      <h2 className="text-center" style={{ color: "#ff4b17", marginBlock: "50px", marginTop: "50px" }}>
+        {title}
+      </h2>
+      <Div className="image-container">
+        {imagePath && <Div className={`image-wrapper ${link ? "clickable" : ""}`}>{renderImage()}</Div>}
       </Div>
-      <Spacing lg="30" md="50" />
+      <Div className="cs-post cs-style2">{children}</Div>
+
+      <Spacing lg="50" md="50" />
     </Div>
   );
 };
