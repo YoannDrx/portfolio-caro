@@ -18,7 +18,7 @@ export default function Hero3({ title, subtitle, socialLinksHeading, heroSocialL
           <Div className="container">
             <Div className="cs-hero_text text-center">
               <h1 className="cs-hero_title">{parse(title)}</h1>
-              <h4 className="subtitle">
+              <h4 className="cs-hero_subtitle">
                 <i>{subtitle}</i>
               </h4>
             </Div>

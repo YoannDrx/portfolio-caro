@@ -7,8 +7,9 @@
   }
   .cs-image_layer {
     position: absolute;
-    left: 0;
+    left: 0px;
     top: 25px;
+
     pointer-events: none;
     max-width: 416px;
     height: 600px;
@@ -54,8 +55,8 @@
   align-items: center;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 12px;
+  padding-top: 12px;
   color: $secondary;
   .cs-iconbox_in {
     margin-right: 30px;
@@ -76,11 +77,11 @@
     }
   }
   .cs-iconbox_title {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 15px;
   }
   .cs-iconbox_subtitle {
-    line-height: 1.75em;
+    line-height: 1.7em;
   }
   &:hover {
     .cs-iconbox_icon {

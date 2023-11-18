@@ -8,13 +8,15 @@ export default function ServiceList({ services }) {
   const router = useRouter();
   const { locale } = router;
 
+  const sortedServices = services.sort((a, b) => a.id - b.id);
+
   const handleActive = (index) => {
     setActive(index);
   };
   return (
     <Div className="cs-iconbox_3_list">
-      {services.map((service, index) => {
-        const localizedHref = `/${locale}/service/${service.id}`; // Ici, service.id sera défini
+      {sortedServices.map((service, index) => {
+        const localizedHref = `/${locale}/service/${service.slug}`;
         return (
           <Div
             className={`cs-hover_tab ${active === index ? "active" : ""}`}
