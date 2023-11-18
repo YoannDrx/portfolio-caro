@@ -199,10 +199,10 @@ export default function Home({ services }) {
         {/* Start Hero Section */}
         <Hero3
           title="Caroline Senyk"
-          subtitle="Copyright | Production"
+          subtitle="Production . Copyrigth . Publishing"
           socialLinksHeading=""
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="./images/home/couverture1.JPG"
+          bgImageUrl="./images/home/couverture-vaisseau.png"
         />
         {/* End Hero Section */}
         {/* Start Expertises */}
