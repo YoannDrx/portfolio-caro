@@ -51,7 +51,12 @@ export default function Expertise({ services }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Mes Expertises" bgSrc="images/service_hero_bg.jpeg" pageLinkText="Services" />
+        <PageHeading
+          title="Mes Expertises"
+          // bgSrc="images/service_hero_bg.jpeg"
+          bgSrc="/images/contact_hero_bg.jpeg"
+          pageLinkText="Services"
+        />
         <Spacing lg="150" md="80" />
         <Div className="cs-shape_wrap_4">
           <Div className="cs-shape_4"></Div>
