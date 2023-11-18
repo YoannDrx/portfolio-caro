@@ -123,7 +123,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         </Div>
 
         {part1 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath={img1} link="" altText="Service">
+          <ImageAndTextRight title={""} imagePath={img1} link={null} altText="Service">
             <ReactMarkdown
               children={part1}
               components={{
@@ -203,7 +203,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part6 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath={img6} altText="Service">
+          <ImageAndTextLeft title={""} imagePath={img6} link={null} altText="Service">
             <ReactMarkdown
               children={part6}
               components={{
@@ -219,7 +219,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part7 !== undefined || "" ? (
-          <ImageAndTextRight title={""} imagePath="" altText="Service">
+          <ImageAndTextRight title={""} imagePath="" link={null} altText="Service">
             <ReactMarkdown
               children={part7}
               components={{
@@ -235,7 +235,7 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
         ) : null}
 
         {part8 !== undefined || "" ? (
-          <ImageAndTextLeft title={""} imagePath="" altText="Service">
+          <ImageAndTextLeft title={""} imagePath="" link={null} altText="Service">
             <ReactMarkdown
               children={part8}
               components={{
@@ -250,9 +250,11 @@ export default function ServiceDetails({ markdownSections, serviceId, metaData }
           </ImageAndTextLeft>
         ) : null}
 
-        {labels ? <ClickableImageGrid labels={labels} /> : null}
+        <Div className="container">{labels ? <ClickableImageGrid labels={labels} /> : null}</Div>
 
-        {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
+        <Div className="container">
+          {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
+        </Div>
 
         <Spacing lg="120" md="50" />
 

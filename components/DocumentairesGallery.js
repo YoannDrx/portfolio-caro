@@ -4,8 +4,9 @@ import SectionHeading from "./SectionHeading";
 import Spacing from "./Spacing";
 import ModalImage from "react-modal-image";
 import Div from "./Div";
+import Link from "next/link";
 
-export default function DocumentairesGallery({ labels, documentaires }) {
+export default function DocumentairesGallery({ documentaires }) {
   const [active, setActive] = useState("all");
   const [visibleCount, setVisibleCount] = useState(10);
 
@@ -27,6 +28,13 @@ export default function DocumentairesGallery({ labels, documentaires }) {
       category: "pop-films",
     },
   ];
+
+  const openLink = (e, link) => {
+    e.stopPropagation();
+    if (link) {
+      window.open(link, "_blank");
+    }
+  };
 
   return (
     <>
@@ -63,19 +71,21 @@ export default function DocumentairesGallery({ labels, documentaires }) {
 
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
-              <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
-                <Div className="cs-lightbox_item">
-                  <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
+              <a onClick={(e) => openLink(e, item.link)}>
+                <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
+                  <Div className="cs-lightbox_item">
+                    <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
+                  </Div>
+                  <Div className="cs-portfolio_hover" />
+                  <span className="cs-plus" />
+                  <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.srcLg}")` }} />
+                  <Div className="cs-portfolio_info">
+                    <Div className="cs-portfolio_info_bg cs-accent_bg" />
+                    <h2 className="cs-portfolio_title">{item.title}</h2>
+                    <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+                  </Div>
                 </Div>
-                <Div className="cs-portfolio_hover" />
-                <span className="cs-plus" />
-                <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.srcLg}")` }} />
-                <Div className="cs-portfolio_info">
-                  <Div className="cs-portfolio_info_bg cs-accent_bg" />
-                  <h2 className="cs-portfolio_title">{item.title}</h2>
-                  <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
-                </Div>
-              </Div>
+              </a>
             </Div>
           ) : null;
         })}
@@ -85,7 +95,7 @@ export default function DocumentairesGallery({ labels, documentaires }) {
           {visibleCount < documentaires.length && (
             <>
               <Spacing lg="65" md="40" />
-              <span className="cs-text_btn" onClick={() => setVisibleCount(visibleCount + 8)}>
+              <span className="cs-text_btn" onClick={() => setVisibleCount(visibleCount + 200)}>
                 <span>Load More</span>
                 <Icon icon="bi:arrow-right" />
               </span>
