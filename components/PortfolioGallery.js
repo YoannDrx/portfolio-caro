@@ -5,6 +5,7 @@ import Spacing from "./Spacing";
 import ModalImage from "react-modal-image";
 import Div from "./Div";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PortfolioGallery({ portfolioData }) {
   const [active, setActive] = useState("all");
@@ -81,7 +82,8 @@ export default function PortfolioGallery({ portfolioData }) {
               <Link href={item.link}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
-                    <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
+                    {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
+                    <Image src={item.src} alt="photo" width={200} height={150} />
                   </Div>
                   <Div className="cs-portfolio_hover" />
                   <span className="cs-plus" />
