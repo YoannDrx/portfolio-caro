@@ -35,7 +35,6 @@ export async function getStaticPaths() {
 }
 
 export default function PortfolioDetails({ album }) {
-  console.log("album >>", album);
   return (
     <>
       <Head>
