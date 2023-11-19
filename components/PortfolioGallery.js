@@ -15,7 +15,7 @@ export default function PortfolioGallery({ portfolioData }) {
   const categoryMenu = [
     {
       title: "Albums librairie musicale",
-      category: "albums-librairie-musicale",
+      category: "albums",
     },
     {
       title: "Vinyles",
@@ -77,7 +77,7 @@ export default function PortfolioGallery({ portfolioData }) {
 
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
-              <a onClick={(e) => openLink(e, item.link)}>
+              <Link href={`/portfolio/${item.slug}`}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
                     <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
@@ -91,7 +91,7 @@ export default function PortfolioGallery({ portfolioData }) {
                     <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
                   </Div>
                 </Div>
-              </a>
+              </Link>
             </Div>
           ) : null;
         })}

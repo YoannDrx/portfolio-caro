@@ -73,7 +73,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion des droits d’auteur"
-                      link={`/${locale}/service/droits-auteur`}
+                      link={`/${locale}/expertise/droits-auteur`}
                       src="/images/droit-auteur/Home-PHOTODROITSDAUTEUR.JPG"
                       alt="Service"
                     />
@@ -83,7 +83,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion des droits voisins"
-                      link={`/${locale}/service/droits-voisins`}
+                      link={`/${locale}/expertise/droits-voisins`}
                       src="/images/droit-voisin/Home-Photodroitsvoisins.JPG"
                       alt="Service"
                     />
@@ -92,7 +92,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion administrative et éditoriale"
-                      link={`/${locale}/service/gestion-administrative-et-editoriale`}
+                      link={`/${locale}/expertise/gestion-administrative-et-editoriale`}
                       src="/images/gestion-admin/Home-PhotoGestionEditoriale.JPG"
                       alt="Service"
                     />
@@ -102,7 +102,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion des dossiers de subvention"
-                      link={`/${locale}/service/dossier-subvention`}
+                      link={`/${locale}/expertise/dossier-subvention`}
                       src="/images/subvention/Home-GestionSubventions.JPG"
                       alt="Service"
                     />
@@ -113,7 +113,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion de la distribution physique et digitale"
-                      link={`/${locale}/service/gestion-distribution`}
+                      link={`/${locale}/expertise/gestion-distribution`}
                       src="/images/gestion-distrib/Home-PhotoGestionDistrib.JPG"
                       alt="Service"
                     />
@@ -123,7 +123,7 @@ export default function Expertise({ services }) {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Gestion des oeuvres en sous-édition"
-                      link={`/${locale}/service/sous-edition`}
+                      link={`/${locale}/expertise/sous-edition`}
                       src="/images/sous-edition/Home-PhotoGestionSoused.JPG"
                       alt="Service"
                     />

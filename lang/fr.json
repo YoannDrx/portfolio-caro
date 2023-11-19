@@ -13,12 +13,49 @@
   "portfolio": [
     {
       "id": 1,
-      "title": "Test 1",
+      "title": "Minimal Stories",
       "subtitle": "See Details",
+      "slug": "minimal-stories",
       "link": "/portfolio/portfolio-details",
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "300",
-      "category": "albums-librairie-musicale",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "EDM From Paris",
+      "subtitle": "See Details",
+      "slug": "edm-from-paris",
+      "link": "/portfolio/portfolio-details",
+      "src": "/images/portfolio/albums/PGO0023.jpg",
+      "height": "300",
+      "category": "albums",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
       "genre": "Documentaire",

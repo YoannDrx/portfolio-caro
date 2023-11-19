@@ -59,7 +59,7 @@ export default function Header({ variant }) {
                       </Link>
                     </li>
                     <li className={isActive("/about") ? "active" : ""}>
-                      <Link href="about" onClick={() => handleLinkClick("/about")}>
+                      <Link href="/about" onClick={() => handleLinkClick("/about")}>
                         {t("header.navbar.à-propos")}
                       </Link>
                     </li>

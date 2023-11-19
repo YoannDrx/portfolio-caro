@@ -21,7 +21,7 @@ export async function getStaticProps() {
   const expertiseDirectory = path.join(process.cwd(), "content", "expertises", "fr");
   const filenames = fs.readdirSync(expertiseDirectory);
 
-  const services = filenames.map((filename) => {
+  const expertises = filenames.map((filename) => {
     const filePath = path.join(expertiseDirectory, filename);
     const fileContents = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContents);
@@ -29,7 +29,7 @@ export async function getStaticProps() {
     return {
       id: data.id,
       slug: data.slug,
-      href: `/service/${data.slug || path.parse(filename).name}`,
+      href: `/expertise/${data.slug || path.parse(filename).name}`,
       title: data.title || "Titre par défaut",
       subtitle: data.description || "Sous-titre par défaut",
       imgHome: data.imgHome || "/images/service_7.jpeg",
@@ -39,12 +39,12 @@ export async function getStaticProps() {
 
   return {
     props: {
-      services,
+      expertises,
     },
   };
 }
 
-export default function Home({ services }) {
+export default function Home({ expertises }) {
   const [itemShow, setItemShow] = useState(6);
 
   // Hero Social Links
@@ -151,7 +151,7 @@ export default function Home({ services }) {
         <Div className="container">
           <SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center" />
           <Spacing lg="70" md="45" />
-          <ServiceList services={services} />
+          <ServiceList expertises={expertises} />
         </Div>
         {/* End Expertises */}
         {/* Start Projects Section */}
