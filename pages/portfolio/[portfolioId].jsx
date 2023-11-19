@@ -9,8 +9,8 @@ import PageHeading from "../../components/PageHeading";
 import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
 
-export async function getStaticProps({ params }) {
-  const data = await import("../../lang/fr.json");
+export async function getStaticProps({ params, locale }) {
+  const data = await import(`../../lang/${locale}.json`);
   const album = data.portfolio.find((item) => item.slug === params.portfolioId);
 
   if (!album) {
@@ -21,10 +21,15 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const data = await import("../../lang/fr.json");
-  const paths = data.portfolio.map((item) => {
-    return { params: { portfolioId: item.slug } };
-  });
+  const locales = ["fr", "en"];
+  const paths = [];
+
+  for (const locale of locales) {
+    const data = await import(`../../lang/${locale}.json`);
+    data.portfolio.forEach((item) => {
+      paths.push({ params: { portfolioId: item.slug }, locale });
+    });
+  }
 
   return { paths, fallback: false };
 }

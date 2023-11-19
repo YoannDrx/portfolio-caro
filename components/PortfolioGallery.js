@@ -6,8 +6,11 @@ import ModalImage from "react-modal-image";
 import Div from "./Div";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function PortfolioGallery({ portfolioData }) {
+  const router = useRouter();
+  const { locale } = router;
   const [active, setActive] = useState("all");
   const [visibleCount, setVisibleCount] = useState(10);
 
@@ -79,7 +82,7 @@ export default function PortfolioGallery({ portfolioData }) {
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
               {/* <Link href={`/portfolio/${item.slug}`}> */}
-              <Link href={item.link}>
+              <Link href={`/${locale}/${item.link}`}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
                     {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
