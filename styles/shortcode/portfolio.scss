@@ -14,7 +14,6 @@
   position: relative;
   height: 622px;
   display: block;
-  position: relative;
   .cs-portfolio_hover {
     position: absolute;
     height: 100%;
@@ -64,6 +63,7 @@
     height: 100%;
     width: 100%;
     border-radius: inherit;
+    object-fit: contain;
   }
   .cs-portfolio_info {
     height: 300px;
