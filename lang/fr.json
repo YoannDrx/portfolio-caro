@@ -16,11 +16,11 @@
       "title": "Minimal Stories",
       "subtitle": "See Details",
       "slug": "minimal-stories",
-      "link": "/portfolio/portfolio-details",
+      "link": "/portfolio/minimal-stories",
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "300",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Minimal Stories Minimal Stories Minimal Stories \n\n Minimal Stories Minimal Stories Minimal Stories",
       "releaseDate": "2021-01-01",
       "genre": "Documentaire",
       "compositeurs": [
@@ -52,10 +52,2818 @@
       "title": "EDM From Paris",
       "subtitle": "See Details",
       "slug": "edm-from-paris",
-      "link": "/portfolio/portfolio-details",
+      "link": "/portfolio/edm-from-paris",
       "src": "/images/portfolio/albums/PGO0023.jpg",
       "height": "300",
       "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Caught in the Trap",
+      "subtitle": "See Details",
+      "slug": "caught-in-the-trap",
+      "link": "/portfolio/caught-in-the-trap",
+      "src": "/images/portfolio/albums/PGO0024.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Acid",
+      "subtitle": "See Details",
+      "slug": "acid",
+      "link": "/portfolio/acid",
+      "src": "/images/portfolio/albums/PGO0025.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Latin Experience",
+      "subtitle": "See Details",
+      "slug": "latin-experience",
+      "link": "/portfolio/latin-experience",
+      "src": "/images/portfolio/albums/PGO0026.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Future Beats",
+      "subtitle": "See Details",
+      "slug": "future-beats",
+      "link": "/portfolio/future-beats",
+      "src": "/images/portfolio/albums/PGO0027.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Hollywood Hustlers",
+      "subtitle": "See Details",
+      "slug": "hollywood-hustlers",
+      "link": "/portfolio/hollywood-hustlers",
+      "src": "/images/portfolio/albums/PGO0028.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Go-Go Funk",
+      "subtitle": "See Details",
+      "slug": "go-go-funk",
+      "link": "/portfolio/go-go-funk",
+      "src": "/images/portfolio/albums/PGO0029.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Afro Beat",
+      "subtitle": "See Details",
+      "slug": "afro-beat",
+      "link": "/portfolio/afro-beat",
+      "src": "/images/portfolio/albums/PGO0030.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Projectionnist",
+      "subtitle": "See Details",
+      "slug": "the-projectionnist",
+      "link": "/portfolio/the-projectionnist",
+      "src": "/images/portfolio/albums/PGO0031.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Diggin' Hip-Hop Vol.2",
+      "subtitle": "See Details",
+      "slug": "diggin-hip-hop-vol-2",
+      "link": "/portfolio/diggin-hip-hop-vol-2",
+      "src": "/images/portfolio/albums/PGO0032.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Surf Fiction",
+      "subtitle": "See Details",
+      "slug": "surf-fiction",
+      "link": "/portfolio/surf-fiction",
+      "src": "/images/portfolio/albums/PGO0033.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Jazz Muzette",
+      "subtitle": "See Details",
+      "slug": "jazz-muzette",
+      "link": "/portfolio/jazz-muzette",
+      "src": "/images/portfolio/albums/PGO0034.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Trap In The Cloud",
+      "subtitle": "See Details",
+      "slug": "trap-in-the-cloud",
+      "link": "/portfolio/trap-in-the-cloud",
+      "src": "/images/portfolio/albums/PGO0035.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Afro Pop",
+      "subtitle": "See Details",
+      "slug": "afro-pop",
+      "link": "/portfolio/afro-pop",
+      "src": "/images/portfolio/albums/PGO0036.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Rock Of Anarchy",
+      "subtitle": "See Details",
+      "slug": "rock-of-anarchy",
+      "link": "/portfolio/rock-of-anarchy",
+      "src": "/images/portfolio/albums/PGO0038.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Video Club",
+      "subtitle": "See Details",
+      "slug": "video-club",
+      "link": "/portfolio/video-club",
+      "src": "/images/portfolio/albums/PGO0039.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Minimal Stories Vol.2",
+      "subtitle": "See Details",
+      "slug": "minimal-stories-vol-2",
+      "link": "/portfolio/minimal-stories-vol-2",
+      "src": "/images/portfolio/albums/PGO0040.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Lazer Funk",
+      "subtitle": "See Details",
+      "slug": "lazer-funk",
+      "link": "/portfolio/lazer-funk",
+      "src": "/images/portfolio/albums/PGO0041.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Light Ambient",
+      "subtitle": "See Details",
+      "slug": "light-ambient",
+      "link": "/portfolio/light-ambient",
+      "src": "/images/portfolio/albums/PGO0042.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Brand Content",
+      "subtitle": "See Details",
+      "slug": "brand-content",
+      "link": "/portfolio/brand-content",
+      "src": "/images/portfolio/albums/PGO0043.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Dark Ambient Vol.2",
+      "subtitle": "See Details",
+      "slug": "dark-ambient-vol-2",
+      "link": "/portfolio/dark-ambient-vol-2",
+      "src": "/images/portfolio/albums/PGO0044.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Pixel Fiction",
+      "subtitle": "See Details",
+      "slug": "pixel-fiction",
+      "link": "/portfolio/pixel-fiction",
+      "src": "/images/portfolio/albums/PGO0045.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Dub Experience",
+      "subtitle": "See Details",
+      "slug": "dub-experience",
+      "link": "/portfolio/dub-experience",
+      "src": "/images/portfolio/albums/PGO0046.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Odissey Suites & Remix",
+      "subtitle": "See Details",
+      "slug": "odissey-suites-remix",
+      "link": "/portfolio/odissey-suites-remix",
+      "src": "/images/portfolio/albums/PGO0049.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Riviera Bizarre",
+      "subtitle": "See Details",
+      "slug": "riviera-bizarre",
+      "link": "/portfolio/riviera-bizarre",
+      "src": "/images/portfolio/albums/PGO0050.jpg",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "LoFi Hip-Hop",
+      "subtitle": "See Details",
+      "slug": "lofi-hip-hop",
+      "link": "/portfolio/lofi-hip-hop",
+      "src": "/images/portfolio/albums/PGO0051.png",
+      "height": "300",
+      "category": "albums",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Au nom de la mer",
+      "subtitle": "See Details",
+      "slug": "au-nom-de-la-mer",
+      "link": "/portfolio/au-nom-de-la-mer",
+      "src": "/images/portfolio/documentaires/au-nom-de-la-mer2.jpeg",
+      "height": "180",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Comment te dire adieu 2",
+      "subtitle": "See Details",
+      "slug": "comment-te-dire-adieu-2",
+      "link": "/portfolio/comment-te-dire-adieu-2",
+      "src": "/images/portfolio/documentaires/comment-te-dire-adieu3.png",
+      "height": "160",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Des antilles au djebel",
+      "subtitle": "See Details",
+      "slug": "des-antilles-au-djebel",
+      "link": "/portfolio/des-antilles-au-djebel",
+      "src": "/images/portfolio/documentaires/des-antilles-au-djebel2.jpeg",
+      "height": "180",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Numéro 387 disparu en Méditerranée",
+      "subtitle": "See Details",
+      "slug": "numero-387-disparu-en-mediterranee",
+      "link": "/portfolio/numero-387-disparu-en-mediterranee",
+      "src": "/images/portfolio/documentaires/DISPARU_387.jpeg",
+      "height": "400",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Eric Piolle, le pèlerin vert",
+      "subtitle": "See Details",
+      "slug": "eric-piolle-le-pelerin-vert",
+      "link": "/portfolio/eric-piolle-le-pelerin-vert",
+      "src": "/images/portfolio/documentaires/eric-piolle2.jpeg",
+      "height": "150",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Avant que la grande nacre meure",
+      "subtitle": "See Details",
+      "slug": "avant-que-la-grande-nacre-meure",
+      "link": "/portfolio/avant-que-la-grande-nacre-meure",
+      "src": "/images/portfolio/documentaires/avant-que-la-grande-nacre-meure2.png",
+      "height": "160",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Gaudin, l'heure de l'inventaire",
+      "subtitle": "See Details",
+      "slug": "gaudin-l-heure-de-l-inventaire",
+      "link": "/portfolio/gaudin-l-heure-de-l-inventaire",
+      "src": "/images/portfolio/documentaires/gaudin2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Génération grand bleu",
+      "subtitle": "See Details",
+      "slug": "generation-grand-bleu",
+      "link": "/portfolio/generation-grand-bleu",
+      "src": "/images/portfolio/documentaires/generation-grand-bleu-3.webp",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Georges Perec, l'homme qui ne voulait pas oublier",
+      "subtitle": "See Details",
+      "slug": "georges-perec-l-homme-qui-ne-voulait-pas-oublier",
+      "link": "/portfolio/georges-perec-l-homme-qui-ne-voulait-pas-oublier",
+      "src": "/images/portfolio/documentaires/goerges-perec2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Jamee Lee Curtis, un cri de liberté à Hollywood",
+      "subtitle": "See Details",
+      "slug": "jamee-lee-curtis-un-cri-de-liberte-a-hollywood",
+      "link": "/portfolio/jamee-lee-curtis-un-cri-de-liberte-a-hollywood",
+      "src": "/images/portfolio/documentaires/jamie-lee-curtis2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "J'irai crier sur vos murs",
+      "subtitle": "See Details",
+      "slug": "j-irai-crier-sur-vos-murs",
+      "link": "/portfolio/j-irai-crier-sur-vos-murs",
+      "src": "/images/portfolio/documentaires/jirai-crier2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "La double vie du Cognac",
+      "subtitle": "See Details",
+      "slug": "la-double-vie-du-cognac",
+      "link": "/portfolio/la-double-vie-du-cognac",
+      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "La double vie du Cognac 2",
+      "subtitle": "See Details",
+      "slug": "la-double-vie-du-cognac-2",
+      "link": "/portfolio/la-double-vie-du-cognac-2",
+      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac3.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "subtitle": "See Details",
+      "slug": "la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
+      "link": "/portfolio/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
+      "src": "/images/portfolio/documentaires/la-femme-sans-nom2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "La rumeur d'Orléans",
+      "subtitle": "See Details",
+      "slug": "la-rumeur-d-orleans",
+      "link": "/portfolio/la-rumeur-d-orleans",
+      "src": "/images/portfolio/documentaires/la-rumeur-dorleans2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Concordat et laicité, l'exeption",
+      "subtitle": "See Details",
+      "slug": "concordat-et-laicite-l-exeption",
+      "link": "/portfolio/concordat-et-laicite-l-exeption",
+      "src": "/images/portfolio/documentaires/Laicité et concordat.webp",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Le procès d'Auschwitz, la fin du silence",
+      "subtitle": "See Details",
+      "slug": "le-proces-d-auschwitz-la-fin-du-silence",
+      "link": "/portfolio/le-proces-d-auschwitz-la-fin-du-silence",
+      "src": "/images/portfolio/documentaires/le-proces.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Le temps d'aimer",
+      "subtitle": "See Details",
+      "slug": "le-temps-d-aimer",
+      "link": "/portfolio/le-temps-d-aimer",
+      "src": "/images/portfolio/documentaires/le-temps-daimer2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Les oubliés de la justice",
+      "subtitle": "See Details",
+      "slug": "les-oublies-de-la-justice",
+      "link": "/portfolio/les-oublies-de-la-justice",
+      "src": "/images/portfolio/documentaires/les-oublies-de-la-justice.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Makaeta, la terre convoitée",
+      "subtitle": "See Details",
+      "slug": "makaeta-la-terre-convoitee",
+      "link": "/portfolio/makaeta-la-terre-convoitee",
+      "src": "/images/portfolio/documentaires/makatea2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Comment te dire adieu",
+      "subtitle": "See Details",
+      "slug": "comment-te-dire-adieu",
+      "link": "/portfolio/comment-te-dire-adieu",
+      "src": "/images/portfolio/documentaires/comment-te-dire-adieu2.jpeg",
+      "height": "180",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "D'IAM à Jul, Marseille capitale Rap",
+      "subtitle": "See Details",
+      "slug": "d-iam-a-jul-marseille-capitale-rap",
+      "link": "/portfolio/d-iam-a-jul-marseille-capitale-rap",
+      "src": "/images/portfolio/documentaires/marseille-capitale2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Opération Biodiversité",
+      "subtitle": "See Details",
+      "slug": "operation-biodiversite",
+      "link": "/portfolio/operation-biodiversite",
+      "src": "/images/portfolio/documentaires/operation-biodiv.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Opération Biodiversité 2",
+      "subtitle": "See Details",
+      "slug": "operation-biodiversite-2",
+      "link": "/portfolio/operation-biodiversite-2",
+      "src": "/images/portfolio/documentaires/operation-biodiversite3.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Outre-Mer, 100 ans en clichés",
+      "subtitle": "See Details",
+      "slug": "outre-mer-100-ans-en-cliches",
+      "link": "/portfolio/outre-mer-100-ans-en-cliches",
+      "src": "/images/portfolio/documentaires/outremer100.webp",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Par nos yeux",
+      "subtitle": "See Details",
+      "slug": "par-nos-yeux",
+      "link": "/portfolio/par-nos-yeux",
+      "src": "/images/portfolio/documentaires/par-nos-yeux.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Almodovar, l'insolent de la Mancha",
+      "subtitle": "See Details",
+      "slug": "almodovar-l-insolent-de-la-mancha",
+      "link": "/portfolio/almodovar-l-insolent-de-la-mancha",
+      "src": "/images/portfolio/documentaires/pedroalmodovar.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Petit pays je t'aime beaucoup",
+      "subtitle": "See Details",
+      "slug": "petit-pays-je-t-aime-beaucoup",
+      "link": "/portfolio/petit-pays-je-t-aime-beaucoup",
+      "src": "/images/portfolio/documentaires/petit-pays-je-taime-beaucoup.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Petit pays je t'aime beaucoup 2",
+      "subtitle": "See Details",
+      "slug": "petit-pays-je-t-aime-beaucoup-2",
+      "link": "/portfolio/petit-pays-je-t-aime-beaucoup-2",
+      "src": "/images/portfolio/documentaires/petit-pays.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Plonger pour guérir",
+      "subtitle": "See Details",
+      "slug": "plonger-pour-guerir",
+      "link": "/portfolio/plonger-pour-guerir",
+      "src": "/images/portfolio/documentaires/plonger-pour-guerir.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "39-45, les résistantes allemandes",
+      "subtitle": "See Details",
+      "slug": "39-45-les-resistantes-allemandes",
+      "link": "/portfolio/39-45-les-resistantes-allemandes",
+      "src": "/images/portfolio/documentaires/resistantes-allemandes.webp",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Solidarnosc, la premère brèche",
+      "subtitle": "See Details",
+      "slug": "solidarnosc-la-premiere-breche",
+      "link": "/portfolio/solidarnosc-la-premiere-breche",
+      "src": "/images/portfolio/documentaires/solidarnosc2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Sous la loi des talibans",
+      "subtitle": "See Details",
+      "slug": "sous-la-loi-des-talibans",
+      "link": "/portfolio/sous-la-loi-des-talibans",
+      "src": "/images/portfolio/documentaires/sous-la-loi-des-talibans2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Souvenirs en cuisine",
+      "subtitle": "See Details",
+      "slug": "souvenirs-en-cuisine",
+      "link": "/portfolio/souvenirs-en-cuisine",
+      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Naissance d'un héro noir au cinéma, Sweet Sweetback",
+      "subtitle": "See Details",
+      "slug": "naissance-d-un-hero-noir-au-cinema-sweet-sweetback",
+      "link": "/portfolio/naissance-d-un-hero-noir-au-cinema-sweet-sweetback",
+      "src": "/images/portfolio/documentaires/sweet sweetback2.jpeg",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Unique en mon genre",
+      "subtitle": "See Details",
+      "slug": "unique-en-mon-genre",
+      "link": "/portfolio/unique-en-mon-genre",
+      "src": "/images/portfolio/documentaires/unique-en-mon-genre2.png",
+      "height": "200",
+      "category": "documentaires",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Blood, Sex & Royalty",
+      "subtitle": "Would you like to",
+      "slug": "blood-sex-royalty",
+      "link": "/portfolio/blood-sex-royalty",
+      "src": "/images/portfolio/photosynchro/BloodSex_Royalty.jpg",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Captain Fall",
+      "subtitle": "Bun up the vibe",
+      "slug": "captain-fall",
+      "link": "/portfolio/captain-fall",
+      "src": "/images/portfolio/photosynchro/Captain-Fall-Cover.png",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Control Z",
+      "subtitle": "Would you like to",
+      "slug": "control-z",
+      "link": "/portfolio/control-z",
+      "src": "/images/portfolio/photosynchro/Control-Z.jpg",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Kleo",
+      "subtitle": "See more",
+      "slug": "kleo",
+      "link": "/portfolio/kleo",
+      "src": "/images/portfolio/photosynchro/KLEO-paysage.jpg",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Le monde de demain",
+      "subtitle": "Where U AH! / Rock it up",
+      "slug": "le-monde-de-demain",
+      "link": "/portfolio/le-monde-de-demain",
+      "src": "/images/portfolio/photosynchro/LeMondeDeDemain.png",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "La Primera vez",
+      "subtitle": "Cali groove / Señorita / María Botella",
+      "slug": "la-primera-vez",
+      "link": "/portfolio/la-primera-vez",
+      "src": "/images/portfolio/photosynchro/Primera-Vez.jpeg",
+      "height": "180",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Somebody",
+      "subtitle": "Saxy girl",
+      "slug": "somebody",
+      "link": "/portfolio/somebody",
+      "src": "/images/portfolio/photosynchro/SAXY-GIRL-PGO0023.jpeg",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Tapie",
+      "subtitle": "Moi je n'aimerais que toi",
+      "slug": "tapie",
+      "link": "/portfolio/tapie",
+      "src": "/images/portfolio/photosynchro/tapie-photo.png",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Vengeances",
+      "subtitle": "See more",
+      "slug": "vengeances",
+      "link": "/portfolio/vengeances",
+      "src": "/images/portfolio/photosynchro/Vengeances-visu.jpg",
+      "height": "160",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Emily in Paris",
+      "subtitle": "Paris Rome",
+      "slug": "emily-in-paris",
+      "link": "/portfolio/emily-in-paris",
+      "src": "/images/portfolio/photosynchro/emily.jpeg",
+      "height": "550",
+      "category": "synchros",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Hand Funktion",
+      "subtitle": "See more",
+      "slug": "hand-funktion",
+      "link": "/portfolio/hand-funktion",
+      "src": "/images/portfolio/vinyles/HAND-FUNKTION.jpg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Hexahèdre",
+      "subtitle": "See more",
+      "slug": "hexahedre",
+      "link": "/portfolio/hexahedre",
+      "src": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Mustang Force",
+      "subtitle": "See more",
+      "slug": "mustang-force",
+      "link": "/portfolio/mustang-force",
+      "src": "/images/portfolio/vinyles/MUSTANG-FORCE.jpeg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "NY Parigos",
+      "subtitle": "See more",
+      "slug": "ny-parigos",
+      "link": "/portfolio/ny-parigos",
+      "src": "/images/portfolio/vinyles/NY-PARIGO.jpg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Une dernière fois",
+      "subtitle": "See more",
+      "slug": "une-derniere-fois",
+      "link": "/portfolio/une-derniere-fois",
+      "src": "/images/portfolio/vinyles/UNE-DERNIERE-FOIS.jpg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Vélodrome",
+      "subtitle": "See more",
+      "slug": "velodrome",
+      "link": "/portfolio/velodrome",
+      "src": "/images/portfolio/vinyles/VELODROME.jpeg",
+      "height": "280",
+      "category": "vinyles",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Videoclub",
+      "subtitle": "See more",
+      "slug": "videoclub",
+      "link": "/portfolio/videoclub",
+      "src": "/images/portfolio/vinyles/VIDEOCLUB.jpg",
+      "height": "280",
+      "category": "vinyles",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
       "genre": "Documentaire",
