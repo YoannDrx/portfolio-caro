@@ -1,165 +1,275 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Accordion from "../../components/Accordion";
-import Button from "../../components/Button";
 import Cta from "../../components/Cta";
 import Div from "../../components/Div";
-import IconBox from "../../components/IconBox";
 import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
 import SectionHeading from "../../components/SectionHeading";
 import TestimonialSlider from "../../components/Slider/TestimonialSlider";
 import Spacing from "../../components/Spacing";
+import fs from "fs";
+import path from "path";
+import ReactMarkdown from "react-markdown";
+import matter from "gray-matter";
+import ImageAndTextRight from "../../components/ImageAndTextRight";
+import ImageAndTextLeft from "../../components/ImageAndTextLeft";
+import ExpertiseSection from "../../components/ExpertiseSection";
+import ClickableImageGrid from "../../components/ClickableImageGrid";
+import DocumentairesGallery from "../../components/DocumentairesGallery";
 
-export default function ExpertiseDetails() {
-  const router = useRouter();
-  const [expertiseDetails, setExpertiseDetails] = useState(null);
-  const expertiseId = router.query.expertiseId;
+export async function getStaticProps({ params, locale }) {
+  // Extraire l'identifiant de service à partir des paramètres de la route
+  const { expertiseId } = params;
+  // Construire le chemin du fichier markdown basé sur l'identifiant
+  const filePath = path.join(process.cwd(), "content", "expertises", locale, `${expertiseId}.md`);
+  // Lire le contenu du fichier
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  // Utiliser gray-matter pour analyser les métadonnées du contenu du fichier
+  const matterResult = matter(fileContents);
 
-  useEffect(() => {
-    const fetchExpertiseDetails = async () => {
-      if (expertiseId) {
-        try {
-          const response = await fetch("/locales/fr/expertise.json");
-          const data = await response.json();
-          // Trouvez l'expertise correspondante par le slug
-          const expertise = data.expertises.find((e) => e.slug === expertiseId);
-          if (expertise) {
-            setExpertiseDetails(expertise);
-          } else {
-            console.error("Expertise introuvable avec l'ID:", expertiseId);
-          }
-        } catch (error) {
-          console.error("Erreur lors du chargement des détails de l'expertise", error);
-        }
-      }
-    };
+  // matterResult.data contient les métadonnées YAML
+  const metaData = matterResult.data;
 
-    fetchExpertiseDetails();
-  }, [expertiseId]);
+  const splitMarkdownIntoSections = (markdownContent) => {
+    const sectionDelimiter = "<!-- section:end -->";
+    return markdownContent
+      .split(sectionDelimiter)
+      .map((section) => section.replace("<!-- section:start -->", "").replace("<!-- section:end -->", "").trim());
+  };
 
-  // Gérer le cas où les données ne sont pas encore chargées
-  if (!expertiseDetails) {
-    return <div>Chargement...</div>;
-  }
+  // Diviser le contenu en sections Markdown
+  const markdownSections = splitMarkdownIntoSections(matterResult.content);
+
+  // Retourner les sections HTML et les métadonnées comme props de la page
+  return {
+    props: {
+      markdownSections,
+      ...matterResult.data,
+      expertiseId: params.expertiseId,
+      metaData,
+    },
+  };
+}
+
+export async function getStaticPaths({ locales }) {
+  const paths = locales.flatMap((locale) => {
+    const directory = path.join(process.cwd(), "content", "expertises", locale);
+    const filenames = fs.readdirSync(directory);
+    return filenames.map((filename) => {
+      const expertiseId = path.parse(filename).name;
+      return {
+        params: { expertiseId },
+        locale,
+      };
+    });
+  });
+
+  return {
+    paths,
+    fallback: "blocking",
+  };
+}
+
+const serviceExpertises = [
+  {
+    link: "/service/dossier-subvention",
+    text: "Gestion des dossiers de subvention",
+  },
+  {
+    link: "/service/droits-auteur",
+    text: "Gestions des droits d’auteur",
+  },
+  {
+    link: "/service/droits-voisins",
+    text: "Gestions des droits voisins",
+  },
+  {
+    link: "/service/gestion-des-oeuvres",
+    text: "Gestion des oeuvres",
+  },
+  {
+    link: "/service/gestion-distribution",
+    text: "Gestion de la distribution physique et digitale",
+  },
+];
+export default function ServiceDetails({ markdownSections, expertiseId, metaData }) {
+  // Utiliser les métadonnées directement
+  const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link, documentaires } =
+    metaData;
+
+  // Utiliser les sections Markdown
+  const part1 = markdownSections[0];
+  const part2 = markdownSections[1];
+  const part3 = markdownSections[2];
+  const part4 = markdownSections[3];
+  const part5 = markdownSections[4];
+  const part6 = markdownSections[5];
+  const part7 = markdownSections[6];
+  const part8 = markdownSections[7];
 
   return (
     <>
       <Head>
-        <title>Expertise - {expertiseDetails.title}</title>
+        <title>Service - {"test"}</title>
         <meta name="description" content="Generated by create next app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Détails expertise" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={expertiseId} />
+        <PageHeading title="Mes expertises" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={expertiseId} />
         <Spacing lg="145" md="80" />
         <Div className="container">
-          <SectionHeading
-            title="Processus de gestion des droits"
-            subtitle="Gestion des Droits d'Auteur"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="90" md="45" />
-          <Div className="row">
-            <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_1.svg"
-                title="Identification"
-                subtitle="Identification des œuvres et des ayants droit, suivi des licences et des contrats."
-              />
-              <Spacing lg="30" md="30" />
-            </Div>
-            <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_2.svg"
-                title="Monétisation"
-                subtitle="Stratégies pour maximiser les revenus générés par les droits d'auteur."
-              />
-              <Spacing lg="30" md="30" />
-            </Div>
-            <Div className="col-lg-4">
-              <IconBox
-                icon="/images/icons/service_icon_3.svg"
-                title="Protection"
-                subtitle="Mise en place de mesures pour protéger les œuvres et les droits d'auteur."
-              />
-              <Spacing lg="30" md="30" />
-            </Div>
-          </Div>
+          <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" intro={intro} />
         </Div>
 
-        {/* part 1 */}
+        {part1 !== undefined || "" ? (
+          <ImageAndTextRight title={""} imagePath={img1} link={null} altText="Service">
+            <ReactMarkdown
+              children={part1}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
+
+        {part2 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath={img2} link={img2Link} altText="Service">
+            <ReactMarkdown
+              children={part2}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
+
+        {part3 !== undefined || "" ? (
+          <ImageAndTextRight title={""} imagePath={img3} link={img3Link} altText="Service">
+            <ReactMarkdown
+              children={part3}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
+
+        {part4 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath={img4} link={img4Link} altText="Service">
+            <ReactMarkdown
+              children={part4}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
+
+        {part5 !== undefined || "" ? (
+          <ImageAndTextRight title={""} imagePath={img5} link={img5Link} altText="Service">
+            <ReactMarkdown
+              children={part5}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
+
+        {part6 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath={img6} link={null} altText="Service">
+            <ReactMarkdown
+              children={part6}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
+
+        {part7 !== undefined || "" ? (
+          <ImageAndTextRight title={""} imagePath="" link={null} altText="Service">
+            <ReactMarkdown
+              children={part7}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextRight>
+        ) : null}
+
+        {part8 !== undefined || "" ? (
+          <ImageAndTextLeft title={""} imagePath="" link={null} altText="Service">
+            <ReactMarkdown
+              children={part8}
+              components={{
+                h3: ({ node, ...props }) => <h3 className={"mdTitle"} {...props} />,
+                a: ({ node, ...props }) => <a className="link" target="_blank" rel="noopener noreferrer" {...props} />,
+                strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
+                span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
+                em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+              }}
+            />
+          </ImageAndTextLeft>
+        ) : null}
+
+        <Div className="container">{labels ? <ClickableImageGrid labels={labels} /> : null}</Div>
+
         <Div className="container">
-          <Div className="row align-items-center">
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/service_img_1.jpeg" alt="Expertise" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-6 offset-xl-1">
-              <h1 className="cs-font_50 cs-m0">Gérer les droits d’auteur</h1>
-              <p>
-                Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que
-                'compositeur' fait est à celui qui en compose la musique. Ces deux acteurs jouissent de droits de propriété
-                équivalents sur leurs créations, d'où le terme d’"auteur-compositeur". En réalité, cela peut désigner deux
-                personnes différentes. Cependant, il se peut qu'une seule et même personne remplisse ces deux rôles, assumant
-                ainsi simultanément le rôle d'auteur et de compositeur. De plus, nous distinguons les compositions musicales sans
-                parole, dans lesquelles seuls les compositeurs interviennent.
-                <br />
-                <br />
-                Qu’il s’agisse d’un auteur, d’un compositeur ou d’un auteur-compositeur, l’œuvre produite est protégée par les
-                DROITS D’AUTEUR. Cela implique que l'auteur est le propriétaire du texte qu'il a écrit et que le compositeur a la
-                propriété de la musique qu'il a composée. Ils ont le droit d'autoriser ou d'interdire l'exploitation de leur
-                œuvre, et ce, contre une compensation financière. Concrètement, cela signifie que toute utilisation de l'œuvre
-                (soit le texte, soit la musique), nécessite une autorisation préalable de l’auteur-compositeur, accompagnée du
-                versement de redevances. Il est important de souligner que l’auteur-compositeur a droit à une protection légale
-                dès l’instant de la création de son œuvre. Les formalités de déclaration auprès de la SACEM s’avèrent nécessaires
-                uniquement pour obtenir une preuve légale de la priorité de création.
-                <br />
-                <br />
-                L'éditeur musical représente un partenaire essentiel pour l’auteur-compositeur. Il a pour rôle d'aider ces
-                derniers à exploiter leurs œuvres pour développer leur carrière. Ainsi, l'éditeur cherchera toutes opportunités
-                possibles pour promouvoir et diffuser l'œuvre musicale en question (paroles et musique, ensemble ou séparément).
-              </p>
-              <Spacing lg="50" md="30" />
-            </Div>
-          </Div>
+          {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
         </Div>
-        {/* fin part 1 */}
+
         <Spacing lg="120" md="50" />
-        <Div className="container">
-          <Div className="row align-items-center">
-            <Div className="col-xl-5 col-lg-6">
-              <Div className="cs-radius_15 cs-shine_hover_1">
-                <img src="/images/service_img_1.jpeg" alt="Expertise" className="cs-radius_15 w-100" />
-              </Div>
-              <Spacing lg="0" md="40" />
-            </Div>
-            <Div className="col-lg-6 offset-xl-1">
-              <h2 className="cs-font_50 cs-m0">Nos services les plus demandés</h2>
-              <Spacing lg="50" md="30" />
-              <Div className="row">
-                <Div className="col-lg-6">
-                  <Button btnLink="/expertise/service-details" btnText="Gestion des licences" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                  <Button btnLink="/expertise/service-details" btnText="Audit des droits" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                </Div>
-                <Div className="col-lg-6">
-                  <Button btnLink="/expertise/service-details" btnText="Conseil en production" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                  <Button btnLink="/expertise/service-details" btnText="Obtention de subventions" variant="cs-type2" />
-                  <Spacing lg="20" md="10" />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
+
+        <ExpertiseSection
+          imageSrc="/images/post_1.jpeg"
+          altText="Service"
+          title="En savoir plus sur mes expertises :"
+          services={serviceExpertises}
+        />
         <Spacing lg="150" md="80" />
+
         <TestimonialSlider />
+
         <Spacing lg="145" md="80" />
+
         <Div className="container cs-shape_wrap_4">
           <Div className="cs-shape_4"></Div>
           <Div className="cs-shape_4"></Div>

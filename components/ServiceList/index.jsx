@@ -3,20 +3,20 @@ import React, { useState } from "react";
 import Div from "../Div";
 import { useRouter } from "next/router";
 
-export default function ServiceList({ services }) {
+export default function ServiceList({ expertises }) {
   const [active, setActive] = useState(0);
   const router = useRouter();
   const { locale } = router;
 
-  const sortedServices = services.sort((a, b) => a.id - b.id);
+  const sortedExpertises = expertises.sort((a, b) => a.id - b.id);
 
   const handleActive = (index) => {
     setActive(index);
   };
   return (
     <Div className="cs-iconbox_3_list">
-      {sortedServices.map((service, index) => {
-        const localizedHref = `/${locale}/service/${service.slug}`;
+      {sortedExpertises.map((service, index) => {
+        const localizedHref = `/${locale}/expertise/${service.slug}`;
         return (
           <Div
             className={`cs-hover_tab ${active === index ? "active" : ""}`}
