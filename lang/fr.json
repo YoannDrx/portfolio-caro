@@ -1,13 +1,50 @@
 {
-	"header": {
-		"navbar": {
-			"à-propos": "À propos",
-			"expertises": "Expertises",
-			"portfolio": "Portfolio",
-			"contact": "Contact",
-			"blog": "Blog",
-			"faq": "FAQ",
-			"langue": "Langue"
-		}
-	}
+  "header": {
+    "navbar": {
+      "à-propos": "À propos",
+      "expertises": "Expertises",
+      "portfolio": "Portfolio",
+      "contact": "Contact",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "langue": "Langue"
+    }
+  },
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Test 1",
+      "subtitle": "See Details",
+      "link": "/portfolio/portfolio-details",
+      "src": "/images/portfolio/albums/PGO0022.jpg",
+      "height": "300",
+      "category": "albums-librairie-musicale",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "releaseDate": "2021-01-01",
+      "genre": "Documentaire",
+      "compositeurs": [
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "synchronisation": [
+        {
+          "name": "Jean-Michel Bernard",
+          "synchoImg": "/images/jean-michel-bernard.jpg",
+          "link": "https://www.jeanmichelbernard.com/"
+        }
+      ],
+      "clip": {
+        "title": "Clip1",
+        "link": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+      },
+      "events": [
+        {
+          "eventImg": "/images/jean-michel-bernard.jpg"
+        }
+      ]
+    }
+  ]
 }

@@ -8,100 +8,89 @@ import PageHeading from "../../components/PageHeading";
 import Portfolio from "../../components/Portfolio";
 import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
+import fr from "../../lang/fr.json";
+import PortfolioGallery from "../../components/PortfolioGallery";
 
 export default function PortfolioPage() {
   const [active, setActive] = useState("all");
   const [itemShow, setItemShow] = useState(7);
-  const portfolioData = [
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_4.jpeg",
-      category: "ui_ux_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_5.jpeg",
-      category: "logo_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_6.jpeg",
-      category: "web_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_7.jpeg",
-      category: "mobile_apps",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_8.jpeg",
-      category: "ui_ux_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_9.jpeg",
-      category: "web_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_10.jpeg",
-      category: "logo_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_4.jpeg",
-      category: "ui_ux_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_5.jpeg",
-      category: "logo_design",
-    },
-    {
-      title: "Colorful Art Work",
-      subtitle: "See Details",
-      href: "/portfolio/portfolio-details",
-      src: "/images/portfolio_6.jpeg",
-      category: "web_design",
-    },
-  ];
-  const categoryMenu = [
-    {
-      title: "Web Design",
-      category: "web_design",
-    },
-    {
-      title: "UI/UX Design",
-      category: "ui_ux_design",
-    },
-    {
-      title: "Mobile Apps",
-      category: "mobile_apps",
-    },
-    {
-      title: "Logo Design",
-      category: "logo_design",
-    },
-  ];
+
+  const portfolioData = fr.portfolio;
+
+  console.log("portfolioData >>", portfolioData);
+  // const portfolioData = [
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_4.jpeg",
+  //     category: "ui_ux_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_5.jpeg",
+  //     category: "logo_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_6.jpeg",
+  //     category: "web_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_7.jpeg",
+  //     category: "mobile_apps",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_8.jpeg",
+  //     category: "ui_ux_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_9.jpeg",
+  //     category: "web_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_10.jpeg",
+  //     category: "logo_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_4.jpeg",
+  //     category: "ui_ux_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_5.jpeg",
+  //     category: "logo_design",
+  //   },
+  //   {
+  //     title: "Colorful Art Work",
+  //     subtitle: "See Details",
+  //     href: "/portfolio/portfolio-details",
+  //     src: "/images/portfolio_6.jpeg",
+  //     category: "web_design",
+  //   },
+  // ];
+
   return (
     <>
       <Head>
@@ -118,7 +107,8 @@ export default function PortfolioPage() {
         />
         <Spacing lg="145" md="80" />
         <Div className="container">
-          <Div className="cs-portfolio_1_heading">
+          <PortfolioGallery portfolioData={portfolioData} />
+          {/* <Div className="cs-portfolio_1_heading">
             <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
             <Div className="cs-filter_menu cs-style1">
               <ul className="cs-mp0 cs-center">
@@ -142,6 +132,7 @@ export default function PortfolioPage() {
                 }`}
                 key={index}>
                 <Portfolio
+                  data={item}
                   title={item.title}
                   subtitle={item.subtitle}
                   href={item.href}
@@ -165,7 +156,7 @@ export default function PortfolioPage() {
                 </span>
               </>
             )}
-          </Div>
+          </Div> */}
         </Div>
         <Spacing lg="145" md="80" />
         <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
