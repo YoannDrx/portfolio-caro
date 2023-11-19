@@ -26,8 +26,8 @@ export default function PortfolioGallery({ portfolioData }) {
       category: "clips",
     },
     {
-      title: "Synchos",
-      category: "synchos",
+      title: "Synchros",
+      category: "synchros",
     },
     {
       title: "Documentaires",
@@ -77,7 +77,8 @@ export default function PortfolioGallery({ portfolioData }) {
 
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
-              <Link href={`/portfolio/${item.slug}`}>
+              {/* <Link href={`/portfolio/${item.slug}`}> */}
+              <Link href={item.link}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
                     <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
