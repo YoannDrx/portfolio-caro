@@ -73,30 +73,49 @@ export async function getStaticPaths({ locales }) {
 
 const serviceExpertises = [
   {
-    link: "/service/dossier-subvention",
-    text: "Gestion des dossiers de subvention",
-  },
-  {
-    link: "/service/droits-auteur",
+    link: "/expertise/droits-auteur",
     text: "Gestions des droits d’auteur",
   },
   {
-    link: "/service/droits-voisins",
+    link: "/expertise/droits-voisins",
     text: "Gestions des droits voisins",
   },
   {
-    link: "/service/gestion-des-oeuvres",
-    text: "Gestion des oeuvres",
+    link: "/expertise/gestion-administrative-et-editoriale",
+    text: "Gestions administratives et éditoriales",
   },
   {
-    link: "/service/gestion-distribution",
-    text: "Gestion de la distribution physique et digitale",
+    link: "/expertise/gestion-distribution",
+    text: "Gestions de la distribution physique et digitale",
+  },
+  {
+    link: "/expertise/sous-edition",
+    text: "Gestion des oeuvres en sous édition",
+  },
+  {
+    link: "/expertise/dossier-subvention",
+    text: "Gestion des dossiers de subvention",
   },
 ];
 export default function ServiceDetails({ markdownSections, expertiseId, metaData }) {
   // Utiliser les métadonnées directement
-  const { title, intro, img1, img2, img3, img4, img5, img6, labels, img2Link, img3Link, img4Link, img5Link, documentaires } =
-    metaData;
+  const {
+    title,
+    intro,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    labels,
+    img2Link,
+    img3Link,
+    img4Link,
+    img5Link,
+    documentaires,
+    imgFooter,
+  } = metaData;
 
   // Utiliser les sections Markdown
   const part1 = markdownSections[0];
@@ -259,7 +278,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
         <Spacing lg="120" md="50" />
 
         <ExpertiseSection
-          imageSrc="/images/post_1.jpeg"
+          imageSrc={imgFooter}
           altText="Service"
           title="En savoir plus sur mes expertises :"
           services={serviceExpertises}

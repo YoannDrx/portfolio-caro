@@ -11,6 +11,7 @@ img3: "/images/gestion-distrib/photo3-gestiondistrib.JPG"
 img4: "/images/gestion-distrib/photo4-gestiondistrib.JPG"
 img5: "/images/gestion-distrib/photo5-gestiondistrib.GIF"
 img6: "/images/gestion-distrib/photo6-gestiondistrib.JPG"
+imgFooter: "/images/gestion-distrib/photohome4.JPG"
 ---
 
 <!-- section:start -->

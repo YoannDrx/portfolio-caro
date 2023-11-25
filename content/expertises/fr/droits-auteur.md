@@ -9,6 +9,7 @@ img2: "/images/droit-auteur/photo2-droitsdauteur.JPG"
 img3: "/images/droit-auteur/photo3-droitsdauteur.JPG"
 img4: "/images/droit-auteur/photo4-droitsdauteur.JPG"
 img5: "/images/droit-auteur/photo5-droitsdauteur.JPG"
+imgFooter: "/images/droit-auteur/photohome1.JPG"
 ---
 
 <!-- section:start -->

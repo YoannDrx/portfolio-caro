@@ -11,6 +11,7 @@ img4: "/images/droit-voisin/photo4-droitsvoisins.JPG"
 img5: "/images/droit-voisin/photo5-droitsvoisins.JPG"
 img6: "/images/droit-voisin/photo6-droitsvoisins.JPG"
 img7: "/images/droit-voisin/photo3-droitsvoisins.JPG"
+imgFooter: "/images/droit-voisin/photohome2.JPG"
 ---
 
 <!-- section:start -->

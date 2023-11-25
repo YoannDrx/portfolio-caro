@@ -13,7 +13,12 @@ const WaterWave = dynamic(
 export default function Hero3({ title, subtitle, socialLinksHeading, heroSocialLinks, bgImageUrl }) {
   return (
     <Div className="cs-hero cs-style1 cs-type2" id="home">
-      <WaterWave className="cs-hero_bg cs-bg cs-ripple_version cs-center" imageUrl={bgImageUrl}>
+      <WaterWave
+        className="cs-hero_bg cs-bg cs-ripple_version cs-center"
+        imageUrl={bgImageUrl}
+        // pour abaisser l'image
+        // style={{ backgroundPosition: "center top" }}
+      >
         {() => (
           <Div className="container">
             <Div className="cs-hero_text text-center">
