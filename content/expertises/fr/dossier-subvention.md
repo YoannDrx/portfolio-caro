@@ -10,6 +10,7 @@ img2: "/images/subvention/photo2-subvention.JPG"
 img3: "/images/subvention/photo3-subvention.png"
 img4: "/images/subvention/photo4-subvention.JPG"
 img5: "/images/subvention/photo5-subvention.JPG"
+imgFooter: "/images/subvention/photohome6.JPG"
 ---
 
 <!-- section:start -->

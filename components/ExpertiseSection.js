@@ -9,7 +9,14 @@ const ExpertiseSection = ({ imageSrc, altText, title, services }) => {
       <Div className="row align-items-center">
         <Div className="col-xl-5 col-lg-6">
           <Div className="cs-radius_15 cs-shine_hover_1">
-            <Image src={imageSrc} alt={altText} className="cs-radius_15 w-100" width={500} height={300} />
+            <Image
+              src={imageSrc}
+              alt={altText}
+              className="cs-radius_15 w-100"
+              style={{ maxHeight: "700px", objectFit: "cover", objectPosition: "center " }}
+              width={500}
+              height={300}
+            />
           </Div>
           <Spacing lg="0" md="40" />
         </Div>

@@ -13,6 +13,7 @@ img4: "/images/gestion-admin/photo4-gestionadmin.jpeg"
 img4Link: "https://popfilms.fr"
 img5: "/images/gestion-admin/photo5-gestionadmin.jpeg"
 img5Link: "https://www.viadecouvertes.fr/"
+imgFooter: "/images/gestion-admin/photohome3.JPG"
 documentaires:
   # little-big-story
   - {

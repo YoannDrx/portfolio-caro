@@ -7,6 +7,7 @@ imgHome: "/images/sous-edition/Home-PhotoGestionSoused.JPG"
 img1: "/images/sous-edition/photo1-soused.JPG"
 img2: "/images/sous-edition/photo2-soused.JPG"
 img3: "/images/sous-edition/photo3-soused.JPG"
+imgFooter: "/images/sous-edition/photohome5.JPG"
 labels:
   - { name: "image1", src: "/images/sous-edition/logo-label-soused/1.png", href: "www.google.com" }
   - { name: "image2", src: "/images/sous-edition/logo-label-soused/2.png", href: "www.google.com" }

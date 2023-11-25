@@ -143,7 +143,7 @@ export default function Home({ expertises }) {
           subtitle="Production . Copyrigth . Publishing"
           socialLinksHeading=""
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="./images/home/couverture-vaisseau.png"
+          bgImageUrl="./images/home/femme-vinyl.JPG"
         />
         {/* End Hero Section */}
         {/* Start Expertises */}
