@@ -16,6 +16,8 @@ import ProjectSlider from "../components/Slider/ProjectSlider";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import PortfolioGallery from "../components/PortfolioGallery";
+import fr from "../lang/fr.json";
 
 export async function getStaticProps() {
   const expertiseDirectory = path.join(process.cwd(), "content", "expertises", "fr");
@@ -46,6 +48,8 @@ export async function getStaticProps() {
 
 export default function Home({ expertises }) {
   const [itemShow, setItemShow] = useState(6);
+
+  const portfolioData = fr.portfolio;
 
   // Hero Social Links
   const heroSocialLinks = [
@@ -154,6 +158,14 @@ export default function Home({ expertises }) {
           <ServiceList expertises={expertises} />
         </Div>
         {/* End Expertises */}
+
+        {/* Start Porfolio Section */}
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+          <PortfolioGallery portfolioData={portfolioData} />
+        </Div>
+        {/* End PortfolioSection */}
+
         {/* Start Projects Section */}
         <Spacing lg="145" md="80" />
         <Div className="container">

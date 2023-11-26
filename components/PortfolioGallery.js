@@ -14,8 +14,6 @@ export default function PortfolioGallery({ portfolioData }) {
   const [active, setActive] = useState("all");
   const [visibleCount, setVisibleCount] = useState(10);
 
-  console.log("portfolioData >>", portfolioData);
-
   const categoryMenu = [
     {
       title: "Albums librairie musicale",
@@ -38,13 +36,6 @@ export default function PortfolioGallery({ portfolioData }) {
       category: "documentaires",
     },
   ];
-
-  const openLink = (e, link) => {
-    e.stopPropagation();
-    if (link) {
-      window.open(link, "_blank");
-    }
-  };
 
   return (
     <>
@@ -81,12 +72,11 @@ export default function PortfolioGallery({ portfolioData }) {
 
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
-              {/* <Link href={`/portfolio/${item.slug}`}> */}
-              <Link href={`/${locale}/${item.link}`}>
+              <Link href={`/${locale}${item.link}`}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
                     {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
-                    <Image src={item.src} alt="photo" width={200} height={150} />
+                    {/* <Image src={item.src} alt="photo" width={0} height={0} sizes="100vw" className="labelImage" /> */}
                   </Div>
                   <Div className="cs-portfolio_hover" />
                   <span className="cs-plus" />

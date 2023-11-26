@@ -12,7 +12,7 @@
   border-radius: 15px;
   overflow: hidden;
   position: relative;
-  height: 622px;
+  height: 450px;
   display: block;
   .cs-portfolio_hover {
     position: absolute;
@@ -265,6 +265,10 @@
   }
 }
 @media screen and (max-width: 1400px) {
+  .cs-portfolio.cs-style1 {
+    height: 400px;
+  }
+
   .cs-portfolio.cs-style2 {
     .cs-portfolio_img_title {
       left: calc(((100vw - 1120px) / 2) / 2);
@@ -281,11 +285,19 @@
   }
 }
 @media screen and (max-width: 1380px) {
+  .cs-portfolio.cs-style1 {
+    height: 400px;
+  }
+
   .cs-portfolio.cs-style1 .cs-portfolio_title {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 1199px) {
+  .cs-portfolio.cs-style1 {
+    height: 650px;
+  }
+
   .cs-portfolio.cs-style2 {
     .cs-portfolio_img_title {
       left: calc(((100vw - 940px) / 2) / 2);
@@ -325,8 +337,9 @@
 }
 @media screen and (max-width: 991px) {
   .cs-portfolio.cs-style1 {
-    height: 380px;
+    height: 500px;
   }
+
   .cs-portfolio.cs-style2,
   .cs-portfolio.cs-style2.cs-type1 {
     .cs-portfolio_img {
@@ -344,9 +357,14 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .cs-portfolio.cs-style1 {
+    height: 350px;
+  }
+}
 @media screen and (max-width: 575px) {
   .cs-portfolio.cs-style1 {
-    height: 380px;
+    height: 780px;
   }
   .cs-portfolio.cs-style2 .cs-portfolio_img_title,
   .cs-portfolio.cs-style2.cs-type1 .cs-portfolio_img_title {
