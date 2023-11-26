@@ -37,6 +37,14 @@ export default function PortfolioGallery({ portfolioData }) {
     },
   ];
 
+  function createPortfolioLink(item, locale) {
+    if (item.category === "albums" || item.category === "vinyles") {
+      return { href: locale === "fr" ? `/portfolio/${item.slug}` : `/${locale}/portfolio/${item.slug}`, isExternal: false };
+    } else {
+      return { href: item.externalLink, isExternal: true };
+    }
+  }
+
   return (
     <>
       <Div className="container">
@@ -70,24 +78,37 @@ export default function PortfolioGallery({ portfolioData }) {
           const shouldDisplay =
             (active === "all" || active === item.category) && (active === "all" ? index < visibleCount : true);
 
+          const { href, isExternal } = createPortfolioLink(item, locale);
+
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
-              <Link href={`/${locale}${item.link}`}>
-                <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
-                  <Div className="cs-lightbox_item">
-                    {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
-                    {/* <Image src={item.src} alt="photo" width={0} height={0} sizes="100vw" className="labelImage" /> */}
+              {isExternal ? (
+                <Link href={href} target="_blank" rel="noopener noreferrer">
+                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
+                    <Div className="cs-portfolio_hover" />
+                    <span className="cs-plus" />
+                    <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
+                    <Div className="cs-portfolio_info">
+                      <Div className="cs-portfolio_info_bg cs-accent_bg" />
+                      <h2 className="cs-portfolio_title">{item.title}</h2>
+                      <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+                    </Div>
                   </Div>
-                  <Div className="cs-portfolio_hover" />
-                  <span className="cs-plus" />
-                  <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
-                  <Div className="cs-portfolio_info">
-                    <Div className="cs-portfolio_info_bg cs-accent_bg" />
-                    <h2 className="cs-portfolio_title">{item.title}</h2>
-                    <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+                </Link>
+              ) : (
+                <Link href={href}>
+                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
+                    <Div className="cs-portfolio_hover" />
+                    <span className="cs-plus" />
+                    <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
+                    <Div className="cs-portfolio_info">
+                      <Div className="cs-portfolio_info_bg cs-accent_bg" />
+                      <h2 className="cs-portfolio_title">{item.title}</h2>
+                      <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+                    </Div>
                   </Div>
-                </Div>
-              </Link>
+                </Link>
+              )}
             </Div>
           ) : null;
         })}
