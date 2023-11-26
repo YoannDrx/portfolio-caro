@@ -73,7 +73,7 @@ export default function PortfolioGallery({ portfolioData }) {
           return shouldDisplay ? (
             <Div className={`${active === "all" ? "" : !(active === item.category) ? "d-none" : ""}`} key={index}>
               <Link href={`/${locale}${item.link}`}>
-                <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
+                <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
                     {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
                     {/* <Image src={item.src} alt="photo" width={0} height={0} sizes="100vw" className="labelImage" /> */}
