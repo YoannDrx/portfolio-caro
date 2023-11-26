@@ -74,7 +74,7 @@ export default function DocumentairesGallery({ documentaires }) {
               <a onClick={(e) => openLink(e, item.link)}>
                 <Div className="cs-portfolio cs-style1 cs-type2" style={{ height: `${item.height}px` }}>
                   <Div className="cs-lightbox_item">
-                    <ModalImage small={item.src} large={item.srcLg} alt={item.title} />
+                    {/* <ModalImage small={item.src} large={item.srcLg} alt={item.title} /> */}
                   </Div>
                   <Div className="cs-portfolio_hover" />
                   <span className="cs-plus" />

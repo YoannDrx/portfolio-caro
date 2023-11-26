@@ -1,12 +1,9 @@
-import { Icon } from "@iconify/react";
 import Head from "next/head";
 import React, { useState } from "react";
 import Cta from "../../components/Cta";
 import Div from "../../components/Div";
 import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
-import Portfolio from "../../components/Portfolio";
-import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
 import fr from "../../lang/fr.json";
 import PortfolioGallery from "../../components/PortfolioGallery";
