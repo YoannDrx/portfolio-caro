@@ -267,7 +267,6 @@ export default function Home({ expertises }) {
         {/* End MovingText Section */}
 
         {/* Début de la section Équipe */}
-        {/* Vous pouvez supprimer cette section si elle n'est pas pertinente pour vous */}
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading title="Les projets récents" subtitle="Actus" variant="cs-style1" />
