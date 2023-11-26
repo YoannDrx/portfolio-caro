@@ -22,12 +22,7 @@ export default function PortfolioPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading
-          title="Portfolio"
-          // bgSrc="images/portfolio_hero_bg.jpeg"
-          bgSrc="/images/portfolio_hero_bg.jpeg"
-          pageLinkText="Portfolio"
-        />
+        <PageHeading title="Portfolio" bgSrc="/images/portfolio_hero_bg.jpeg" pageLinkText="Portfolio" />
         <Spacing lg="145" md="80" />
         <Div className="container">
           <PortfolioGallery portfolioData={portfolioData} />
