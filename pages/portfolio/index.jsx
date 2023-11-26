@@ -7,11 +7,17 @@ import PageHeading from "../../components/PageHeading";
 import Spacing from "../../components/Spacing";
 import fr from "../../lang/fr.json";
 import PortfolioGallery from "../../components/PortfolioGallery";
+import { shuffleArray } from "../../lib/portfolioUtils";
+
+// export async function getServerSideProps() {
+//   const data = fr.portfolio;
+
+//   const shuffledData = shuffleArray(data);
+
+//   return { props: { portfolioData: shuffledData } };
+// }
 
 export default function PortfolioPage() {
-  const [active, setActive] = useState("all");
-  const [itemShow, setItemShow] = useState(7);
-
   const portfolioData = fr.portfolio;
 
   return (
@@ -26,55 +32,6 @@ export default function PortfolioPage() {
         <Spacing lg="145" md="80" />
         <Div className="container">
           <PortfolioGallery portfolioData={portfolioData} />
-          {/* <Div className="cs-portfolio_1_heading">
-            <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
-            <Div className="cs-filter_menu cs-style1">
-              <ul className="cs-mp0 cs-center">
-                <li className={active === "all" ? "active" : ""}>
-                  <span onClick={() => setActive("all")}>All</span>
-                </li>
-                {categoryMenu.map((item, index) => (
-                  <li className={active === item.category ? "active" : ""} key={index}>
-                    <span onClick={() => setActive(item.category)}>{item.title}</span>
-                  </li>
-                ))}
-              </ul>
-            </Div>
-          </Div>
-          <Spacing lg="90" md="45" />
-          <Div className="row">
-            {portfolioData.slice(0, itemShow).map((item, index) => (
-              <Div
-                className={`${index === 3 || index === 6 ? "col-lg-8" : "col-lg-4"} ${
-                  active === "all" ? "" : !(active === item.category) ? "d-none" : ""
-                }`}
-                key={index}>
-                <Portfolio
-                  data={item}
-                  title={item.title}
-                  subtitle={item.subtitle}
-                  href={item.href}
-                  src={item.src}
-                  variant="cs-style1 cs-type1"
-                />
-                <Spacing lg="25" md="25" />
-              </Div>
-            ))}
-          </Div>
-
-          <Div className="text-center">
-            {portfolioData.length <= itemShow ? (
-              ""
-            ) : (
-              <>
-                <Spacing lg="65" md="40" />
-                <span className="cs-text_btn" onClick={() => setItemShow(itemShow + 3)}>
-                  <span>Load More</span>
-                  <Icon icon="bi:arrow-right" />
-                </span>
-              </>
-            )}
-          </Div> */}
         </Div>
         <Spacing lg="145" md="80" />
         <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />

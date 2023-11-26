@@ -7,6 +7,7 @@ import Div from "./Div";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { createPortfolioLink } from "../lib/portfolioUtils";
 
 export default function PortfolioGallery({ portfolioData }) {
   const router = useRouter();
@@ -36,14 +37,6 @@ export default function PortfolioGallery({ portfolioData }) {
       category: "documentaires",
     },
   ];
-
-  function createPortfolioLink(item, locale) {
-    if (item.category === "albums" || item.category === "vinyles") {
-      return { href: locale === "fr" ? `/portfolio/${item.slug}` : `/${locale}/portfolio/${item.slug}`, isExternal: false };
-    } else {
-      return { href: item.externalLink, isExternal: true };
-    }
-  }
 
   return (
     <>

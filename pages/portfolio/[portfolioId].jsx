@@ -11,13 +11,17 @@ import Spacing from "../../components/Spacing";
 
 export async function getStaticProps({ params, locale }) {
   const data = await import(`../../lang/${locale}.json`);
-  const album = data.portfolio.find((item) => item.slug === params.portfolioId);
+  const albums = data.portfolio;
+  const albumIndex = albums.findIndex((item) => item.slug === params.portfolioId);
 
-  if (!album) {
+  if (albumIndex === -1) {
     return { notFound: true };
   }
 
-  return { props: { album } };
+  const prevAlbum = albums[albumIndex - 1] || null;
+  const nextAlbum = albums[albumIndex + 1] || null;
+
+  return { props: { album: albums[albumIndex], prevAlbum, nextAlbum } };
 }
 
 export async function getStaticPaths() {
@@ -34,7 +38,7 @@ export async function getStaticPaths() {
   return { paths, fallback: false };
 }
 
-export default function PortfolioDetails({ album }) {
+export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
   return (
     <>
       <Head>
@@ -46,7 +50,9 @@ export default function PortfolioDetails({ album }) {
         <PageHeading title="Portfolio Details" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={album.title} />
         <Spacing lg="150" md="80" />
         <Div className="container">
-          <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+          <Div className="cs-page_navigation cs-center">
+            <img src={album.src} alt="Details" className="cs-radius_15 w-20" />
+          </Div>
           <Spacing lg="90" md="40" />
           <Div className="row">
             <Div className="col-lg-6">
@@ -62,6 +68,7 @@ export default function PortfolioDetails({ album }) {
                 </p>
               </SectionHeading>
             </Div>
+
             <Div className="col-lg-5 offset-lg-1">
               <Spacing lg="60" md="40" />
               <h2 className="cs-font_30 cs-font_26_sm cs-m0">Project Info -</h2>
@@ -97,12 +104,16 @@ export default function PortfolioDetails({ album }) {
           </Div>
           <Spacing lg="65" md="10" />
           <Div className="cs-page_navigation cs-center">
-            <Div>
-              <Button btnLink="/portfolio/portfolio-details" btnText="Prev Project" variant="cs-type1" />
-            </Div>
-            <Div>
-              <Button btnLink="/portfolio/portfolio-details" btnText="Next Project" />
-            </Div>
+            {prevAlbum && (
+              <Div>
+                <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
+              </Div>
+            )}
+            {nextAlbum && (
+              <Div>
+                <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
+              </Div>
+            )}
           </Div>
         </Div>
         <Spacing lg="145" md="80" />

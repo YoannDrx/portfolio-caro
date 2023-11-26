@@ -1,5 +1,5 @@
 import parse from "html-react-parser";
-// import WaterWave from 'react-water-wave';
+// import WaterWave from "react-water-wave";
 import Div from "../Div";
 import VerticalLinks from "../VerticalLinks";
 import dynamic from "next/dynamic";
