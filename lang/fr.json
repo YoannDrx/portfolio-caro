@@ -1153,7 +1153,7 @@
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/documentaires/le-proces.jpeg",
-      "height": "400",
+      "height": "450",
       "category": "documentaires"
     },
     {
@@ -1701,12 +1701,102 @@
 
     {
       "id": 81,
-      "title": "Test",
+      "title": "BNP Paribas, dans les eaux troubles de la plus grande banque Européenne",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.google.fr",
-      "src": "/images/portfolio/documentaires/",
-      "height": "350",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/bnp-paribas-dans-les-eaux-troubles-de-la-plus-grande-banque-européenne.JPG",
+      "height": "450",
+      "category": "documentaires"
+    },
+    {
+      "id": 82,
+      "title": "La démocratie du dollar",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/la-democratie-du-doller.JPG",
+      "height": "450",
+      "category": "documentaires"
+    },
+    {
+      "id": 83,
+      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire.JPG",
+      "height": "400",
+      "category": "documentaires"
+    },
+    {
+      "id": 84,
+      "title": "L'empire de l'or rouge",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/lempire-de-lor-rouge2.jpeg",
+      "height": "150",
+      "category": "documentaires"
+    },
+    {
+      "id": 85,
+      "title": "Les oubliés de l'atome",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/les-oublies-de-latome.JPG",
+      "height": "150",
+      "category": "documentaires"
+    },
+    {
+      "id": 86,
+      "title": "Les oubliés de l'atome 2",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/les-oublies-de-latome2.jpg",
+      "height": "150",
+      "category": "documentaires"
+    },
+    {
+      "id": 87,
+      "title": "Les poisons de Poutine",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/les-poisons-de-poutine.WEBP",
+      "height": "400",
+      "category": "documentaires"
+    },
+    {
+      "id": 88,
+      "title": "Marcus Klingberg, un pur espion",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion.JPG",
+      "height": "200",
+      "category": "documentaires"
+    },
+    {
+      "id": 89,
+      "title": "Marcus Klingberg, un pur espion 2",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion2.JPG",
+      "height": "150",
+      "category": "documentaires"
+    },
+    {
+      "id": 90,
+      "title": "Taiwan, une démocratie à l'ombre de la Chine",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/documentaires/taiwan-une-democratie-a-lombre-de-la-chine.JPG",
+      "height": "400",
       "category": "documentaires"
     }
   ]
