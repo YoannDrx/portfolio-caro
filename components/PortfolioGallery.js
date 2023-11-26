@@ -2,10 +2,8 @@ import { Icon } from "@iconify/react";
 import React, { useState } from "react";
 import SectionHeading from "./SectionHeading";
 import Spacing from "./Spacing";
-import ModalImage from "react-modal-image";
 import Div from "./Div";
 import Link from "next/link";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { createPortfolioLink } from "../lib/portfolioUtils";
 
