@@ -10,11 +10,11 @@ import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
 
 export async function getStaticProps({ params, locale }) {
-  const data = await import(`../../lang/${locale}.json`);
+  const data = require(`../../lang/${locale}.json`);
   const albums = data.portfolio;
   const albumIndex = albums.findIndex((item) => item.slug === params.portfolioId);
 
-  if (albumIndex === -1) {
+  if (!albums || albumIndex === -1) {
     return { notFound: true };
   }
 
@@ -25,15 +25,15 @@ export async function getStaticProps({ params, locale }) {
 }
 
 export async function getStaticPaths() {
-  const locales = ["fr", "en"];
-  const paths = [];
+  // Charger les données pour chaque langue
+  const frAlbums = require("../../lang/fr.json").portfolio;
+  const enAlbums = require("../../lang/en.json").portfolio;
 
-  for (const locale of locales) {
-    const data = await import(`../../lang/${locale}.json`);
-    data.portfolio.forEach((item) => {
-      paths.push({ params: { portfolioId: item.slug }, locale });
-    });
-  }
+  // Générer les chemins pour chaque album dans chaque langue
+  const paths = [
+    ...frAlbums.map((album) => ({ params: { portfolioId: album.slug }, locale: "fr" })),
+    ...enAlbums.map((album) => ({ params: { portfolioId: album.slug }, locale: "en" })),
+  ];
 
   return { paths, fallback: false };
 }
