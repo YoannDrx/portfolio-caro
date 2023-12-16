@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import React from "react";
 import Button from "../../components/Button";
 import Cta from "../../components/Cta";
@@ -8,9 +7,12 @@ import Layout from "../../components/Layout";
 import PageHeading from "../../components/PageHeading";
 import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
+import frData from "../../lang/fr.json";
+import enData from "../../lang/en.json";
 
 export async function getStaticProps({ params, locale }) {
-  const data = require(`../../lang/${locale}.json`);
+  const data = locale === "fr" ? frData : enData;
+
   const albums = data.portfolio;
   const albumIndex = albums.findIndex((item) => item.slug === params.portfolioId);
 
@@ -25,14 +27,14 @@ export async function getStaticProps({ params, locale }) {
 }
 
 export async function getStaticPaths() {
-  // Charger les données pour chaque langue
-  const frAlbums = require("../../lang/fr.json").portfolio;
-  const enAlbums = require("../../lang/en.json").portfolio;
+  // Filtrer les albums pour ne garder que ceux qui ont un slug
+  // Sinon redirection externe via createPortfolioLink()
+  const frAlbumsWithSlug = frData.portfolio.filter((item) => item.slug);
+  const enAlbumsWithSlug = enData.portfolio.filter((item) => item.slug);
 
-  // Générer les chemins pour chaque album dans chaque langue
   const paths = [
-    ...frAlbums.map((album) => ({ params: { portfolioId: album.slug }, locale: "fr" })),
-    ...enAlbums.map((album) => ({ params: { portfolioId: album.slug }, locale: "en" })),
+    ...frAlbumsWithSlug.map((album) => ({ params: { portfolioId: album.slug }, locale: "fr" })),
+    ...enAlbumsWithSlug.map((album) => ({ params: { portfolioId: album.slug }, locale: "en" })),
   ];
 
   return { paths, fallback: false };
