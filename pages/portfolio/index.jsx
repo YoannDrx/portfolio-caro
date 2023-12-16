@@ -8,6 +8,8 @@ import Spacing from "../../components/Spacing";
 import fr from "../../lang/fr.json";
 import PortfolioGallery from "../../components/PortfolioGallery";
 import { shuffleArray } from "../../lib/portfolioUtils";
+import frData from "../../lang/fr.json";
+import enData from "../../lang/en.json";
 
 // export async function getServerSideProps() {
 //   const data = fr.portfolio;
@@ -17,9 +19,12 @@ import { shuffleArray } from "../../lib/portfolioUtils";
 //   return { props: { portfolioData: shuffledData } };
 // }
 
-export default function PortfolioPage() {
-  const portfolioData = fr.portfolio;
+export async function getStaticProps({ locale }) {
+  const data = locale === "en" ? enData.portfolio : frData.portfolio;
+  return { props: { portfolioData: data } };
+}
 
+export default function PortfolioPage({ portfolioData }) {
   return (
     <>
       <Head>
