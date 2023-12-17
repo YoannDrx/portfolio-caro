@@ -740,30 +740,49 @@
       "src": "/images/portfolio/albums/PGO0043.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Si la réalisation d'un spot publicitaire est une science délicate, le choix de la musique qui doit l'accompagner relève également d'une forme de complexité. La création de cet album tient compte de ces éléments, ses différents univers deviennent une arme efficace qui donnera plus de force aux marques et aux images. DJ Hertz a joué un rôle essentiel : il a composé un univers sonore sur mesure, cet artiste de musique originale nous livre une création unique.\n\nTous les titres remplissent l’obligation d’avoir des espaces instrumentaux importants pour permettre le montage d'une voix off, véhiculer des valeurs positives, humaines ou intimistes. L’album BRAND CONTENT réalise une excellente synthèse des classiques de la musique d'entreprise aux tubes accrocheurs des hit-parades : cet album regorge de sons sensationnels pour rehausser les publicités, promouvoir de nouveaux produits tendance et créer la bande-son de prochains succès.",
+      "releaseDate": "13/09/2021",
+      "genre": "Musique de publicité, Pop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "DJ Hertz",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djhertz-music"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Nicolas Pisani",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/cosmicdude"
+          }
+        },
+        {
+          "name": "Mr Viktor",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UC4U1YdCBptWTIrrXWpck52w",
+            "soundcloud": "https://soundcloud.com/mr-viktor"
+          }
+        },
+        {
+          "name": "Rebecca Meyer",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCRweKKqx5mtXOkRuFy8yXVg/about",
+            "spotify": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -776,30 +795,35 @@
       "src": "/images/portfolio/albums/PGO0044.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "UGLY MAC BEER et Yann Kornowicz nous livrent un subtil mélange d’ambiances noires et de nappes puissantes et contemplatives, servies sur un beat hip-hop subtil et terriblement efficace.\n\nDes paysages sonores de catastrophes écologiques aux atmosphères de vaisseaux spatiaux déserts, préparez-vous à être confronté au summum de l'obscurité et de l'inquiétude.\n\nSur DARK AMBIENT VOL.2, les œuvres sont idéales pour la sonorisation d’ambiances cinématographiques les plus sombres : la terreur, la peur, l'horreur et l'angoisse sont au cœur de cet album.",
+      "releaseDate": "21/01/2022",
+      "genre": "Musique Électronique / Ambient",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Yann Kornowicz",
+          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
+            "soundcloud": "https://soundcloud.com/chaosinchatelet"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "UGLY MAC BEER",
+          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -812,30 +836,27 @@
       "src": "/images/portfolio/albums/PGO0045.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Des jeux vidéo, jeux d'arcade, rétro gaming et e-sport à la science-fiction, la science, la technologie, la robotique et l'automatisation, Pixel Fiction est l'ultime album cinématique de synthwave 8-bit composé par 2080 compositeur électro atypique reconnu dans l’univers musical Chiptune. PIXEL FICTION est une invitation à l’art geek des années 80.",
+      "releaseDate": "12/05/2022",
+      "genre": "Musique Électronique / Chiptune",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "2080",
+          "compoImg": "/images/portfolio/albums/PGO0045.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@The2080",
+            "soundcloud": "https://soundcloud.com/2080"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -848,30 +869,26 @@
       "src": "/images/portfolio/albums/PGO0046.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Passionnés par les musiques jamaïcaines et leurs rythmes qu’ils pratiquent depuis une vingtaine d’années, initiés et soutenus par les maitres des tambours rasta, Nicolas Belouet (Nicodrum), Thomas Cirade, Yann Jaffré (spécialiste de la Dub musique) et Jimmy Zaccardelli perpétuent un savoir-faire où le plaisir de composer et de jouer dégage de belles vibrations.\n\nDUB EXPERIENCE présente 10 titres pour les rockers, les rastas et les steppers. Des racines originales des années 70 au reggae contemporain expérimental, profitez de cet album de rythmes dub, de guitares skanking, de cuivres jazzy, de synthés soniques : une ode aux voyages exotiques, d’été sur la plage et de dub chillin'.",
+      "releaseDate": "2022-07-21",
+      "genre": "Reggae",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Nicodrums & Friends",
+          "compoImg": "/images/portfolio/albums/PGO0046.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -920,30 +937,26 @@
       "src": "/images/portfolio/albums/PGO0050.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Amour fatal pour l’easy-listening et ses arrangements ciselés, contre entichement dangereux pour une tradition pop sombre et triste, le tout saupoudré d’une inconditionnelle passion pour la soul initiale, Minimatic conçoit cet album.\n\n Riviera Bizarre est un hymne à l’atmosphère ensoleillée de la French Rivera dans les années pop 70. Prenez un cocktail et côtoyez la jet set : Cette collection de pop française rétro-moderne, kitsch, easy listening, exotica et lounge vous emmène directement à la plage avec la haute société de la Riviera.",
+      "releaseDate": "13/06/2023",
+      "genre": "French Pop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Minimatic",
+          "compoImg": "/images/portfolio/albums/PGO0050.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/minimatic"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -956,35 +969,53 @@
       "src": "/images/portfolio/albums/PGO0051.png",
       "height": "",
       "category": "albums",
-      "description": "Avec cet album, TCHEEP, BONETRIPS et CHICHO CORTEZ tous issus du collectif Mutant Ninja, nous livrent un subtil mélange d’électro et ambient servi sur un beat terriblement efficace : la musique Lo-fi. Un mélange de Hip Hop Lofi relaxant et méditatif pour le bien-être, de nostalgie et d’atmosphères lounge paisibles et chaleureuses.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Avec cet album, TCHEEP, BONETRIPS et CHICHO CORTEZ tous issus du collectif Mutant Ninja, nous livrent un subtil mélange d’électro et ambient servi sur un beat terriblement efficace : la musique Lo-fi. \n\nUn mélange de Hip Hop Lofi relaxant et méditatif pour le bien-être, de nostalgie et d’atmosphères lounge paisibles et chaleureuses.",
+      "releaseDate": "21/10/2023",
+      "genre": "Hip-Hop / Lo-fi",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
+          "name": "Tcheep",
           "compoImg": "/images/portfolio/albums/PGO0051.png",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "links": {
+            "soundcloud": "https://soundcloud.com/tcheep"
+          }
         },
         {
-          "name": "Jean-Michel Bernard",
+          "name": "Bonetrips",
           "compoImg": "/images/portfolio/albums/PGO0051.png",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Chicho Cortez",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/chicho-cortez"
+          }
+        },
+        {
+          "name": "Collectif Mutant Ninja",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/mutantninja"
+          }
         }
       ],
       "synchronisation": [
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "",
+          "synchoImg": "",
+          "externalLink": ""
         }
       ],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": "/images/portfolio/albums/PGO0051.png"
         }
       ]
     },
