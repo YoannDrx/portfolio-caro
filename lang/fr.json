@@ -1484,9 +1484,9 @@
     },
     {
       "id": 75,
-      "title": "Hexahèdre",
+      "title": "Egocentric Visuo-Spatial Perspective",
       "subtitle": "See more",
-      "slug": "hexahedre",
+      "slug": "egocentric-visuo-spatial-perspective",
       "externalLink": "",
       "src": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
       "height": "",
@@ -2445,7 +2445,7 @@
       "title": "Alien Suites Remixes",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=Xc5-EKeDO6Y",
       "src": "/images/portfolio/clips/alien-suites-remixes.png",
       "height": "200",
       "category": "clips"
@@ -2455,7 +2455,7 @@
       "title": "Dark Ambient Vol2",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=E3O5PfylPxs",
       "src": "/images/portfolio/clips/dark-ambient-vol2.png",
       "height": "200",
       "category": "clips"
@@ -2465,7 +2465,7 @@
       "title": "Dark Ambient 2 Making Of",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=NI04hAc0SW4",
       "src": "/images/portfolio/clips/dark-ambient2-making-of.png",
       "height": "200",
       "category": "clips"
@@ -2475,17 +2475,17 @@
       "title": "Dub Experience",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=AaxPsUElbKQ",
       "src": "/images/portfolio/clips/dub-experience.png",
       "height": "200",
       "category": "clips"
     },
     {
       "id": 160,
-      "title": "Egocentric Visuo Spatial Perspective",
+      "title": "Egocentric Visuo-Spatial Perspective",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=10LSc8MjTmM",
       "src": "/images/portfolio/clips/egocentric visuo-spatial perspective.png",
       "height": "200",
       "category": "clips"
@@ -2495,7 +2495,7 @@
       "title": "Hold Me Closer",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=ugsBtjXVgN0",
       "src": "/images/portfolio/clips/hold-me-closer.png",
       "height": "200",
       "category": "clips"
@@ -2505,7 +2505,7 @@
       "title": "Lofi Hip Hop",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=lsXj6hGHM-Q",
       "src": "/images/portfolio/clips/lofi-hip-hop.png",
       "height": "200",
       "category": "clips"
@@ -2515,7 +2515,7 @@
       "title": "NY Parigo",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=jfTecY6qM2Q",
       "src": "/images/portfolio/clips/ny-parigo.png",
       "height": "200",
       "category": "clips"
@@ -2525,7 +2525,7 @@
       "title": "Pixel Fiction",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=RewFfsLHZSc",
       "src": "/images/portfolio/clips/pixel-fiction.png",
       "height": "200",
       "category": "clips"
@@ -2535,7 +2535,7 @@
       "title": "Riviera Bizarre",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=wrO96WV69aY",
       "src": "/images/portfolio/clips/riviera-bizarre.png",
       "height": "200",
       "category": "clips"
@@ -2545,7 +2545,7 @@
       "title": "Une dernière fois",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=EPnfDdfOx94",
       "src": "/images/portfolio/clips/une-derniere-fois.png",
       "height": "200",
       "category": "clips"
@@ -2555,7 +2555,7 @@
       "title": "Vidéo Club",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=anT5ocBumDk",
       "src": "/images/portfolio/clips/videoclub.png",
       "height": "200",
       "category": "clips"
