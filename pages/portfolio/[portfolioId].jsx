@@ -27,8 +27,6 @@ export async function getStaticProps({ params, locale }) {
 }
 
 export async function getStaticPaths() {
-  // Filtrer les albums pour ne garder que ceux qui ont un slug
-  // Sinon redirection externe via createPortfolioLink()
   const frAlbumsWithSlug = frData.portfolio.filter((item) => item.slug);
   const enAlbumsWithSlug = enData.portfolio.filter((item) => item.slug);
 
@@ -52,54 +50,38 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
         <PageHeading title="Portfolio Details" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={album.title} />
         <Spacing lg="150" md="80" />
         <Div className="container">
-          <Div className="cs-page_navigation cs-center">
-            <img src={album.src} alt="Details" className="cs-radius_15 w-20" />
-          </Div>
-          <Spacing lg="90" md="40" />
           <Div className="row">
+            {/* Colonne pour l'image */}
             <Div className="col-lg-6">
-              <SectionHeading title="Graffiti wall artwork" subtitle="Creative">
-                <Spacing lg="40" md="20" />
-                <p>
-                  {album.description.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </SectionHeading>
+              <img src={album.src} alt="Details" className="cs-radius_15 w-100" />
             </Div>
 
-            <Div className="col-lg-5 offset-lg-1">
-              <Spacing lg="60" md="40" />
-              <h2 className="cs-font_30 cs-font_26_sm cs-m0">Project Info -</h2>
-              <Spacing lg="50" md="30" />
+            {/* Colonne pour le contenu */}
+            <Div className="col-lg-6">
+              <SectionHeading title={album.title} subtitle="Creative" />
+              <Spacing lg="40" md="20" />
+              <p>
+                {album.description.split("\n").map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
+              </p>
+
+              {/* Informations supplémentaires */}
               <Div className="row">
-                <Div className="col-6">
+                <Div className="col-12">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Category:</h3>
                   <p className="cs-m0">{album.category}</p>
-                  <Spacing lg="30" md="30" />
                 </Div>
-                <Div className="col-6">
+                <Div className="col-12">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Genre:</h3>
                   <p className="cs-m0">{album.genre}</p>
-                  <Spacing lg="30" md="30" />
                 </Div>
-                <Div className="col-6">
+                <Div className="col-12">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Date de sortie:</h3>
                   <p className="cs-m0">{album.releaseDate}</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Dated:</h3>
-                  <p className="cs-m0">14-Aug-2022</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Client:</h3>
-                  <p className="cs-m0">Andreo Bowla</p>
-                  <Spacing lg="30" md="30" />
                 </Div>
               </Div>
             </Div>
