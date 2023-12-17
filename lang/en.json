@@ -2439,6 +2439,126 @@
       "src": "/images/portfolio/documentaires/une-deuxieme-chance.jpeg",
       "height": "180",
       "category": "documentaires"
+    },
+    {
+      "id": 156,
+      "title": "Alien Suites Remixes",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/alien-suites-remixes.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 157,
+      "title": "Dark Ambient Vol2",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/dark-ambient-vol2.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 158,
+      "title": "Dark Ambient 2 Making Of",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/dark-ambient2-making-of.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 159,
+      "title": "Dub Experience",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/dub-experience.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 160,
+      "title": "Egocentric Visuo Spatial Perspective",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/egocentric visuo-spatial perspective.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 161,
+      "title": "Hold Me Closer",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/hold-me-closer.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 162,
+      "title": "Lofi Hip Hop",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/lofi-hip-hop.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 163,
+      "title": "NY Parigo",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/ny-parigo.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 164,
+      "title": "Pixel Fiction",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/pixel-fiction.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 165,
+      "title": "Riviera Bizarre",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/riviera-bizarre.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 166,
+      "title": "Une dernière fois",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/une-derniere-fois.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 167,
+      "title": "Vidéo Club",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/videoclub.png",
+      "height": "200",
+      "category": "clips"
     }
   ]
 }
