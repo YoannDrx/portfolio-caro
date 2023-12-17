@@ -27,6 +27,13 @@ export default function Header({ variant }) {
     });
   }, []);
 
+  const changeLanguage = (lang) => {
+    const { pathname, query, asPath } = router;
+    setMobileToggle(false);
+
+    router.push({ pathname, query }, asPath, { locale: lang, scroll: false });
+  };
+
   const handleLinkClick = (path) => {
     setActiveLink(path);
     setMobileToggle(false);
@@ -100,31 +107,18 @@ export default function Header({ variant }) {
                         {t("header.navbar.langue")}
                       </Link>
                       <DropDown>
-                        {/* {readableLocale(router.locale)} */}
                         <ul>
-                          <li>
-                            <Link
-                              href={{
-                                pathname: router.pathname,
-                                query: { ...router.query },
-                              }}
-                              locale="fr"
-                              onClick={() => setMobileToggle(false)}>
+                          <li onClick={() => changeLanguage("fr")}>
+                            <a style={{ cursor: "pointer" }}>
                               <img src="/images/flags/fr-flag.png" alt="Drapeau Français" width={30} className="flag-img" />
                               Francais
-                            </Link>
+                            </a>
                           </li>
-                          <li>
-                            <Link
-                              href={{
-                                pathname: router.pathname,
-                                query: { ...router.query },
-                              }}
-                              locale="en"
-                              onClick={() => setMobileToggle(false)}>
+                          <li onClick={() => changeLanguage("en")}>
+                            <a style={{ cursor: "pointer" }}>
                               <img src="/images/flags/en-flag.png" alt="English Flag" width={30} className="flag-img" />
                               English
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </DropDown>
