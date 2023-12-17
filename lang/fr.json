@@ -956,13 +956,18 @@
       "src": "/images/portfolio/albums/PGO0051.png",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Avec cet album, TCHEEP, BONETRIPS et CHICHO CORTEZ tous issus du collectif Mutant Ninja, nous livrent un subtil mélange d’électro et ambient servi sur un beat terriblement efficace : la musique Lo-fi. Un mélange de Hip Hop Lofi relaxant et méditatif pour le bien-être, de nostalgie et d’atmosphères lounge paisibles et chaleureuses.",
       "releaseDate": "2021-01-01",
       "genre": "Documentaire",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "externalLink": "https://www.jeanmichelbernard.com/"
+        },
+        {
+          "name": "Jean-Michel Bernard",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
           "externalLink": "https://www.jeanmichelbernard.com/"
         }
       ],
