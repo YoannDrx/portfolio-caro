@@ -74,7 +74,7 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
               <Div className="row mt-5">
                 {/* Colonne pour les compositeurs */}
                 <Div className="col-6 mb-4">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Compositeurs:</h3>
+                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0 mb-4">Compositeurs:</h3>
                   {album.compositeurs.map((composer, index) => (
                     <ComposerCard key={index} composer={composer} />
                   ))}

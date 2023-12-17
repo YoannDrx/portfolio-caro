@@ -2,11 +2,11 @@
   "header": {
     "navbar": {
       "à-propos": "About",
-      "expertises": "Expertises",
+      "expertises": "Expertise",
       "portfolio": "Portfolio",
       "contact": "Contact",
       "blog": "Blog",
-      "faq": "FAQ",
+      "faq": "FAQs",
       "langue": "Language"
     }
   },
@@ -20,30 +20,27 @@
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "",
       "category": "albums",
-      "description": "ENGLISH ENGLISH ENGLISH ENGLISH ENGLISH ENGLISH ENGLISH \n\n Minimal Stories Minimal Stories Minimal Stories",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "A demonstration of modern minimalism with a twist, MINIMAL STORIES is an array of titles for human drama, art, documentary, film and history, composed and performed by multi-award-winning French composer Laurent Dury ",
+      "releaseDate": "03/09/2018",
+      "genre": "Instrumental / Minimalist",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Laurent Dury",
+          "compoImg": "/images/portfolio/albums/PGO0022.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
+            "soundcloud": "https://soundcloud.com/laurentdury"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -56,30 +53,31 @@
       "src": "/images/portfolio/albums/PGO0023.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "EDM FROM PARIS is an energetic, epic and exuberant dance album blending Future Garage, Future Beat and House, for a hypnotic, layered and innovative sound. ",
+      "releaseDate": "09/11/2018",
+      "genre": "Electronic Dance Music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Ghostmaker",
+          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -92,30 +90,76 @@
       "src": "/images/portfolio/albums/PGO0024.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "CAUGHT IN THE TRAP is a collection of dark, hard-hitting, anxious and urban trap tracks. ",
+      "releaseDate": "04/10/2018",
+      "genre": "Trap / Hip Hop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "liquid",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Liqid"
+          }
+        },
+        {
+          "name": "Bonetrips",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
+        {
+          "name": "Chicho Cortez",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/chicho-cortez"
+          }
+        },
+        {
+          "name": "DJ Trouble",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djtroubl"
+          }
+        },
+        {
+          "name": "Gerz Marcellino (Mutant Ninja Collective)",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -128,30 +172,26 @@
       "src": "/images/portfolio/albums/PGO0025.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Influenced by the musical movement Post Punk, Minimal Wave and Early Electronic Body Music, Modulhater composed the entire album called ACID. ",
+      "releaseDate": "01/18/2019",
+      "genre": "Techno",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Modulhater",
+          "compoImg": "/images/portfolio/albums/PGO0025.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/lediktat"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -164,30 +204,40 @@
       "src": "/images/portfolio/albums/PGO0026.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Born in Cali, Colombia, Sr Ortegon, whose travels throughout Europe and Latin America, has drawn inspiration from a wide range of musical styles, giving his productions an unmistakable touch. ",
+      "releaseDate": "05/20/2019",
+      "genre": "Latino",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Sr. Ortegon",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@SrOrtegon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Stan Galouo (Palma Coco Records)",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "youtube": "https://soundcloud.com/palmacoco "
+          }
+        },
+        {
+          "name": "Pana Black",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/panablack"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -200,30 +250,41 @@
       "src": "/images/portfolio/albums/PGO0027.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "After three consecutive titles as DMC world team champions, the trio 9 O’clock lets the technical spectrum evaporate to better assert its deep identity with the release of this album. ",
+      "releaseDate": "05/31/2019",
+      "genre": "Electro",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "9 o’Clock",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@9oclock162",
+            "soundcloud": "https://soundcloud.com/9-oclock"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Bonetrips",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -236,30 +297,43 @@
       "src": "/images/portfolio/albums/PGO0028.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "This project comes from the meeting between PARIGO and the duo of musicians Sébastien Blanchon (trumpeter, keyboardist) - Emmanuel Marée (drummer, guitarist, bassist) having co-written this album with Ugly Mac Beer, artistic director on the project. ",
+      "releaseDate": "07/22/2019",
+      "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Sébastien Blanchon / N’Zeng",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@nzeng5115",
+            "soundcloud": "https://soundcloud.com/nzeng",
+            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Emmanuel Marée",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
+          }
+        },
+        {
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -272,102 +346,99 @@
       "src": "/images/portfolio/albums/PGO0029.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Dominated by percussion and drums with a jam character, GO-GO FUNK features spare keyboard parts, sampling, vocals and call-and-response rapping. ",
+      "releaseDate": "11/27/2019",
+      "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Bruno Hovart",
+          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@brunopatchworks4249"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "The Real Fake MC",
+          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@THEREALFAKEMC",
+            "soundcloud": "https://soundcloud.com/therealfakemc"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
     {
       "id": 9,
-      "title": "Afro Beat",
+      "title": "Afrobeat",
       "subtitle": "See Details",
       "slug": "afro-beat",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0030.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Arat Kilo maintains and renews the Ethio-jazz fever of Swinging' Addis in the 70s, the golden age of Ethiopian music where musicians like Mulatu Astatke, Alémyahu Esthete, Girma Bèyènè and Hailu Mergia defied the censorship established by Haïlé Selassie ",
+      "releaseDate": "10/01/2020",
+      "genre": "Afrobeat",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Arat Kilo",
+          "compoImg": "/images/portfolio/albums/PGO0030.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@aratkilo7994",
+            "soundcloud": "https://soundcloud.com/arat_kilo_band"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
     {
       "id": 10,
-      "title": "The Projectionnist",
+      "title": "The Projectionist",
       "subtitle": "See Details",
-      "slug": "the-projectionnist",
+      "slug": "the-projectionist",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0031.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "THE PROJECTIONIST is a hymn to contemplative and cinematic music. ",
+      "releaseDate": "01/30/2020",
+      "genre": "Orchestral / Cinematographic",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "After In Paris",
+          "compoImg": "/images/portfolio/albums/PGO0031.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -380,30 +451,61 @@
       "src": "/images/portfolio/albums/PGO0032.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "DIGGIN HIP HOP 2 is the consecration of several of the most talented French and American producers of their generation. ",
+      "releaseDate": "02/20/2020",
+      "genre": "Rap/Hip Hop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Mutant Ninja Records",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
+          }
+        },
+        {
+          "name": "Blanka",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/blankalfe"
+          }
+        },
+        {
+          "name": "Drixxxe",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
+            "soundcloud": "https://soundcloud.com/drixxxe-2"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
+        },
+        {
+          "name": "Scherazade",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -411,35 +513,44 @@
       "id": 12,
       "title": "Surf Fiction",
       "subtitle": "See Details",
-      "slug": "surf-fiction",
+      "slug": "surf fiction",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0033.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Description of the album Surf Fiction.",
+      "releaseDate": "01/01/2021",
+      "genre": "Documentary",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Marie-Sophie Mallet",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {}
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Forever Poppy (Emile Sornin)",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/ForeverPavot/?locale=fr_FR"
+          }
+        },
+        {
+          "name": "Viro Major Records (Molenat Alexis, Maxime Raynier, Patrice Dambrine)",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/viromajor/",
+            "bandcamp": "https://viromajorrecords.bandcamp.com/"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -452,30 +563,27 @@
       "src": "/images/portfolio/albums/PGO0034.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Powerful, precise riffs, a big swing, all the ingredients, which, under the air of fanfares, come together for the creation of this JAZZ MUSETTE album.\n\n",
+      "releaseDate": "04/21/2020",
+      "genre": "Jazz",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Ana Kap",
+          "compoImg": "/images/portfolio/albums/PGO0034.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/anakaptrio/?locale=fr_FR",
+            "youtube": "https://www.youtube.com/@anakap8263"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -488,30 +596,61 @@
       "src": "/images/portfolio/albums/PGO0035.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "A true concentrate of their know-how, TRAP IN THE CLOUD a tasty and hectic mixture where rap, pop, trap cloud and collaborations intertwine for an irresistibly aerial result.\n\n",
+      "releaseDate": "05/19/2020",
+      "genre": "Trap / Hip Hop / Cloud Music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "liquid",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Liqid"
+          }
+        },
+        {
+          "name": "Roma Luca",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@romaluca",
+            "soundcloud": "https://soundcloud.com/camilleluca"
+          }
+        },
+        {
+          "name": "Chris Kemp",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/kempfest"
+          }
+        },
+        {
+          "name": "Cory Tate",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCvzoh7xQ3fYX47auU_HCc2w",
+            "soundcloud": "https://soundcloud.com/corytate"
+          }
+        },
+        {
+          "name": "Cally Reed",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -524,30 +663,34 @@
       "src": "/images/portfolio/albums/PGO0036.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "On AFRO POP, the members of 9o'clock took advantage of their technique to create tailor-made melodies with a certain penchant for prestigious featuring such as Syra, DaXoVii, LovLion or even the artist Schérazade, emerging talent of the year ",
+      "releaseDate": "06/24/2020",
+      "genre": "Afro Pop / Afro Beat",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "DJ Hertz",
+          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djhertz-music"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "9 o’Clock",
+          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@9oclock162",
+            "soundcloud": "https://soundcloud.com/9-oclock"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -560,45 +703,60 @@
       "src": "/images/portfolio/albums/PGO0038.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "This project is the result of the meeting between PARIGO and brilliant, renowned composers all recognized in the world of experimental music, between rock, punk and electro. ",
+      "releaseDate": "10/11/2020",
+      "genre": "Rock / Electro",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Frédéric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {}
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "JB Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
+          }
+        },
+        {
+          "name": "Cédric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@HanakCedric"
+          }
+        },
+        {
+          "name": "dDamage",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
     {
       "id": 17,
-      "title": "Video Club",
+      "title": "video club",
       "subtitle": "See Details",
-      "slug": "video-club",
+      "slug": "video club",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0039.jpg",
       "height": "",
       "category": "albums",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -632,30 +790,27 @@
       "src": "/images/portfolio/albums/PGO0040.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "In this album MINIMAL STORIES VOL.2, the pictorial ideas of Laurent Dury formed the basis of the musical work to tell a story from the first to the last second. ",
+      "releaseDate": "04/29/2021",
+      "genre": "Instrumental / Minimalist",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Laurent Dury",
+          "compoImg": "/images/portfolio/albums/PGO0040.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
+            "soundcloud": "https://soundcloud.com/laurentdury"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -663,35 +818,32 @@
       "id": 19,
       "title": "Lazer Funk",
       "subtitle": "See Details",
-      "slug": "lazer-funk",
+      "slug": "laser funk",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0041.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "LAZER FUNK is an invitation to electro funk that is as retro as it is futuristic. ",
+      "releaseDate": "06/22/2021",
+      "genre": "Electronic music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Aeon Seven",
+          "compoImg": "/images/portfolio/albums/PGO0041.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@aeonseven4130",
+            "soundcloud": "https://soundcloud.com/aeon-seven"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -704,30 +856,38 @@
       "src": "/images/portfolio/albums/PGO0042.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "LIGHT AMBIENT is an ode to warmth and sensuality. ",
+      "releaseDate": "03/08/2021",
+      "genre": "Electronic Music / Light Ambient",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "JB Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Cédric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@HanakCedric"
+          }
+        },
+        {
+          "name": "Zoe Wolf",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -740,30 +900,49 @@
       "src": "/images/portfolio/albums/PGO0043.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "If producing an advertising spot is a delicate science, choosing the music that should accompany it is also a form of complexity. ",
+      "releaseDate": "09/13/2021",
+      "genre": "Advertising music, Pop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "DJ Hertz",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djhertz-music"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Nicolas Pisani",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/cosmicdude"
+          }
+        },
+        {
+          "name": "Mr Viktor",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UC4U1YdCBptWTIrrXWpck52w",
+            "soundcloud": "https://soundcloud.com/mr-viktor"
+          }
+        },
+        {
+          "name": "Rebecca Meyer",
+          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCRweKKqx5mtXOkRuFy8yXVg/about",
+            "spotify": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -776,30 +955,35 @@
       "src": "/images/portfolio/albums/PGO0044.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "UGLY MAC BEER and Yann Kornowicz give us a subtle blend of dark ambiances and powerful, contemplative layers, served on a subtle and terribly effective hip-hop beat.\n\n",
+      "releaseDate": "01/21/2022",
+      "genre": "Electronic Music / Ambient",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Yann Kornowicz",
+          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
+            "soundcloud": "https://soundcloud.com/chaosinchatelet"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "UGLY MAC BEER",
+          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -807,35 +991,32 @@
       "id": 23,
       "title": "Pixel Fiction",
       "subtitle": "See Details",
-      "slug": "pixel-fiction",
+      "slug": "pixel fiction",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0045.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "From video games, arcade games, retro gaming and esports to sci-fi, science, technology, robotics and automation, Pixel Fiction is the ultimate cinematic 8-bit synthwave album composed by 2080 ",
+      "releaseDate": "05/12/2022",
+      "genre": "Electronic Music / Chiptune",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "2080",
+          "compoImg": "/images/portfolio/albums/PGO0045.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@The2080",
+            "soundcloud": "https://soundcloud.com/2080"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -843,107 +1024,151 @@
       "id": 24,
       "title": "Dub Experience",
       "subtitle": "See Details",
-      "slug": "dub-experience",
+      "slug": "dub experience",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0046.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Passionate about Jamaican music and its rhythms which they have been practicing for around twenty years, initiated and supported by the masters of Rasta drums, Nicolas Belouet (Nicodrum), Thomas Cirade, Yann Jaffré (Dub music specialist) and Jimmy Zaccardelli ",
+      "releaseDate": "2022-07-21",
+      "genre": "Reggae",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Nicodrums",
+          "compoImg": "/images/portfolio/albums/PGO0046.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
     {
       "id": 25,
-      "title": "Odissey Suites & Remix",
+      "title": "Odyssey Suites",
       "subtitle": "See Details",
       "slug": "odissey-suites-remix",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0049.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Odyssey Suites",
+      "releaseDate": "04/27/2023",
+      "genre": "Electronic music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "N’Zeng",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@nzeng5115",
+            "soundcloud": "https://soundcloud.com/nzeng",
+            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Arandel",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arandel"
+          }
+        },
+        {
+          "name": "Flora",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@FloreMusic/releases",
+            "soundcloud": "https://soundcloud.com/flore"
+          }
+        },
+        {
+          "name": "Drixxxe",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
+            "soundcloud": "https://soundcloud.com/drixxxe-2"
+          }
+        },
+        {
+          "name": "Madben",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UChTegJsrojWlBiUhpWY7IOQ",
+            "soundcloud": "https://soundcloud.com/madben"
+          }
+        },
+        {
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
+        {
+          "name": "NSDOS",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@NSDOS",
+            "soundcloud": "https://soundcloud.com/nsdoslazerconnect"
+          }
+        },
+        {
+          "name": "The Architect",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw",
+            "soundcloud": "https://soundcloud.com/fresh-and-dusty-loops"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
     {
       "id": 26,
-      "title": "Riviera Bizarre",
+      "title": "Bizarre Riviera",
       "subtitle": "See Details",
       "slug": "riviera-bizarre",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0050.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Fatal love for easy-listening and its chiselled arrangements, against a dangerous enticement for a dark and sad pop tradition, all sprinkled with an unconditional passion for initial soul, Minimatic created this album.\n\n ",
+      "releaseDate": "06/13/2023",
+      "genre": "French Pop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Minimatic",
+          "compoImg": "/images/portfolio/albums/PGO0050.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/minimatic"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -956,405 +1181,428 @@
       "src": "/images/portfolio/albums/PGO0051.png",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "With this album, TCHEEP, BONETRIPS and CHICHO CORTEZ, all from the Mutant Ninja collective, deliver a subtle blend of electro and ambient served to a terribly effective beat: Lo-fi music.\n\n",
+      "releaseDate": "10/21/2023",
+      "genre": "Hip-Hop / Lo-fi",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Cheep",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/tcheep"
+          }
+        },
+        {
+          "name": "Bonetrips",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Chicho Cortez",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/chicho-cortez"
+          }
+        },
+        {
+          "name": "Mutant Ninja Collective",
+          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "links": {
+            "soundcloud": "https://soundcloud.com/mutantninja"
+          }
         }
       ],
       "synchronisation": [
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "",
+          "synchoImg": "",
+          "externalLink": ""
         }
       ],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": "/images/portfolio/albums/PGO0051.png"
         }
       ]
     },
     {
       "id": 28,
-      "title": "Au nom de la mer",
+      "title": "In the name of the sea",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/au-nom-de-la-mer/",
-      "src": "/images/portfolio/documentaires/au-nom-de-la-mer2.jpeg",
+      "src": "/images/portfolio/documentaries/in-the-name-of-the-sea2.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 31,
-      "title": "Comment te dire adieu 2",
+      "title": "How to say goodbye 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu3.png",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu3.png",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 32,
-      "title": "Des antilles au djebel",
+      "title": "From the Antilles to the Jebel",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/des-antilles-au-djebel/",
-      "src": "/images/portfolio/documentaires/des-antilles-au-djebel2.jpeg",
+      "src": "/images/portfolio/documentaries/des-antilles-au-djebel2.jpeg",
       "height": "210",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 33,
-      "title": "Numéro 387 disparu en Méditerranée",
+      "title": "Number 387 disappeared in the Mediterranean",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": " http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1",
-      "src": "/images/portfolio/documentaires/DISPARU_387.jpeg",
+      "externalLink": "http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1",
+      "src": "/images/portfolio/documentaries/DISPARU_387.jpeg",
       "height": "350",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 34,
-      "title": "Eric Piolle, le pèlerin vert",
+      "title": "Eric Piolle, the green pilgrim",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/eric-piolle-le-pelerin-vert/",
-      "src": "/images/portfolio/documentaires/eric-piolle2.jpeg",
+      "src": "/images/portfolio/documentaries/eric-piolle2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 29,
-      "title": "Avant que la grande nacre meure",
+      "title": "Before the great mother-of-pearl dies",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/avant-que-la-grande-nacre-meure/",
-      "src": "/images/portfolio/documentaires/avant-que-la-grande-nacre-meure2.png",
+      "src": "/images/portfolio/documentaries/before-que-la-grande-nacre-meure2.png",
       "height": "140",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 35,
-      "title": "Gaudin, l'heure de l'inventaire",
+      "title": "Gaudin, time for inventory",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/gaudin-lheure-de-linventaire/",
-      "src": "/images/portfolio/documentaires/gaudin2.png",
+      "externalLink": "https://www.13prods.fr/gaudin-lheure-de-lentreprises/",
+      "src": "/images/portfolio/documentaries/gaudin2.png",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 36,
-      "title": "Génération grand bleu",
+      "title": "Big Blue Generation",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/generation-grand-bleu-3.webp",
+      "src": "/images/portfolio/documentaries/generation-grand-bleu-3.webp",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 37,
-      "title": "Georges Perec, l'homme qui ne voulait pas oublier",
+      "title": "Georges Perec, the man who did not want to forget",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/goerges-perec2.jpeg",
+      "src": "/images/portfolio/documentaries/goerges-perec2.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 38,
-      "title": "Jamee Lee Curtis, un cri de liberté à Hollywood",
+      "title": "Jamee Lee Curtis, a cry for freedom in Hollywood",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/",
-      "src": "/images/portfolio/documentaires/jamie-lee-curtis2.jpeg",
+      "src": "/images/portfolio/documentaries/jamie-lee-curtis2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 39,
-      "title": "J'irai crier sur vos murs",
+      "title": "I will scream on your walls",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jirai-crier-sur-vos-murs/",
-      "src": "/images/portfolio/documentaires/jirai-crier2.jpeg",
+      "src": "/images/portfolio/documentaries/jirai-crier2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 40,
-      "title": "La double vie du Cognac",
+      "title": "The double life of Cognac",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-double-vie-du-cognac/",
-      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac2.png",
+      "src": "/images/portfolio/documentaries/la-double-vie-du-cognac2.png",
       "height": "160",
-      "category": "documentaires",
+      "category": "documentaries",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire"
+      "genre": "Documentary"
     },
     {
       "id": 41,
-      "title": "La double vie du Cognac 2",
+      "title": "The double life of Cognac 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac3.png",
+      "src": "/images/portfolio/documentaries/la-double-vie-du-cognac3.png",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 42,
-      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "title": "The woman without a name - the story of Jeanne and Baudelaire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
-      "src": "/images/portfolio/documentaires/la-femme-sans-nom2.jpeg",
+      "src": "/images/portfolio/documentaries/the-woman-without-name2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 43,
-      "title": "La rumeur d'Orléans",
+      "title": "The rumor of Orléans",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-rumeur-dorleans/",
-      "src": "/images/portfolio/documentaires/la-rumeur-dorleans2.png",
+      "src": "/images/portfolio/documentaries/la-rumeur-dorleans2.png",
       "height": "210",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 44,
-      "title": "Concordat et laicité, l'exeption",
+      "title": "Concordat and secularism, the exception",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/concordat-et-laicite/",
-      "src": "/images/portfolio/documentaires/Laicité et concordat.webp",
+      "src": "/images/portfolio/documentaries/Secularism and concordat.webp",
       "height": "350",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 45,
-      "title": "Le procès d'Auschwitz, la fin du silence",
+      "title": "The Auschwitz trial, the end of silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
-      "src": "/images/portfolio/documentaires/le-proces.jpeg",
+      "src": "/images/portfolio/documentaries/le-proces.jpeg",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 46,
-      "title": "Le temps d'aimer",
+      "title": "Time to love",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-temps-daimer/",
-      "src": "/images/portfolio/documentaires/le-temps-daimer2.jpeg",
+      "src": "/images/portfolio/documentaries/le-temps-daimer2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 47,
-      "title": "Les oubliés de la justice",
+      "title": "Those forgotten by justice",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/les-oublies-de-la-justice/",
-      "src": "/images/portfolio/documentaires/les-oublies-de-la-justice.jpeg",
+      "externalLink": "https://www.13prods.fr/les-oublis-de-la-justice/",
+      "src": "/images/portfolio/documentaries/les-oublis-de-la-justice.jpeg",
       "height": "130",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 48,
-      "title": "Makaeta, la terre convoitée",
+      "title": "Makaeta, the coveted land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/makatea-une-terre-convoitee/",
-      "src": "/images/portfolio/documentaires/makatea2.png",
+      "src": "/images/portfolio/documentaries/makatea2.png",
       "height": "110",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 30,
-      "title": "Comment te dire adieu",
+      "title": "How to say goodbye to you",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu2.jpeg",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu2.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 49,
-      "title": "D'IAM à Jul, Marseille capitale Rap",
+      "title": "From IAM to Jul, Marseille capital Rap",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/rap-marseille/",
-      "src": "/images/portfolio/documentaires/marseille-capitale2.jpeg",
+      "src": "/images/portfolio/documentaries/marseille-capitale2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 50,
-      "title": "Opération Biodiversité",
+      "title": "Operation Biodiversity",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/operation-biodiversite/",
-      "src": "/images/portfolio/documentaires/operation-biodiv.jpeg",
+      "src": "/images/portfolio/documentaries/operation-biodiv.jpeg",
       "height": "215",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 51,
-      "title": "Opération Biodiversité 2",
+      "title": "Operation Biodiversity 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/operation-biodiversite/",
-      "src": "/images/portfolio/documentaires/operation-biodiversite3.png",
+      "src": "/images/portfolio/documentaries/operation-biodiversite3.png",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 52,
-      "title": "Outre-Mer, 100 ans en clichés",
+      "title": "Overseas, 100 years in photos",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/outremer-100-ans-en-cliches/",
-      "src": "/images/portfolio/documentaires/outremer100.webp",
+      "src": "/images/portfolio/documentaries/outremer100.webp",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 53,
-      "title": "Par nos yeux",
+      "title": "Through our eyes",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/par-nos-yeux/",
-      "src": "/images/portfolio/documentaires/par-nos-yeux.jpeg",
+      "src": "/images/portfolio/documentaries/par-nos-yeux.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 54,
-      "title": "Almodovar, l'insolent de la Mancha",
+      "title": "Almodovar, the insolent La Mancha",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/almodovar-linsolent-de-la-mancha/",
-      "src": "/images/portfolio/documentaires/pedroalmodovar.jpeg",
+      "src": "/images/portfolio/documentaries/pedroalmodovar.jpeg",
       "height": "170",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 55,
-      "title": "Petit pays je t'aime beaucoup",
+      "title": "Small country I love you very much",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/",
-      "src": "/images/portfolio/documentaires/petit-pays-je-taime-beaucoup.png",
+      "src": "/images/portfolio/documentaries/petit-pays-je-taime-beaucoup.png",
       "height": "140",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 56,
-      "title": "Petit pays je t'aime beaucoup 2",
+      "title": "Small country I love you very much 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/petit-pays.png",
+      "src": "/images/portfolio/documentaries/petit-pays.png",
       "height": "110",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 57,
-      "title": "Plonger pour guérir",
+      "title": "Dive to heal",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/plonger-pour-guerir/",
-      "src": "/images/portfolio/documentaires/plonger-pour-guerir.jpeg",
+      "src": "/images/portfolio/documentaries/plonger-pour-guerir.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 58,
-      "title": "39-45, les résistantes allemandes",
+      "title": "39-45, German resistance fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/39-45-les-resistantes-allemandes/",
-      "src": "/images/portfolio/documentaires/resistantes-allemandes.webp",
+      "src": "/images/portfolio/documentaries/resistantes-allemandes.webp",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 59,
-      "title": "Solidarnosc, la premère brèche",
+      "title": "Solidarnosc, the first breach",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/solidarnosc-la-premiere-breche/",
-      "src": "/images/portfolio/documentaires/solidarnosc2.jpeg",
+      "src": "/images/portfolio/documentaries/solidarnosc2.jpeg",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 60,
-      "title": "Sous la loi des talibans",
+      "title": "Under Taliban rule",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/sous-la-loi-des-talibans/",
-      "src": "/images/portfolio/documentaires/sous-la-loi-des-talibans2.jpeg",
+      "src": "/images/portfolio/documentaries/under-the-law-of-the-talibans2.jpeg",
       "height": "190",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 61,
-      "title": "Souvenirs en cuisine",
+      "title": "Memories in the kitchen",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine2.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine2.png",
       "height": "130",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 62,
-      "title": "Naissance d'un héro noir au cinéma, Sweet Sweetback",
+      "title": "Birth of a black hero in cinema, Sweet Sweetback",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/sweet-sweetback/",
-      "src": "/images/portfolio/documentaires/sweet sweetback2.jpeg",
+      "src": "/images/portfolio/documentaries/sweet sweetback2.jpeg",
       "height": "190",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 63,
-      "title": "Unique en mon genre",
+      "title": "One of a kind",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/unique-en-mon-genre2.png",
+      "src": "/images/portfolio/documentaries/unique-en-mon-genre2.png",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 64,
-      "title": "Blood, Sex & Royalty",
+      "title": "Blood, Sex",
       "subtitle": "Would you like to",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/BloodSex_Royalty.jpg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 65,
@@ -1364,7 +1612,7 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Captain-Fall-Cover.png",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 66,
@@ -1374,7 +1622,7 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Control-Z.jpg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 67,
@@ -1384,17 +1632,17 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/KLEO-paysage.jpg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 68,
-      "title": "Le monde de demain",
-      "subtitle": "Where U AH! / Rock it up",
+      "title": "The world of tomorrow",
+      "subtitle": "Where U AH! ",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/LeMondeDeDemain.png",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 69,
@@ -1404,37 +1652,37 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Primera-Vez.jpeg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 70,
       "title": "Somebody",
-      "subtitle": "Saxy girl",
+      "subtitle": "Sassy girl",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/SAXY-GIRL-PGO0023.jpeg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 71,
       "title": "Tapie",
-      "subtitle": "Moi je n'aimerais que toi",
+      "subtitle": "I would only love you",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/tapie-photo.png",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 72,
-      "title": "Vengeances",
+      "title": "Revenge",
       "subtitle": "See more",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Vengeances-visu.jpg",
       "height": "160",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 73,
@@ -1444,20 +1692,20 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/emily.jpeg",
       "height": "410",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 74,
-      "title": "Hand Funktion",
+      "title": "Hand Function",
       "subtitle": "See more",
-      "slug": "hand-funktion",
+      "slug": "hand-function",
       "externalLink": "",
       "src": "/images/portfolio/vinyles/HAND-FUNKTION.jpg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1490,10 +1738,10 @@
       "externalLink": "",
       "src": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1524,12 +1772,12 @@
       "subtitle": "See more",
       "slug": "mustang-force",
       "externalLink": "",
-      "src": "/images/portfolio/vinyles/MUSTANG-FORCE.jpeg",
+      "src": "/images/portfolio/vinyls/MUSTANG-FORCE.jpeg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1556,16 +1804,16 @@
     },
     {
       "id": 77,
-      "title": "NY Parigos",
+      "title": "NY Paris",
       "subtitle": "See more",
       "slug": "ny-parigos",
       "externalLink": "",
       "src": "/images/portfolio/vinyles/NY-PARIGO.jpg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1592,16 +1840,16 @@
     },
     {
       "id": 78,
-      "title": "Une dernière fois",
+      "title": "One last time",
       "subtitle": "See more",
-      "slug": "une-derniere-fois",
+      "slug": "one last time",
       "externalLink": "",
-      "src": "/images/portfolio/vinyles/UNE-DERNIERE-FOIS.jpg",
+      "src": "/images/portfolio/vinyls/ONE-LAST-FOIS.jpg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1628,16 +1876,16 @@
     },
     {
       "id": 79,
-      "title": "Vélodrome",
+      "title": "Velodrome",
       "subtitle": "See more",
-      "slug": "velodrome",
+      "slug": "Velodrome",
       "externalLink": "",
-      "src": "/images/portfolio/vinyles/VELODROME.jpeg",
+      "src": "/images/portfolio/vinyls/VELODROME.jpeg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1664,16 +1912,16 @@
     },
     {
       "id": 80,
-      "title": "Videoclub",
+      "title": "Video club",
       "subtitle": "See more",
-      "slug": "videoclub",
+      "slug": "video club",
       "externalLink": "",
       "src": "/images/portfolio/vinyles/VIDEOCLUB.jpg",
       "height": "",
-      "category": "vinyles",
+      "category": "vinyls",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "genre": "Documentary",
       "compositeurs": [
         {
           "name": "Jean-Michel Bernard",
@@ -1698,747 +1946,745 @@
         }
       ]
     },
-
     {
       "id": 81,
-      "title": "BNP Paribas, dans les eaux troubles de la plus grande banque Européenne",
+      "title": "BNP Paribas, in the troubled waters of the largest European bank",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0",
-      "src": "/images/portfolio/documentaires/bnp-paribas-dans-les-eaux-troubles-de-la-plus-grande-banque-européenne.JPG",
+      "src": "/images/portfolio/documentaries/bnp-paribas-in-the-troubled-waters-of-the-largest-European-bank.JPG",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 82,
-      "title": "La démocratie du dollar",
+      "title": "The democracy of the dollar",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-democratie-du-dollar/",
-      "src": "/images/portfolio/documentaires/la-democratie-du-doller.JPG",
+      "src": "/images/portfolio/documentaries/la-democratie-du-doller.JPG",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 83,
-      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "title": "The woman without a name - the story of Jeanne and Baudelaire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire.JPG",
+      "src": "/images/portfolio/documentaries/the-woman-without-a-name-the-story-of-jeanne-et-baudelaire.JPG",
       "height": "400",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 84,
-      "title": "L'empire de l'or rouge",
+      "title": "The empire of red gold",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0",
-      "src": "/images/portfolio/documentaires/lempire-de-lor-rouge2.jpeg",
+      "src": "/images/portfolio/documentaries/lempire-de-lor-rouge2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 85,
-      "title": "Les oubliés de l'atome",
+      "title": "The Forgotten of the Atom",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272",
-      "src": "/images/portfolio/documentaires/les-oublies-de-latome.JPG",
+      "src": "/images/portfolio/documentaries/les-oublis-de-latome.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 86,
-      "title": "Les oubliés de l'atome 2",
+      "title": "The Forgotten of Atom 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272",
-      "src": "/images/portfolio/documentaires/les-oublies-de-latome2.jpg",
+      "src": "/images/portfolio/documentaries/les-oublis-de-latome2.jpg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 87,
-      "title": "Les poisons de Poutine",
+      "title": "Putin's poisons",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0",
-      "src": "/images/portfolio/documentaires/les-poisons-de-poutine.WEBP",
+      "src": "/images/portfolio/documentaries/les-poisons-de-poutine.WEBP",
       "height": "400",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 88,
-      "title": "Marcus Klingberg, un pur espion",
+      "title": "Marcus Klingberg, a pure spy",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0",
-      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion.JPG",
+      "src": "/images/portfolio/documentaries/marcus-klingberg-un-pure-spy.JPG",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 89,
-      "title": "Marcus Klingberg, un pur espion 2",
+      "title": "Marcus Klingberg, a pure spy 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0",
-      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion2.JPG",
+      "src": "/images/portfolio/documentaries/marcus-klingberg-un-pure-spy2.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 90,
-      "title": "Taiwan, une démocratie à l'ombre de la Chine",
+      "title": "Taiwan, a democracy in the shadow of China",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
-      "src": "/images/portfolio/documentaires/taiwan-une-democratie-a-lombre-de-la-chine.JPG",
+      "src": "/images/portfolio/documentaries/taiwan-une-democracy-in-the-shadow-of-china.JPG",
       "height": "400",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 91,
-      "title": "Andre Malifert, l'épopée d'un faussaire industriel",
+      "title": "Andre Malifert, the epic tale of an industrial forger",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/andre-mailfert/",
-      "src": "/images/portfolio/documentaires/andre-mailfert-lepopee-dun-faussaire-industriel.PNG",
+      "src": "/images/portfolio/documentaries/andre-mailfert-lepopee-dun-faussaire-industriel.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 92,
-      "title": "Cabrera, un secret révélé",
+      "title": "Cabrera, a secret revealed",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cabrera-un-secret-revele/",
-      "src": "/images/portfolio/documentaires/cabrera-un-secret-revele.PNG",
+      "src": "/images/portfolio/documentaries/cabrera-un-secret-revele.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 93,
-      "title": "Cahier d'un retour au pays natal",
+      "title": "Notebook of a return to the native country",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/cahier-dun-retour-en-langue-natale/",
-      "src": "/images/portfolio/documentaires/CAHIER D_UN RETOUR.png",
+      "externalLink": "https://www.13prods.fr/cahier-dun-RETIR-en-langue-natale/",
+      "src": "/images/portfolio/documentaries/CAHIER D_UN RETOUR.png",
       "height": "400",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 94,
-      "title": "Cancre",
+      "title": "Dunce",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cancre/",
-      "src": "/images/portfolio/documentaires/cancre-2.jpeg",
+      "src": "/images/portfolio/documentaries/cancre-2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 95,
-      "title": "Clearstream et moi",
+      "title": "Clearstream and me",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/clearstream/",
-      "src": "/images/portfolio/documentaires/clearstream-et-moi.JPG",
+      "src": "/images/portfolio/documentaries/clearstream-et-moi.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 96,
-      "title": "Cogolin, ville à prendre",
+      "title": "Cogolin, town to take",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cogolin-ville-a-prendre/",
-      "src": "/images/portfolio/documentaires/cogolin-ville-a-prendre.png",
+      "src": "/images/portfolio/documentaries/cogolin-ville-a-prendre.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 97,
-      "title": "Comment te dire adieu 4",
+      "title": "How to say goodbye 4",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu4.png",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu4.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 98,
-      "title": "Déconfinés en Ré",
+      "title": "Deconfined in Re",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/deconfines-en-re/",
-      "src": "/images/portfolio/documentaires/deconfines-en-re.png",
+      "src": "/images/portfolio/documentaries/deconfines-en-re.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 99,
-      "title": "D'IAM à Jul, Marseille capitale Rap",
+      "title": "From IAM to Jul, Marseille capital Rap",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/diam-a-jul-marseille-capitale-rap2.jpeg",
+      "src": "/images/portfolio/documentaries/diam-a-jul-marseille-capitale-rap2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 100,
-      "title": "En jachère",
+      "title": "Fallow",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/en-jachere/",
-      "src": "/images/portfolio/documentaires/en-jachere.JPG",
+      "src": "/images/portfolio/documentaries/en-jahere.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 101,
-      "title": "Filles de harkis",
+      "title": "harkis girls",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/filles-de-harkis/",
-      "src": "/images/portfolio/documentaires/filles-de-harkis.PNG",
+      "src": "/images/portfolio/documentaries/filles-de-harkis.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 102,
-      "title": "Génération grand bleu",
+      "title": "Big Blue Generation",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/",
-      "src": "/images/portfolio/documentaires/generation-grand-bleu2.JPG",
+      "src": "/images/portfolio/documentaries/generation-grand-bleu2.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 103,
-      "title": "Guadeloup - les soldats de la terre",
+      "title": "Guadeloup - the soldiers of the earth",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-soldats-de-la-terre/",
-      "src": "/images/portfolio/documentaires/guadeloupe-les-soldats-de-la-terre.JPG",
+      "src": "/images/portfolio/documentaries/guadeloupe-les-soldats-de-la-terre.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 104,
-      "title": "Gurs, un silence assourdissant",
+      "title": "Gurs, a deafening silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/gurs-un-silence-assourdissant/",
-      "src": "/images/portfolio/documentaires/gurs-un-silence-assourdissant .PNG",
+      "src": "/images/portfolio/documentaries/gurs-un-deafening-silence .PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 105,
-      "title": "Guyane underground",
+      "title": "Guyana underground",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/guyane-underground/",
-      "src": "/images/portfolio/documentaires/guyane-underground.PNG",
+      "src": "/images/portfolio/documentaries/guyane-underground.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 106,
-      "title": "Jean Jouzel, dans la bataille du siècle",
+      "title": "Jean Jouzel, in the battle of the century",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jean-jouzel-la-bataille-du-siecle/",
-      "src": "/images/portfolio/documentaires/jean_jouzel_dans_la_bataille_du_siecle.jpeg",
+      "src": "/images/portfolio/documentaries/jean_jouzel_dans_la_bataille_du_siecle.jpeg",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 107,
-      "title": "Karim contre Mittal",
+      "title": "Karim against Mittal",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/karim-contre-mittal/",
-      "src": "/images/portfolio/documentaires/karim-contre-mittal.jpeg",
+      "src": "/images/portfolio/documentaries/karim-contre-mittal.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 108,
-      "title": "La brousse une terre en partage",
+      "title": "The bush is a shared land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-brousse-une-terre-en-partage/",
-      "src": "/images/portfolio/documentaires/la-brousse-une-terre-en-partage.JPG",
+      "src": "/images/portfolio/documentaries/la-brousse-une-terre-en-partage.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 109,
-      "title": "La clinique de l'amour",
+      "title": "The love clinic",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-clinique-de-lamour/",
-      "src": "/images/portfolio/documentaires/la-clinique-de-lamour.jpeg",
+      "src": "/images/portfolio/documentaries/la-clinique-de-lamour.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 110,
-      "title": "La grève du siècle",
+      "title": "The strike of the century",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/68lagrevedusiecle/",
-      "src": "/images/portfolio/documentaires/la-greve-du-siecle.JPG",
+      "src": "/images/portfolio/documentaries/la-greve-du-siecle.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 111,
-      "title": "Lâche ton smartphone",
+      "title": "Drop your smartphone",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/lache-ton-smartphone/",
-      "src": "/images/portfolio/documentaires/lache-ton-smartphone.PNG",
+      "src": "/images/portfolio/documentaries/lache-ton-smartphone.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 112,
-      "title": "Le 3e Reich n'aura pas la bombe",
+      "title": "The 3rd Reich will not have the bomb",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-3eme-reich-naura-pas-la-bombe/",
-      "src": "/images/portfolio/documentaires/leIIIeme-reich-naura-pas-la-bombe.JPG",
+      "src": "/images/portfolio/documentaries/theIIIeme-reich-naura-pas-la-bombe.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 113,
-      "title": "Le procès d'Auschwitz, la fin du silence",
+      "title": "The Auschwitz trial, the end of silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/leproces-daushwitz-la-fin-du-silence2.JPG",
+      "src": "/images/portfolio/documentaries/leproces-daushwitz-la-fin-du-silence2.JPG",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 114,
-      "title": "Les femmes du IIIeme Reich",
+      "title": "Women of the Third Reich",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-femmes-du-iiie-reich/",
-      "src": "/images/portfolio/documentaires/les-femmes-du-IIIeme-reich.JPG",
+      "src": "/images/portfolio/documentaries/les-femmes-du-IIIeme-reich.JPG",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 115,
-      "title": "Les murs de la honte",
+      "title": "Walls of shame",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-murs-de-la-honte/",
-      "src": "/images/portfolio/documentaires/les-murs-de-la-honte.JPG",
+      "src": "/images/portfolio/documentaries/the-walls-of-shame.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 116,
-      "title": "Les ouvrières du made in France",
+      "title": "Made in France workers",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-ouvrieres-du-made-in-france/",
-      "src": "/images/portfolio/documentaires/les-ouvrieres-du-made-in-france.JPG",
+      "src": "/images/portfolio/documentaries/les-ouvrieres-du-made-in-france.JPG",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 117,
-      "title": "Les résistants de Mauthausen",
+      "title": "The Mauthausen resistance fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mauthausen/",
-      "src": "/images/portfolio/documentaires/les-resistants-de-mauthausen.PNG",
+      "src": "/images/portfolio/documentaries/les-resistants-de-mauthausen.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 118,
-      "title": "Martinique, la reconquête de la terre",
+      "title": "Martinique, the reconquest of the land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/martinique-reconquete-terre/",
-      "src": "/images/portfolio/documentaires/martinique-la-reconquete-de-la-terre.jpeg",
+      "src": "/images/portfolio/documentaries/martinique-la-reconquete-de-la-terre.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 119,
-      "title": "Masque de fer",
+      "title": "Iron Mask",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/masque-de-fer/",
-      "src": "/images/portfolio/documentaires/masque-de-fer.JPG",
+      "src": "/images/portfolio/documentaries/iron-mask.JPG",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 120,
-      "title": "Mayotte, l'enfance en danger",
+      "title": "Mayotte, childhood in danger",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/mayotte-lenfance-en-danger/",
-      "src": "/images/portfolio/documentaires/mayotte-lenfance-danger.PNG",
+      "externalLink": "https://www.13prods.fr/mayotte-lenfant-en-danger/",
+      "src": "/images/portfolio/documentaries/mayotte-lenfant-danger.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 121,
-      "title": "Mayotte, les combattantes",
+      "title": "Mayotte, the fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/",
-      "src": "/images/portfolio/documentaires/mayotte-les-combattantes.jpeg",
+      "src": "/images/portfolio/documentaries/mayotte-les-combattantes.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 122,
-      "title": "Micmac à Millau, les paysans face à la mondialisation",
+      "title": "Micmac in Millau, peasants facing globalization",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/",
-      "src": "/images/portfolio/documentaires/micmac-a-millau-les-paysans-face-a-la-mondialisation.PNG",
+      "src": "/images/portfolio/documentaries/micmac-a-millau-les-peasans-face-a-globalisation.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 123,
-      "title": "Miquelon entre deux eaux",
+      "title": "Miquelon between two waters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/entre-deux-eaux/",
-      "src": "/images/portfolio/documentaires/miquelon-entre-deux-eaux.PNG",
+      "src": "/images/portfolio/documentaries/miquelon-entre-deux-eaux.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 124,
-      "title": "Pas folle la liberté",
+      "title": "Freedom is not crazy",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/pas-folle-la-liberte/",
-      "src": "/images/portfolio/documentaires/pas-folle-la-liberte.png",
+      "src": "/images/portfolio/documentaries/pas-folle-la-liberte.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 125,
-      "title": "Quand l'Afrique sauva la France",
+      "title": "When Africa saved France",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/quand-l-afrique-sauva-la-france/",
-      "src": "/images/portfolio/documentaires/quand-lafrique-sauva-la-france.JPG",
+      "src": "/images/portfolio/documentaries/when-lafrique-sauva-la-france.JPG",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 126,
-      "title": "Rêves de princesses",
+      "title": "Princess dreams",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/reves-de-princesses/",
-      "src": "/images/portfolio/documentaires/reves-de-princesses2.JPG",
+      "src": "/images/portfolio/documentaries/reves-de-princesses2.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 127,
-      "title": "Souvenirs en cuisine 2",
+      "title": "Memories in the kitchen 2",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine2.jpeg",
+      "src": "/images/portfolio/documentaries/souvenirs-in-kitchen2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 128,
-      "title": "Souvenirs en cuisine 3",
+      "title": "Memories in the kitchen 3",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine3.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine3.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 129,
-      "title": "Souvenirs en cuisine 4",
+      "title": "Memories in the kitchen 4",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine4.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine4.png",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
-
     {
       "id": 130,
-      "title": "T Gros",
+      "title": "T Big",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/t-gros/",
-      "src": "/images/portfolio/documentaires/tgros.JPG",
+      "src": "/images/portfolio/documentaries/tgros.JPG",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 131,
-      "title": "Unique en mon genre",
+      "title": "One of a kind",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/unique-en-mon-genre/",
-      "src": "/images/portfolio/documentaires/unique-en-mon-genre.PNG",
+      "src": "/images/portfolio/documentaries/unique-en-mon-genre.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 132,
-      "title": "Chants Grégoriens 2.0",
+      "title": "Gregorian Chants 2.0",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/chants-gregoriens-2-0/",
-      "src": "/images/portfolio/documentaires/chants-gregoriens-2.0.JPG",
+      "src": "/images/portfolio/documentaries/gregorian-chants-2.0.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 133,
-      "title": "Georges Perec, l'homme qui ne voulait pas oublier",
+      "title": "Georges Perec, the man who did not want to forget",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/",
-      "src": "/images/portfolio/documentaires/georges-perec-lhomme-qui-ne-voulait-pas-oublier2.jpeg",
+      "externalLink": "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oubli/",
+      "src": "/images/portfolio/documentaries/georges-perec-the-man-who-didn’t-want-to-forget2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 134,
-      "title": "Gorongosa, le parc de réconciliation",
+      "title": "Gorongosa, the reconciliation park",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/",
-      "src": "/images/portfolio/documentaires/gorongosa-le-parc-de-reconciliation.jpeg",
+      "src": "/images/portfolio/documentaries/gorongosa-le-parc-de-reconciliation.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 135,
-      "title": "Jules Vernes et le défi du tour du monde",
+      "title": "Jules Vernes and the challenge of traveling around the world",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/",
-      "src": "/images/portfolio/documentaires/jules-verne-et-le-defi-du-tour-du-tour-du-monde.jpeg",
+      "src": "/images/portfolio/documentaries/jules-verne-and-the-challenge-of-the-tour-du-monde.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 136,
-      "title": "Naissance d'un héro noir au cinéma, Sweet Sweetback",
+      "title": "Birth of a black hero in cinema, Sweet Sweetback",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/naissance-dun-heros-noir-au-cinema-sweet-sweetback.JPG",
+      "src": "/images/portfolio/documentaries/birth-of-a-black-hero-at-cinema-sweet-sweetback.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 137,
-      "title": "Patrick Edlinger, la liberté au bout des doigts",
+      "title": "Patrick Edlinger, freedom at your fingertips",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://popfilms.fr/index.php/edlinger-la-liberte-au-bout-des-doigts/",
-      "src": "/images/portfolio/documentaires/patrick-edlinger-la-liberte-au-bout-des-doigts.JPG",
+      "src": "/images/portfolio/documentaries/patrick-edlinger-freedom-at-the-fingertips.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 138,
-      "title": "Si loin de la Polynésie",
+      "title": "So far from Polynesia",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/si-loin-de-la-polynesie/",
-      "src": "/images/portfolio/documentaires/si-loin-de-la-polynesie.JPG",
+      "src": "/images/portfolio/documentaries/si-loin-de-la-polynesie.JPG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 139,
-      "title": "Leila une vie à Miquelon",
+      "title": "Leila a life in Miquelon",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/leila-une-vie-a-miquelon/",
-      "src": "/images/portfolio/documentaires/leila-une-vie-a-miquelon2.jpeg",
+      "src": "/images/portfolio/documentaries/leila-une-vie-a-miquelon2.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 140,
-      "title": "Les amoureux de Marianne",
+      "title": "Marianne's lovers",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0",
-      "src": "/images/portfolio/documentaires/les-amoureux-de-marianne.jpeg",
+      "src": "/images/portfolio/documentaries/les-amoureux-de-marianne.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 141,
-      "title": "Ma cité mon village",
+      "title": "My city my village",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/",
-      "src": "/images/portfolio/documentaires/ma-cite-mon-village.jpg",
+      "src": "/images/portfolio/documentaries/ma-cite-mon-village.jpg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 142,
-      "title": "Mes parents ces héros",
+      "title": "My parents these heroes",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mes-parents-ces-heros-ordinaires/",
-      "src": "/images/portfolio/documentaires/mes-parents.jpeg",
+      "src": "/images/portfolio/documentaries/my-parents.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 143,
-      "title": "À vous de juger",
+      "title": "Your turn to judge",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/a-vous-de-juger/",
-      "src": "/images/portfolio/documentaires/a-vous-de-juger.jpeg",
+      "src": "/images/portfolio/documentaries/a-vous-de-juger.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 144,
-      "title": "De Gérard à Monsieur Collomb, itinéraire d'un baron",
+      "title": "From Gérard to Monsieur Collomb, itinerary of a baron",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/itineraire-d-un-baron/ ",
-      "src": "/images/portfolio/documentaires/de-gerard-a-monsieur.jpeg",
+      "src": "/images/portfolio/documentaries/de-gerard-a-monsieur.jpeg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 145,
-      "title": "Juppé, un roman bordelais",
+      "title": "Juppé, a Bordeaux novel",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/juppe-un-roman-bordelais/",
-      "src": "/images/portfolio/documentaires/juppe.jpg",
+      "src": "/images/portfolio/documentaries/juppe.jpg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 146,
-      "title": "Matrine Aubry, la dame de Lille",
+      "title": "Matrine Aubry, the lady of Lille",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/aubry-la-dame-de-lille/",
-      "src": "/images/portfolio/documentaires/martineaubry.jpg",
+      "src": "/images/portfolio/documentaries/martineaubry.jpg",
       "height": "160",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 147,
-      "title": "Nous ne sommes rien, soyons tout",
+      "title": "We are nothing, let's be everything",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/nous-ne-sommes-rien-soyons-tout/",
-      "src": "/images/portfolio/documentaires/nous-ne-sommes-rien.jpeg",
+      "src": "/images/portfolio/documentaries/we-are-nothing.jpeg",
       "height": "450",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 148,
-      "title": "Déconnectés, les oubliés du numérique",
+      "title": "Disconnected, the forgotten by digital",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/deconnectes-les-oublies-du-numerique/",
-      "src": "/images/portfolio/documentaires/deconnectes.jpeg",
+      "externalLink": "https://www.13prods.fr/deconnectes-les-oublis-du-numerique/",
+      "src": "/images/portfolio/documentaries/deconnectes.jpeg",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 149,
-      "title": "Chanter à tout prix",
+      "title": "Sing at all costs",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/chanter-a-tout-prix/",
-      "src": "/images/portfolio/documentaires/chanter-a-tout-prix.jpeg",
+      "src": "/images/portfolio/documentaries/chanter-a-tout-prix.jpeg",
       "height": "200",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 150,
-      "title": "L'éveil du désir",
+      "title": "The awakening of desire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/leveil-du-desir/",
-      "src": "/images/portfolio/documentaires/leveil-du-désir.jpeg",
+      "src": "/images/portfolio/documentaries/leveil-du-désir.jpeg",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 151,
-      "title": "Le ministère",
+      "title": "The Ministry",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-ministere/",
-      "src": "/images/portfolio/documentaires/le-ministere.jpeg",
+      "src": "/images/portfolio/documentaries/le-ministere.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 152,
-      "title": "Votez jeunesse",
+      "title": "Vote youth",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/votez-jeunesse/",
-      "src": "/images/portfolio/documentaires/votez-jeunesse.jpeg",
+      "src": "/images/portfolio/documentaries/votez-jeunesse.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 153,
-      "title": "Calanques, les usines du bout du monde",
+      "title": "Calanques, factories at the end of the world",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/",
-      "src": "/images/portfolio/documentaires/calanques.jpeg",
+      "src": "/images/portfolio/documentaries/calanques.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 154,
-      "title": "Une deuxième chance",
+      "title": "A second chance",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/deuxieme-chance/",
-      "src": "/images/portfolio/documentaires/une-deuxieme-chance.jpeg",
+      "src": "/images/portfolio/documentaries/une-second-chance.jpeg",
       "height": "180",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 156,
@@ -2532,7 +2778,7 @@
     },
     {
       "id": 165,
-      "title": "Riviera Bizarre",
+      "title": "Bizarre Riviera",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=wrO96WV69aY",
@@ -2542,17 +2788,17 @@
     },
     {
       "id": 166,
-      "title": "Une dernière fois",
+      "title": "One last time",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=EPnfDdfOx94",
-      "src": "/images/portfolio/clips/une-derniere-fois.png",
+      "src": "/images/portfolio/clips/one-last-time.png",
       "height": "200",
       "category": "clips"
     },
     {
       "id": 167,
-      "title": "Vidéo Club",
+      "title": "Video club",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=anT5ocBumDk",

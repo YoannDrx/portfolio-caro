@@ -20,30 +20,27 @@
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "",
       "category": "albums",
-      "description": "Minimal Stories Minimal Stories Minimal Stories \n\n Minimal Stories Minimal Stories Minimal Stories",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Une démonstration de minimalisme moderne avec une touche d'originalité, MINIMAL STORIES est un éventail de titres pour le drame humain, l'art, le documentaire, le film et l'histoire, composés et interprétés par Laurent Dury, compositeur français plusieurs fois récompensé.",
+      "releaseDate": "03/09/2018",
+      "genre": "Instrumentaux / Minimaliste",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Laurent Dury",
+          "compoImg": "/images/portfolio/albums/PGO0022.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
+            "soundcloud": "https://soundcloud.com/laurentdury"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -56,30 +53,31 @@
       "src": "/images/portfolio/albums/PGO0023.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "EDM FROM PARIS est un album de dance énergique, épique et exubérant mêlant Future Garage, Future Beat et House, pour un son hypnotique, stratifié et innovant. Un mélange explosif et déroutant par Ducer & Ghostmaker.",
+      "releaseDate": "11/09/2018",
+      "genre": "Electronic Dance Music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Ghostmaker",
+          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -92,30 +90,76 @@
       "src": "/images/portfolio/albums/PGO0024.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "CAUGHT IN THE TRAP est une collection de tracks de trap sombres, percutants, anxieux et urbains. Cet album balance avec énergie et auto dérision un son frais et percutant, entre rap minimaliste et breakbeat électrisant par des artistes tels que DJ Troubl, Bonetrips, Ugly Mac Beer, Ducer, Gerz Marcellino, Ghostmaker, Chicho Cortez et Arom.",
+      "releaseDate": "04/10/2018",
+      "genre": "Trap / Hip Hop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Liqid",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Liqid"
+          }
+        },
+        {
+          "name": "Bonetrips",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
+        {
+          "name": "Chicho Cortez",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/chicho-cortez"
+          }
+        },
+        {
+          "name": "DJ Troubl",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djtroubl"
+          }
+        },
+        {
+          "name": "Gerz Marcellino (Collectif Mutant Ninja)",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -128,30 +172,26 @@
       "src": "/images/portfolio/albums/PGO0025.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Influencé par le courant musical Post Punk, Minimal Wave et Early Electronic Body Music, Modulhater a composé la totalité de cet album nommé ACID. Ce projet s'adresse au dancefloor et rend hommage aux grandes heures de l'Acid Techno, du New beat et de l'Electro Body Music avec des titres percutants, rappelant Nitzer Ebb, Front 242, Gesaffelstein ou Arnaud Rebotini. Basslines acides, kicks lourds et puissants pour une virée sans concessions dans un univers ou les machines ont pris le contrôle.\n\nTechno originale des années 80 et 90, Acid, Electronic Body Music (EBM), Industrial et Rave : Les claviers analogiques Korg et Roland et les boîtes à rythmes sont là pour vous faire voyager de Berlin à Detroit sur ces 11 titres.",
+      "releaseDate": "18/01/2019",
+      "genre": "Techno",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Modulhater",
+          "compoImg": "/images/portfolio/albums/PGO0025.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/lediktat"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -164,30 +204,40 @@
       "src": "/images/portfolio/albums/PGO0026.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Né à Cali en Colombie, Sr Ortegon, dont les voyages à travers l'Europe et l'Amérique latine, s'est inspiré d'un large éventail de styles musicaux, donnant à ses productions une touche incomparable. Latin Experience est un mélange mondial de Boogaloo, Latin, Jazz, Salsa, Soul, Funk, Guajira, Cha Cha, Guaguancó, Hip Hop et Rap de la Colombie à New York composés par Sr Ortegon et Stan Galouo.\n\nL'album comprend 13 titres très caliente, dont des chansons en spanglish et des instrumentaux. Quatre d'entre eux ont déjà été publiés sur l'album \"Boogaflow\", nominé aux Latin Grammy Awards.",
+      "releaseDate": "20/05/2019",
+      "genre": "Latino",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Sr Ortegon",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@SrOrtegon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Stan Galouo (Palma Coco Reccords)",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "youtube": "https://soundcloud.com/palmacoco "
+          }
+        },
+        {
+          "name": "Pana Black",
+          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/panablack"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -200,30 +250,41 @@
       "src": "/images/portfolio/albums/PGO0027.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Après trois titres consécutifs de champion du monde DMC par équipe, le trio 9 O’clock laisse le spectre technique s'évaporer pour mieux affirmer son identité profonde avec la sortie de cet album. Mr Viktor, Aociz et Dj Hertz ont condensé des années d'exploration musicale : ici, le son est protéiforme, glisse dans les sillons creusés par la French Touch des 90's autant qu'elle emprunte à la scène Future Beat, s'engouffre un temps dans des travées house avant de réapparaitre sous des atours pop.\n\nPour cela, le groupe s'est affranchi des barrières stylistiques, trouvant l'équilibre entre les différents ingrédients qui le composent. Cette équation complexe, dans laquelle s'additionnent le goût d'une musique aux contours futuristes et la trace indélébile des classiques, fait entendre à chacun quelque chose de différent.\n\nUne esthétique percutante et raffinée, marque du perfectionnisme qui caractérise 9 O'clock depuis ses débuts. Future Beat, Future Bass, Cloud Trap, Vaporwave, FUTURE BEAT est une démonstration de musique électronique : 17 titres par 9 O'clock, Ducer et Bonetrips.",
+      "releaseDate": "31/05/2019",
+      "genre": "Électro",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "9 o’Clock",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@9oclock162",
+            "soundcloud": "https://soundcloud.com/9-oclock"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Bonetrips",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Bonetrips"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -236,30 +297,43 @@
       "src": "/images/portfolio/albums/PGO0028.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Ce projet est issu de la rencontre entre PARIGO et du duo de musiciens Sébastien Blanchon (trompettiste, claviériste) - Emmanuel Marée (batteur, guitariste, bassiste) ayant co-écrit cet album avec Ugly Mac Beer, directeur artistique sur le projet. Chaque titre illustre des scènes de poursuite, de deal, d'enquête dignes des plus grands films de l'époque.\n\nUn album qui ravira sans aucun doute les amateurs de funk et de groove rare. Une bande originale funky des films de série B des années 60/70. 13 titres enregistrés en live et parfaits pour les flics, escrocs et espions rétro.",
+      "releaseDate": "22/07/2019",
+      "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Sébastien Blanchon / N’Zeng",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@nzeng5115",
+            "soundcloud": "https://soundcloud.com/nzeng",
+            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Emmanuel Marée",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
+          }
+        },
+        {
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -272,30 +346,34 @@
       "src": "/images/portfolio/albums/PGO0029.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Dominé par les percussions et la batterie avec un caractère jam, GO-GO FUNK comprend des parties de clavier de rechange, un échantillonnage, des voix et du rap par appel et réponse. Musiciens électroniques, rappeurs ou producteurs de hip-hop, nombreux sont ceux à avoir emprunté le dynamisme exaltant des sections rythmiques de Chuck Brown.\n\nUn hommage aux premiers breaks funky et au rap flow de la fin des années 70 et du début des années 80, y compris Go-Go Funk, P-Funk, Old Skool Hip-Hop et Electro Boogie : l'album comprend 18 titres composé par The Real Fake MC.",
+      "releaseDate": "27/11/2019",
+      "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Bruno Hovart",
+          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@brunopatchworks4249"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "The Real Fake MC",
+          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@THEREALFAKEMC",
+            "soundcloud": "https://soundcloud.com/therealfakemc"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -308,30 +386,27 @@
       "src": "/images/portfolio/albums/PGO0030.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Arat Kilo entretient et renouvelle la fièvre éthio-jazz du Swinging' Addis des années 70, l'âge d'or de la musique éthiopienne où des musiciens comme Mulatu Astatke, Alémyahu Esthete, Girma Bèyènè ou Hailu Mergia bravèrent la censure établie par Haïlé Sélassié en métissant les traditions amhariques à la soul, au jazz ou à la pop occidentale.\n\nAFROBEAT est un joyau de la musique éthiopienne moderne : Un Ethio-groove orchestral étonnant, rempli de soul américaine, de jazz et des rythmes orientaux les plus profonds : Afrobeat, Ethiopian Jazz et Exotica avec de fortes racines seventies, parfait pour les films, les documentaires, les programmes TV et l'écoute à domicile. Un mix chaud, haut en couleur et audacieux.",
+      "releaseDate": "10/01/2020",
+      "genre": "Afro Beat",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Arat Kilo",
+          "compoImg": "/images/portfolio/albums/PGO0030.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@aratkilo7994",
+            "soundcloud": "https://soundcloud.com/arat_kilo_band"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -344,30 +419,26 @@
       "src": "/images/portfolio/albums/PGO0031.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "THE PROJECTIONIST est un hymne à la musique contemplative et cinématographique. Musique orchestrale de film dramatique, de film comique, de cinéma dramatique, de musique fantastique du 20ème siècle avec de fortes saveurs de musique classique moderne et de musique classique contemporaine : 15 pistes dans différentes ambiances avec des versions alternatives, des underscores, piano solo, montage commercial 30/60 et tous les stems, interprétées par le groupe français After In Paris.",
+      "releaseDate": "30/01/2020",
+      "genre": "Orchestral / Cinématographique",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "After In Paris",
+          "compoImg": "/images/portfolio/albums/PGO0031.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -380,30 +451,61 @@
       "src": "/images/portfolio/albums/PGO0032.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "DIGGIN HIP HOP 2 est la consécration de plusieurs producteurs français et américains les plus talentueux de leur génération. Avec cet album, Liqid, Bonetrips, Arom, Tcheep (tous issus du collectif Mutant Ninja), Ugly Mac Beer, Blanka (La Fine Equipe) et Drixxxé nous livrent un subtil mélange rap et hip hop servi sur un beat hip-hop entêtant et terriblement efficace.\n\nCet album fera découvrir un mélange savoureux et trépidant où rap, électro, scratch et collaborations s'entremêlent pour un résultat irrésistiblement unique : Un deuxième hommage au vrai Hip-Hop après Diggin Hip-Hop Vol.1.\n\nDes breaks, beats, boucles et scratches hip-hop dans une large gamme d'ambiances et de styles incluant boombap, eastcoast, westcoast, jazz, electro gangsta et abstract signés Ugly Mac Beer, Liqid, Drixxxé, Kokane, Arom, Bonetrips, Blanka, Fat Hed, Tcheep, Ducer, F.Stokes et Schérazade.",
+      "releaseDate": "20/02/2020",
+      "genre": "Rap / Hip Hop",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Mutant Ninja Records",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
+          }
+        },
+        {
+          "name": "Blanka",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/blankalfe"
+          }
+        },
+        {
+          "name": "Drixxxé",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
+            "soundcloud": "https://soundcloud.com/drixxxe-2"
+          }
+        },
+        {
+          "name": "Ducer",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/ducermusic"
+          }
+        },
+        {
+          "name": "Schérazade",
+          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -416,30 +518,39 @@
       "src": "/images/portfolio/albums/PGO0033.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
+      "description": "Description de l'album Surf Fiction.",
+      "releaseDate": "01/01/2021",
       "genre": "Documentaire",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Marie-Sophie Mallet",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {}
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Forever Pavot (Emile Sornin)",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/ForeverPavot/?locale=fr_FR"
+          }
+        },
+        {
+          "name": "Viro Major Records (Molenat Alexis, Maxime Raynier, Patrice Dambrine)",
+          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/viromajor/",
+            "bandcamp": "https://viromajorrecords.bandcamp.com/"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -452,30 +563,27 @@
       "src": "/images/portfolio/albums/PGO0034.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Des riffs puissants, millimétrés, un swing de grande houle, tous les ingrédients, qui, sous des airs de fanfares, se réunissent pour la création de cet album JAZZ MUSETTE.\n\nDe la french jazz musette qui fiat chante les cuivres avec des morceaux de valse traditionnelle ainsi que d'autres inspirés de musiques de films et de dessins animés : parfait pour les programmes historiques et les drames humains. Entièrement composé par le trio français Ana Kap, l'album comprend 18 titres.",
+      "releaseDate": "21/04/2020",
+      "genre": "Jazz",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Ana Kap",
+          "compoImg": "/images/portfolio/albums/PGO0034.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/anakaptrio/?locale=fr_FR",
+            "youtube": "https://www.youtube.com/@anakap8263"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -488,30 +596,61 @@
       "src": "/images/portfolio/albums/PGO0035.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Véritable concentré de leur savoir-faire, TRAP IN THE CLOUD un mélange savoureux et trépidant où rap, pop, trap cloud et collaborations s'entremêlent pour un résultat irrésistiblement aérien.\n\nSur ce projet, Liqid, Arom, Cœur (tous issus du collectif Mutant Ninja), et Roma Luca nous livrent un subtil mélange Trap et Cloud servi sur un beat subtil et terriblement efficace : 15 titres disposant d'une palette de sons diversifiée, Cloud Trap, Vapor Trap, Wavetrap, trillwave et rap pour le drame urbain, la science et les aventures spatiales.",
+      "releaseDate": "19/05/2020",
+      "genre": "Trap / Hip Hop / Cloud Music",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Liqid",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/Liqid"
+          }
+        },
+        {
+          "name": "Roma Luca",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@romaluca",
+            "soundcloud": "https://soundcloud.com/camilleluca"
+          }
+        },
+        {
+          "name": "Chris Kemp",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/kempfest"
+          }
+        },
+        {
+          "name": "Cory Tate",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCvzoh7xQ3fYX47auU_HCc2w",
+            "soundcloud": "https://soundcloud.com/corytate"
+          }
+        },
+        {
+          "name": "Cally Reed",
+          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -524,30 +663,34 @@
       "src": "/images/portfolio/albums/PGO0036.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Sur AFRO POP, les membres de 9o’clock ont mis à profit leur technique pour la création de mélodies taillées sur mesure avec un certain penchant pour les featuring prestigieux tels Syra, DaXoVii, LovLion ou encore l’artiste Schérazade talent émergeant de l’année 2019.\n\nLe trio saura sans aucun doute convaincre les initiés grâce à cet album hors norme mais également les néophytes avec leurs sonorités Afro Beat. Afro trap pour les jet-setters, les citadins et les amateurs de soleil. Du dancefloor au catwalk, de la chaise longue aux rues de la ville : 18 titres composés par les membres de du groupe 9 O’clock.",
+      "releaseDate": "24/06/2020",
+      "genre": "Afro Pop / Afro Beat",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "DJ Hertz",
+          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/djhertz-music"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "9 o’Clock",
+          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@9oclock162",
+            "soundcloud": "https://soundcloud.com/9-oclock"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -560,30 +703,45 @@
       "src": "/images/portfolio/albums/PGO0038.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Ce projet est issu de la rencontre entre PARIGO et de brillants compositeurs de renom tous reconnus dans l’univers de la musique expérimentale, entre rock, punk et électro. Une collaboration pointue et passionnée entre un producteur de musique à l’image et des musiciens de talent issus de la scène rock underground.\n\nDu thrash punk au post hardcore en passant par l'indie rock des années 90 et la new wave glam, c'est un voyage anarchique à travers le rock fait pour la culture de la jeunesse anti-establishment et l'action extrême. 16 titres explosifs dont 12 chansons par les frères Jean-Baptiste et Frédéric Hanak des groupes français dDamage & Ddash.",
+      "releaseDate": "10/11/2020",
+      "genre": "Rock / Électro",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "Frédéric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {}
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "JB Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
+          }
+        },
+        {
+          "name": "Cédric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@HanakCedric"
+          }
+        },
+        {
+          "name": "dDamage",
+          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -632,30 +790,27 @@
       "src": "/images/portfolio/albums/PGO0040.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Dans cet album MINIMAL STORIES VOL.2, les idées imagées du Laurent Dury ont constitué la base de l’œuvre musicale pour raconter une histoire de la première à la dernière seconde. Ces compositions révèlent un doux sens de l'attention, cet album répondant à une amplification sonore contemplative : le doux successeur de MINIMAL STORIES VOL.1.",
+      "releaseDate": "29/04/2021",
+      "genre": "Instrumentaux / Minimaliste",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Laurent Dury",
+          "compoImg": "/images/portfolio/albums/PGO0040.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
+            "soundcloud": "https://soundcloud.com/laurentdury"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -668,30 +823,27 @@
       "src": "/images/portfolio/albums/PGO0041.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "LAZER FUNK est une invitation au funk électro aussi rétro que futuriste. Branchez la pédale wah, c'est l'heure du Lazer Funk. 14 titres rétro et cinématiques qui abordent tous les genres, du funk pur et dur, au breakbeat et à l'electronica, en passant par le trip- et le hip-hop refroidis.\n\n Composé par Aeon Seven, ancien membre du duo français Christine et récent collaborateur du collectif britannique 45 Live.",
+      "releaseDate": "22/06/2021",
+      "genre": "Musique Électronique",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Aeon Seven",
+          "compoImg": "/images/portfolio/albums/PGO0041.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@aeonseven4130",
+            "soundcloud": "https://soundcloud.com/aeon-seven"
+          }
         }
       ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -704,30 +856,38 @@
       "src": "/images/portfolio/albums/PGO0042.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "LIGHT AMBIENT est une ode à la chaleur et la sensualité. La direction artistique est confiée à JB Hanak qui s’est entouré de son frère Cédric Hanak et a convié la chanteuse Zoé Wolf pour la chanson ouvrant l’album façon pop song au synthétiseur, pleine de rêverie.\n\nLe reste des titres est une suite de portraits croisés en instrumentaux pornérotiques. Des instrumentaux souvent planants empreint d’émotion. Les synthétiseurs et les nappes de guitare électriques revisitent des mélodies qui évoquent la rêverie et l’émotion. Une collection d'ambiances électroniques shoegazing et de synthés analogiques pour les amoureux, les rêveurs et les pilotes de l'espace solitaires.\n\nNeuf titres directement issus de la bande originale du film Une Dernière Fois réalisé par Olympe de G avec l'actrice française Brigitte Lahaie et composé par JB Hanak, ancien membre des groupes français Ddash et Ddamage.",
+      "releaseDate": "03/08/2021",
+      "genre": "Musique Électronique / Light Ambient",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "JB Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {
+            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Cédric Hanak",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@HanakCedric"
+          }
+        },
+        {
+          "name": "Zoé Wolf",
+          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "links": {}
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
@@ -894,37 +1054,89 @@
     },
     {
       "id": 25,
-      "title": "Odissey Suites & Remix",
+      "title": "Odyssey Suites & Remixes",
       "subtitle": "See Details",
       "slug": "odissey-suites-remix",
       "externalLink": "",
       "src": "/images/portfolio/albums/PGO0049.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Odyssey Suites & Remixes est une immersion totale dans un univers cinématographique et spatial avec une touche de tension sombre, de romance et d'histoire rétro.\n\nContenant quatre partitions orchestrales originales et 12 remixes allant de l'electronica à l'ambient en passant par le hip hop et l'easy listening, l'album est composé et retravaillé par les meilleurs artistes indépendants français N'Zeng, Drixxxé, Flore, Madben, Arandel, Arom, NSDOS et The Architect.",
+      "releaseDate": "27/04/2023",
+      "genre": "Musique électronique",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "synchronisation": [
+          "name": "N’Zeng",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@nzeng5115",
+            "soundcloud": "https://soundcloud.com/nzeng",
+            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
+          }
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Arandel",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arandel"
+          }
+        },
+        {
+          "name": "Flore",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@FloreMusic/releases",
+            "soundcloud": "https://soundcloud.com/flore"
+          }
+        },
+        {
+          "name": "Drixxxé",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
+            "soundcloud": "https://soundcloud.com/drixxxe-2"
+          }
+        },
+        {
+          "name": "Madben",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UChTegJsrojWlBiUhpWY7IOQ",
+            "soundcloud": "https://soundcloud.com/madben"
+          }
+        },
+        {
+          "name": "Arom",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
+          }
+        },
+        {
+          "name": "NSDOS",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/@NSDOS",
+            "soundcloud": "https://soundcloud.com/nsdoslazerconnect"
+          }
+        },
+        {
+          "name": "The Architect",
+          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw",
+            "soundcloud": "https://soundcloud.com/fresh-and-dusty-loops"
+          }
         }
       ],
+      "synchronisation": [],
       "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
+        "title": "",
+        "externalLink": ""
       },
       "events": [
         {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "eventImg": ""
         }
       ]
     },
