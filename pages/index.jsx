@@ -256,14 +256,6 @@ export default function Home({ expertises }) {
         </div>
         <Spacing lg="105" md="70" />
 
-        <Div className="container">
-          <VideoModal
-            videoSrc={"https://www.youtube.com/watch?v=SyagJTQVvPw"}
-            bgUrl={
-              "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/386598005_861429018816503_308010468001017714_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6tH4K73ZWuEAX-rldib&_nc_ht=scontent-cdg4-3.xx&oh=00_AfA6lMB9TcA0OjzJPKhqNRXtbTPYWWJyxep6Ds5ETH6EkQ&oe=65301529"
-            }
-          />
-        </Div>
         {/* End MovingText Section */}
 
         {/* Début de la section Équipe */}
