@@ -9,6 +9,7 @@ import SectionHeading from "../../components/SectionHeading";
 import Spacing from "../../components/Spacing";
 import frData from "../../lang/fr.json";
 import enData from "../../lang/en.json";
+import ComposerCard from "../../components/ComposerCard";
 
 export async function getStaticProps({ params, locale }) {
   const data = locale === "fr" ? frData : enData;
@@ -39,6 +40,7 @@ export async function getStaticPaths() {
 }
 
 export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
+  console.log("album >>", album);
   return (
     <>
       <Head>
@@ -71,17 +73,23 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
 
               {/* Informations supplémentaires */}
               <Div className="row">
-                <Div className="col-12">
+                <Div className="col-12 mb-4">
+                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Date de sortie:</h3>
+                  <p className="cs-m0">{album.releaseDate}</p>
+                </Div>
+                <Div className="col-12 mb-4">
+                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Compositeurs:</h3>
+                  {album.compositeurs.map((composer, index) => (
+                    <ComposerCard key={index} composer={composer} />
+                  ))}
+                </Div>
+                <Div className="col-12 mb-4">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Category:</h3>
                   <p className="cs-m0">{album.category}</p>
                 </Div>
-                <Div className="col-12">
+                <Div className="col-12 mb-4">
                   <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Genre:</h3>
                   <p className="cs-m0">{album.genre}</p>
-                </Div>
-                <Div className="col-12">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Date de sortie:</h3>
-                  <p className="cs-m0">{album.releaseDate}</p>
                 </Div>
               </Div>
             </Div>
