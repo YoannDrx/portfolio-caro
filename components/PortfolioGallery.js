@@ -11,7 +11,7 @@ export default function PortfolioGallery({ portfolioData }) {
   const router = useRouter();
   const { locale } = router;
   const [active, setActive] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(10);
+  const [visibleCount, setVisibleCount] = useState(20);
 
   const categoryMenu = [
     {
