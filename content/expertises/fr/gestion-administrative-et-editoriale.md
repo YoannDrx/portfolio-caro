@@ -64,7 +64,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/taiwan.jpeg",
       link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
       category: "little-big-story",
-      height: "150",
+      height: "",
     }
   - {
       title: "Marcus Klingberg un pur espion",

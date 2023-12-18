@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SectionHeading from "./SectionHeading";
 import Spacing from "./Spacing";
 import Div from "./Div";
@@ -15,8 +15,49 @@ export default function PortfolioGallery({ portfolioData }) {
   const [visibleCount, setVisibleCount] = useState(20);
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   const [activeVideoUrl, setActiveVideoUrl] = useState("");
+  const [windowWidth, setWindowWidth] = useState(undefined);
 
-  console.log("activeVideoUrl >>", activeVideoUrl);
+  useEffect(() => {
+    // Mettre à jour la largeur initiale de la fenêtre
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const calculateHeight = (item) => {
+    if (windowWidth) {
+      if (windowWidth <= 320) {
+        return item.w320; // Hauteur pour les écrans plus petits que 320px
+      } else if (windowWidth <= 575) {
+        return item.w575; // Hauteur pour les écrans entre 320px et 574px
+      } else if (windowWidth < 768) {
+        return item.w768; // Hauteur pour les écrans entre 575px et 767px
+      } else if (windowWidth <= 991) {
+        return item.w991; // Hauteur pour les écrans entre 768px et 990px
+      } else if (windowWidth <= 1080) {
+        return item.w1080; // Hauteur pour les écrans entre 991px et 1079px
+      } else if (windowWidth <= 1199) {
+        return item.w1199; // Hauteur pour les écrans entre 1080px et 1198px
+      } else if (windowWidth < 1380) {
+        return item.w1380; // Hauteur pour les écrans entre 1199px et 1379px
+      } else if (windowWidth < 1400) {
+        return item.w1400; // Hauteur pour les écrans entre 1380px et 1399px
+      } else if (windowWidth <= 1540) {
+        return item.w1540; // Hauteur pour les écrans entre 1400px et 1539px
+      } else {
+        return item.desktopHeight; // Hauteur par défaut pour les écrans plus grands que 1540px
+      }
+    }
+    return item.defaultHeight; // Retourner une hauteur par défaut si windowWidth n'est pas défini
+  };
 
   const openVideoModal = (videoUrl) => {
     setActiveVideoUrl(videoUrl);
@@ -100,7 +141,8 @@ export default function PortfolioGallery({ portfolioData }) {
                 // Si c'est un clip vidéo, utilisez la fonction openVideoModal
                 <Div
                   className="cs-portfolio cs-style-portfoliogallery cs-type2"
-                  style={{ height: `${item.height}px` }}
+                  // style={{ height: `${item.height}px` }}
+                  style={{ height: calculateHeight(item) }}
                   onClick={(e) => handleClickItem(linkInfo, e)}>
                   <Div className="cs-portfolio_hover" />
                   <span className="cs-plus" />
@@ -111,26 +153,10 @@ export default function PortfolioGallery({ portfolioData }) {
                     <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
                   </Div>
                 </Div>
-              ) : // <Link
-              //   href={linkInfo.href}
-              //   target="_blank"
-              //   rel="noopener noreferrer"
-              //   onClick={(e) => handleClickItem(linkInfo, e)}>
-              //   <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
-              //     <Div className="cs-portfolio_hover" />
-              //     <span className="cs-plus" />
-              //     <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
-              //     <Div className="cs-portfolio_info">
-              //       <Div className="cs-portfolio_info_bg cs-accent_bg" />
-              //       <h2 className="cs-portfolio_title">{item.title}</h2>
-              //       <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
-              //     </Div>
-              //   </Div>
-              // </Link>
-              linkInfo.isExternal ? (
+              ) : linkInfo.isExternal ? (
                 // Pour les liens externes
                 <Link href={linkInfo.href} target="_blank" rel="noopener noreferrer">
-                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
+                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: calculateHeight(item) }}>
                     <Div className="cs-portfolio_hover" />
                     <span className="cs-plus" />
                     <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
@@ -144,7 +170,7 @@ export default function PortfolioGallery({ portfolioData }) {
               ) : (
                 // Pour les liens internes
                 <Link href={linkInfo.href}>
-                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
+                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: calculateHeight(item) }}>
                     <Div className="cs-portfolio_hover" />
                     <span className="cs-plus" />
                     <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
@@ -156,46 +182,13 @@ export default function PortfolioGallery({ portfolioData }) {
                   </Div>
                 </Link>
               )}
-              {/* {isExternal ? (
-                <Link href={href} target="_blank" rel="noopener noreferrer">
-                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
-                    <Div className="cs-portfolio_hover" />
-                    <span className="cs-plus" />
-                    <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
-                    <Div className="cs-portfolio_info">
-                      <Div className="cs-portfolio_info_bg cs-accent_bg" />
-                      <h2 className="cs-portfolio_title">{item.title}</h2>
-                      <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
-                    </Div>
-                  </Div>
-                </Link>
-              ) : (
-                <Link href={href}>
-                  <Div className="cs-portfolio cs-style-portfoliogallery cs-type2" style={{ height: `${item.height}px` }}>
-                    <Div className="cs-portfolio_hover" />
-                    <span className="cs-plus" />
-                    <Div className="cs-portfolio_bg cs-bg" style={{ backgroundImage: `url("${item.src}")` }} />
-                    <Div className="cs-portfolio_info">
-                      <Div className="cs-portfolio_info_bg cs-accent_bg" />
-                      <h2 className="cs-portfolio_title">{item.title}</h2>
-                      <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
-                    </Div>
-                  </Div>
-                </Link>
-              )} */}
             </Div>
           ) : null;
         })}
       </Div>
 
       {/* Modal pour les clips vidéo */}
-      {videoModalOpen && (
-        <VideoModal
-          videoSrc={activeVideoUrl}
-          onClose={closeVideoModal}
-          // ...autres props pour VideoModal si nécessaire...
-        />
-      )}
+      {videoModalOpen && <VideoModal videoSrc={activeVideoUrl} onClose={closeVideoModal} />}
 
       <Div className="container">
         <Div className="text-center">
