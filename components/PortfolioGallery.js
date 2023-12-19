@@ -50,11 +50,7 @@ export default function PortfolioGallery({ portfolioData }) {
         return item.w1380; // Hauteur pour les écrans entre 1199px et 1379px
       } else if (windowWidth < 1400) {
         return item.w1400; // Hauteur pour les écrans entre 1380px et 1399px
-      } else if (windowWidth <= 1540) {
-        return item.w1540; // Hauteur pour les écrans entre 1400px et 1539px
-      } else {
-        return item.desktopHeight; // Hauteur par défaut pour les écrans plus grands que 1540px
-      }
+      } else return item.w1540; // Hauteur pour les écrans plus grands que 1399px
     }
     return item.defaultHeight; // Retourner une hauteur par défaut si windowWidth n'est pas défini
   };
