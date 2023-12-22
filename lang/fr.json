@@ -26,6 +26,7 @@
       "subtitle": "See Details",
       "slug": "minimal-stories",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/5mdfALHA6NyXz7msDxjLfX",
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "",
       "category": "albums",
@@ -35,7 +36,7 @@
       "compositeurs": [
         {
           "name": "Laurent Dury",
-          "compoImg": "/images/portfolio/albums/PGO0022.jpg",
+          "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
             "soundcloud": "https://soundcloud.com/laurentdury"
@@ -68,6 +69,7 @@
       "subtitle": "See Details",
       "slug": "edm-from-paris",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4kqgc7hoyZqMOBfzz08sSc",
       "src": "/images/portfolio/albums/PGO0023.jpg",
       "height": "",
       "category": "albums",
@@ -77,7 +79,7 @@
       "compositeurs": [
         {
           "name": "Ducer",
-          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/ducermusic"
           }
@@ -114,6 +116,7 @@
       "subtitle": "See Details",
       "slug": "caught-in-the-trap",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4yGNRsMNA8rD08limfOrza",
       "src": "/images/portfolio/albums/PGO0024.jpg",
       "height": "",
       "category": "albums",
@@ -123,7 +126,7 @@
       "compositeurs": [
         {
           "name": "Ugly Mac Beer",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
             "soundcloud": "https://soundcloud.com/uglymacbeer"
@@ -159,7 +162,7 @@
         },
         {
           "name": "DJ Troubl",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DJTroubl.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/djtroubl"
           }
@@ -173,7 +176,7 @@
         },
         {
           "name": "Ducer",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/ducermusic"
           }
@@ -205,6 +208,7 @@
       "subtitle": "See Details",
       "slug": "acid",
       "externalLink": "",
+      "linkSpotify": " https://open.spotify.com/intl-fr/album/20Mg2DFhxHfEUK4mdH8lMC",
       "src": "/images/portfolio/albums/PGO0025.jpg",
       "height": "",
       "category": "albums",
@@ -214,7 +218,7 @@
       "compositeurs": [
         {
           "name": "Modulhater",
-          "compoImg": "/images/portfolio/albums/PGO0025.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/lediktat"
           }
@@ -246,6 +250,7 @@
       "subtitle": "See Details",
       "slug": "latin-experience",
       "externalLink": "",
+      "linkSpotify": " https://open.spotify.com/intl-fr/album/2OvhnSEQeu9TjQXvM37NkA",
       "src": "/images/portfolio/albums/PGO0026.jpg",
       "height": "",
       "category": "albums",
@@ -255,21 +260,22 @@
       "compositeurs": [
         {
           "name": "Sr Ortegon",
-          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "compoImg": "/images/portfolio/photosCompo/SrOrtegon.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@SrOrtegon"
           }
         },
         {
           "name": "Stan Galouo (Palma Coco Reccords)",
-          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "compoImg": "/images/portfolio/photosCompo/StanGalouo.jpeg",
           "links": {
-            "youtube": "https://soundcloud.com/palmacoco "
+            "youtube": "https://soundcloud.com/palmacoco ",
+            "soundcloud": "https://soundcloud.com/palmacoco"
           }
         },
         {
           "name": "Pana Black",
-          "compoImg": "/images/portfolio/albums/PGO0026.jpg",
+          "compoImg": "/images/portfolio/photosCompo/PanaBlack.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/panablack"
           }
@@ -301,6 +307,7 @@
       "subtitle": "See Details",
       "slug": "future-beats",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/5LSeee3Tlrud2mIhFJx1lX",
       "src": "/images/portfolio/albums/PGO0027.jpg",
       "height": "",
       "category": "albums",
@@ -310,7 +317,7 @@
       "compositeurs": [
         {
           "name": "9 o’Clock",
-          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@9oclock162",
             "soundcloud": "https://soundcloud.com/9-oclock"
@@ -325,7 +332,7 @@
         },
         {
           "name": "Ducer",
-          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/ducermusic"
           }
@@ -357,6 +364,7 @@
       "subtitle": "See Details",
       "slug": "hollywood-hustlers",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/36Ynmevzo2QyQqxDF9TCpr",
       "src": "/images/portfolio/albums/PGO0028.jpg",
       "height": "",
       "category": "albums",
@@ -366,7 +374,7 @@
       "compositeurs": [
         {
           "name": "Sébastien Blanchon / N’Zeng",
-          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@nzeng5115",
             "soundcloud": "https://soundcloud.com/nzeng",
@@ -375,14 +383,14 @@
         },
         {
           "name": "Emmanuel Marée",
-          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
           "links": {
             "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
           }
         },
         {
           "name": "Ugly Mac Beer",
-          "compoImg": "/images/portfolio/albums/PGO0028.jpg",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
             "soundcloud": "https://soundcloud.com/uglymacbeer"
@@ -415,6 +423,7 @@
       "subtitle": "See Details",
       "slug": "go-go-funk",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/07kf0f06DKsV1wd9JTzmb4",
       "src": "/images/portfolio/albums/PGO0029.jpg",
       "height": "",
       "category": "albums",
@@ -424,14 +433,14 @@
       "compositeurs": [
         {
           "name": "Bruno Hovart",
-          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "compoImg": "/images/portfolio/photosCompo/BrunoHovart.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@brunopatchworks4249"
           }
         },
         {
           "name": "The Real Fake MC",
-          "compoImg": "/images/portfolio/albums/PGO0029.jpg",
+          "compoImg": "/images/portfolio/photosCompo/TheRealFakeMC.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@THEREALFAKEMC",
             "soundcloud": "https://soundcloud.com/therealfakemc"
@@ -464,6 +473,7 @@
       "subtitle": "See Details",
       "slug": "afro-beat",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/5qe4qJH2y5Hu1pXZsBdDIN",
       "src": "/images/portfolio/albums/PGO0030.jpg",
       "height": "",
       "category": "albums",
@@ -473,7 +483,7 @@
       "compositeurs": [
         {
           "name": "Arat Kilo",
-          "compoImg": "/images/portfolio/albums/PGO0030.jpg",
+          "compoImg": "/images/portfolio/photosCompo/AratKilo.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@aratkilo7994",
             "soundcloud": "https://soundcloud.com/arat_kilo_band"
@@ -506,6 +516,7 @@
       "subtitle": "See Details",
       "slug": "the-projectionnist",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4yHli5V63bzVa1BHTi3A72",
       "src": "/images/portfolio/albums/PGO0031.jpg",
       "height": "",
       "category": "albums",
@@ -515,7 +526,7 @@
       "compositeurs": [
         {
           "name": "After In Paris",
-          "compoImg": "/images/portfolio/albums/PGO0031.jpg",
+          "compoImg": "/images/portfolio/photosCompo/AfterInParis.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
           }
@@ -547,6 +558,7 @@
       "subtitle": "See Details",
       "slug": "diggin-hip-hop-vol-2",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/45xH9uGg9tHVHmabdGtfS2",
       "src": "/images/portfolio/albums/PGO0032.jpg",
       "height": "",
       "category": "albums",
@@ -556,7 +568,7 @@
       "compositeurs": [
         {
           "name": "Ugly Mac Beer",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
             "soundcloud": "https://soundcloud.com/uglymacbeer"
@@ -571,14 +583,14 @@
         },
         {
           "name": "Blanka",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Blanka.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/blankalfe"
           }
         },
         {
           "name": "Drixxxé",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
             "soundcloud": "https://soundcloud.com/drixxxe-2"
@@ -586,15 +598,18 @@
         },
         {
           "name": "Ducer",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/ducermusic"
           }
         },
         {
           "name": "Schérazade",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
-          "links": {}
+          "compoImg": "/images/portfolio/photosCompo/Scherazade.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ",
+            "facebook": "https://www.facebook.com/scherazadeofficiel"
+          }
         }
       ],
       "synchronisation": [],
@@ -623,28 +638,31 @@
       "subtitle": "See Details",
       "slug": "surf-fiction",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/5p4wkVshgSA0JZmh41alTn",
       "src": "/images/portfolio/albums/PGO0033.jpg",
       "height": "",
       "category": "albums",
-      "description": "Description de l'album Surf Fiction.",
-      "releaseDate": "01/01/2021",
-      "genre": "Documentaire",
+      "description": "S’inspirant directement de la Surf music des années 60, cet album se réapproprie les gimmicks du genre pour les transcender. Rafales de staccatos, glissandos frénétiques, réverb à bloc, caisse claire rockabilly pour transe instrumentale déflagratrice et hommage irrévérencieux aux parrains du genre.\nSa pop psychédélique complexe et cinématographique des 60s a largement inspiré l’univers rétro de cet album: sur ce projet, les guitares les plus psychédéliques ont été enregistrées avec Emile Sornin.\n\nAinsi, SURF FICTION n’a plus grand chose à voir avec les rengaines sunshine pop pour midinettes des Beach Boys qui ont pourtant popularisé et incarné trop souvent l’esprit de la surf music. Les plages de Californie sont bien loin en effet, et les transats déglingués de Paris Plage semblent avoir laissé un goût amer. Aucun temps mort au fil de ces 16 plages qui s’enchaînent dans un déluge de guitares en furie. Les guitares vintages staccato, vibrato, tremolo et réverbération surfent sur les vagues. 16 titres dont 2 chansons françaises, composés et interprétés par les groupes français Les Cavaliers, Les Arondes et Forever Pavot.",
+      "releaseDate": "27/02/2020",
+      "genre": "Rock / Pop",
       "compositeurs": [
         {
           "name": "Marie-Sophie Mallet",
-          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
-          "links": {}
+          "compoImg": "/images/portfolio/photosCompo/Marie Sophie Mallet.jpg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
+          }
         },
         {
           "name": "Forever Pavot (Emile Sornin)",
-          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "compoImg": "/images/portfolio/photosCompo/ForeverPavot.jpeg",
           "links": {
             "facebook": "https://www.facebook.com/ForeverPavot/?locale=fr_FR"
           }
         },
         {
           "name": "Viro Major Records (Molenat Alexis, Maxime Raynier, Patrice Dambrine)",
-          "compoImg": "/images/portfolio/albums/PGO0033.jpg",
+          "compoImg": "/images/portfolio/photosCompo/ViroMajorRecords.png",
           "links": {
             "facebook": "https://www.facebook.com/viromajor/",
             "bandcamp": "https://viromajorrecords.bandcamp.com/"
@@ -677,6 +695,7 @@
       "subtitle": "See Details",
       "slug": "jazz-muzette",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4BoHZb94U7t9zRBYGDCahz",
       "src": "/images/portfolio/albums/PGO0034.jpg",
       "height": "",
       "category": "albums",
@@ -686,7 +705,7 @@
       "compositeurs": [
         {
           "name": "Ana Kap",
-          "compoImg": "/images/portfolio/albums/PGO0034.jpg",
+          "compoImg": "/images/portfolio/photosCompo/AnaKap.jpeg",
           "links": {
             "facebook": "https://www.facebook.com/anakaptrio/?locale=fr_FR",
             "youtube": "https://www.youtube.com/@anakap8263"
@@ -719,6 +738,7 @@
       "subtitle": "See Details",
       "slug": "trap-in-the-cloud",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/1ZkFE0yMiN6twIDEp7C4rs",
       "src": "/images/portfolio/albums/PGO0035.jpg",
       "height": "",
       "category": "albums",
@@ -742,7 +762,7 @@
         },
         {
           "name": "Roma Luca",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "compoImg": "/images/portfolio/photosCompo/RomaLuca.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@romaluca",
             "soundcloud": "https://soundcloud.com/camilleluca"
@@ -750,14 +770,14 @@
         },
         {
           "name": "Chris Kemp",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "compoImg": "/images/portfolio/photosCompo/ChrisKemp.jpg",
           "links": {
             "soundcloud": "https://soundcloud.com/kempfest"
           }
         },
         {
           "name": "Cory Tate",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "compoImg": "/images/portfolio/photosCompo/CoryTate.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCvzoh7xQ3fYX47auU_HCc2w",
             "soundcloud": "https://soundcloud.com/corytate"
@@ -765,8 +785,10 @@
         },
         {
           "name": "Cally Reed",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
-          "links": {}
+          "compoImg": "/images/portfolio/photosCompo/CallyReed.jpeg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/4R7CNJ3OyT9G1bEkvcCi9X"
+          }
         }
       ],
       "synchronisation": [],
@@ -795,6 +817,7 @@
       "subtitle": "See Details",
       "slug": "afro-pop",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/2GxuTtOAI6HhqVwtqtTxWw",
       "src": "/images/portfolio/albums/PGO0036.jpg",
       "height": "",
       "category": "albums",
@@ -804,14 +827,14 @@
       "compositeurs": [
         {
           "name": "DJ Hertz",
-          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DJHertz.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/djhertz-music"
           }
         },
         {
           "name": "9 o’Clock",
-          "compoImg": "/images/portfolio/albums/PGO0036.jpg",
+          "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@9oclock162",
             "soundcloud": "https://soundcloud.com/9-oclock"
@@ -844,6 +867,7 @@
       "subtitle": "See Details",
       "slug": "rock-of-anarchy",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/3LYtFapF78Qqi0MBgKRGx4",
       "src": "/images/portfolio/albums/PGO0038.jpg",
       "height": "",
       "category": "albums",
@@ -858,21 +882,22 @@
         },
         {
           "name": "JB Hanak",
-          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
           "links": {
             "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
           }
         },
         {
           "name": "Cédric Hanak",
-          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
           "links": {
+            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
             "youtube": "https://www.youtube.com/@HanakCedric"
           }
         },
         {
           "name": "dDamage",
-          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
+          "compoImg": "/images/portfolio/photosCompo/dDamage.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
           }
@@ -904,17 +929,28 @@
       "subtitle": "See Details",
       "slug": "video-club",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/6H7mtNYSsfmhgAuwmg5M2d",
       "src": "/images/portfolio/albums/PGO0039.jpg",
       "height": "",
       "category": "albums",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Album purement cinématographique dont les rythmes, les boucles et les sonorités intemporelles revêtent une grande variété d'ambiances et de styles. Les titres seront spécialement dédiés aux images.\n\nUn hommage aux musiques de films emblématiques des années 60 et 70 avec une touche psychédélique, funk et imaginative : 17 titres originaux pour des flics cool, des espions de la guerre froide, des cow-boys en duel et des femmes fatales par Yann Kornowicz & Dan Amozig. Mixé et masterisé par Blanka de La Fine Équipe.",
+      "releaseDate": "19/02/2021",
+      "genre": "Bande originale",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Dan Amozig",
+          "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
+          "links": {
+            "facebook": "https://www.facebook.com/daniel.amozig"
+          }
+        },
+        {
+          "name": "Yann Kornowicz",
+          "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
+            "soundcloud": "https://soundcloud.com/chaosinchatelet"
+          }
         }
       ],
       "synchronisation": [
@@ -949,6 +985,7 @@
       "subtitle": "See Details",
       "slug": "minimal-stories-vol-2",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/2UhFxgrXGqXy6AQJvq7Rwg",
       "src": "/images/portfolio/albums/PGO0040.jpg",
       "height": "",
       "category": "albums",
@@ -958,7 +995,7 @@
       "compositeurs": [
         {
           "name": "Laurent Dury",
-          "compoImg": "/images/portfolio/albums/PGO0040.jpg",
+          "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
             "soundcloud": "https://soundcloud.com/laurentdury"
@@ -991,6 +1028,7 @@
       "subtitle": "See Details",
       "slug": "lazer-funk",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/6G02rXZI4mPM1kdc5shX4R",
       "src": "/images/portfolio/albums/PGO0041.jpg",
       "height": "",
       "category": "albums",
@@ -1000,7 +1038,7 @@
       "compositeurs": [
         {
           "name": "Aeon Seven",
-          "compoImg": "/images/portfolio/albums/PGO0041.jpg",
+          "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@aeonseven4130",
             "soundcloud": "https://soundcloud.com/aeon-seven"
@@ -1033,6 +1071,7 @@
       "subtitle": "See Details",
       "slug": "light-ambient",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/5Cflht2qOXc7PGsjVh7ll0",
       "src": "/images/portfolio/albums/PGO0042.jpg",
       "height": "",
       "category": "albums",
@@ -1042,22 +1081,25 @@
       "compositeurs": [
         {
           "name": "JB Hanak",
-          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
           "links": {
             "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
           }
         },
         {
           "name": "Cédric Hanak",
-          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
+          "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
           "links": {
+            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
             "youtube": "https://www.youtube.com/@HanakCedric"
           }
         },
         {
           "name": "Zoé Wolf",
           "compoImg": "/images/portfolio/albums/PGO0042.jpg",
-          "links": {}
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
+          }
         }
       ],
       "synchronisation": [],
@@ -1086,6 +1128,7 @@
       "subtitle": "See Details",
       "slug": "brand-content",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/6Yx6CNXRPwIzXkuVGn6d0I",
       "src": "/images/portfolio/albums/PGO0043.jpg",
       "height": "",
       "category": "albums",
@@ -1095,21 +1138,21 @@
       "compositeurs": [
         {
           "name": "DJ Hertz",
-          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "compoImg": "/images/portfolio/photosCompo/DJHertz.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/djhertz-music"
           }
         },
         {
           "name": "Nicolas Pisani",
-          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "compoImg": "/images/portfolio/photosCompo/NicolasPisani.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/cosmicdude"
           }
         },
         {
           "name": "Mr Viktor",
-          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "compoImg": "/images/portfolio/photosCompo/MrViktor.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UC4U1YdCBptWTIrrXWpck52w",
             "soundcloud": "https://soundcloud.com/mr-viktor"
@@ -1117,7 +1160,7 @@
         },
         {
           "name": "Rebecca Meyer",
-          "compoImg": "/images/portfolio/albums/PGO0043.jpg",
+          "compoImg": "/images/portfolio/photosCompo/RebeccaMeyer.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCRweKKqx5mtXOkRuFy8yXVg/about",
             "spotify": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
@@ -1150,6 +1193,7 @@
       "subtitle": "See Details",
       "slug": "dark-ambient-vol-2",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/1o1QfnyZeVxvtECm8DtTt9",
       "src": "/images/portfolio/albums/PGO0044.jpg",
       "height": "",
       "category": "albums",
@@ -1159,7 +1203,7 @@
       "compositeurs": [
         {
           "name": "Yann Kornowicz",
-          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
             "soundcloud": "https://soundcloud.com/chaosinchatelet"
@@ -1167,7 +1211,7 @@
         },
         {
           "name": "UGLY MAC BEER",
-          "compoImg": "/images/portfolio/albums/PGO0044.jpg",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
             "soundcloud": "https://soundcloud.com/uglymacbeer"
@@ -1200,6 +1244,7 @@
       "subtitle": "See Details",
       "slug": "pixel-fiction",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4ixa7zHoxgDUpG1LGsDvpk",
       "src": "/images/portfolio/albums/PGO0045.jpg",
       "height": "",
       "category": "albums",
@@ -1209,7 +1254,7 @@
       "compositeurs": [
         {
           "name": "2080",
-          "compoImg": "/images/portfolio/albums/PGO0045.jpg",
+          "compoImg": "/images/portfolio/photosCompo/2080.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@The2080",
             "soundcloud": "https://soundcloud.com/2080"
@@ -1242,6 +1287,7 @@
       "subtitle": "See Details",
       "slug": "dub-experience",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/0ntqHlliHt1EpZcMNQzALw",
       "src": "/images/portfolio/albums/PGO0046.jpg",
       "height": "",
       "category": "albums",
@@ -1251,9 +1297,10 @@
       "compositeurs": [
         {
           "name": "Nicodrums & Friends",
-          "compoImg": "/images/portfolio/albums/PGO0046.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Nicodrum.jpeg",
           "links": {
-            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug"
+            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug",
+            "spotify": "https://open.spotify.com/intl-fr/artist/55h2juci7J6sa1hSIBYf3W"
           }
         }
       ],
@@ -1283,6 +1330,7 @@
       "subtitle": "See Details",
       "slug": "odissey-suites-remix",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/3gJpCKor52lZzh1I4xT9vF",
       "src": "/images/portfolio/albums/PGO0049.jpg",
       "height": "",
       "category": "albums",
@@ -1292,7 +1340,7 @@
       "compositeurs": [
         {
           "name": "N’Zeng",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@nzeng5115",
             "soundcloud": "https://soundcloud.com/nzeng",
@@ -1301,14 +1349,14 @@
         },
         {
           "name": "Arandel",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Arandel.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/arandel"
           }
         },
         {
           "name": "Flore",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Flore.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@FloreMusic/releases",
             "soundcloud": "https://soundcloud.com/flore"
@@ -1316,7 +1364,7 @@
         },
         {
           "name": "Drixxxé",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
             "soundcloud": "https://soundcloud.com/drixxxe-2"
@@ -1324,7 +1372,7 @@
         },
         {
           "name": "Madben",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/madben.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UChTegJsrojWlBiUhpWY7IOQ",
             "soundcloud": "https://soundcloud.com/madben"
@@ -1339,7 +1387,7 @@
         },
         {
           "name": "NSDOS",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/NSDOS.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@NSDOS",
             "soundcloud": "https://soundcloud.com/nsdoslazerconnect"
@@ -1347,7 +1395,7 @@
         },
         {
           "name": "The Architect",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/TheArchitect.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw",
             "soundcloud": "https://soundcloud.com/fresh-and-dusty-loops"
@@ -1380,6 +1428,7 @@
       "subtitle": "See Details",
       "slug": "riviera-bizarre",
       "externalLink": "",
+      "linkSpotify": " https://open.spotify.com/intl-fr/album/49reqecJUCAnhQ8Guzfey1",
       "src": "/images/portfolio/albums/PGO0050.jpg",
       "height": "",
       "category": "albums",
@@ -1389,9 +1438,10 @@
       "compositeurs": [
         {
           "name": "Minimatic",
-          "compoImg": "/images/portfolio/albums/PGO0050.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Minimatic.jpeg",
           "links": {
-            "soundcloud": "https://soundcloud.com/minimatic"
+            "soundcloud": "https://soundcloud.com/minimatic",
+            "youtube": "https://www.youtube.com/@MinimaticMusic"
           }
         }
       ],
@@ -1421,6 +1471,7 @@
       "subtitle": "See Details",
       "slug": "lofi-hip-hop",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/4uqw30OZwb9IKTytSYE42N",
       "src": "/images/portfolio/albums/PGO0051.png",
       "height": "",
       "category": "albums",
@@ -2194,7 +2245,7 @@
       "title": "Captain Fall",
       "subtitle": "Bun up the vibe",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=KES5ncRZxBA&list=PLIqrBBZKnwyVwPEP4ghAVEGs8UiPlfgXQ&index=3",
       "src": "/images/portfolio/photosynchro/Captain-Fall-Cover.png",
       "height": "",
       "category": "synchros"
@@ -2232,7 +2283,7 @@
       "title": "Kleo",
       "subtitle": "See more",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=xxVgORUhQ3E&list=PLIqrBBZKnwyVwPEP4ghAVEGs8UiPlfgXQ&index=8",
       "src": "/images/portfolio/photosynchro/KLEO-paysage.jpg",
       "height": "",
       "category": "synchros"
@@ -2270,7 +2321,7 @@
       "title": "La Primera vez",
       "subtitle": "Cali groove / Señorita / María Botella",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=YbHMdF7Oum8&list=PLIqrBBZKnwyVwPEP4ghAVEGs8UiPlfgXQ&index=6",
       "src": "/images/portfolio/photosynchro/Primera-Vez.jpeg",
       "height": "",
       "category": "synchros"
@@ -2308,7 +2359,7 @@
       "title": "Tapie",
       "subtitle": "Moi je n'aimerais que toi",
       "slug": "",
-      "externalLink": "",
+      "externalLink": " https://www.youtube.com/watch?v=FgWtZznWyno&list=PLIqrBBZKnwyVwPEP4ghAVEGs8UiPlfgXQ&index=2",
       "src": "/images/portfolio/photosynchro/tapie-photo.png",
       "height": "",
       "category": "synchros"
@@ -2346,7 +2397,7 @@
       "title": "Emily in Paris",
       "subtitle": "Paris Rome",
       "slug": "",
-      "externalLink": "",
+      "externalLink": "https://www.youtube.com/watch?v=Lvq-nel3_HY&list=PLIqrBBZKnwyVwPEP4ghAVEGs8UiPlfgXQ&index=12",
       "src": "/images/portfolio/photosynchro/emily.jpeg",
       "height": "",
       "category": "synchros"
@@ -2366,17 +2417,21 @@
       "subtitle": "See more",
       "slug": "hand-funktion",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/1n2wbxbrK6LAutiNHLKesA",
       "src": "/images/portfolio/vinyles/HAND-FUNKTION.jpg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Le premier album complet d'Aeon Seven est enfin là. Après une carrière de producteur remontant à l'an 2000, ce maestro français a été une force créatrice dans tous les domaines de la production, du DJing et de l'animation. Il a d'abord attiré l'attention de la communauté funk/breaks du monde entier avec son exceptionnel 'Funky Furious ep' (2005), puis a produit une série d'incroyables mix tapes qui révèlent magnifiquement son habileté aux platines et en studio. Il a écrit quelques singles pour 45 Live Records et a produit des outils de DJ astucieux avec la série 'Thundercuts' en 7 et en 12.\n\nPendant tout ce temps, Aeon Seven a perfectionné son art à la fois musicalement et visuellement. Son amour de l'instrumental et sa passion évidente pour les bandes originales, le psyché et le jazz transparaissent dans toutes ses productions. Qu'il s'agisse des thèmes atmosphériques et merveilleusement inquiétants de ''The Hidden Hand'', du paysage sonore cosmique mené par la harpe du morceau d'ouverture ''Outer Space Illusion'' ou des vibrations blaxploitation uptempo et funky de ''Mankind Hunt'', Aeon Seven fait preuve d'une grande maturité et d'une exécution experte dans l'écriture des chansons. Je dois également mentionner l'attention qu'Aeon porte aux détails de l'aspect visuel de ses efforts créatifs, ce qui fait que ses sorties se démarquent vraiment.",
+      "releaseDate": "22/04/2022",
+      "genre": "Electro Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Aeon Seven",
+          "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/@aeonseven4130",
+            "soundcloud": "https://soundcloud.com/aeon-seven"
+          }
         }
       ],
       "synchronisation": [
@@ -2411,17 +2466,20 @@
       "subtitle": "See more",
       "slug": "egocentric-visuo-spatial-perspective",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/0O7bmhtk9WczLpeQAvxItj",
       "src": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Hexahedre est la rencontre musicale et plastique des deux artistes JB Hanak (dDamage) et Cyril Laurent (Lambwool). Leur collaboration s’est concentrée sur l’illustration de divers témoignages d’expériences extra corporelles : sentiment de mort imminente, voyage astral, prise de substances hallucinogènes, méditation...\n\nCette démarche se veut parfaitement subjective et reste une proposition de vision artistique sans but ni prétention scientifique. Elle est le fruit d’un échange de pièces sonores sur plusieurs années entre les deux musiciens. JB Hanak a principalement produit des lignes de guitares à l’archet électronique (ebow) et aux claviers analogiques à tendance noise. Cyril Laurent s’est focalisé sur toutes les parties de clavier ambient, l’orchestration des samples, les parties rythmiques et la production finale. Les illustrations visuelles sont réalisées par JB Hanak à travers treize peintures grand formats. À l’issue de cette sortie, le projet Hexahedre prendra vie en galeries d’art : au travers d’expositions de peintures de JB Hanak accompagnées de multiples variations musicales de l’album.\n\nIl s'agit d’un double vinyle 25cm tricolore comportant 8 titres. Ces deux disques, ainsi que leurs pochettes seront placés dans un coffret comportant 8 lithographies. Chacune des lithographies est une illustration d’un des titres de l’album. Le coffret est un objet limité à 300 exemplaires numérotés à la main, destinés uniquement à la vente sur internet et durant les expositions liées au projet. En plus des huit illustrations sous forme de lithographies, trois pochettes recto-verso sont présentes à l’intérieur du coffret : deux pour les disques et une pour contenir les lithographies. Ainsi, le projet comporte dans son ensemble 13 illustrations, toutes réalisées par Jean-Baptiste Hanak sur une période de deux ans. Les impressions furent réalisées en atelier de manière artisanale",
+      "releaseDate": "12/11/2023",
+      "genre": "Musique électronique",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Hexahèdre",
+          "compoImg": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
+          "links": {
+            "mowno": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/"
+          }
         }
       ],
       "synchronisation": [
@@ -2456,17 +2514,29 @@
       "subtitle": "See more",
       "slug": "mustang-force",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/3qyTqVQ0ZHq59ebqyBV4l2",
       "src": "/images/portfolio/vinyles/MUSTANG-FORCE.jpeg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Il y a vingt ans, on avait tout de suite aimé les accords jazz de sa trompette au sein de la formation hip-hop dub à soudures électro, Le Peuple de l'Herbe.\n\nMais la routine d'un groupe a fini par lasser l'aventureux Sébastien Blanchon (N'Zeng), qu'on a repéré par la suite chez les producteurs de techno Agoria ou Rone, ou bien, soufflant dans une veine plus énervée et funky, chez les Anglais Gorillaz ou les beatmakers stéphanois l'Entourloop. Du jazz et du funk, mais aussi de la bagarre, des poursuites en voiture, des promenades rêveuses et, bien sûr, une scène de sexe moite, on retrouve tout cela dans ce disque instrumental piloté par ses soins et s'inspirant avec gourmandise des BO des films policiers des années 1970.\n\nEntre le générique de la série Les Rues de San Francisco, les musiques de 'Inspecteur Harry ou de Shaft, on est en terrain connu, et même archi balisé. On aurait pu craindre le cliché, on est maintenu en haleine. Blanchon, qui joue aussi du Clavinet et du Fender Rhodes, s'est bien entouré avec Emmanuel Marée (batterie, basse, guitare...), qui cosigne les morceaux, de Dominique Mandin (saxophone ténor) et de Thomas Henning (trombone). Les musiciens déploient une telle précision, prennent tant d'amusement à composer avec toute la sellerie du genre qu'il est impossible de ne pas se laisser embarquer à bord de leur Ford Mustang, dont les chromes brillent de mille feux.\n\nLe disque qui fera plaisir à tous les diggers (excavateurs de sons) qui squattent les boutiques de vinyles à la recherche de raretés groove.",
+      "releaseDate": "29/05/2020",
+      "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Sébastien Blanchon",
+          "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/@nzeng5115",
+            "soundcloud": "https://soundcloud.com/nzeng",
+            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
+          }
+        },
+        {
+          "name": "Emmanuel Marée",
+          "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
+          }
         }
       ],
       "synchronisation": [
@@ -2501,17 +2571,25 @@
       "subtitle": "See more",
       "slug": "ny-parigos",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/track/2di0rTQGqBQN0RZtSh5Sba",
       "src": "/images/portfolio/vinyles/NY-PARIGO.jpg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "NY Parigo est une nouvelle collaboration entre le Chicagoien F.Stokes et le Parisien Ugly Mac Beer.\n\nGrâce à des images vivantes et à des jeux de mots habiles, F.Stokes réinterprète les traditions thématiques des mouvements soul et blues pour une nouvelle génération de fans de musique. Au-delà de son indéniable talent de parolier, F.Stokes est animé d'un profond sens des responsabilités qui lui permet de promouvoir le progrès et la compassion par le biais de sa musique. Se produisant aux États-Unis et dans le monde entier, F.Stokes a partagé la scène avec des artistes tels que Ghostface Killah, The Cool Kids, Fashawn, Camp Lo, P.O.S., Doomtree, Toki Wright, Nice and Smooth, Twista, ainsi qu'avec une multitude d'autres artistes nationaux et internationaux.\n\nF.Stokes a également occupé des postes dans le domaine du marketing et de la promotion chez G-Unit Records - où il a travaillé en étroite collaboration avec l'icône du rap 50 Cent sur l'image de marque et la promotion créative de l'album Before I Self Destruct - ainsi que chez Def Jam Records, où il a contribué au format marketing international du Black Album de Jay-Z.\n\nUne rencontre parfaite entre les textes de F.Stokes et la production d'Ugly Mac Beer. Les lyrics de F.Stokes font référence à Paris et New York City alors que le track de Mac Beer avec des scratchs se souvient d'un duo célèbre comme Gang Starr ou Eric B et Rakim.",
+      "releaseDate": "17/01/2020",
+      "genre": "Hip Hop / Rap",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
+          "links": {}
+        },
+        {
+          "name": "F.Stokes",
+          "compoImg": "/images/portfolio/photosCompo/FStokes.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/@TheRealFStokes"
+          }
         }
       ],
       "synchronisation": [
@@ -2546,17 +2624,33 @@
       "subtitle": "See more",
       "slug": "une-derniere-fois",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/7nfXtRFt6ZEQ4yCHr59kEf",
       "src": "/images/portfolio/vinyles/UNE-DERNIERE-FOIS.jpg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Bande originale du Film « Une dernière fois » d’Olympe de G avec Brigitte Lahaie composée par Jb Hanak (dDamage). Les musiques de films pornos des années 70 sont devenues la marotte des diggers et Brigitte Lahaie une icône absolue de ces années marquées par la libération sexuelle.\n\nEn 2020, la cinéaste féministe Olympe de G. se lance dans la réalisation d’un long métrage post-porn inclusif et éthique. Brigitte Lahaie, 64 ans, militante pour le droit à mourir dans la dignité, y joue le rôle principal, poussée par son désir profond de libérer les corps et les sexualités des femmes de son âge. Ce film est certainement l’un des plus beaux films pornérotiques de l’icône Brigitte Lahaie.\n\nLa bande originale du film est confiée à Jb Hanak. Figure de l’underground musical, cet hyperactif multiplie les projets depuis plus de 20 ans. Avec le groupe dDamage qu’il formait avec son frère Fred, il explorait les frontières du Hip Hop, de l’IDM et de l’électro. Avec Cobra, groupe de punk rock à prendre au 14ème degré il traversait les contrées de l’absurde. En cette fin d’années 2020, il va sortir un album avec l’acteur Pierre Richard. En parallèle il expose ses œuvres plastiques en galeries d’art… hyperactif on a dit. Pour cette BO, Jb Hanak s’est entouré de son petit frère Cédric Hanak et a convié la chanteuse Zoé Wolf pour la chanson du générique façon pop song au synthétiseur.\n\nLe reste de la bande originale est une suite de portraits croisés entre tous les personnages du film. Des instrumentaux souvent planants empreint d’émotion. Les synthétiseurs et les nappes de guitare électriques revisitent des mélodies qui évoquent les musiques de Philippe Sarde en les faisant basculer du côté de Tortoise ou de Klaus Schulze. La rêverie et l’émotion sont avant tout le fil conducteur de cette bande originale unique et si particulière. Un collector avant même d’être pressé.",
+      "releaseDate": "18/03/2021",
+      "genre": "Bande originale",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "JB Hanak",
+          "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
+          "links": {}
+        },
+        {
+          "name": "Cédric Hanak,",
+          "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
+          "links": {
+            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
+            "youtube": "https://www.youtube.com/@HanakCedric"
+          }
+        },
+        {
+          "name": "Zoe Wolf,",
+          "compoImg": "/images/portfolio/photosCompo/ZoeWolf.jpg",
+          "links": {
+            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
+          }
         }
       ],
       "synchronisation": [
@@ -2591,17 +2685,18 @@
       "subtitle": "See more",
       "slug": "velodrome",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/23kSxhym1LiiAjkkgnOuDx",
       "src": "/images/portfolio/vinyles/VELODROME.jpeg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "Depuis le début des années 2000, Thomas PAPAY (aka Le Diktat) a sorti plusieurs disques remarquables sur les labels Audiotrauma, Syrphe et OPN. Inspiré par des artistes tels que Scorn, Techno Animal et Dalëk, sa musique a été décrite comme un type de musique industrielle urbaine forte et sans compromis. Avec son nouveau projet Modulhater, Thomas retourne à ses racines techno : il abandonne totalement les ordinateurs pour ne travailler qu'avec des machines hardware, en particulier des synthés analogiques et vintage. Influencée par l'EBM et l'acid music, la techno froide et hypnotique de Modulhater situe le projet dans la même veine que Dopplereffekt, Arnaud Rebotini, Thomas P. Heckmann ou Silent servant. Pour commencer il y a un son. Un son qui nous pénètre, qui affole tous nos sens.\n\nPuis ensuite, il y a cette énergie, comme un noyau en fusion qui irradierait de ses BPM tout ce qui l'entoure, une sorte de bande-son revisitée de ''WipeOut'', le jeu vidéo culte sorti en 1995 au design réalisé par The Designers Republic de Warp, sur laquelle apparaissaient des titres incroyables de The Prodigy, Chemical Brothers ou Orbital. Ensuite, alors que ''Velodrome'' a démarré depuis moins de trois minutes, ces références se brouillent déjà, et c'est un tout autre univers qui se révèle, ouvrant de nouvelles voies avec des sonorités qui, dans un premier temps, se greffent discrètement, puis prennent rapidement tout l'espace. On pense à DAF, à Nitzer Ebb… Très vite l'impression se confirme, l'EBM est sans nul doute en très bonne place parmi les références de Modulhater. Tout devient plus agressif, mais une agressivité qui reste malgré tout très ronde, subtile, qui exhausse le rythme effréné qui fait le socle de l'EP. Un rythme et une énergie presque cinématiques qui renvoient à Speed Tribe, le projet de Daniel Bressanuti et Patrick Codenys de Front 242 sorti en 2003, bande-son imaginaire des 24 Heures du Mans.\n\nOn sort de l'écoute de ces 30 minutes haletantes, les yeux brillants et les oreilles encore vibrantes d'avoir croisé ces mille ombres. Et surtout, on est impressionné de la digestion électronique qu'a été capable d'en faire Modulhater. Alors, on n'a plus qu'une seule envie, y replonger le plus vite possible.",
+      "releaseDate": "08/04/2019",
+      "genre": "Techno / Acid",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Modulhater",
+          "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
+          "links": {}
         }
       ],
       "synchronisation": [
@@ -2636,17 +2731,28 @@
       "subtitle": "See more",
       "slug": "videoclub",
       "externalLink": "",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/1oemtAHd4fX6Du4RJiBlUN",
       "src": "/images/portfolio/vinyles/VIDEOCLUB.jpg",
       "height": "",
       "category": "vinyles",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "releaseDate": "2021-01-01",
-      "genre": "Documentaire",
+      "description": "En mode action sur un magnifique disque vinyle au format simple LP. Le label Parigo Music, Beatsqueeze Records et Bigwax Distribution sont fiers de présenter VIDEOCLUB composé par Yann Kornowicz et Dan Amozig.\n\nGraphiste d'origine pour la presse et la pub, Yann Kornowicz a composé « Chaos in Châtelet », une B.O d'un film futuriste et imaginaire sous forme d'hommage au cinéma de genre des années 1980-90, disponible depuis mars 2016 :  un vrai chef d’œuvre de synthés analogiques et nappes rétrofuturistes, fraîchement habillé d'un court métrage d'animation. Il explose grâce à ce projet hybride à la croisée entre l’animation et le film. Ce compositeur vient d'une famille de musiciens, il fait du violon en conservatoire très tôt mais préfère les cassettes VHS de Batman, Piège de Cristal, Maman j'ai raté l'avion, et s'amuse à copier à l’oreille les sonorités des musiques des films sur le piano de sa grand-mère. Pendant de nombreuses années il se passionne pour le rap et travaille exclusivement ce genre. Il sort sous pseudo des projets discrets, tantôt rap français, tantôt rap anglophone. Même s’il s'aventure ailleurs dorénavant, cela reste un genre musical qui fait partie de son univers et son travail : Il participe la création du dernier album du rappeur Lautrec, avec Guts à la production.\n\nIl s’inspire d’un univers très contemplatif, du compositeur John Adams au duo Boards of Canada, de Wu-Tang à MF Doom. Pour « Chaos in Châtelet » son influence majeure a bien sûr été Carpenter, mais aussi, même si c'est plus caché, le travail de Michael Kamen sur Highlander. Pendant longtemps il se laisse porter par les expérimentations avec les machines. Il devient le spécialiste des bandes originales de film qui n'existe pas : il imagine l'histoire, prépare un storyboard à suivre pour composer les morceaux, et glisse beaucoup de Easter Eggs dans la musique. Il y a des clins d'œil à pas mal de musiques d'enfance des gens de sa génération, notamment une mélodie inspirée d'un passage de ''La fureur du Dragon''. Au-delà du plaisir du pastiche, il met des émotions sincères dans ses compositions, idéales pour la musique à l’image.\n\nAmoureux des golden samples et de leurs originaux funk, jazz et soul, Daniel Amozig est toujours prêt à dégainer son instrument sur scène ou en studio, d'où son surnom de ''sampler à cordes''. A la croisée des chemins entre hiphop et jazz, ce compositeur joue dans différentes formations (Abara Quintet, le Double Jack, Mantras Crew, Collectif Laché Chivé...). Les voyages forment la jeunesse. Après les aventures musico-spatio-temporelles du 1er album intitulé « Retour vers le futur », son groupe Mantras se prépare à entrer dans l’actualité du Hip Hop/Jazz avec un nouvel opus savamment produit. Daniel Amozig a rejoint Kung Lao Lao et Nébié en ajoutant le groove d’une vraie basse et les envolées lyriques de sa guitare, soulignant l’orientation jazz dès la phase de composition.\n\nVIDEOCLUB est un disque vinyle aux allures d'album concept composé de 17 compositions originales qui vous rappelleront les souvenirs fantasmés de vos sessions VHS en compagnie de Charles Bronson, Roger Moore, Pam Grier... Déserts poussiéreux, casinos de la Riviera, jungles sauvages hantées par des sectes lugubres, base ennemie au sommet de sommets enneigés...Plongez dans la quête épique de la VHS d'OR, un artefact puissant qui vous ouvrira les portes de la fiction.",
+      "releaseDate": "19/02/2021",
+      "genre": "Bande originale",
       "compositeurs": [
         {
-          "name": "Jean-Michel Bernard",
-          "compoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
+          "name": "Dan Amozig",
+          "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
+          "links": {
+            "facebook": "https://www.facebook.com/daniel.amozig"
+          }
+        },
+        {
+          "name": "Yann Kornowicz",
+          "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
+            "soundcloud": "https://soundcloud.com/chaosinchatelet"
+          }
         }
       ],
       "synchronisation": [
@@ -4282,6 +4388,25 @@
       "src": "/images/portfolio/clips/videoclub.png",
       "height": "200",
       "category": "clips"
+    },
+    {
+      "id": 168,
+      "w320": 180,
+      "w575": 200,
+      "w768": 140,
+      "w991": 200,
+      "w1080": 260,
+      "w1199": 260,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Comment te dire adieu",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
+      "src": "/images/portfolio/documentaires/comment-te-dire-adieu.jpeg",
+      "height": "",
+      "category": "documentaires"
     }
   ]
 }

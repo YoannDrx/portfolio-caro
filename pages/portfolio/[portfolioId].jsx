@@ -10,6 +10,7 @@ import Spacing from "../../components/Spacing";
 import frData from "../../lang/fr.json";
 import enData from "../../lang/en.json";
 import ComposerCard from "../../components/ComposerCard";
+import Link from "next/link";
 
 export async function getStaticProps({ params, locale }) {
   const data = locale === "fr" ? frData : enData;
@@ -54,12 +55,15 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
           <Div className="row">
             {/* Colonne pour l'image */}
             <Div className="col-lg-6">
-              <img src={album.src} alt="Details" className="cs-radius_15 w-100" />
+              <img src={album.linkSpotify} alt="Details" className="cs-radius_15 w-100" />
             </Div>
 
             {/* Colonne pour le contenu */}
             <Div className="col-lg-6">
               <SectionHeading title={album.title} subtitle="Creative" />
+              <Link href={album.linkSpotify} target="_blank" rel="noopener noreferrer">
+                <p>Écouter l'album</p>
+              </Link>
               <Spacing lg="40" md="20" />
               <p>
                 {album.description.split("\n").map((line, index) => (
