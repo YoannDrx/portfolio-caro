@@ -55,7 +55,7 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
           <Div className="row">
             {/* Colonne pour l'image */}
             <Div className="col-lg-6">
-              <img src={album.linkSpotify} alt="Details" className="cs-radius_15 w-100" />
+              <img src={album.src} alt="Details" className="cs-radius_15 w-100" />
             </Div>
 
             {/* Colonne pour le contenu */}
