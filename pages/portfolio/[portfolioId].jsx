@@ -41,6 +41,13 @@ export async function getStaticPaths() {
 }
 
 export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
+  const columnsCount = album.compositeurs.length > 6 ? 4 : 3;
+  const composersPerColumn = Math.ceil(album.compositeurs.length / columnsCount);
+
+  // Diviser les compositeurs en groupes pour chaque colonne
+  const composerColumns = Array.from({ length: columnsCount }, (_, index) => {
+    return album.compositeurs.slice(index * composersPerColumn, (index + 1) * composersPerColumn);
+  });
   return (
     <>
       <Head>
@@ -54,12 +61,12 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
         <Div className="container">
           <Div className="row">
             {/* Colonne pour l'image */}
-            <Div className="col-lg-6">
+            <Div className="col-lg-4">
               <img src={album.src} alt="Details" className="cs-radius_15 w-100" />
             </Div>
 
             {/* Colonne pour le contenu */}
-            <Div className="col-lg-6">
+            <Div className="col-lg-8">
               <SectionHeading title={album.title} subtitle="Creative" />
               <Link href={album.linkSpotify} target="_blank" rel="noopener noreferrer">
                 <p>Écouter l'album</p>

@@ -134,28 +134,28 @@
         },
         {
           "name": "Liqid",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/Liqid"
           }
         },
         {
           "name": "Bonetrips",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Bonetrips.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/Bonetrips"
           }
         },
         {
           "name": "Arom",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
           }
         },
         {
           "name": "Chicho Cortez",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/chicho-cortez"
           }
@@ -325,7 +325,7 @@
         },
         {
           "name": "Bonetrips",
-          "compoImg": "/images/portfolio/albums/PGO0027.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Bonetrips.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/Bonetrips"
           }
@@ -648,7 +648,7 @@
       "compositeurs": [
         {
           "name": "Marie-Sophie Mallet",
-          "compoImg": "/images/portfolio/photosCompo/Marie Sophie Mallet.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Marie-Sophie-Mallet.jpg",
           "links": {
             "spotify": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
           }
@@ -748,14 +748,14 @@
       "compositeurs": [
         {
           "name": "Arom",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
           }
         },
         {
           "name": "Liqid",
-          "compoImg": "/images/portfolio/albums/PGO0035.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/Liqid"
           }
@@ -1380,7 +1380,7 @@
         },
         {
           "name": "Arom",
-          "compoImg": "/images/portfolio/albums/PGO0049.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
           }
@@ -1481,21 +1481,21 @@
       "compositeurs": [
         {
           "name": "Tcheep",
-          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "compoImg": "/images/portfolio/photosCompo/Tcheep.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/tcheep"
           }
         },
         {
           "name": "Bonetrips",
-          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "compoImg": "/images/portfolio/photosCompo/Bonetrips.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/Bonetrips"
           }
         },
         {
           "name": "Chicho Cortez",
-          "compoImg": "/images/portfolio/albums/PGO0051.png",
+          "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
           "links": {
             "soundcloud": "https://soundcloud.com/chicho-cortez"
           }
@@ -2582,7 +2582,10 @@
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {}
+          "links": {
+            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
+            "soundcloud": "https://soundcloud.com/uglymacbeer"
+          }
         },
         {
           "name": "F.Stokes",
@@ -2696,7 +2699,9 @@
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {}
+          "links": {
+            "soundcloud": "https://soundcloud.com/lediktat"
+          }
         }
       ],
       "synchronisation": [
