@@ -56,8 +56,12 @@ export default function PortfolioGallery({ portfolioData }) {
   };
 
   const openVideoModal = (videoUrl) => {
-    setActiveVideoUrl(videoUrl);
-    setVideoModalOpen(true);
+    setActiveVideoUrl("");
+
+    setTimeout(() => {
+      setActiveVideoUrl(videoUrl);
+      setVideoModalOpen(true);
+    }, 0);
   };
 
   const closeVideoModal = () => {
