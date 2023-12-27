@@ -11,6 +11,7 @@ import frData from "../../lang/fr.json";
 import enData from "../../lang/en.json";
 import ComposerCard from "../../components/ComposerCard";
 import Link from "next/link";
+import { FaSpotify } from "react-icons/fa";
 
 export async function getStaticProps({ params, locale }) {
   const data = locale === "fr" ? frData : enData;
@@ -69,7 +70,9 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
             <Div className="col-lg-8">
               <SectionHeading title={album.title} subtitle="Creative" />
               <Link href={album.linkSpotify} target="_blank" rel="noopener noreferrer">
-                <p>Écouter l'album</p>
+                <span className="linkSpotify">
+                  <FaSpotify size={20} /> Écouter l'album
+                </span>
               </Link>
               <Spacing lg="40" md="20" />
               <p>
