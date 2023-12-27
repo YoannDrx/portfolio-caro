@@ -25,6 +25,8 @@ export default function VideoModal({ videoSrc }) {
   const handelClose = () => {
     setIframeSrc("about:blank");
     setToggle(false);
+    setIframeSrc("about:blank");
+    setToggle(false);
   };
 
   return (

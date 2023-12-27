@@ -112,23 +112,33 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
                 </Div>
               </Div>
             </Div>
+            <Spacing lg="65" md="10" />
+            <Div className="cs-page_navigation cs-center">
+              {prevAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
+                </Div>
+              )}
+              {nextAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
+                </Div>
+              )}
+              {prevAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
+                </Div>
+              )}
+              {nextAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
+                </Div>
+              )}
+            </Div>
           </Div>
-          <Spacing lg="65" md="10" />
-          <Div className="cs-page_navigation cs-center">
-            {prevAlbum && (
-              <Div>
-                <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
-              </Div>
-            )}
-            {nextAlbum && (
-              <Div>
-                <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
-              </Div>
-            )}
-          </Div>
+          <Spacing lg="145" md="80" />
+          <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
         </Div>
-        <Spacing lg="145" md="80" />
-        <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
       </Layout>
     </>
   );
