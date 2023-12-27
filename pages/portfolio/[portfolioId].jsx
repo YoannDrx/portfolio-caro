@@ -11,6 +11,8 @@ import frData from "../../lang/fr.json";
 import enData from "../../lang/en.json";
 import ComposerCard from "../../components/ComposerCard";
 import Link from "next/link";
+import { FaSpotify } from "react-icons/fa";
+import { getSpotifyAlbumId } from "../../lib/portfolioUtils";
 
 export async function getStaticProps({ params, locale }) {
   const data = locale === "fr" ? frData : enData;
@@ -41,13 +43,10 @@ export async function getStaticPaths() {
 }
 
 export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
-  const columnsCount = album.compositeurs.length > 6 ? 4 : 3;
-  const composersPerColumn = Math.ceil(album.compositeurs.length / columnsCount);
+  const spotifyAlbumId = getSpotifyAlbumId(album.linkSpotify);
 
-  // Diviser les compositeurs en groupes pour chaque colonne
-  const composerColumns = Array.from({ length: columnsCount }, (_, index) => {
-    return album.compositeurs.slice(index * composersPerColumn, (index + 1) * composersPerColumn);
-  });
+  // Construit l'URL d'intégration Spotify
+  const spotifyEmbedUrl = `https://open.spotify.com/embed/album/${spotifyAlbumId}?utm_source=generator&theme=0`;
   return (
     <>
       <Head>
@@ -63,14 +62,20 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
             {/* Colonne pour l'image */}
             <Div className="col-lg-4">
               <img src={album.src} alt="Details" className="cs-radius_15 w-100" />
+              <Div className={"mt-4"}>
+                <iframe
+                  src={spotifyEmbedUrl}
+                  width="100%"
+                  height="650"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"></iframe>
+              </Div>
             </Div>
 
             {/* Colonne pour le contenu */}
             <Div className="col-lg-8">
               <SectionHeading title={album.title} subtitle="Creative" />
-              <Link href={album.linkSpotify} target="_blank" rel="noopener noreferrer">
-                <p>Écouter l'album</p>
-              </Link>
               <Spacing lg="40" md="20" />
               <p>
                 {album.description.split("\n").map((line, index) => (
@@ -107,23 +112,33 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
                 </Div>
               </Div>
             </Div>
+            <Spacing lg="65" md="10" />
+            <Div className="cs-page_navigation cs-center">
+              {prevAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
+                </Div>
+              )}
+              {nextAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
+                </Div>
+              )}
+              {prevAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
+                </Div>
+              )}
+              {nextAlbum && (
+                <Div>
+                  <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
+                </Div>
+              )}
+            </Div>
           </Div>
-          <Spacing lg="65" md="10" />
-          <Div className="cs-page_navigation cs-center">
-            {prevAlbum && (
-              <Div>
-                <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
-              </Div>
-            )}
-            {nextAlbum && (
-              <Div>
-                <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
-              </Div>
-            )}
-          </Div>
+          <Spacing lg="145" md="80" />
+          <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
         </Div>
-        <Spacing lg="145" md="80" />
-        <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
       </Layout>
     </>
   );

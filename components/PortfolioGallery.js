@@ -56,8 +56,12 @@ export default function PortfolioGallery({ portfolioData }) {
   };
 
   const openVideoModal = (videoUrl) => {
-    setActiveVideoUrl(videoUrl);
-    setVideoModalOpen(true);
+    setActiveVideoUrl("");
+
+    setTimeout(() => {
+      setActiveVideoUrl(videoUrl);
+      setVideoModalOpen(true);
+    }, 0);
   };
 
   const closeVideoModal = () => {
@@ -111,7 +115,6 @@ export default function PortfolioGallery({ portfolioData }) {
                   <li className={active === item.category ? "active" : ""} key={index}>
                     <span
                       onClick={() => {
-                        console.log("Clicked category:", item.category);
                         setActive(item.category);
                       }}>
                       {item.title}

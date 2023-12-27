@@ -1,44 +1,36 @@
 import { useEffect, useState } from "react";
 import Div from "../Div";
 
-export default function VideoModal({ videoSrc, bgUrl, variant }) {
+export default function VideoModal({ videoSrc }) {
   const [iframeSrc, setIframeSrc] = useState("about:blank");
+  const [isYouTubeVideo, setIsYouTubeVideo] = useState(false);
   const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     if (videoSrc) {
-      const videoId = videoSrc.split("?v=")[1].trim();
-      setIframeSrc(`https://www.youtube.com/embed/${videoId}?autoplay=1`);
-    }
-  }, [videoSrc]);
-
-  useEffect(() => {
-    if (videoSrc) {
+      if (videoSrc.includes("youtube.com") || videoSrc.includes("youtu.be")) {
+        // C'est une vidéo YouTube
+        const videoId = videoSrc.split("?v=")[1].trim();
+        setIframeSrc(`https://www.youtube.com/embed/${videoId}?autoplay=1`);
+        setIsYouTubeVideo(true);
+      } else {
+        // C'est une vidéo interne
+        setIframeSrc(videoSrc);
+        setIsYouTubeVideo(false);
+      }
       setToggle(true);
     }
   }, [videoSrc]);
 
-  const handelClick = () => {
-    const video = videoSrc.split("?v=")[1].trim();
-    setIframeSrc(`https://www.youtube.com/embed/${video}`);
-    setToggle(!toggle);
-  };
-
   const handelClose = () => {
+    setIframeSrc("about:blank");
+    setToggle(false);
     setIframeSrc("about:blank");
     setToggle(false);
   };
 
   return (
     <>
-      <Div
-        className={`cs-video_block ${variant ? variant : "cs-style1"} cs-video_open cs-bg`}
-        style={{ backgroundImage: `url(${bgUrl})` }}
-        onClick={handelClick}>
-        <span className="cs-player_btn cs-accent_color">
-          <span />
-        </span>
-      </Div>
       <Div className={toggle ? "cs-video_popup active" : "cs-video_popup"}>
         <Div className="cs-video_popup_overlay" />
         <Div className="cs-video_popup_content">
@@ -46,7 +38,13 @@ export default function VideoModal({ videoSrc, bgUrl, variant }) {
           <Div className="cs-video_popup_container">
             <Div className="cs-video_popup_align">
               <Div className="embed-responsive embed-responsive-16by9">
-                <iframe className="embed-responsive-item" src={iframeSrc} title="video modal" />
+                {isYouTubeVideo ? (
+                  // Affichage pour une vidéo YouTube
+                  <iframe className="embed-responsive-item" src={iframeSrc} title="video modal" />
+                ) : (
+                  // Affichage pour une vidéo interne
+                  <video className="embed-responsive-item" src={iframeSrc} title="video modal" controls autoPlay />
+                )}
               </Div>
             </Div>
             <Div className="cs-video_popup_close" onClick={handelClose} />
