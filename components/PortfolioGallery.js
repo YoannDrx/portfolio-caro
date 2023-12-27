@@ -115,7 +115,6 @@ export default function PortfolioGallery({ portfolioData }) {
                   <li className={active === item.category ? "active" : ""} key={index}>
                     <span
                       onClick={() => {
-                        console.log("Clicked category:", item.category);
                         setActive(item.category);
                       }}>
                       {item.title}
