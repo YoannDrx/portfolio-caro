@@ -90,13 +90,8 @@ export default function Header({ variant }) {
                         {t("header.navbar.blog")}
                       </Link>
                     </li>
-                    <li className={isActive("/faq") ? "active" : ""}>
-                      <Link href="/faq" onClick={() => handleLinkClick("/faq")}>
-                        {t("header.navbar.faq")}
-                      </Link>
-                    </li>
                     <li className="menu-item-has-children">
-                      <Link href="/blog" onClick={() => setMobileToggle(false)}>
+                      <Link href="" onClick={() => setMobileToggle(false)}>
                         {currentLanguage === "fr" && (
                           <img src="/images/flags/fr-flag.png" alt="Drapeau Français" width={30} className="flag-img" />
                         )}

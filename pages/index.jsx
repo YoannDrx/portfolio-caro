@@ -17,6 +17,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import fr from "../lang/fr.json";
+import Accordion from "../components/Accordion";
 
 export async function getStaticProps() {
   const expertiseDirectory = path.join(process.cwd(), "content", "expertises", "fr");
@@ -193,61 +194,6 @@ export default function Home({ expertises }) {
           </Div>
         </Div>
         {/* End Projects Section */}
-        {/* Start Portfolio Section */}
-        {/* <Spacing lg="150" md="80" />
-				<SectionHeading title="Mes Expertises" subtitle="Services" variant="cs-style1 text-center mb-5" />
-				{portfolioData.map((item, index) =>
-					index % 2 === 0 ? (
-						<Div key={index}>
-							<Portfolio2
-								title={item.title}
-								subtitle={item.subtitle}
-								btnText={item.btnText}
-								btnLink={item.btnLink}
-								imageUrl={item.imageUrl}
-								category={item.category}
-							/>
-							<Spacing lg="100" md="70" />
-						</Div>
-					) : (
-						<Div key={index}>
-							<Portfolio3
-								title={item.title}
-								subtitle={item.subtitle}
-								btnText={item.btnText}
-								btnLink={item.btnLink}
-								imageUrl={item.imageUrl}
-								category={item.category}
-							/>
-							<Spacing lg="100" md="70" />
-						</Div>
-					)
-				)} */}
-        {/* End Portfolio Section */}
-
-        {/* Start Case Study Section */}
-        {/* <Spacing lg="45" md="10" />
-				<Div className="container">
-					<SectionHeading
-						title="Obtention de Subventions"
-						subtitle="Financement"
-						variant="cs-style1 text-center"
-					/>
-					<Spacing lg="90" md="45" />
-				</Div>
-				<CaseStudy
-					title="Étude de cas de <br /> subvention réussies"
-					bgUrl="/images/case_study_2.jpeg"
-					href="/case-study-details"
-					variant="cs-style2"
-				/>
-				<CaseStudy
-					title="Conseils <br /> et astuces"
-					bgUrl="/images/case_study_1.jpeg"
-					href="/case-study-details"
-				/>
-				<Spacing lg="150" md="80" /> */}
-        {/* End Case Study Section */}
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
@@ -255,7 +201,6 @@ export default function Home({ expertises }) {
           <MovingText text="Le track de la semaine : Téléraptor -- " />
         </div>
         <Spacing lg="105" md="70" />
-
         {/* End MovingText Section */}
 
         {/* Début de la section Équipe */}
@@ -267,14 +212,15 @@ export default function Home({ expertises }) {
           <Spacing lg="85" md="45" />
         </Div>
         {/* Fin de la section Équipe */}
-        {/* Start LogoList Section */}
-        <Div className="container">
-          <Spacing lg="85" md="45" />
 
-          <LogoList />
+        {/* Début Faq */}
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+          <Accordion />
         </Div>
-        <Spacing lg="85" md="45" />
-        {/* End LogoList Section */}
+        <Spacing lg="145" md="80" />
+        {/* Fin Faq */}
+
         {/* Start CTA Section */}
         <Div className="container">
           <Cta

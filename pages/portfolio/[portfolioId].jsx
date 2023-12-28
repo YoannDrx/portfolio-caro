@@ -124,16 +124,6 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
                   <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
                 </Div>
               )}
-              {prevAlbum && (
-                <Div>
-                  <Button btnLink={`/portfolio/${prevAlbum.slug}`} btnText="Prev Project" variant="cs-type1" />
-                </Div>
-              )}
-              {nextAlbum && (
-                <Div>
-                  <Button btnLink={`/portfolio/${nextAlbum.slug}`} btnText="Next Project" />
-                </Div>
-              )}
             </Div>
           </Div>
           <Spacing lg="145" md="80" />
