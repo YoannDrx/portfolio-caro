@@ -1682,7 +1682,7 @@ label {
 
 // MARKDONW
 .text-primary {
-  color: #ff4b17;
+  color: $accent;
 }
 
 .text-secondary {
@@ -1690,7 +1690,7 @@ label {
 }
 
 .link {
-  color: #ff4b17;
+  color: $accent;
   text-decoration: none;
   transition: color 0.3s ease;
 }

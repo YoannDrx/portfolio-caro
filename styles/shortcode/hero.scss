@@ -85,7 +85,7 @@
     font-size: 14px;
     line-height: 1.9em;
 
-    background-color: #ff4b17;
+    background-color: $accent;
     color: white;
     border-radius: 20px;
     padding: 0px 8px;
@@ -94,7 +94,7 @@
   }
 
   .subtitle {
-    background-color: #ff4b17;
+    background-color: $accent;
     color: white;
     font-size: 14px;
     border-radius: 20px;
