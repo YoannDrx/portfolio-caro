@@ -64,7 +64,7 @@ documentaires:
       srcLg: "/images/gestion-admin/little-big-story/taiwan.jpeg",
       link: "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
       category: "little-big-story",
-      height: "",
+      height: "150",
     }
   - {
       title: "Marcus Klingberg un pur espion",
@@ -155,7 +155,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/le-proces-dauschwitz.jpeg",
       link: "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
       category: "13-prods",
-      height: "150",
+      height: "180",
     }
   - {
       title: "Les ouvrières du Made in France",
@@ -325,7 +325,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/a-vous-de-juger.jpeg",
       link: "https://www.13prods.fr/a-vous-de-juger/",
       category: "13-prods",
-      height: "150",
+      height: "180",
     }
   - {
       title: "Le troisième Reich n'aura pas la bombe",
@@ -485,7 +485,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/deconnectes.jpeg",
       link: "https://www.13prods.fr/deconnectes-les-oublies-du-numerique/",
       category: "13-prods",
-      height: "400",
+      height: "300",
     }
   - {
       title: "Diam a Jul Marseille capitale rap",
@@ -525,7 +525,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/chanter-a-tout-prix.jpeg",
       link: "https://www.13prods.fr/chanter-a-tout-prix/",
       category: "13-prods",
-      height: "350",
+      height: "250",
     }
   - {
       title: "Concordat et laïcité, l'exception",
@@ -625,7 +625,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/cahier-d-un-retour.png",
       link: "https://www.13prods.fr/cahier-dun-retour-en-langue-natale/",
       category: "13-prods",
-      height: "",
+      height: "400",
     }
   - {
       title: "Le ministère",
