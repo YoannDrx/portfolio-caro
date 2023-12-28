@@ -52,7 +52,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Me Contacter" bgSrc="/images/contact_hero_bg.jpeg" pageLinkText="Contact" />
+        {/* <PageHeading title="Me Contacter" bgSrc="/images/contact_hero_bg.jpeg" pageLinkText="Contact" /> */}
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Div className="row">

@@ -37,12 +37,12 @@ export default function About() {
       </Head>
       <Layout>
         {/* Début de la section d'en-tête */}
-        <PageHeading
+        {/* <PageHeading
           title="À Propos de Moi"
           // bgSrc="images/about_hero_bg.jpeg"
           bgSrc="/images/team_hero_bg.jpeg"
           pageLinkText="À Propos"
-        />
+        /> */}
         {/* Fin de la section d'en-tête */}
 
         {/* Début de la section À propos */}

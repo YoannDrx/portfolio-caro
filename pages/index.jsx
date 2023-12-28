@@ -197,8 +197,8 @@ export default function Home({ expertises }) {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <div onClick={() => setShowModal(true)}>
-          <MovingText text="Le track de la semaine : Téléraptor -- " />
+        <div>
+          <MovingText text="Track Parigos de la semaine -" />
         </div>
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}

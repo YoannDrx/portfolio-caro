@@ -135,7 +135,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Mes expertises" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={expertiseId} />
+        {/* <PageHeading title="Mes expertises" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={expertiseId} /> */}
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" intro={intro} />

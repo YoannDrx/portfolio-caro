@@ -155,7 +155,7 @@ documentaires:
       srcLg: "/images/gestion-admin/13-prods/le-proces-dauschwitz.jpeg",
       link: "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
       category: "13-prods",
-      height: "180",
+      height: "170",
     }
   - {
       title: "Les ouvrières du Made in France",
@@ -867,7 +867,7 @@ documentaires:
       srcLg: "/images/gestion-admin/pop-films/georges-perec.jpeg",
       link: "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/",
       category: "pop-films",
-      height: "150",
+      height: "180",
     }
   - {
       title: "Si loin de la Polynésie",

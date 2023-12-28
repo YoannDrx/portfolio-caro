@@ -42,7 +42,7 @@ export default function BlogDetails({ postData, allPostsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Article Details" bgSrc="/images/blog_details_hero_bg.jpeg" pageLinkText={blogId} />
+        {/* <PageHeading title="Article Details" bgSrc="/images/blog_details_hero_bg.jpeg" pageLinkText={blogId} /> */}
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Div className="row">

@@ -55,7 +55,7 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <PageHeading title="Portfolio Details" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={album.title} />
+        {/* <PageHeading title="Portfolio Details" bgSrc="/images/service_hero_bg.jpeg" pageLinkText={album.title} /> */}
         <Spacing lg="150" md="80" />
         <Div className="container">
           <Div className="row">
