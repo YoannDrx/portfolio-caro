@@ -16,7 +16,7 @@ imgFooter: "/images/droit-voisin/photohome2.JPG"
 
 <!-- section:start -->
 
-### **Gérer les droits d’artiste-interprète :**
+### **Gérer les droits d’artiste-interprète**
 
 Un artiste-interprète est défini comme la personne qui chante, récite, joue ou exécute de toute autre manière une œuvre littéraire ou artistique : cela englobe les chanteurs, choristes, musiciens, danseurs, comédiens, acrobates ainsi que les artistes de cirque ou de marionnettes.
 
@@ -31,7 +31,7 @@ Le changement est venu avec la loi n°85-660 du 3 juillet 1985, plus communémen
 En vertu de cette loi, l'artiste a le droit d'autoriser (ou d'interdire) l'enregistrement, la reproduction, la diffusion au public et toutes utilisations secondaires de sa performance.
 Par conséquent, un producteur souhaitant exploiter ou diffuser une prestation d'un artiste-interprète doit obtenir l'autorisation écrite de ce dernier. Sans cette permission, le producteur n'est pas en droit d'utiliser la prestation.
 
-_Il existe cependant certaines exceptions où l'autorisation de l'artiste n'est pas requise :_
+###### **Il existe cependant certaines exceptions où l'autorisation de l'artiste n'est pas requise :**
 
 - la diffusion de sa musique à la radio
 - un bar ou lieu public qui diffuse sa musique (inclusion d’un titre dans une playlist)
@@ -41,14 +41,14 @@ En contrepartie de ce "droit perdu", il a été décidé de compenser l'artiste-
 
 ###### **La rémunération équitable :**
 
-En 1985, une solution a été conçue pour permettre aux utilisateurs de musique (y compris ceux de la radio, de la télévision, des établissements de soirée, des bars, des supermarchés, des restaurants, en fait, tous les lieux publics qui diffusent de la musique) de pouvoir diffuser des enregistrements qui ont été commercialisés sans obligation de solliciter préalablement l'autorisation des artistes ou des producteurs. Cette solution, nommée "Rémunération équitable", implique le versement d'une redevance par ces utilisateurs. La tâche de collecter cette Rémunération équitable auprès des lieux de diffusion et des stations de radio/télévision a été confiée à une organisation appelée la SPRÉ. (lien vers le site)
+En 1985, une solution a été conçue pour permettre aux utilisateurs de musique (y compris ceux de la radio, de la télévision, des établissements de soirée, des bars, des supermarchés, des restaurants, en fait, tous les lieux publics qui diffusent de la musique) de pouvoir diffuser des enregistrements qui ont été commercialisés sans obligation de solliciter préalablement l'autorisation des artistes ou des producteurs. Cette solution, nommée "Rémunération équitable", implique le versement d'une redevance par ces utilisateurs. La tâche de collecter cette Rémunération équitable auprès des lieux de diffusion et des stations de radio/télévision a été confiée à une organisation appelée la [SPRÉ.](https://www.spre.fr/)
 
-> La Rémunération équitable est ensuite redistribuée de façon équitable entre les producteurs phonographiques et les artistes-interprètes, en passant respectivement par leurs sociétés de gestion collective.
+> La rémunération équitable est ensuite redistribuée de façon équitable entre les producteurs phonographiques et les artistes-interprètes, en passant respectivement par leurs sociétés de gestion collective.
 
 ##### **La copie privée :**
 
 Instaurée en 1985, la copie privée est une compensation financière rattachée au droit de propriété de l'artiste sur son oeuvre. Selon la loi française, seul l'artiste possède le droit d'autoriser ou d'interdire la reproduction de son interprétation ou sa copie.
-Se pose alors la question : Comment empêcher des millions d'individus d'enregistrer une chanson diffusée à la radio ? Comment faire obstacle à la gravure d'un album sur un CD, ou à la copie de titres sur une clé USB ou un disque dur ?
+Se pose alors la question : comment empêcher des millions d'individus d'enregistrer une chanson diffusée à la radio ? Comment faire obstacle à la gravure d'un album sur un CD, ou à la copie de titres sur une clé USB ou un disque dur ?
 La réponse apportée en 1985 fut claire : "C'est impossible".
 
 Face à cette réalité, une solution a été mise en place : la création d'une rémunération nouvelle visant à compenser le "préjudice subi". Ainsi, la rémunération pour copie privée a été conçue en faveur des auteurs-compositeurs, des artistes-interprètes et des producteurs, afin de compenser les pertes générées par les copies réalisées par des particuliers sur des supports vierges d’enregistrement.
@@ -79,7 +79,7 @@ La différence entre l'artiste principal et l'artiste d'accompagnement ne change
 <!-- section:end -->
 <!-- section:start -->
 
-### **Superviser les dépenses en tant que producteur phonographique :**
+### **Superviser les dépenses en tant que producteur phonographique**
 
 En qualité de producteur phonographique, vous êtes chargé de financer l’enregistrement ainsi que de la réalisation du master. Cela s'applique pour des enregistrements de plusieurs types : un titre unique, un EP de 4 titres ou un album complet de plusieurs titres. Voici les dépenses à honorer :
 
@@ -94,7 +94,7 @@ En qualité de producteur phonographique, vous êtes chargé de financer l’enr
 
 _Voici la mise à jour des tarifs minima pour 2023 :_
 
-**Artistes principaux :**
+###### **Artistes principaux :**
 
 - Pour une exploitation allant jusqu'à 10 minutes des prestations de l’artiste enregistrées dans le cadre d'un travail spécifique, le salaire minimum correspond à 190,30€ par tranche indivisible de 5 minutes effectivement utilisées.
 - Pour une exploitation entre 10 et 20 minutes des prestations de l’artiste, le salaire minimum est de 570,91€ pour une tranche indivisible de 20 minutes effectivement utilisées.
@@ -102,7 +102,7 @@ _Voici la mise à jour des tarifs minima pour 2023 :_
 
 Ceci s'adresse aux artistes principaux, hors artistes lyriques, chefs d’orchestre, chefs de chœur, diseurs et artistes dramatiques.
 
-**Artistes Musicien :**
+###### **Artistes Musicien :**
 
 - Cachet de base pour 3h de travail et moins de 20 minutes de musique enregistrée = 176,97 € bruts
 - Cachet pour 4h de travail et moins de 27 minutes de musique enregistrée = 235,96 € bruts

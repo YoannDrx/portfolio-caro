@@ -152,6 +152,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10 }} {...props} />,
               }}
             />
           </ImageAndTextRight>
@@ -168,6 +169,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextLeft>
@@ -184,6 +186,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextRight>
@@ -200,6 +203,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextLeft>
@@ -216,6 +220,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextRight>
@@ -232,6 +237,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextLeft>
@@ -248,6 +254,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextRight>
@@ -264,6 +271,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 10, marginLeft: 20 }} {...props} />,
               }}
             />
           </ImageAndTextLeft>
