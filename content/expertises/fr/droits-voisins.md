@@ -191,11 +191,11 @@ Le Code ISRC est donc le code attribué pour chaque version d’un enregistremen
 
 ![code isrc](https://www.sppf.com/wp-content/uploads/2022/04/isrc.png)
 
-**Comment obtenir un code ISRC ?**
+###### **Comment obtenir un code ISRC ?**
 
 Aujourd’hui les démarches sont devenues beaucoup plus simple, il vous suffit de créer un compte sur le site ISRC France qu’a mis en la SCPP.
 
-**La demande de code ISRC doit être faite :**
+###### **La demande de code ISRC doit être faite :**
 
 - avant le mastering,
 - juste avant la commercialisation d'un phonogramme ou vidéoclip,
@@ -203,14 +203,14 @@ Aujourd’hui les démarches sont devenues beaucoup plus simple, il vous suffit 
 - si une nouvelle version est enregistrée (mix, explicit, live…),
 - si la durée est modifiée pour une version différente (version edit, extended…).
 
-**Le code d'ORIGINE doit être conservé lors :**
+###### **Le code d'ORIGINE doit être conservé lors :**
 
 - d'une réédition de l'enregistrement,
 - d'un remastering (restauration de la qualité sonore),
 - de la distribution sur différents supports (CD, digital, compilation…),
 - de la vente ou du transfert de l'enregistrement.
 
-**Un code ne doit pas être demandé :**
+###### **Un code ne doit pas être demandé :**
 
 - si l'enregistrement appartient à un autre producteur,
 - si l'enregistrement dispose déjà d'un code ISRC,

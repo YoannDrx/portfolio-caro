@@ -140,7 +140,6 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
         <Div className="container">
           <SectionHeading title={title} subtitle="Comprendre" variant="cs-style1 text-center" intro={intro} />
         </Div>
-
         {part1 !== undefined || "" ? (
           <ImageAndTextRight title={""} imagePath={img1} link={null} altText="Service">
             <ReactMarkdown
@@ -151,7 +150,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 strong: ({ node, ...props }) => <b style={{ color: "#ff4b17" }} {...props} />,
                 span: ({ node, ...props }) => <span style={{ color: "white", backgroundColor: "pink" }} {...props} />,
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
-                img: ({ node, ...props }) => <img className="mdImage" {...props} />,
+                img: ({ node, ...props }) => <img className="mdImage" style={{ marginLeft: 100 }} {...props} />,
                 ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 50, marginLeft: 20 }} {...props} />,
               }}
             />
@@ -174,7 +173,6 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
             />
           </ImageAndTextLeft>
         ) : null}
-
         {part3 !== undefined || "" ? (
           <ImageAndTextRight title={""} imagePath={img3} link={img3Link} altText="Service">
             <ReactMarkdown
@@ -278,11 +276,9 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
         ) : null}
 
         <Div className="container">{labels ? <ClickableImageGrid labels={labels} /> : null}</Div>
-
         <Div className="container">
           {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
         </Div>
-
         <ExpertiseSection
           imageSrc={imgFooter}
           altText="Service"

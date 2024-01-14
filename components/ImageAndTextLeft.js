@@ -6,6 +6,7 @@ const ImageAndTextLeft = ({ title, imagePath, altText, children, link }) => {
   return (
     <Div className="container">
       <h2 className="text-center" style={{ color: "#ff4b17", marginBlock: "50px", marginTop: "50px" }}>
+        <Spacing lg="45" md="30" />
         {title}
       </h2>
       <Div className="image-container-right">
