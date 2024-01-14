@@ -27,7 +27,7 @@ L'éditeur musical représente un partenaire essentiel pour l’auteur-composite
 <!-- section:end -->
 <!-- section:start -->
 
-### **Rédiger les contrats de cession et d’édition :**
+### **Rédiger les contrats de cession et d’édition**
 
 En matière de contrats dans le domaine musical, le contrat de cession et d’édition musicale se distingue comme l'unique contrat qui bénéficie d'une réglementation stricte, ainsi qu'un modèle approuvé par les syndicats professionnels.
 
@@ -45,7 +45,7 @@ Le contrat de cession et d’édition sera enregistré à la SACEM afin de docum
 
 <!-- section:start -->
 
-### **Rédiger les pactes de préférence éditoriale :**
+### **Rédiger les pactes de préférence éditoriale**
 
 Lorsque l’auteur-compositeur conclut un accord de cession et d'édition avec un éditeur, il cède ses droits d'auteur sur des œuvres déjà créées.
 Selon une loi en vigueur en France, un auteur ou un compositeur ne peut pas céder ses droits sur une œuvre qui n’est pas encore créée.
@@ -61,23 +61,23 @@ Et si l’éditeur refuse l’œuvre présentée, alors l’auteur-compositeur e
 <!-- section:end -->
 <!-- section:start -->
 
-### **Superviser la répartition des droits patrimoniaux :**
+### **Superviser la répartition des droits patrimoniaux**
 
 Tels qu'évoqués par leur appellation, les droits patrimoniaux représentent le patrimoine des auteurs et des compositeurs, ce sont des droits économiques.
 En effet, ces droits permettent à l'auteur-compositeur d'être rémunéré en échange de l'autorisation accordée pour l'exploitation de leur œuvre.
 Sur le plan juridique, on distingue 2 catégories principales d'exploitation de la musique qui nécessitent l'accord des créateurs. Cela correspond essentiellement aux 2 principaux modes d'exploitation d'une œuvre musicale :
 
-_La diffusion de l'œuvre musicale à un public :_ si quelqu’un souhaite interpréter une œuvre musicale devant un public ou la diffuser auprès d’une audience, les auteurs-compositeurs doivent être rémunérés et leur autorisation est requise. C’est ce qu’on appelle le "**droit de représentation**".
+_La diffusion de l'œuvre musicale à un public :_ si quelqu’un souhaite interpréter une œuvre musicale devant un public ou la diffuser auprès d’une audience, les auteurs-compositeurs doivent être rémunérés et leur autorisation est requise. C’est ce qu’on appelle le **"droit de représentation".**
 
-_La fixation d’une œuvre sur un support :_ l'impression de l'œuvre sur une partition musicale (qui est un support physique), l’enregistrement et la gravure sur un CD ou un vinyle, l’enregistrement sous un format numérique nécessitent également l’autorisation et la rémunération des auteurs-compositeurs. Il s’agit du "**droit de reproduction**".
+_La fixation d’une œuvre sur un support :_ l'impression de l'œuvre sur une partition musicale (qui est un support physique), l’enregistrement et la gravure sur un CD ou un vinyle, l’enregistrement sous un format numérique nécessitent également l’autorisation et la rémunération des auteurs-compositeurs. Il s’agit du **"droit de reproduction".**
 
-> De nos jours, les droits patrimoniaux sur une œuvre musicale demeurent en vigueur pendant une durée de 70 ans après le décès du dernier ayant-droit : l’œuvre continue de générer des droits pendant toute la vie de l’auteur-compositeur **jusqu’à 70 ans après sa mort**.
+> De nos jours, les droits patrimoniaux sur une œuvre musicale demeurent en vigueur pendant une durée de 70 ans après le décès du dernier ayant-droit : l’œuvre continue de générer des droits pendant toute la vie de l’auteur-compositeur **jusqu’à 70 ans après sa mort.**
 
 <!-- section:end -->
 
 <!-- section:start -->
 
-### **Rechercher et identifier les œuvres non identifiées à la SACEM :**
+### **Rechercher et identifier les œuvres non identifiées à la SACEM**
 
 La Sacem a pris des mesures concernant les « irrépartissables », à savoir les droits d’auteur générés par des œuvres non identifiées qui finissent par être reversés au compte de gestion de la société, faute de pouvoir les attribuer.
 

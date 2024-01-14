@@ -275,44 +275,12 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
           {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
         </Div>
 
-        <Spacing lg="120" md="50" />
-
         <ExpertiseSection
           imageSrc={imgFooter}
           altText="Service"
           title="En savoir plus sur mes expertises :"
           services={serviceExpertises}
         />
-        <Spacing lg="150" md="80" />
-
-        <TestimonialSlider />
-
-        <Spacing lg="145" md="80" />
-
-        <Div className="container cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-5 col-lg-6">
-                <SectionHeading title="Questions fréquentes" subtitle="FAQ" />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-lg-6 offset-xl-1">
-                <Accordion />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        <Spacing lg="150" md="80" />
-        <Div className="container">
-          <Cta
-            title="Discutons ensemble de votre <br />projet <i>créatif</i>"
-            btnText="Prendre rendez-vous"
-            btnLink="/contact"
-            bgSrc="/images/cta_bg.jpeg"
-          />
-        </Div>
       </Layout>
     </>
   );
