@@ -30,8 +30,6 @@ const ImageAndTextRight = ({ title, imagePath, altText, children, link }) => {
         {imagePath && <Div className={`image-wrapper ${link ? "clickable" : ""}`}>{renderImage()}</Div>}
       </Div>
       <Div className="cs-post cs-style2">{children}</Div>
-
-      <Spacing lg="50" md="50" />
     </Div>
   );
 };

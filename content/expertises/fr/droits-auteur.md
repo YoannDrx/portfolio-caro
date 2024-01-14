@@ -14,11 +14,11 @@ imgFooter: "/images/droit-auteur/photohome1.JPG"
 
 <!-- section:start -->
 
-Dans la musique, le terme 'auteur' désigne l'individu qui rédige les paroles d'une chanson, tandis que 'compositeur' fait est à celui qui en compose la musique.
+Dans la musique, le terme "auteur" désigne l'individu qui rédige les paroles d'une chanson, tandis que "compositeur" fait est à celui qui en compose la musique.
 Ces deux acteurs jouissent de droits de propriété équivalents sur leurs créations, d'où le terme d’"auteur-compositeur". En réalité, cela peut désigner deux personnes différentes.
 Cependant, il se peut qu'une seule et même personne remplisse ces deux rôles, assumant ainsi simultanément le rôle d'auteur et de compositeur. De plus, nous distinguons les compositions musicales sans parole, dans lesquelles seuls les compositeurs interviennent.
 
-> Qu’il s’agisse d’un auteur, d’un compositeur ou d’un auteur-compositeur, l’œuvre produite est protégée par les **droits d'auteur**.
+> Qu’il s’agisse d’un auteur, d’un compositeur ou d’un auteur-compositeur, l’œuvre produite est protégée par les **droits d'auteur.**
 
 Cela implique que l'auteur est le propriétaire du texte qu'il a écrit et que le compositeur a la propriété de la musique qu'il a composée. Ils ont le droit d'autoriser ou d'interdire l'exploitation de leur œuvre, et ce, contre une compensation financière. Concrètement, cela signifie que toute utilisation de l'œuvre (soit le texte, soit la musique), nécessite une autorisation préalable de l’auteur-compositeur, accompagnée du versement de redevances. Il est important de souligner que l’auteur-compositeur a droit à une protection légale dès l’instant de la création de son œuvre. Les formalités de déclaration auprès de la SACEM s’avèrent nécessaires uniquement pour obtenir une preuve légale de la priorité de création.
 

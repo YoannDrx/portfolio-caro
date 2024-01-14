@@ -130,14 +130,16 @@ export default function Expertise({ services }) {
         </Div>
 
         <Spacing lg="150" md="80" />
+        {/* Start CTA Section */}
         <Div className="container">
           <Cta
             title="De la musique <br /> pour vos <i>images</i> ? "
             btnText="cliquez ici"
             btnLink="https://www.parigomusic.com/"
-            bgSrc="/images/service_hero_bg.jpeg"
+            bgSrc="/images/home/couverture-vaisseau.png"
           />
         </Div>
+        {/* End CTA Section */}
       </Layout>
     </>
   );
