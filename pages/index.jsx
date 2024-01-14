@@ -159,50 +159,6 @@ export default function Home({ expertises }) {
         </Div>
         {/* End Expertises */}
 
-        {/* Start Projects Section */}
-        <Spacing lg="145" md="80" />
-        <Div className="container">
-          <SectionHeading title="Artistes à découvrir" subtitle="Derniers projets" variant="cs-style1 text-center" />
-          <Spacing lg="90" md="45" />
-          <Div className="row">
-            {projetData.slice(0, itemShow).map((item, index) => (
-              <Div className={`${index === 0 || index === 3 || index === 4 ? "col-lg-8" : "col-lg-4"}`} key={index}>
-                <Portfolio
-                  title={item.title}
-                  subtitle={item.subtitle}
-                  href={item.href}
-                  src={item.src}
-                  variant="cs-style1 cs-type1"
-                />
-                <Spacing lg="25" md="25" />
-              </Div>
-            ))}
-          </Div>
-
-          <Div className="text-center">
-            {projetData.length <= itemShow ? (
-              ""
-            ) : (
-              <>
-                <Spacing lg="65" md="40" />
-                <span className="cs-text_btn" onClick={() => setItemShow(itemShow + 3)}>
-                  <span>Load More</span>
-                  <Icon icon="bi:arrow-right" />
-                </span>
-              </>
-            )}
-          </Div>
-        </Div>
-        {/* End Projects Section */}
-
-        {/* Start MovingText Section */}
-        <Spacing lg="125" md="70" />
-        <div>
-          <MovingText text="Track Parigos de la semaine -" />
-        </div>
-        <Spacing lg="105" md="70" />
-        {/* End MovingText Section */}
-
         {/* Début de la section Équipe */}
         <Spacing lg="145" md="80" />
         <Div className="container">
@@ -212,6 +168,14 @@ export default function Home({ expertises }) {
           <Spacing lg="85" md="45" />
         </Div>
         {/* Fin de la section Équipe */}
+
+        {/* Start MovingText Section */}
+        <Spacing lg="125" md="70" />
+        <div>
+          <MovingText text="Track Parigos de la semaine -" />
+        </div>
+        <Spacing lg="105" md="70" />
+        {/* End MovingText Section */}
 
         {/* Début Faq */}
         <Spacing lg="145" md="80" />
@@ -227,7 +191,7 @@ export default function Home({ expertises }) {
             title="De la musique <br /> pour vos <i>images</i> ? "
             btnText="cliquez ici"
             btnLink="https://www.parigomusic.com/"
-            bgSrc="/images/orange-texture.jpg"
+            bgSrc="/images/home/couverture-vaisseau.png"
           />
         </Div>
         {/* End CTA Section */}

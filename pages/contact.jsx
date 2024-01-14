@@ -14,7 +14,11 @@ import "react-toastify/dist/ReactToastify.css";
 export default function Contact() {
   const form = useRef();
 
-  // Configuration emailJS Yoann = à changer
+  //   EMAIL-JS Caro :
+  // service_id : service_ob10zfi
+  // template_id : template_mqq0xhu
+  // public_key : 8MVfTcZq0ja5jXXH1
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm("service_hdxsuya", "template_zm2ctt7", form.current, "W4SjcLIIqIH2c8aZX").then(

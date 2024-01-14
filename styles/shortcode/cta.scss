@@ -1,6 +1,11 @@
 .cs-cta.cs-style1 {
   padding: 90px 30px;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
   .cs-cta_in {
     position: relative;
     z-index: 2;
@@ -8,6 +13,7 @@
   .cs-cta_title {
     font-weight: 600;
     font-size: 50px;
+    margin-top: 140px;
   }
 }
 @media screen and (max-width: 1300px) {
