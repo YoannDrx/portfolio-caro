@@ -152,6 +152,7 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
                 em: ({ node, ...props }) => <span style={{ color: "white", fontWeight: "bold" }} {...props} />,
                 img: ({ node, ...props }) => <img className="mdImage" style={{ marginLeft: 100 }} {...props} />,
                 ul: ({ node, ...props }) => <ul style={{ marginTop: 0, marginBottom: 50, marginLeft: 20 }} {...props} />,
+                br: ({ node, ...props }) => <br />,
               }}
             />
           </ImageAndTextRight>

@@ -74,7 +74,6 @@
   min-height: 1000px;
   .cs-hero_title {
     font-size: 80px;
-    font-weight: 700;
     margin-bottom: 30px;
     line-height: 1.25em;
     span {
@@ -146,11 +145,14 @@
       right: 115px;
       border-radius: 15px;
       overflow: hidden;
+      border: solid 1px rgba($accent, 0.8);
     }
     .cs-hero_title {
       margin-bottom: 0px;
       &::first-letter {
         color: $accent;
+        background-color: #fff;
+        border-radius: 10%;
       }
     }
     .cs-hero_social_wrap {

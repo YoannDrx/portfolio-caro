@@ -960,12 +960,12 @@ Les éditeurs qui souhaitent se dégager des tâches fastidieuses font donc appe
 
 ### **Mes missions :**
 
-- Admission de la structure éditoriale à la Sacem
-- Rédaction des contrats de cession et d’édition
-- Rédaction des documents de dépôt (fiche technique audiovisuelle, relevé musical, bulletins de déclaration)
-- Dépôt des œuvres, films, documentaires à la Sacem, suivi administratif et contrôle
-- Gestion des autorisations d'exploitation des œuvres concédées aux tiers
-- Réception des données de répartitions
+=> Admission de la structure éditoriale à la Sacem  
+=> Rédaction des contrats de cession et d’édition  
+=> Rédaction des documents de dépôt (fiche technique audiovisuelle, relevé musical, bulletins de déclaration)  
+=> Dépôt des œuvres, films, documentaires à la Sacem, suivi administratif et contrôle  
+=> Gestion des autorisations d'exploitation des œuvres concédées aux tiers  
+=> Réception des données de répartitions
 
 La rémunération du gestionnaire se fait sous forme de pourcentage des droits éditoriaux, lequel pourcentage peut varier suivant la nature des services rendus (généralement aux alentours de 15 %, le taux peut être moindre si certaines prestations ne sont pas prises en charge par le gestionnaire).
 
