@@ -121,12 +121,12 @@ Pour obtenir l'autorisation de diffuser son enregistrement, le producteur doit, 
 <!-- section:end -->
 <!-- section:start -->
 
-### **Rédiger et superviser les contrats de licence :**
+### **Rédiger et superviser les contrats de licence**
 
 Le producteur phonographique est celui qui a financé l’enregistrement et qui détient la propriété du _MASTER_.
 Désormais, son objectif est de commercialiser son enregistrement, ce qui signifie qu'il aspire à le vendre et le propager au plus grand nombre.
 
-**Pour ce faire, trois actions principales lui sont indispensables** :
+**Pour ce faire, trois actions principales lui sont indispensables :**
 
 - La fabrication de copies (s'il souhaite commercialiser des supports physiques - CD, Vinyles...)
 - La distribution de son enregistrement (sur Internet, être référencé sur tous les plateformes de streaming et/ou être vendu dans le maximum de points de vente)
@@ -151,7 +151,7 @@ Il opte plutôt pour l'_INVESTISSEMENT_ dans la commercialisation : il assure la
 <!-- section:end -->
 <!-- section:start -->
 
-### **Déposer les œuvres aux organismes de gestion collective des producteurs :**
+### **Déposer les œuvres aux organismes de gestion collective des producteurs**
 
 La législation confère aux producteurs le pouvoir d'autoriser l'utilisation de leurs œuvres et de solliciter une compensation financière en conséquence. Ils bénéficient également des "rémunérations légales" (redevance équitable et copie privée). Pour chaque diffusion de leur enregistrement (radio, télévision, internet), l'artiste doit donner son consentement et recevoir une rémunération en retour.
 
@@ -170,9 +170,9 @@ La législation confère aux producteurs le pouvoir d'autoriser l'utilisation de
 <!-- section:end -->
 <!-- section:start -->
 
-### **Créer des codes ISRC :**
+### **Créer des codes ISRC**
 
-**Attention** :  pour déposer ses enregistrements, le producteur phonographique doit attribuer à chacun de ses enregistrements un code ISRC.
+**Attention :**  pour déposer ses enregistrements, le producteur phonographique doit attribuer à chacun de ses enregistrements un code ISRC.
 
 Tout presseur ou distributeur consciencieux doit vous demander, pour chaque titre, le code ISRC (_International Standard Recording Code_) qui est un identifiant unique qui permet d’identifier un morceau. Ce code permet la gestion des droits voisins de producteur sur l’enregistrement de l’œuvre en question.
 
