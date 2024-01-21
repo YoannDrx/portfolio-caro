@@ -10,6 +10,22 @@
       "langue": "Langue"
     }
   },
+  "home": {
+    "recentProjects": {
+      "projet1": {
+        "title": "Projet 1",
+        "subtitle": "Sous-titre du projet 1",
+        "href": "/projet1",
+        "src": "/images/home/projet1.jpg",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "twitter": "https://twitter.com/",
+          "instagram": "https://www.instagram.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      }
+    }
+  },
   "portfolio": [
     {
       "id": 1,
@@ -4561,7 +4577,7 @@
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "/videos-synchros/Jazz-Funk-Sabor-ZDF-HISTORY.mp4",
-      "src": "/images/portfolio/photosynchro/zdf-history.png",
+      "src": "/images/portfolio/photosynchro/jazz-funk-sabor-zdf-history.png",
       "height": "",
       "category": "synchros"
     },

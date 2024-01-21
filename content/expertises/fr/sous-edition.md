@@ -86,7 +86,7 @@ Commerciale ensuite, de promouvoir son catalogue efficacement auprès des interp
 <!-- section:end -->
 <!-- section:start -->
 
-### **Déposer et enregistrer les contrats et les œuvres sous-éditées :**
+### **Déposer et enregistrer les contrats et les œuvres sous-éditées**
 
 _Il existe trois sortes de contrats de sous-édition :_
 
@@ -113,13 +113,13 @@ La Cisac (Confédération internationale des sociétés d'auteurs et compositeur
 <!-- section:end -->
 <!-- section:start -->
 
-### **Les missions confiées au sous-éditeur :**
+### **Les missions confiées au sous-éditeur**
 
 Les missions confiées au sous-éditeur peuvent varier suivant la nature de l'œuvre, l'enjeu lié à chaque type d'exploitation pour celle-ci. Néanmoins, on retrouve certaines constantes, à la base même de la sous-édition :
 
-- le sous-éditeur représente toujours l'éditeur original auprès de la société de gestion collective du territoire cédé. Il perçoit donc auprès de celle-ci tout ou partie des droits revenant à l'éditeur original (voir plus loin), et a la responsabilité de la vérification des droits répartis
+\- le sous-éditeur représente toujours l'éditeur original auprès de la société de gestion collective du territoire cédé. Il perçoit donc auprès de celle-ci tout ou partie des droits revenant à l'éditeur original (voir plus loin), et a la responsabilité de la vérification des droits répartis
 
-- le sous-éditeur est toujours mandaté pour générer de nouvelles exploitations sur son territoire. Celles-ci incluent l'exploitation phonographique, vidéographique et tous types d'exécution de l'œuvre. L'exploitation graphique et la synchronisation peuvent faire l'objet d'un traitement spécifique (gestion en direct par l'éditeur original ou accord nécessaire de l'éditeur original).
+\- le sous-éditeur est toujours mandaté pour générer de nouvelles exploitations sur son territoire. Celles-ci incluent l'exploitation phonographique, vidéographique et tous types d'exécution de l'œuvre. L'exploitation graphique et la synchronisation peuvent faire l'objet d'un traitement spécifique (gestion en direct par l'éditeur original ou accord nécessaire de l'éditeur original).
 
 _Concernant l'exploitation phonographique et vidéographique, les contrats de sous-édition prévoient la perception des droits de reproduction mécanique par le sous-éditeur, suivant l'une des deux clauses suivantes à l'exclusion de toute autre variante :_
 
@@ -128,4 +128,4 @@ _Concernant l'exploitation phonographique et vidéographique, les contrats de so
 
 > La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans.
 
-- **Gérer la sous-édition des labels ci-dessous :**
+### **Gérer la sous-édition des labels ci-dessous**

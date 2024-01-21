@@ -14,14 +14,20 @@ import "react-toastify/dist/ReactToastify.css";
 export default function Contact() {
   const form = useRef();
 
-  //   EMAIL-JS Caro :
-  // service_id : service_ob10zfi
-  // template_id : template_mqq0xhu
-  // public_key : 8MVfTcZq0ja5jXXH1
+  //   EmailJS Caro :
+  // service_id : service_bip6unp
+  // template_id : template_266l5e3
+  // public_key : 1_C3hAZsyTfB5YqCy
+
+  // EmailJS Yoann :
+  // service_id : service_hdxsuya
+  // template_id : template_zm2ctt7
+  // public_key : W4SjcLIIqIH2c8aZX
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_hdxsuya", "template_zm2ctt7", form.current, "W4SjcLIIqIH2c8aZX").then(
+    console.log("form.current >>", form.current);
+    emailjs.sendForm("service_bip6unp", "template_266l5e3", form.current, "1_C3hAZsyTfB5YqCy").then(
       (result) => {
         toast.success("Message envoyé avec succès !", {
           position: "bottom-right",
@@ -90,8 +96,10 @@ export default function Contact() {
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
-                  <label className="cs-primary_color">Mobile*</label>
-                  <input type="text" className="cs-form_field" />
+                  <label htmlFor="mobile" className="cs-primary_color">
+                    Mobile*
+                  </label>
+                  <input type="text" name="mobile" className="cs-form_field" />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-12">

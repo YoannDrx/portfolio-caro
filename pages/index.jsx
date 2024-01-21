@@ -50,6 +50,7 @@ export default function Home({ expertises }) {
   const [itemShow, setItemShow] = useState(6);
 
   const portfolioData = fr.portfolio;
+  // console.log("portfolioData >>", portfolioData);
 
   // Hero Social Links
   const heroSocialLinks = [
@@ -176,14 +177,6 @@ export default function Home({ expertises }) {
         </div>
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
-
-        {/* Début Faq */}
-        <Spacing lg="145" md="80" />
-        <Div className="container">
-          <Accordion />
-        </Div>
-        <Spacing lg="145" md="80" />
-        {/* Fin Faq */}
 
         {/* Start CTA Section */}
         <Div className="container">

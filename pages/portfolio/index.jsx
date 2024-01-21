@@ -39,7 +39,12 @@ export default function PortfolioPage({ portfolioData }) {
           <PortfolioGallery portfolioData={portfolioData} />
         </Div>
         <Spacing lg="145" md="80" />
-        <Cta title="agency@arino.com" bgSrc="/images/cta_bg_2.jpeg" variant="rounded-0" />
+        <Cta
+          title="De la musique <br /> pour vos <i>images</i> ? "
+          btnText="cliquez ici"
+          btnLink="https://www.parigomusic.com/"
+          bgSrc="/images/home/couverture-vaisseau.png"
+        />
       </Layout>
     </>
   );

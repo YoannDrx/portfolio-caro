@@ -17,7 +17,7 @@ imgFooter: "/images/subvention/photohome6.JPG"
 
 > Le but d’une demande de subvention est de présenter un reflet fidèle et honnête du projet : il faut y mentionner tous les éléments, y compris les autres aides demandées. N’oubliez pas que les organismes communiquent entre eux et recoupent les informations.
 
-### **Respecter les conventions collectives :**
+### **Respecter les conventions collectives**
 
 Dans le cadre d'un projet musical, l'organisme de financement voudra savoir combien d'artistes et de techniciens y contribuent, et comment et dans quelle mesure ils sont rémunérés.
 L'emploi d'artistes professionnels implique le versement de salaires, le paiement de cotisations sociales et le respect des rémunérations minimales fixées par la législation.
@@ -32,7 +32,7 @@ Dans le cas où vous prévoyez d'organiser un concert dans une salle en location
 <!-- section:end -->
 <!-- section:start -->
 
-### **Construire un budget prévisionnel et estimer le montant de l’aide :**
+### **Construire un budget prévisionnel et estimer le montant de l’aide**
 
 L'objectif d'un budget prévisionnel est de mettre en chiffres la stratégie d'expansion d'un projet. Il n'est pas nécessaire pour les professionnels de passer en revue des biographies ou des descriptions artistiques pour juger de la faisabilité d'un projet. Une analyse du budget est souvent suffisante, car elle permet d'envisager au mieux les dépenses futures.
 
@@ -45,22 +45,20 @@ Il est à noter qu'un organisme de gestion collective ne subventionnera **JAMAIS
 <!-- section:end -->
 <!-- section:start -->
 
-### **Réunir les documents administratifs, promotionnels et les justificatifs :**
+### **Réunir les documents administratifs, promotionnels et les justificatifs**
 
-- _Toutes les factures et devis_ datés et signés
-- _Les preuves_ que les _cotisations_ à certains organismes ont bien été payées (attestation URSAFF ou AUDIENS)
-- _Les contrats_ de _distribution_ ou de _licence_ ainsi que les contrats d’_enregistrement_
-- _Les bulletins_ de salaire des intermittents
-- _Les biographies_ des artistes/descriptif du projet
-- _Tous les documents promotionnels :_ le dossier de presse, le plan média (soit la stratégie de promotion auprès de la presse et les objectifs visés), les futures dates de concerts et/ou de tournée
-- N’hésitez pas à rédiger _une note de production_ qui explique point par point la nature de toutes vos dépenses
+\- _Toutes les factures et devis_ datés et signés  
+\- _Les preuves_ que les _cotisations_ à certains organismes ont bien été payées (attestation URSAFF ou AUDIENS)  
+\- _Les contrats_ de _distribution_ ou de _licence_ ainsi que les contrats d’_enregistrement_  
+\- _Les bulletins_ de salaire des intermittents  
+\- _Les biographies_ des artistes/descriptif du projet  
+\- _Tous les documents promotionnels :_ le dossier de presse, le plan média (soit la stratégie de promotion auprès de la presse et les objectifs visés), les futures dates de concerts et/ou de tournée  
+\- N’hésitez pas à rédiger _une note de production_ qui explique point par point la nature de toutes vos dépenses
 
 <!-- section:end -->
 <!-- section:start -->
 
-### **Gérer son dossier de subvention stratégiquement :**
-
-> Plus le projet sera développé sous un aspect économique et commercial, plus les chances d’obtenir des aides financières augmenteront.
+### **Gérer son dossier de subvention stratégiquement**
 
 Préparez un rétroplanning pour chaque demande d’aide :
 
@@ -75,10 +73,12 @@ Préparez un rétroplanning pour chaque demande d’aide :
 - _Anticiper_ le versement de l’aide (ou de l’acompte)
 - _Préparer_ les documents complémentaires à envoyer (factures, justificatifs…)
 
+> Plus le projet sera développé sous un aspect économique et commercial, plus les chances d’obtenir des aides financières augmenteront.
+
 <!-- section:end -->
 <!-- section:start -->
 
-### **Les aides pour les éditeurs et auteurs-compositeurs-interprètes :**
+### **Les aides pour les éditeurs et auteurs-compositeurs-interprètes**
 
 ![sacem](https://lh7-us.googleusercontent.com/R__L0TXssREfQ7SlUl4M2YaOjlTs5sBsiHCdGeH47iQXXxZwULhcrmb0ROzPDB3LPiSA88KGgSuIBrgHCZIkctcdQBamj3_WS2iv_QglSzx_I8tbxXusY-gSebr3lBflD0q1uQGeX80pXzm8ggq7iQ)
 

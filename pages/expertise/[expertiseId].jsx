@@ -276,10 +276,14 @@ export default function ServiceDetails({ markdownSections, expertiseId, metaData
           </ImageAndTextLeft>
         ) : null}
 
-        <Div className="container">{labels ? <ClickableImageGrid labels={labels} /> : null}</Div>
+        <Div className="container">
+          <Spacing lg="45" md="0" />
+          {labels ? <ClickableImageGrid labels={labels} /> : null}
+        </Div>
         <Div className="container">
           {documentaires ? <DocumentairesGallery labels={labels} documentaires={documentaires} /> : null}
         </Div>
+        <Spacing lg="100" md="50" />
         <ExpertiseSection
           imageSrc={imgFooter}
           altText="Service"

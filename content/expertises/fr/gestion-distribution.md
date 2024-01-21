@@ -2,7 +2,7 @@
 id: "4"
 title: "Gestion de la distribution physique et digitale"
 description: "description de la gestion de la distribution physique et digitale"
-intro: "Le terme 'distribution' fait référence à la troisième phase de production d'un enregistrement, qu'il s'agisse d'un album, d'un Ep ou d'un maxi. Cette phase englobe la commercialisation du produit à l'intention des consommateurs potentiels."
+intro: 'Le terme "distribution" fait référence à la troisième phase de production d''un enregistrement, qu''il s''agisse d''un album, d''un Ep ou d''un maxi. Cette phase englobe la commercialisation du produit à l''intention des consommateurs potentiels.'
 slug: "gestion-distribution"
 imgHome: "/images/gestion-distrib/Home-PhotoGestionDistrib.JPG"
 img1: "/images/gestion-distrib/photo1-gestiondistrib.JPG"
@@ -22,17 +22,17 @@ La distribution physique concerne la mise en vente d'œuvres musicales dans des 
 
 Les supports CD et vinyles restent néanmoins des objets qui s’avèreront stratégiquement utiles :
 
-- Ils peuvent être une belle carte de visite à laisser à un professionnel
-- Ils permettent au spectateur de garder un souvenir du concert
-- Le vinyle séduit les collectionneurs et intègre les mallettes des DJ
-- Le vinyle peut également faire office de support promotionnel à envoyer à des structures sous-éditant les œuvres à l’étranger et à des journalistes qui pourraient relayer la sortie du projet
+\- Ils peuvent être une belle carte de visite à laisser à un professionnel  
+\- Ils permettent au spectateur de garder un souvenir du concert  
+\- Le vinyle séduit les collectionneurs et intègre les mallettes des DJ  
+\- Le vinyle peut également faire office de support promotionnel à envoyer à des structures sous-éditant les œuvres à l’étranger et à des journalistes qui pourraient relayer la sortie du projet
 
 <!-- section:end -->
 <!-- section:start -->
 
 ### **LA DISTRIBUTION NUMERIQUE :**
 
-La distribution numérique, qui est l’adaptation de la version physique, avec les usages et contraintes d’Internet. Les « magasins » de la distribution numérique sont les plateformes de vente et/ou de streaming (Spotify, Deezer, Tidal, Apple music, etc.). Avec l'arrivée de la distribution numérique, tout a changé, puisqu'en 2015 les ventes numériques ont dépassé les ventes physiques. L’offre de distribution numérique a explosé, à tel point qu’on en distingue 2 types :
+La distribution numérique est l’adaptation de la version physique, avec les usages et contraintes d’Internet. Les « magasins » de la distribution numérique sont les plateformes de vente et/ou de streaming (Spotify, Deezer, Tidal, Apple music, etc.). Avec l'arrivée de la distribution numérique, tout a changé, puisqu'en 2015 les ventes numériques ont dépassé les ventes physiques. L’offre de distribution numérique a explosé, à tel point qu’on en distingue 2 types :
 
 _Les distributeurs numériques_, qui comme les distributeurs physiques, défendent leur catalogue d’artistes auprès des plateformes en ligne, et ont une vraie valeur ajoutée en marketing. Ces dernières années ils travaillent principalement en direct avec des labels.
 
@@ -84,7 +84,7 @@ Pour comprendre sa marge ou ses revenus en royauté sur une production disque, i
 <!-- section:end -->
 <!-- section:start -->
 
-### **LA DEMANDE D’AUTORISATION SDRM :**
+### **LA DEMANDE D’AUTORISATION SDRM**
 
 > Quand on presse des disques soi-même ou via un fabricant on doit régler la redevance SDRM.
 
@@ -109,7 +109,7 @@ Pour conclure, sachez que si la plupart des prestataires de pressage respectent 
 <!-- section:end -->
 <!-- section:start -->
 
-### **L'AUTO-DISTRIBUTION :**
+### **L'AUTO-DISTRIBUTION**
 
 A défaut de trouver un contrat de distribution, un artiste autoproduit ou un label indépendant peut envisager de prendre en main sa propre distribution.
 
