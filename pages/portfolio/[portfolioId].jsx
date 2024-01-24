@@ -102,7 +102,7 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
                     <p className="cs-m0">{album.releaseDate}</p>
                   </Div>
                   <Div className="mb-4">
-                    <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Category:</h3>
+                    <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">Categorie:</h3>
                     <p className="cs-m0">{album.category}</p>
                   </Div>
                   <Div className="mb-4">

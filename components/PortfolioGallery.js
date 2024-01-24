@@ -80,7 +80,7 @@ export default function PortfolioGallery({ portfolioData }) {
   const categoryMenu = [
     {
       title: "Albums librairie musicale",
-      category: "albums",
+      category: "Album de librairie musicale",
     },
     {
       title: "Vinyles",
