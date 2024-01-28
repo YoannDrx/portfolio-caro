@@ -1,65 +1,54 @@
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
 
-import Slider from 'react-slick';
-import Div from '../Div';
-import Team from '../Team';
+import Slider from "react-slick";
+import Div from "../Div";
+import Team from "../Team";
 
 export default function ProjectSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/portfolio/albums/PGO0051.png",
+      memberName: "Lofi HipHop",
+      memberDesignation: "Ablum de librairie musicale",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberImage: "/images/portfolio/vinyles/HEXAHEDRE.jpg",
+      memberName: "Egocentric Visuo-Spatial Perspective",
+      memberDesignation: "LP Vinyle",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberImage: "/images/portfolio/vinyles/UNE-DERNIERE-FOIS.jpg",
+      memberName: "Une dernière fois",
+      memberDesignation: "LP Vinyle",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberImage: "/images/portfolio/albums/PGO0050.jpg",
+      memberName: "Riviera Bizarre",
+      memberDesignation: "Album de librairie musicale",
       memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
-      },
-    },
-    {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
-      memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
+        linkedin: "/",
+        twitter: "/",
+        youtube: "/",
+        facebook: "/",
       },
     },
   ];
@@ -67,25 +56,18 @@ export default function ProjectSlider() {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <div
       {...props}
-      className={
-        'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')
-      }
+      className={"slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")}
       aria-hidden="true"
-      aria-disabled={currentSlide === 0 ? true : false}
-    >
+      aria-disabled={currentSlide === 0 ? true : false}>
       <Icon icon="bi:arrow-left" />
     </div>
   );
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <div
       {...props}
-      className={
-        'slick-next slick-arrow' +
-        (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
-      }
+      className={"slick-next slick-arrow" + (currentSlide === slideCount - 1 ? " slick-disabled" : "")}
       aria-hidden="true"
-      aria-disabled={currentSlide === slideCount - 1 ? true : false}
-    >
+      aria-disabled={currentSlide === slideCount - 1 ? true : false}>
       <Icon icon="bi:arrow-right" />
     </div>
   );

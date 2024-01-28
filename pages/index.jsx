@@ -148,7 +148,7 @@ export default function Home({ expertises }) {
           subtitle="Production . Copyrigth . Publishing"
           socialLinksHeading=""
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="./images/home/IMG_5049.JPG"
+          bgImageUrl="./images/home/IMG_5205.JPG"
         />
         {/* End Hero Section */}
         {/* Start Expertises */}
@@ -163,7 +163,7 @@ export default function Home({ expertises }) {
         {/* Début de la section Équipe */}
         <Spacing lg="145" md="80" />
         <Div className="container">
-          <SectionHeading title="Les projets récents" subtitle="Actus" variant="cs-style1" />
+          <SectionHeading title="Derniers projets" subtitle="Sorties" variant="cs-style1" />
           <Spacing lg="85" md="45" />
           <ProjectSlider />
           <Spacing lg="85" md="45" />

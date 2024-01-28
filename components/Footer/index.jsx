@@ -74,10 +74,11 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/footer_logo.svg"
+                  logoSrc="/images/logo/Logo-CS-white.png"
                   logoAlt="Logo"
                   text="Protégeons et valorisons votre créativité dans le monde de la musique."
                 />
+
                 <SocialWidget />
               </Div>
             </Div>

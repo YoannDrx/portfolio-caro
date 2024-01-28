@@ -84,7 +84,7 @@ export default function PortfolioGallery({ portfolioData }) {
     },
     {
       title: "Vinyles",
-      category: "SP Vinyle",
+      category: "Vinyle",
     },
     {
       title: "Clips",
