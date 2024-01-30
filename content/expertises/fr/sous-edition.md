@@ -9,7 +9,6 @@ img2: "/images/sous-edition/photo2-soused.JPG"
 img3: "/images/sous-edition/photo3-soused.JPG"
 imgFooter: "/images/sous-edition/photohome5.JPG"
 labels:
-  - { name: "image1", src: "/images/sous-edition/logo-label-soused/1.png", href: "www.google.com" }
   - { name: "image2", src: "/images/sous-edition/logo-label-soused/2.png", href: "www.google.com" }
   - { name: "image3", src: "/images/sous-edition/logo-label-soused/3.png", href: "www.google.com" }
   - { name: "image4", src: "/images/sous-edition/logo-label-soused/4.png", href: "www.google.com" }
@@ -25,7 +24,6 @@ labels:
   - { name: "image14", src: "/images/sous-edition/logo-label-soused/14.png", href: "www.google.com" }
   - { name: "image15", src: "/images/sous-edition/logo-label-soused/15.png", href: "www.google.com" }
   - { name: "image16", src: "/images/sous-edition/logo-label-soused/16.png", href: "www.google.com" }
-  - { name: "image17", src: "/images/sous-edition/logo-label-soused/17.png", href: "www.google.com" }
   - { name: "image18", src: "/images/sous-edition/logo-label-soused/18.png", href: "www.google.com" }
   - { name: "image19", src: "/images/sous-edition/logo-label-soused/19.png", href: "www.google.com" }
   - { name: "image20", src: "/images/sous-edition/logo-label-soused/20.png", href: "www.google.com" }
@@ -53,7 +51,6 @@ labels:
   - { name: "image42", src: "/images/sous-edition/logo-label-soused/42.png", href: "www.google.com" }
   - { name: "image43", src: "/images/sous-edition/logo-label-soused/43.png", href: "www.google.com" }
   - { name: "image44", src: "/images/sous-edition/logo-label-soused/44.png", href: "www.google.com" }
-  - { name: "image45", src: "/images/sous-edition/logo-label-soused/45.png", href: "www.google.com" }
   - { name: "image46", src: "/images/sous-edition/logo-label-soused/46.png", href: "www.google.com" }
   - { name: "image47", src: "/images/sous-edition/logo-label-soused/47.png", href: "www.google.com" }
   - { name: "image48", src: "/images/sous-edition/logo-label-soused/48.png", href: "www.google.com" }
@@ -64,7 +61,6 @@ labels:
   - { name: "image53", src: "/images/sous-edition/logo-label-soused/53.png", href: "www.google.com" }
   - { name: "image54", src: "/images/sous-edition/logo-label-soused/54.png", href: "www.google.com" }
   - { name: "image55", src: "/images/sous-edition/logo-label-soused/55.png", href: "www.google.com" }
-  - { name: "image56", src: "/images/sous-edition/logo-label-soused/56.png", href: "www.google.com" }
   - { name: "image57", src: "/images/sous-edition/logo-label-soused/57.png", href: "www.google.com" }
   - { name: "image58", src: "/images/sous-edition/logo-label-soused/58.png", href: "www.google.com" }
   - { name: "image59", src: "/images/sous-edition/logo-label-soused/59.png", href: "www.google.com" }
@@ -96,7 +92,7 @@ _Il existe trois sortes de contrats de sous-édition :_
 
 - **Le contrat d'option** : C'est un contrat général pour lequel la cession n'est acquise que pour les œuvres présentes au catalogue de l'éditeur au moment de la signature, les œuvres acquises par la suite par l'éditeur devant faire l'objet de levée d'option de la part du sous-éditeur.
 
-> Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :
+_Dans ces contrats de sous-édition, l'éditeur et le sous-éditeur conviennent du cadre de leur collaboration et déterminent ensemble notamment :_
 
 **Le territoire cédé qui peut être soit :**
 
@@ -127,5 +123,7 @@ _Concernant l'exploitation phonographique et vidéographique, les contrats de so
 - _la clause de fabrication :_ perception sur tout support fabriqué dans le territoire cédé au sous-éditeur, quel que soit le pays de vente du support.
 
 > La sous-édition est un axe majeur de l'exploitation d'une œuvre à l'étranger. Dans le cadre d'un fonctionnement rationnel, le sous-éditeur soutient la représentation scénique, les adaptations et reprises locales, il génère et gère avec l'éditeur les exploitations annexes au disque (utilisation dans le cinéma, la publicité, l'audiovisuel, Internet, etc.) et permet le contrôle et le bon rapatriement des droits générés dans un pays. Le tout à titre exclusif, et pendant au moins trois ans.
+
+&nbsp;
 
 ### **Gérer la sous-édition des labels ci-dessous**
