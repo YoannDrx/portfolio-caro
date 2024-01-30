@@ -40,7 +40,7 @@ export default function DocumentairesGallery({ documentaires }) {
     <>
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Les dernières productions" subtitle="En collaborations" />
+          <SectionHeading title="Productions" subtitle="En collaborations" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === "all" ? "active" : ""}>

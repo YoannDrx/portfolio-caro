@@ -47,6 +47,18 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
 
   // Construit l'URL d'intégration Spotify
   const spotifyEmbedUrl = `https://open.spotify.com/embed/album/${spotifyAlbumId}?utm_source=generator&theme=0`;
+
+  const renderLineWithInlineStyles = (line) => {
+    const inlineStyle = { color: "#FF4A17" };
+    return line.split(/(<a[^>]*>.*?<\/a>)/).map((part, index) => {
+      if (part.startsWith("<a")) {
+        return <span dangerouslySetInnerHTML={{ __html: part }} style={inlineStyle} key={index}></span>;
+      } else {
+        return part;
+      }
+    });
+  };
+
   return (
     <>
       <Head>
@@ -76,11 +88,10 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
             {/* Colonne pour le contenu */}
             <Div className="col-lg-8">
               <SectionHeading title={album.title} subtitle="Creative" />
-              <Spacing lg="40" md="20" />
               <p>
                 {album.description.split("\n").map((line, index) => (
                   <React.Fragment key={index}>
-                    {line}
+                    {renderLineWithInlineStyles(line)}
                     <br />
                   </React.Fragment>
                 ))}

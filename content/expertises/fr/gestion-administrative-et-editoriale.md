@@ -946,9 +946,59 @@ documentaires:
       href: "/images/gestion-admin/via-decouvertes-films/leila une vie a miquelon.jpeg",
       src: "",
       srcLg: "/images/gestion-admin/via-decouvertes-films/leila une vie a miquelon.jpeg",
-      link: "https://www.13prods.fr/au-nom-de-la-mer/ ",
+      link: "https://www.13prods.fr/leila-une-vie-a-miquelon/",
       category: "via-decouvertes-films",
       height: "150",
+    }
+  - {
+      title: "Les Vivants",
+      subtitle: "",
+      href: "/images/gestion-admin/13-prods/les-vivants-expertise.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-vivants-expertise.png",
+      link: "https://www.13prods.fr/les-vivants/",
+      category: "13-prods",
+      height: "150",
+    }
+  - {
+      title: "Les enfants de Huahine en Occitanie",
+      subtitle: "",
+      href: "/images/gestion-admin/13-prods/les-enfants-de-huahine-en-occitanie-expertise.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/les-enfants-de-huahine-en-occitanie-expertise.jpeg",
+      link: "https://www.13prods.fr/les-enfants-de-huahine-en-occitanie/",
+      category: "13-prods",
+      height: "250",
+    }
+  - {
+      title: "Se mettre au vert, une utopie en Périgord",
+      subtitle: "",
+      href: "/images/gestion-admin/13-prods/se-mettre-au-vert-expertise.png",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/se-mettre-au-vert-expertise.png",
+      link: "https://www.13prods.fr/se-mettre-au-vert-une-utopie-en-perigord/",
+      category: "13-prods",
+      height: "150",
+    }
+  - {
+      title: "Mangas, une révolution française",
+      subtitle: "",
+      href: "/images/gestion-admin/13-prods/Mangas-une-révolution-française-expertise.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/Mangas-une-révolution-française-expertise.jpeg",
+      link: "https://www.13prods.fr/mangas-une-revolution-francaise-2/",
+      category: "13-prods",
+      height: "180",
+    }
+  - {
+      title: "Entendez-nous, violences intrafamiliales en Polynésie",
+      subtitle: "",
+      href: "/images/gestion-admin/13-prods/Entendez-nous-expertise.jpeg",
+      src: "",
+      srcLg: "/images/gestion-admin/13-prods/Entendez-nous-expertise.jpeg",
+      link: "https://www.francetvpro.fr/contenu-de-presse/65053800",
+      category: "13-prods",
+      height: "450",
     }
 ---
 
@@ -973,7 +1023,7 @@ Le contrat de gestion éditoriale doit être transmis au service juridique de la
 <!-- section:end -->
 <!-- section:start -->
 
-### **Gestion administrative et éditoriale pour LITTLE BIG STORY**
+### **Gestion administrative et éditoriale pour Little Big Story**
 
 Little Big Story est une société de production audiovisuelle française et basée à Paris, dédiée aux documentaires, aux formats longs et à l’international. Elle entend revisiter les modes narratifs en croisant les formes, les genres et les supports, afin de raconter des histoires qui mettent l’époque à nu. Little Big Story a tiré les leçons d’un marché émietté, et d’une révolution audiovisuelle en cours. Cette démarche est fondée sur l’idée d’un (télé)spectateur-citoyen déjà nourri d’images et exigeant.  
 C’est une démarche d’avenir, porteuse de projets ambitieux et de financements multiples. Par leur forme et leur fond, les projets visent des audiences larges, en France et sur le marché international. Little big story est lauréat du prix du producteur de télévision 2018 (catégorie documentaire).
@@ -981,9 +1031,9 @@ C’est une démarche d’avenir, porteuse de projets ambitieux et de financemen
 <!-- section:end -->
 <!-- section:start -->
 
-### **Gestion administrative et éditoriale pour 13 PRODS**
+### **Gestion administrative et éditoriale pour 13 Prods**
 
-13 Productions est née du rapprochement de deux sociétés de productions 13 production et 13 au sud. Deux sociétés aux profils différents mais complémentaires et compatibles en termes de ligne éditoriale. Fusionnant l’expérience et la modernité, 13 Productions explore et enrichit le cinéma documentaire, tout en assumant sa présence singulière dans le domaine de la fiction. Questionner le monde, enquêter sur ses rouages, souligner les points de fracture et les lignes d’utopie en partageant la vie d’hommes et de femmes engagés, voilà ce qui dynamise l’enthousiasme de 13 productions.
+13 Prods est née du rapprochement de deux sociétés de productions 13 productions et 13 au sud. Deux sociétés aux profils différents mais complémentaires et compatibles en termes de ligne éditoriale. Fusionnant l’expérience et la modernité, 13 Prods explore et enrichit le cinéma documentaire, tout en assumant sa présence singulière dans le domaine de la fiction. Questionner le monde, enquêter sur ses rouages, souligner les points de fracture et les lignes d’utopie en partageant la vie d’hommes et de femmes engagés, voilà ce qui dynamise l’enthousiasme de 13 Prods.
 
 <!-- section:end -->
 <!-- section:start -->
@@ -997,7 +1047,7 @@ Aujourd’hui pop’films souhaite collaborer avec les diffuseurs et d’autres 
 <!-- section:end -->
 <!-- section:start -->
 
-### **Gestion administrative et éditoriale pour VIA DECOUVERTES FILMS :**
+### **Gestion administrative et éditoriale pour Via Decouvertes Films :**
 
 Via Découvertes Films concentre son activité sur la production de contenus audiovisuels à destination des programmes de télévisions, des institutions et des entreprises.  
 Fondée en 1993, Via Découvertes Films s’est attaché les compétences et la fidélité de nombreux réalisateurs, journalistes, chefs opérateurs, monteurs… Riches de créativité et de savoir-faire, LEURS équipes partent à la découverte du monde, des peuples, des évènements, de l’actualité… L’occasion de proposer aux spectateurs un regard sur l’aventure quotidienne et souvent exceptionnelle que chaque être humain porte en lui.  
