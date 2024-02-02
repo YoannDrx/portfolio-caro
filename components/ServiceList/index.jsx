@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Div from "../Div";
 import { useRouter } from "next/router";
+import { GoTriangleRight } from "react-icons/go";
 
 export default function ServiceList({ expertises }) {
   const [active, setActive] = useState(0);
@@ -29,16 +30,18 @@ export default function ServiceList({ expertises }) {
                 </Div>
               </Div>
               <span className="cs-iconbox_icon cs-center">
-                <svg width={15} height={15} viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <GoTriangleRight />
+
+                {/* <svg width={10} height={10} viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z"
                     fill="currentColor"
                   />
-                </svg>
+                </svg> */}
               </span>
               <Div className="cs-iconbox_in">
                 <h2 className="cs-iconbox_title">{service.title}</h2>
-                <Div className="cs-iconbox_subtitle">{service.description}</Div>
+                {/* <Div className="cs-iconbox_subtitle">{service.description}</Div> */}
               </Div>
             </Link>
           </Div>

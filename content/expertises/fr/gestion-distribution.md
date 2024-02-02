@@ -16,7 +16,7 @@ imgFooter: "/images/gestion-distrib/photohome4.JPG"
 
 <!-- section:start -->
 
-### **LA DISTRIBUTION PHYSIQUE :**
+### **LA DISTRIBUTION PHYSIQUE**
 
 La distribution physique concerne la mise en vente d'œuvres musicales dans des magasins tels que les grandes surfaces, enseignes culturelles et disquaires. Toutefois, le nombre de distributeurs physiques a considérablement diminué ces dernières années en raison de l'émergence du numérique.
 
@@ -30,7 +30,7 @@ Les supports CD et vinyles restent néanmoins des objets qui s’avèreront stra
 <!-- section:end -->
 <!-- section:start -->
 
-### **LA DISTRIBUTION NUMERIQUE :**
+### **LA DISTRIBUTION NUMERIQUE**
 
 La distribution numérique est l’adaptation de la version physique, avec les usages et contraintes d’Internet. Les « magasins » de la distribution numérique sont les plateformes de vente et/ou de streaming (Spotify, Deezer, Tidal, Apple music, etc.). Avec l'arrivée de la distribution numérique, tout a changé, puisqu'en 2015 les ventes numériques ont dépassé les ventes physiques. L’offre de distribution numérique a explosé, à tel point qu’on en distingue 2 types :
 
@@ -50,7 +50,7 @@ Pour la distribution d'un premier enregistrement, il faudra choisir la meilleur 
 <!-- section:end -->
 <!-- section:start -->
 
-### **LE CONTRAT DE DISTRIBUTION :**
+### **LE CONTRAT DE DISTRIBUTION**
 
 Un accord de distribution autorise le distributeur le à vendre les enregistrements (CD, vinyle, cassettes).
 Il pourra être exclusif ou réservé à certains territoires (pays). Il pourra aussi stipuler des canaux ou des réseaux de distribution spécifiques (spécialisés, grandes surfaces, physique ou numérique, certains formats uniquement (le CD mais pas le vinyle), etc).
