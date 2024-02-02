@@ -1,10 +1,34 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=M+PLUS+Code+Latin:wght@100..700&display=swap");
+
+@font-face {
+  font-family: "PPTelegraf";
+  src: url("../fonts/PPTelegraf-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPTelegraf";
+  src: url("../fonts/PPTelegraf-UltraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPTelegraf";
+  src: url("../fonts/PPTelegraf-UltraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
 
 body,
 html {
   color: $secondary;
-  font-family: 'Open Sans', sans-serif;
+  // font-family: "PPTelegraf", "M PLUS Code Latin", "Open Sans", sans-serif;
+  font-family: "PPTelegraf";
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6em;
@@ -24,15 +48,18 @@ h6 {
   margin: 0 0 20px 0;
   font-weight: 600;
   line-height: 1.3em;
-  font-family: 'Poppins', sans-serif;
+  // font-family: "Chivo Mono", "Poppins", sans-serif;
+  font-family: "PPTelegraf";
 }
 
 .cs-primary_font {
-  font-family: 'Poppins', sans-serif;
+  // font-family: "Chivo Mono", "Poppins", sans-serif;
+  font-family: "PPTelegraf";
 }
 
 .cs-secondary_font {
-  font-family: 'Open Sans', sans-serif;
+  // font-family: "Chivo Mono", "Poppins", sans-serif;
+  font-family: "PPTelegraf";
 }
 
 h1 {
@@ -169,6 +196,7 @@ kbd {
     margin-bottom: 10px;
   }
 }
-input, textarea {
+input,
+textarea {
   color: $primary;
 }
