@@ -87,7 +87,7 @@ export default function PortfolioDetails({ album, prevAlbum, nextAlbum }) {
 
             {/* Colonne pour le contenu */}
             <Div className="col-lg-8">
-              <SectionHeading title={album.title} subtitle="Creative" />
+              <SectionHeading title={album.title} subtitle="" />
               <p>
                 {album.description.split("\n").map((line, index) => (
                   <React.Fragment key={index}>

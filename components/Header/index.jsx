@@ -98,21 +98,17 @@ export default function Header({ variant }) {
                         {currentLanguage === "en" && (
                           <img src="/images/flags/en-flag.png" alt="English Flag" width={30} className="flag-img" />
                         )}
-
-                        {t("header.navbar.langue")}
                       </Link>
                       <DropDown>
                         <ul>
                           <li onClick={() => changeLanguage("fr")}>
                             <a style={{ cursor: "pointer" }}>
                               <img src="/images/flags/fr-flag.png" alt="Drapeau Français" width={30} className="flag-img" />
-                              Francais
                             </a>
                           </li>
                           <li onClick={() => changeLanguage("en")}>
                             <a style={{ cursor: "pointer" }}>
                               <img src="/images/flags/en-flag.png" alt="English Flag" width={30} className="flag-img" />
-                              English
                             </a>
                           </li>
                         </ul>

@@ -10,7 +10,7 @@ export default function ProjectSlider() {
     {
       memberImage: "/images/portfolio/albums/PGO0051.png",
       memberName: "Lofi HipHop",
-      memberDesignation: "Ablum de librairie musicale",
+      memberDesignation: "Album de librairie musicale",
       memberSocial: {
         linkedin: "/",
         twitter: "/",

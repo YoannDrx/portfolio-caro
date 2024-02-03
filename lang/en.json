@@ -1,13 +1,29 @@
 {
   "header": {
     "navbar": {
-      "à-propos": "À propos",
-      "expertises": "Expertises",
+      "à-propos": "About",
+      "expertises": "Expertise",
       "portfolio": "Portfolio",
       "contact": "Contact",
       "blog": "Blog",
-      "faq": "FAQ",
-      "langue": "Langue"
+      "faq": "FAQs",
+      "langue": "Language"
+    }
+  },
+  "home": {
+    "recentProjects": {
+      "projet1": {
+        "title": "Project 1",
+        "subtitle": "Project subtitle 1",
+        "href": "/project1",
+        "src": "/images/home/project1.jpg",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "twitter": "https://twitter.com/",
+          "instagram": "https://www.instagram.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      }
     }
   },
   "portfolio": [
@@ -29,28 +45,15 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/5mdfALHA6NyXz7msDxjLfX",
       "src": "/images/portfolio/albums/PGO0022.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Une démonstration de minimalisme moderne avec une touche d'originalité, MINIMAL STORIES est un éventail de titres pour le drame humain, l'art, le documentaire, le film et l'histoire, composés et interprétés par Laurent Dury, compositeur français plusieurs fois récompensé.",
+      "category": "Music library album",
+      "description": "A demonstration of modern minimalism with a twist, MINIMAL STORIES is an array of titles for human drama, art, documentary, film and history, composed and performed by multi-award-winning French composer Laurent Dury ",
       "releaseDate": "03/09/2018",
-      "genre": "Instrumentaux / Minimaliste",
+      "genre": "Instrumental / Minimalist",
       "compositeurs": [
         {
           "name": "Laurent Dury",
           "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
-            "soundcloud": "https://soundcloud.com/laurentdury"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow"
         }
       ]
     },
@@ -72,32 +75,20 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4kqgc7hoyZqMOBfzz08sSc",
       "src": "/images/portfolio/albums/PGO0023.jpg",
       "height": "",
-      "category": "albums",
-      "description": "EDM FROM PARIS est un album de dance énergique, épique et exubérant mêlant Future Garage, Future Beat et House, pour un son hypnotique, stratifié et innovant. Un mélange explosif et déroutant par Ducer & Ghostmaker.",
-      "releaseDate": "11/09/2018",
+      "category": "Music library album",
+      "description": "EDM FROM PARIS is an energetic, epic and exuberant dance album blending Future Garage, Future Beat and House, for a hypnotic, layered and innovative sound. ",
+      "releaseDate": "09/11/2018",
       "genre": "Electronic Dance Music",
       "compositeurs": [
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
+          "links": "https://soundcloud.com/ducermusic"
         },
         {
           "name": "Ghostmaker",
-          "compoImg": "/images/portfolio/albums/PGO0023.jpg",
+          "compoImg": "/images/portfolio/photosCompo/Ghostmaker.jpeg",
           "links": {}
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
         }
       ]
     },
@@ -119,25 +110,20 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4yGNRsMNA8rD08limfOrza",
       "src": "/images/portfolio/albums/PGO0024.jpg",
       "height": "",
-      "category": "albums",
-      "description": "CAUGHT IN THE TRAP est une collection de tracks de trap sombres, percutants, anxieux et urbains. Cet album balance avec énergie et auto dérision un son frais et percutant, entre rap minimaliste et breakbeat électrisant par des artistes tels que DJ Troubl, Bonetrips, Ugly Mac Beer, Ducer, Gerz Marcellino, Ghostmaker, Chicho Cortez et Arom.",
+      "category": "Music library album",
+      "description": "CAUGHT IN THE TRAP is a collection of dark, hard-hitting, anxious and urban trap tracks. ",
       "releaseDate": "04/10/2018",
       "genre": "Trap / Hip Hop",
       "compositeurs": [
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
-          "name": "Liqid",
+          "name": "liquid",
           "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Liqid"
-          }
+          "links": "https://soundcloud.com/Liqid"
         },
         {
           "name": "Bonetrips",
@@ -149,27 +135,21 @@
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
           "name": "Chicho Cortez",
           "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/chicho-cortez"
-          }
+          "links": "https://soundcloud.com/chicho-cortez"
         },
         {
-          "name": "DJ Troubl",
+          "name": "DJ Trouble",
           "compoImg": "/images/portfolio/photosCompo/DJTroubl.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djtroubl"
-          }
+          "links": "https://soundcloud.com/djtroubl"
         },
         {
-          "name": "Gerz Marcellino (Collectif Mutant Ninja)",
-          "compoImg": "/images/portfolio/albums/PGO0024.jpg",
+          "name": "Gerz Marcellino",
+          "compoImg": "/images/portfolio/photosCompo/Gerz.jpeg",
           "links": {
             "youtube": "https://www.youtube.com/@MutantNinjaRecords"
           }
@@ -177,19 +157,7 @@
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/ducermusic"
         }
       ]
     },
@@ -211,27 +179,15 @@
       "linkSpotify": " https://open.spotify.com/intl-fr/album/20Mg2DFhxHfEUK4mdH8lMC",
       "src": "/images/portfolio/albums/PGO0025.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Influencé par le courant musical Post Punk, Minimal Wave et Early Electronic Body Music, Modulhater a composé la totalité de cet album nommé ACID. Ce projet s'adresse au dancefloor et rend hommage aux grandes heures de l'Acid Techno, du New beat et de l'Electro Body Music avec des titres percutants, rappelant Nitzer Ebb, Front 242, Gesaffelstein ou Arnaud Rebotini. Basslines acides, kicks lourds et puissants pour une virée sans concessions dans un univers ou les machines ont pris le contrôle.\n\nTechno originale des années 80 et 90, Acid, Electronic Body Music (EBM), Industrial et Rave : Les claviers analogiques Korg et Roland et les boîtes à rythmes sont là pour vous faire voyager de Berlin à Detroit sur ces 11 titres.",
-      "releaseDate": "18/01/2019",
+      "category": "Music library album",
+      "description": "Influenced by the musical movement Post Punk, Minimal Wave and Early Electronic Body Music, Modulhater composed the entire album called ACID. ",
+      "releaseDate": "01/18/2019",
       "genre": "Techno",
       "compositeurs": [
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/lediktat"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/lediktat"
         }
       ]
     },
@@ -253,42 +209,25 @@
       "linkSpotify": " https://open.spotify.com/intl-fr/album/2OvhnSEQeu9TjQXvM37NkA",
       "src": "/images/portfolio/albums/PGO0026.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Né à Cali en Colombie, Sr Ortegon, dont les voyages à travers l'Europe et l'Amérique latine, s'est inspiré d'un large éventail de styles musicaux, donnant à ses productions une touche incomparable. Latin Experience est un mélange mondial de Boogaloo, Latin, Jazz, Salsa, Soul, Funk, Guajira, Cha Cha, Guaguancó, Hip Hop et Rap de la Colombie à New York composés par Sr Ortegon et Stan Galouo.\n\nL'album comprend 13 titres très caliente, dont des chansons en spanglish et des instrumentaux. Quatre d'entre eux ont déjà été publiés sur l'album \"Boogaflow\", nominé aux Latin Grammy Awards.",
-      "releaseDate": "20/05/2019",
+      "category": "Music library album",
+      "description": "Born in Cali, Colombia, Sr Ortegon, whose travels throughout Europe and Latin America, has drawn inspiration from a wide range of musical styles, giving his productions an unmistakable touch. ",
+      "releaseDate": "05/20/2019",
       "genre": "Latino",
       "compositeurs": [
         {
-          "name": "Sr Ortegon",
+          "name": "Sr. Ortegon",
           "compoImg": "/images/portfolio/photosCompo/SrOrtegon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@SrOrtegon"
-          }
+          "links": "https://www.youtube.com/@SrOrtegon"
         },
         {
-          "name": "Stan Galouo (Palma Coco Reccords)",
+          "name": "Stan Galouo (Palma Coco Records)",
           "compoImg": "/images/portfolio/photosCompo/StanGalouo.jpeg",
-          "links": {
-            "youtube": "https://soundcloud.com/palmacoco ",
-            "soundcloud": "https://soundcloud.com/palmacoco"
-          }
+          "links": "https://soundcloud.com/palmacoco"
         },
         {
           "name": "Pana Black",
           "compoImg": "/images/portfolio/photosCompo/PanaBlack.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/panablack"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/panablack"
         }
       ]
     },
@@ -303,25 +242,22 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Future Beats",
+      "title": "Future Beat",
       "subtitle": "See Details",
-      "slug": "future-beats",
+      "slug": "future-beat",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/5LSeee3Tlrud2mIhFJx1lX",
       "src": "/images/portfolio/albums/PGO0027.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Après trois titres consécutifs de champion du monde DMC par équipe, le trio 9 O’clock laisse le spectre technique s'évaporer pour mieux affirmer son identité profonde avec la sortie de cet album. Mr Viktor, Aociz et Dj Hertz ont condensé des années d'exploration musicale : ici, le son est protéiforme, glisse dans les sillons creusés par la French Touch des 90's autant qu'elle emprunte à la scène Future Beat, s'engouffre un temps dans des travées house avant de réapparaitre sous des atours pop.\n\nPour cela, le groupe s'est affranchi des barrières stylistiques, trouvant l'équilibre entre les différents ingrédients qui le composent. Cette équation complexe, dans laquelle s'additionnent le goût d'une musique aux contours futuristes et la trace indélébile des classiques, fait entendre à chacun quelque chose de différent.\n\nUne esthétique percutante et raffinée, marque du perfectionnisme qui caractérise 9 O'clock depuis ses débuts. Future Beat, Future Bass, Cloud Trap, Vaporwave, FUTURE BEAT est une démonstration de musique électronique : 17 titres par 9 O'clock, Ducer et Bonetrips.",
-      "releaseDate": "31/05/2019",
-      "genre": "Électro",
+      "category": "Music library album",
+      "description": "After three consecutive titles as DMC world team champion, 9 O'Clock lets the technical spectrum evaporate to better assert its deep identity with the release of this album. ",
+      "releaseDate": "05/31/2019",
+      "genre": "Electro",
       "compositeurs": [
         {
-          "name": "9 o’Clock",
+          "name": "9 O'Clock",
           "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@9oclock162",
-            "soundcloud": "https://soundcloud.com/9-oclock"
-          }
+          "links": "https://www.youtube.com/@9oclock162"
         },
         {
           "name": "Bonetrips",
@@ -333,19 +269,17 @@
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://soundcloud.com/ducermusic"
+        },
         {
-          "eventImg": ""
+          "name": "liquid",
+          "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
+          "links": "https://soundcloud.com/Liqid"
+        },
+        {
+          "name": "Mutant Ninja Records",
+          "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         }
       ]
     },
@@ -367,44 +301,25 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/36Ynmevzo2QyQqxDF9TCpr",
       "src": "/images/portfolio/albums/PGO0028.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Ce projet est issu de la rencontre entre PARIGO et du duo de musiciens Sébastien Blanchon (trompettiste, claviériste) - Emmanuel Marée (batteur, guitariste, bassiste) ayant co-écrit cet album avec Ugly Mac Beer, directeur artistique sur le projet. Chaque titre illustre des scènes de poursuite, de deal, d'enquête dignes des plus grands films de l'époque.\n\nUn album qui ravira sans aucun doute les amateurs de funk et de groove rare. Une bande originale funky des films de série B des années 60/70. 13 titres enregistrés en live et parfaits pour les flics, escrocs et espions rétro.",
-      "releaseDate": "22/07/2019",
+      "category": "Music library album",
+      "description": "This project comes from the meeting between PARIGO and the duo of musicians Sébastien Blanchon (trumpeter, keyboardist) - Emmanuel Marée (drummer, guitarist, bassist) having co-written this album with Ugly Mac Beer, artistic director on the project. ",
+      "releaseDate": "07/22/2019",
       "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Sébastien Blanchon / N’Zeng",
+          "name": "Sébastien Blanchon / N'ZENG",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Emmanuel Marée",
           "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
         },
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
@@ -426,35 +341,20 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/07kf0f06DKsV1wd9JTzmb4",
       "src": "/images/portfolio/albums/PGO0029.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Dominé par les percussions et la batterie avec un caractère jam, GO-GO FUNK comprend des parties de clavier de rechange, un échantillonnage, des voix et du rap par appel et réponse. Musiciens électroniques, rappeurs ou producteurs de hip-hop, nombreux sont ceux à avoir emprunté le dynamisme exaltant des sections rythmiques de Chuck Brown.\n\nUn hommage aux premiers breaks funky et au rap flow de la fin des années 70 et du début des années 80, y compris Go-Go Funk, P-Funk, Old Skool Hip-Hop et Electro Boogie : l'album comprend 18 titres composé par The Real Fake MC.",
-      "releaseDate": "27/11/2019",
+      "category": "Music library album",
+      "description": "Dominated by percussion and drums with a jam character, GO-GO FUNK features spare keyboard parts, sampling, vocals and call-and-response rapping. ",
+      "releaseDate": "11/27/2019",
       "genre": "Funk",
       "compositeurs": [
         {
           "name": "Bruno Hovart",
           "compoImg": "/images/portfolio/photosCompo/BrunoHovart.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@brunopatchworks4249"
-          }
+          "links": "https://www.youtube.com/@brunopatchworks4249"
         },
         {
           "name": "The Real Fake MC",
-          "compoImg": "/images/portfolio/photosCompo/TheRealFakeMC.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@THEREALFAKEMC",
-            "soundcloud": "https://soundcloud.com/therealfakemc"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "compoImg": "/images/portfolio/photosCompo/TheRealFake™.jpeg",
+          "links": "https://www.youtube.com/@THEREALFAKEMC"
         }
       ]
     },
@@ -469,35 +369,22 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Afro Beat",
+      "title": "Afrobeat",
       "subtitle": "See Details",
       "slug": "afro-beat",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/5qe4qJH2y5Hu1pXZsBdDIN",
       "src": "/images/portfolio/albums/PGO0030.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Arat Kilo entretient et renouvelle la fièvre éthio-jazz du Swinging' Addis des années 70, l'âge d'or de la musique éthiopienne où des musiciens comme Mulatu Astatke, Alémyahu Esthete, Girma Bèyènè ou Hailu Mergia bravèrent la censure établie par Haïlé Sélassié en métissant les traditions amhariques à la soul, au jazz ou à la pop occidentale.\n\nAFROBEAT est un joyau de la musique éthiopienne moderne : Un Ethio-groove orchestral étonnant, rempli de soul américaine, de jazz et des rythmes orientaux les plus profonds : Afrobeat, Ethiopian Jazz et Exotica avec de fortes racines seventies, parfait pour les films, les documentaires, les programmes TV et l'écoute à domicile. Un mix chaud, haut en couleur et audacieux.",
+      "category": "Music library album",
+      "description": "Arat Kilo maintains and renews the Ethio-jazz fever of Swinging' Addis in the 70s, the golden age of Ethiopian music where musicians like Mulatu Astatke, Alémyahu Esthete, Girma Bèyènè and Hailu Mergia defied the censorship established by Haïlé Selassie ",
       "releaseDate": "10/01/2020",
-      "genre": "Afro Beat",
+      "genre": "Afrobeat",
       "compositeurs": [
         {
           "name": "Arat Kilo",
           "compoImg": "/images/portfolio/photosCompo/AratKilo.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aratkilo7994",
-            "soundcloud": "https://soundcloud.com/arat_kilo_band"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@aratkilo7994"
         }
       ]
     },
@@ -512,34 +399,22 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "The Projectionnist",
+      "title": "The Projectionist",
       "subtitle": "See Details",
-      "slug": "the-projectionnist",
+      "slug": "the-projectionist",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4yHli5V63bzVa1BHTi3A72",
       "src": "/images/portfolio/albums/PGO0031.jpg",
       "height": "",
-      "category": "albums",
-      "description": "THE PROJECTIONIST est un hymne à la musique contemplative et cinématographique. Musique orchestrale de film dramatique, de film comique, de cinéma dramatique, de musique fantastique du 20ème siècle avec de fortes saveurs de musique classique moderne et de musique classique contemporaine : 15 pistes dans différentes ambiances avec des versions alternatives, des underscores, piano solo, montage commercial 30/60 et tous les stems, interprétées par le groupe français After In Paris.",
-      "releaseDate": "30/01/2020",
-      "genre": "Orchestral / Cinématographique",
+      "category": "Music library album",
+      "description": "THE PROJECTIONIST is a hymn to contemplative and cinematic music. ",
+      "releaseDate": "01/30/2020",
+      "genre": "Orchestral / Cinematographic",
       "compositeurs": [
         {
           "name": "After In Paris",
           "compoImg": "/images/portfolio/photosCompo/AfterInParis.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
         }
       ]
     },
@@ -554,72 +429,52 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Diggin' Hip-Hop Vol.2",
+      "title": "Diggin Hip-Hop Vol.2",
       "subtitle": "See Details",
       "slug": "diggin-hip-hop-vol-2",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/45xH9uGg9tHVHmabdGtfS2",
       "src": "/images/portfolio/albums/PGO0032.jpg",
       "height": "",
-      "category": "albums",
-      "description": "DIGGIN HIP HOP 2 est la consécration de plusieurs producteurs français et américains les plus talentueux de leur génération. Avec cet album, Liqid, Bonetrips, Arom, Tcheep (tous issus du collectif Mutant Ninja), Ugly Mac Beer, Blanka (La Fine Equipe) et Drixxxé nous livrent un subtil mélange rap et hip hop servi sur un beat hip-hop entêtant et terriblement efficace.\n\nCet album fera découvrir un mélange savoureux et trépidant où rap, électro, scratch et collaborations s'entremêlent pour un résultat irrésistiblement unique : Un deuxième hommage au vrai Hip-Hop après Diggin Hip-Hop Vol.1.\n\nDes breaks, beats, boucles et scratches hip-hop dans une large gamme d'ambiances et de styles incluant boombap, eastcoast, westcoast, jazz, electro gangsta et abstract signés Ugly Mac Beer, Liqid, Drixxxé, Kokane, Arom, Bonetrips, Blanka, Fat Hed, Tcheep, Ducer, F.Stokes et Schérazade.",
-      "releaseDate": "20/02/2020",
-      "genre": "Rap / Hip Hop",
+      "category": "Music library album",
+      "description": "DIGGIN HIP HOP Vol.2 is the consecration of several of the most talented French and American producers of their generation.  <a href= \"https://open.spotify.com/intl-fr/album/6cTvm6NmKxk036ENLdhj4o\" target=\"_blank\" className=\"link\"}>Diggin Hip-Hop Vol.1.</a>\n\nHip-hop breaks, beats, loops and scratches in a wide range of moods and styles including boombap, eastcoast, westcoast, jazz, electro gangsta and abstract by Ugly Mac Beer, Liqid, Drixxxé, Kokane, Arom, Bonetrips, Blanka ",
+      "releaseDate": "02/20/2020",
+      "genre": "Rap/Hip Hop",
       "compositeurs": [
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
           "name": "Mutant Ninja Records",
-          "compoImg": "/images/portfolio/albums/PGO0032.jpg",
-          "links": {
-            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
-          }
+          "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         },
         {
           "name": "Blanka",
           "compoImg": "/images/portfolio/photosCompo/Blanka.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/blankalfe"
-          }
+          "links": "https://soundcloud.com/blankalfe"
         },
         {
-          "name": "Drixxxé",
+          "name": "Drixxxe",
           "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
-            "soundcloud": "https://soundcloud.com/drixxxe-2"
-          }
+          "links": "https://soundcloud.com/drixxxe-2"
         },
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
+          "links": "https://soundcloud.com/ducermusic"
         },
         {
-          "name": "Schérazade",
+          "name": "Scherazade",
           "compoImg": "/images/portfolio/photosCompo/Scherazade.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ",
-            "facebook": "https://www.facebook.com/scherazadeofficiel"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ"
+        },
         {
-          "eventImg": ""
+          "name": "F. Stokes",
+          "compoImg": "/images/portfolio/photosCompo/FStokes.jpeg",
+          "links": "https://www.youtube.com/@TheRealFStokes"
         }
       ]
     },
@@ -636,47 +491,40 @@
       "w1540": 320,
       "title": "Surf Fiction",
       "subtitle": "See Details",
-      "slug": "surf-fiction",
+      "slug": "surf fiction",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/5p4wkVshgSA0JZmh41alTn",
       "src": "/images/portfolio/albums/PGO0033.jpg",
       "height": "",
-      "category": "albums",
-      "description": "S’inspirant directement de la Surf music des années 60, cet album se réapproprie les gimmicks du genre pour les transcender. Rafales de staccatos, glissandos frénétiques, réverb à bloc, caisse claire rockabilly pour transe instrumentale déflagratrice et hommage irrévérencieux aux parrains du genre.\nSa pop psychédélique complexe et cinématographique des 60s a largement inspiré l’univers rétro de cet album: sur ce projet, les guitares les plus psychédéliques ont été enregistrées avec Emile Sornin.\n\nAinsi, SURF FICTION n’a plus grand chose à voir avec les rengaines sunshine pop pour midinettes des Beach Boys qui ont pourtant popularisé et incarné trop souvent l’esprit de la surf music. Les plages de Californie sont bien loin en effet, et les transats déglingués de Paris Plage semblent avoir laissé un goût amer. Aucun temps mort au fil de ces 16 plages qui s’enchaînent dans un déluge de guitares en furie. Les guitares vintages staccato, vibrato, tremolo et réverbération surfent sur les vagues. 16 titres dont 2 chansons françaises, composés et interprétés par les groupes français Les Cavaliers, Les Arondes et Forever Pavot.",
-      "releaseDate": "27/02/2020",
-      "genre": "Rock / Pop",
+      "category": "Music library album",
+      "description": "Taking direct inspiration from 60s surf music, this album reappropriates the gimmicks of the genre to transcend them. ",
+      "releaseDate": "02/27/2020",
+      "genre": "Rock/Pop",
       "compositeurs": [
         {
           "name": "Marie-Sophie Mallet",
           "compoImg": "/images/portfolio/photosCompo/Marie-Sophie-Mallet.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
-          }
+          "links": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
         },
         {
-          "name": "Forever Pavot (Emile Sornin)",
+          "name": "Emile Sornin (Forever Pavot)",
           "compoImg": "/images/portfolio/photosCompo/ForeverPavot.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/ForeverPavot/?locale=fr_FR"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/0IeJOb65ZEwVTKs77bx9vW "
         },
         {
-          "name": "Viro Major Records (Molenat Alexis, Maxime Raynier, Patrice Dambrine)",
+          "name": "Patrice Dambrine (Viro Major Records)",
           "compoImg": "/images/portfolio/photosCompo/ViroMajorRecords.png",
-          "links": {
-            "facebook": "https://www.facebook.com/viromajor/",
-            "bandcamp": "https://viromajorrecords.bandcamp.com/"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://www.facebook.com/viromajor/"
+        },
         {
-          "eventImg": ""
+          "name": "Alexis Molenat (The Riders)",
+          "compoImg": "/images/portfolio/photosCompo/LesCavaliers.jpeg",
+          "links": "https://open.spotify.com/intl-fr/artist/68VVrFrf8sXN9NxkIRvYNO"
+        },
+        {
+          "name": "Maxime Raynier (Les Arondes)",
+          "compoImg": "/images/portfolio/photosCompo/LesArondes.jpeg",
+          "links": "https://open.spotify.com/intl-fr/artist/5TugFO50h3uzx6lsAmZaoA"
         }
       ]
     },
@@ -698,28 +546,15 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4BoHZb94U7t9zRBYGDCahz",
       "src": "/images/portfolio/albums/PGO0034.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Des riffs puissants, millimétrés, un swing de grande houle, tous les ingrédients, qui, sous des airs de fanfares, se réunissent pour la création de cet album JAZZ MUSETTE.\n\nDe la french jazz musette qui fiat chante les cuivres avec des morceaux de valse traditionnelle ainsi que d'autres inspirés de musiques de films et de dessins animés : parfait pour les programmes historiques et les drames humains. Entièrement composé par le trio français Ana Kap, l'album comprend 18 titres.",
-      "releaseDate": "21/04/2020",
+      "category": "Music library album",
+      "description": "Powerful, precise riffs, a big swing, all the ingredients, which, under the air of fanfares, come together for the creation of this JAZZ MUSETTE album.\n\n",
+      "releaseDate": "04/21/2020",
       "genre": "Jazz",
       "compositeurs": [
         {
           "name": "Ana Kap",
           "compoImg": "/images/portfolio/photosCompo/AnaKap.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/anakaptrio/?locale=fr_FR",
-            "youtube": "https://www.youtube.com/@anakap8263"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@anakap8263"
         }
       ]
     },
@@ -741,64 +576,45 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/1ZkFE0yMiN6twIDEp7C4rs",
       "src": "/images/portfolio/albums/PGO0035.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Véritable concentré de leur savoir-faire, TRAP IN THE CLOUD un mélange savoureux et trépidant où rap, pop, trap cloud et collaborations s'entremêlent pour un résultat irrésistiblement aérien.\n\nSur ce projet, Liqid, Arom, Cœur (tous issus du collectif Mutant Ninja), et Roma Luca nous livrent un subtil mélange Trap et Cloud servi sur un beat subtil et terriblement efficace : 15 titres disposant d'une palette de sons diversifiée, Cloud Trap, Vapor Trap, Wavetrap, trillwave et rap pour le drame urbain, la science et les aventures spatiales.",
-      "releaseDate": "19/05/2020",
+      "category": "Music library album",
+      "description": "A true concentrate of their know-how, TRAP IN THE CLOUD is a tasty and hectic mixture where Rap, Pop, Trap Cloud and collaborations intertwine for an irresistibly aerial result.\n\n <a href= \"https://www.youtube.com/@MutantNinjaRecords\" target=\"_blank\" className=\"link\"}>Mutant Ninja</a>), and Roma Luca give us a subtle mix of Trap and Cloud served on a subtle and terribly effective beat: 15 tracks with a diverse palette of sounds, Cloud Trap, Vapor Trap, Wavetrap, Trillwave and Rap for urban drama, ",
+      "releaseDate": "05/19/2020",
       "genre": "Trap / Hip Hop / Cloud Music",
       "compositeurs": [
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
-          "name": "Liqid",
+          "name": "liquid",
           "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Liqid"
-          }
+          "links": "https://soundcloud.com/Liqid"
         },
         {
           "name": "Roma Luca",
           "compoImg": "/images/portfolio/photosCompo/RomaLuca.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@romaluca",
-            "soundcloud": "https://soundcloud.com/camilleluca"
-          }
+          "links": "https://www.youtube.com/@romaluca"
         },
         {
           "name": "Chris Kemp",
           "compoImg": "/images/portfolio/photosCompo/ChrisKemp.jpg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/kempfest"
-          }
+          "links": "https://soundcloud.com/kempfest"
         },
         {
           "name": "Cory Tate",
           "compoImg": "/images/portfolio/photosCompo/CoryTate.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCvzoh7xQ3fYX47auU_HCc2w",
-            "soundcloud": "https://soundcloud.com/corytate"
-          }
+          "links": "https://soundcloud.com/corytate"
         },
         {
           "name": "Cally Reed",
           "compoImg": "/images/portfolio/photosCompo/CallyReed.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/4R7CNJ3OyT9G1bEkvcCi9X"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://open.spotify.com/intl-fr/artist/4R7CNJ3OyT9G1bEkvcCi9X"
+        },
         {
-          "eventImg": ""
+          "name": "Heart",
+          "compoImg": "/images/portfolio/photosCompo/Coeur.jpeg",
+          "links": "https://www.youtube.com/@Coeurkokoro"
         }
       ]
     },
@@ -820,35 +636,40 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/2GxuTtOAI6HhqVwtqtTxWw",
       "src": "/images/portfolio/albums/PGO0036.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Sur AFRO POP, les membres de 9o’clock ont mis à profit leur technique pour la création de mélodies taillées sur mesure avec un certain penchant pour les featuring prestigieux tels Syra, DaXoVii, LovLion ou encore l’artiste Schérazade talent émergeant de l’année 2019.\n\nLe trio saura sans aucun doute convaincre les initiés grâce à cet album hors norme mais également les néophytes avec leurs sonorités Afro Beat. Afro trap pour les jet-setters, les citadins et les amateurs de soleil. Du dancefloor au catwalk, de la chaise longue aux rues de la ville : 18 titres composés par les membres de du groupe 9 O’clock.",
-      "releaseDate": "24/06/2020",
+      "category": "Music library album",
+      "description": "On AFRO POP, the members of 9 O'Clock took advantage of their technique to create tailor-made melodies with a certain penchant for prestigious featurings such as Syra, DaXoVii, LovLion or even the artist Schérazade, an emerging talent from the ",
+      "releaseDate": "06/24/2020",
       "genre": "Afro Pop / Afro Beat",
       "compositeurs": [
         {
           "name": "DJ Hertz",
-          "compoImg": "/images/portfolio/photosCompo/DJHertz.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djhertz-music"
-          }
+          "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
+          "links": "https://soundcloud.com/djhertz-music"
         },
         {
-          "name": "9 o’Clock",
+          "name": "9 O'Clock",
           "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@9oclock162",
-            "soundcloud": "https://soundcloud.com/9-oclock"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://www.youtube.com/@9oclock162"
+        },
         {
-          "eventImg": ""
+          "name": "Syra",
+          "compoImg": "/images/portfolio/photosCompo/Syra.jpeg",
+          "links": "https://www.youtube.com/@syra7874/featured"
+        },
+        {
+          "name": "DaXoVii",
+          "compoImg": "/images/portfolio/photosCompo/Daxovii.jpeg",
+          "links": "https://open.spotify.com/intl-fr/artist/4nQRld5mxpXtOY7GJt7AJN"
+        },
+        {
+          "name": "LovLion",
+          "compoImg": "/images/portfolio/photosCompo/LovLion.jpg",
+          "links": "https://open.spotify.com/intl-fr/artist/4iLSUJSIR7y2vknbGaZXD1"
+        },
+        {
+          "name": "Scherazade",
+          "compoImg": "/images/portfolio/photosCompo/Scherazade.jpeg",
+          "links": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ"
         }
       ]
     },
@@ -870,47 +691,30 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/3LYtFapF78Qqi0MBgKRGx4",
       "src": "/images/portfolio/albums/PGO0038.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Ce projet est issu de la rencontre entre PARIGO et de brillants compositeurs de renom tous reconnus dans l’univers de la musique expérimentale, entre rock, punk et électro. Une collaboration pointue et passionnée entre un producteur de musique à l’image et des musiciens de talent issus de la scène rock underground.\n\nDu thrash punk au post hardcore en passant par l'indie rock des années 90 et la new wave glam, c'est un voyage anarchique à travers le rock fait pour la culture de la jeunesse anti-establishment et l'action extrême. 16 titres explosifs dont 12 chansons par les frères Jean-Baptiste et Frédéric Hanak des groupes français dDamage & Ddash.",
+      "category": "Music library album",
+      "description": "This project is the result of the meeting between PARIGO and brilliant, renowned composers all recognized in the world of experimental music, between rock, punk and electro. ",
       "releaseDate": "10/11/2020",
-      "genre": "Rock / Électro",
+      "genre": "Rock / Electro",
       "compositeurs": [
         {
           "name": "Frédéric Hanak",
-          "compoImg": "/images/portfolio/albums/PGO0038.jpg",
-          "links": {}
+          "compoImg": "/images/portfolio/photosCompo/dDash.jpeg",
+          "links": "https://open.spotify.com/intl-fr/artist/2HXjjAcmNeyqM1InDkqFbu"
         },
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
-          }
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
-          "name": "Cédric Hanak",
+          "name": "Cedric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
           "name": "dDamage",
           "compoImg": "/images/portfolio/photosCompo/dDamage.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
         }
       ]
     },
@@ -925,48 +729,27 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Video Club",
+      "title": "Video club",
       "subtitle": "See Details",
-      "slug": "video-club",
+      "slug": "album-videoclub",
       "externalLink": "",
-      "linkSpotify": "https://open.spotify.com/intl-fr/album/6H7mtNYSsfmhgAuwmg5M2d",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/1oemtAHd4fX6Du4RJiBlUN",
       "src": "/images/portfolio/albums/PGO0039.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Album purement cinématographique dont les rythmes, les boucles et les sonorités intemporelles revêtent une grande variété d'ambiances et de styles. Les titres seront spécialement dédiés aux images.\n\nUn hommage aux musiques de films emblématiques des années 60 et 70 avec une touche psychédélique, funk et imaginative : 17 titres originaux pour des flics cool, des espions de la guerre froide, des cow-boys en duel et des femmes fatales par Yann Kornowicz & Dan Amozig. Mixé et masterisé par Blanka de La Fine Équipe.",
-      "releaseDate": "19/02/2021",
-      "genre": "Bande originale",
+      "category": "Music library album",
+      "description": "A purely cinematic album whose rhythms, loops and timeless sounds take on a wide variety of moods and styles. ",
+      "releaseDate": "02/19/2021",
+      "genre": "Original Sound Track",
       "compositeurs": [
         {
           "name": "Dan Amozig",
           "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/daniel.amozig"
-          }
+          "links": "https://www.facebook.com/daniel.amozig"
         },
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         }
       ]
     },
@@ -988,28 +771,15 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/2UhFxgrXGqXy6AQJvq7Rwg",
       "src": "/images/portfolio/albums/PGO0040.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Dans cet album MINIMAL STORIES VOL.2, les idées imagées du Laurent Dury ont constitué la base de l’œuvre musicale pour raconter une histoire de la première à la dernière seconde. Ces compositions révèlent un doux sens de l'attention, cet album répondant à une amplification sonore contemplative : le doux successeur de MINIMAL STORIES VOL.1.",
-      "releaseDate": "29/04/2021",
-      "genre": "Instrumentaux / Minimaliste",
+      "category": "Music library album",
+      "description": "In this album MINIMAL STORIES VOL.2, the pictorial ideas of Laurent Dury formed the basis of the musical work to tell a story from the first to the last second.  <a href= \"https://open.spotify.com/intl-fr/album/5mdfALHA6NyXz7msDxjLfX\" target=\"_blank\" className=\"link\"}>MINIMAL STORIES VOL.1</a>",
+      "releaseDate": "04/29/2021",
+      "genre": "Instrumental / Minimalist",
       "compositeurs": [
         {
           "name": "Laurent Dury",
           "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
-            "soundcloud": "https://soundcloud.com/laurentdury"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow"
         }
       ]
     },
@@ -1026,33 +796,20 @@
       "w1540": 320,
       "title": "Lazer Funk",
       "subtitle": "See Details",
-      "slug": "lazer-funk",
+      "slug": "laser funk",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/6G02rXZI4mPM1kdc5shX4R",
       "src": "/images/portfolio/albums/PGO0041.jpg",
       "height": "",
-      "category": "albums",
-      "description": "LAZER FUNK est une invitation au funk électro aussi rétro que futuriste. Branchez la pédale wah, c'est l'heure du Lazer Funk. 14 titres rétro et cinématiques qui abordent tous les genres, du funk pur et dur, au breakbeat et à l'electronica, en passant par le trip- et le hip-hop refroidis.\n\n Composé par Aeon Seven, ancien membre du duo français Christine et récent collaborateur du collectif britannique 45 Live.",
-      "releaseDate": "22/06/2021",
-      "genre": "Musique Électronique",
+      "category": "Music library album",
+      "description": "LAZER FUNK is an invitation to electro funk that is as retro as it is futuristic.  <a href= \"ttps://www.youtube.com/sheischristine\" target=\"_blank\" className=\"link\"}>Christina</a> and recent collaborator with the British collective 45 Live.",
+      "releaseDate": "06/22/2021",
+      "genre": "Electronic music",
       "compositeurs": [
         {
           "name": "Aeon Seven",
           "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aeonseven4130",
-            "soundcloud": "https://soundcloud.com/aeon-seven"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@aeonseven4130"
         }
       ]
     },
@@ -1074,42 +831,25 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/5Cflht2qOXc7PGsjVh7ll0",
       "src": "/images/portfolio/albums/PGO0042.jpg",
       "height": "",
-      "category": "albums",
-      "description": "LIGHT AMBIENT est une ode à la chaleur et la sensualité. La direction artistique est confiée à JB Hanak qui s’est entouré de son frère Cédric Hanak et a convié la chanteuse Zoé Wolf pour la chanson ouvrant l’album façon pop song au synthétiseur, pleine de rêverie.\n\nLe reste des titres est une suite de portraits croisés en instrumentaux pornérotiques. Des instrumentaux souvent planants empreint d’émotion. Les synthétiseurs et les nappes de guitare électriques revisitent des mélodies qui évoquent la rêverie et l’émotion. Une collection d'ambiances électroniques shoegazing et de synthés analogiques pour les amoureux, les rêveurs et les pilotes de l'espace solitaires.\n\nNeuf titres directement issus de la bande originale du film Une Dernière Fois réalisé par Olympe de G avec l'actrice française Brigitte Lahaie et composé par JB Hanak, ancien membre des groupes français Ddash et Ddamage.",
+      "category": "Music library album",
+      "description": "LIGHT AMBIENT is an ode to warmth and sensuality.  <a href= \"https://www.youtube.com/watch?v=EPnfDdfOx94\" target=\"_blank\" className=\"link\"}>One last time</a> directed by <a href= \"https://www.instagram.com/olympedege/?hl=fr\" target=\"_blank\" className=\"link\"}>Olympe de G</a> with French actress Brigitte Lahaie and composed by JB Hanak, former member of French groups <a href= \"https://open.spotify.com/intl-fr/artist/2HXjjAcmNeyqM1InDkqFbu\" target=\"_blank\" className=\"link\"}>dDash</a> And <a href= \"https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ\" target=\"_blank\" className=\"link\"}>dDamage</a>.",
       "releaseDate": "03/08/2021",
-      "genre": "Musique Électronique / Light Ambient",
+      "genre": "Electronic Music / Light Ambient",
       "compositeurs": [
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
-          }
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
-          "name": "Cédric Hanak",
+          "name": "Cedric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
-          "name": "Zoé Wolf",
-          "compoImg": "/images/portfolio/albums/PGO0042.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "name": "Zoe Wolf",
+          "compoImg": "/images/portfolio/photosCompo/ZoeWolf.jpg",
+          "links": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
         }
       ]
     },
@@ -1131,50 +871,30 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/6Yx6CNXRPwIzXkuVGn6d0I",
       "src": "/images/portfolio/albums/PGO0043.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Si la réalisation d'un spot publicitaire est une science délicate, le choix de la musique qui doit l'accompagner relève également d'une forme de complexité. La création de cet album tient compte de ces éléments, ses différents univers deviennent une arme efficace qui donnera plus de force aux marques et aux images. DJ Hertz a joué un rôle essentiel : il a composé un univers sonore sur mesure, cet artiste de musique originale nous livre une création unique.\n\nTous les titres remplissent l’obligation d’avoir des espaces instrumentaux importants pour permettre le montage d'une voix off, véhiculer des valeurs positives, humaines ou intimistes. L’album BRAND CONTENT réalise une excellente synthèse des classiques de la musique d'entreprise aux tubes accrocheurs des hit-parades : cet album regorge de sons sensationnels pour rehausser les publicités, promouvoir de nouveaux produits tendance et créer la bande-son de prochains succès.",
-      "releaseDate": "13/09/2021",
-      "genre": "Musique de publicité, Pop",
+      "category": "Music library album",
+      "description": "If producing an advertising spot is a delicate science, choosing the music that should accompany it is also a form of complexity. ",
+      "releaseDate": "09/13/2021",
+      "genre": "Advertising music, Pop",
       "compositeurs": [
         {
           "name": "DJ Hertz",
           "compoImg": "/images/portfolio/photosCompo/DJHertz.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djhertz-music"
-          }
+          "links": "https://soundcloud.com/djhertz-music"
         },
         {
           "name": "Nicolas Pisani",
           "compoImg": "/images/portfolio/photosCompo/NicolasPisani.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/cosmicdude"
-          }
+          "links": "https://soundcloud.com/cosmicdude"
         },
         {
           "name": "Mr Viktor",
           "compoImg": "/images/portfolio/photosCompo/MrViktor.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UC4U1YdCBptWTIrrXWpck52w",
-            "soundcloud": "https://soundcloud.com/mr-viktor"
-          }
+          "links": "https://soundcloud.com/mr-viktor"
         },
         {
           "name": "Rebecca Meyer",
           "compoImg": "/images/portfolio/photosCompo/RebeccaMeyer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCRweKKqx5mtXOkRuFy8yXVg/about",
-            "spotify": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
         }
       ]
     },
@@ -1196,36 +916,20 @@
       "linkSpotify": "https://open.spotify.com/intl-fr/album/1o1QfnyZeVxvtECm8DtTt9",
       "src": "/images/portfolio/albums/PGO0044.jpg",
       "height": "",
-      "category": "albums",
-      "description": "UGLY MAC BEER et Yann Kornowicz nous livrent un subtil mélange d’ambiances noires et de nappes puissantes et contemplatives, servies sur un beat hip-hop subtil et terriblement efficace.\n\nDes paysages sonores de catastrophes écologiques aux atmosphères de vaisseaux spatiaux déserts, préparez-vous à être confronté au summum de l'obscurité et de l'inquiétude.\n\nSur DARK AMBIENT VOL.2, les œuvres sont idéales pour la sonorisation d’ambiances cinématographiques les plus sombres : la terreur, la peur, l'horreur et l'angoisse sont au cœur de cet album.",
-      "releaseDate": "21/01/2022",
-      "genre": "Musique Électronique / Ambient",
+      "category": "Music library album",
+      "description": "Ugly Mac Beer and Yann Kornowicz give us a subtle blend of dark ambiances and powerful, contemplative layers, served on a subtle and terribly effective hip-hop beat.\n\n",
+      "releaseDate": "01/21/2022",
+      "genre": "Electronic Music / Ambient",
       "compositeurs": [
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         },
         {
-          "name": "UGLY MAC BEER",
+          "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
@@ -1242,33 +946,20 @@
       "w1540": 320,
       "title": "Pixel Fiction",
       "subtitle": "See Details",
-      "slug": "pixel-fiction",
+      "slug": "pixel fiction",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4ixa7zHoxgDUpG1LGsDvpk",
       "src": "/images/portfolio/albums/PGO0045.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Des jeux vidéo, jeux d'arcade, rétro gaming et e-sport à la science-fiction, la science, la technologie, la robotique et l'automatisation, Pixel Fiction est l'ultime album cinématique de synthwave 8-bit composé par 2080 compositeur électro atypique reconnu dans l’univers musical Chiptune. PIXEL FICTION est une invitation à l’art geek des années 80.",
-      "releaseDate": "12/05/2022",
-      "genre": "Musique Électronique / Chiptune",
+      "category": "Music library album",
+      "description": "From video games, arcade games, retro gaming and esports to sci-fi, science, technology, robotics and automation, Pixel Fiction is the ultimate cinematic 8-bit synthwave album composed by 2080 ",
+      "releaseDate": "05/12/2022",
+      "genre": "Electronic Music / Chiptune",
       "compositeurs": [
         {
           "name": "2080",
           "compoImg": "/images/portfolio/photosCompo/2080.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@The2080",
-            "soundcloud": "https://soundcloud.com/2080"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/2080"
         }
       ]
     },
@@ -1285,33 +976,20 @@
       "w1540": 320,
       "title": "Dub Experience",
       "subtitle": "See Details",
-      "slug": "dub-experience",
+      "slug": "dub experience",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/0ntqHlliHt1EpZcMNQzALw",
       "src": "/images/portfolio/albums/PGO0046.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Passionnés par les musiques jamaïcaines et leurs rythmes qu’ils pratiquent depuis une vingtaine d’années, initiés et soutenus par les maitres des tambours rasta, Nicolas Belouet (Nicodrum), Thomas Cirade, Yann Jaffré (spécialiste de la Dub musique) et Jimmy Zaccardelli perpétuent un savoir-faire où le plaisir de composer et de jouer dégage de belles vibrations.\n\nDUB EXPERIENCE présente 10 titres pour les rockers, les rastas et les steppers. Des racines originales des années 70 au reggae contemporain expérimental, profitez de cet album de rythmes dub, de guitares skanking, de cuivres jazzy, de synthés soniques : une ode aux voyages exotiques, d’été sur la plage et de dub chillin'.",
+      "category": "Music library album",
+      "description": "Passionate about Jamaican music and its rhythms which they have been practicing for around twenty years, initiated and supported by the masters of Rasta drums, Nicolas Belouet (Nicodrum), Thomas Cirade, Yann Jaffré (Dub music specialist) and Jimmy Zaccardelli ",
       "releaseDate": "2022-07-21",
       "genre": "Reggae",
       "compositeurs": [
         {
-          "name": "Nicodrums & Friends",
+          "name": "Nicodrums",
           "compoImg": "/images/portfolio/photosCompo/Nicodrum.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug",
-            "spotify": "https://open.spotify.com/intl-fr/artist/55h2juci7J6sa1hSIBYf3W"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/55h2juci7J6sa1hSIBYf3W"
         }
       ]
     },
@@ -1326,90 +1004,57 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Odyssey Suites & Remixes",
+      "title": "Odyssey Suites",
       "subtitle": "See Details",
       "slug": "odissey-suites-remix",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/3gJpCKor52lZzh1I4xT9vF",
       "src": "/images/portfolio/albums/PGO0049.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Odyssey Suites & Remixes est une immersion totale dans un univers cinématographique et spatial avec une touche de tension sombre, de romance et d'histoire rétro.\n\nContenant quatre partitions orchestrales originales et 12 remixes allant de l'electronica à l'ambient en passant par le hip hop et l'easy listening, l'album est composé et retravaillé par les meilleurs artistes indépendants français N'Zeng, Drixxxé, Flore, Madben, Arandel, Arom, NSDOS et The Architect.",
-      "releaseDate": "27/04/2023",
-      "genre": "Musique électronique",
+      "category": "Music library album",
+      "description": "Odyssey Suites",
+      "releaseDate": "04/27/2023",
+      "genre": "Electronic music",
       "compositeurs": [
         {
-          "name": "N’Zeng",
+          "name": "Sébastien Blanchon",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Arandel",
           "compoImg": "/images/portfolio/photosCompo/Arandel.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arandel"
-          }
+          "links": "https://soundcloud.com/arandel"
         },
         {
-          "name": "Flore",
+          "name": "Flora",
           "compoImg": "/images/portfolio/photosCompo/Flore.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@FloreMusic/releases",
-            "soundcloud": "https://soundcloud.com/flore"
-          }
+          "links": "https://soundcloud.com/flore"
         },
         {
-          "name": "Drixxxé",
+          "name": "Drixxxe",
           "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
-            "soundcloud": "https://soundcloud.com/drixxxe-2"
-          }
+          "links": "https://soundcloud.com/drixxxe-2"
         },
         {
           "name": "Madben",
           "compoImg": "/images/portfolio/photosCompo/madben.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UChTegJsrojWlBiUhpWY7IOQ",
-            "soundcloud": "https://soundcloud.com/madben"
-          }
+          "links": "https://soundcloud.com/madben"
         },
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
           "name": "NSDOS",
           "compoImg": "/images/portfolio/photosCompo/NSDOS.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@NSDOS",
-            "soundcloud": "https://soundcloud.com/nsdoslazerconnect"
-          }
+          "links": "https://www.youtube.com/@NSDOS"
         },
         {
           "name": "The Architect",
           "compoImg": "/images/portfolio/photosCompo/TheArchitect.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw",
-            "soundcloud": "https://soundcloud.com/fresh-and-dusty-loops"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw"
         }
       ]
     },
@@ -1424,35 +1069,22 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "Riviera Bizarre",
+      "title": "Bizarre Riviera",
       "subtitle": "See Details",
       "slug": "riviera-bizarre",
       "externalLink": "",
       "linkSpotify": " https://open.spotify.com/intl-fr/album/49reqecJUCAnhQ8Guzfey1",
       "src": "/images/portfolio/albums/PGO0050.jpg",
       "height": "",
-      "category": "albums",
-      "description": "Amour fatal pour l’easy-listening et ses arrangements ciselés, contre entichement dangereux pour une tradition pop sombre et triste, le tout saupoudré d’une inconditionnelle passion pour la soul initiale, Minimatic conçoit cet album.\n\n Riviera Bizarre est un hymne à l’atmosphère ensoleillée de la French Rivera dans les années pop 70. Prenez un cocktail et côtoyez la jet set : Cette collection de pop française rétro-moderne, kitsch, easy listening, exotica et lounge vous emmène directement à la plage avec la haute société de la Riviera.",
-      "releaseDate": "13/06/2023",
+      "category": "Music library album",
+      "description": "Fatal love for easy-listening and its chiseled arrangements, against a dangerous enticement for a dark and sad pop tradition, all sprinkled with an unconditional passion for initial soul, Minimatic created this album.\n\n ",
+      "releaseDate": "06/13/2023",
       "genre": "French Pop",
       "compositeurs": [
         {
           "name": "Minimatic",
           "compoImg": "/images/portfolio/photosCompo/Minimatic.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/minimatic",
-            "youtube": "https://www.youtube.com/@MinimaticMusic"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/minimatic"
         }
       ]
     },
@@ -1467,45 +1099,37 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 320,
-      "title": "LoFi Hip-Hop",
+      "title": "Lofi Hip-Hop",
       "subtitle": "See Details",
       "slug": "lofi-hip-hop",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/4uqw30OZwb9IKTytSYE42N",
       "src": "/images/portfolio/albums/PGO0051.png",
       "height": "",
-      "category": "albums",
-      "description": "Avec cet album, TCHEEP, BONETRIPS et CHICHO CORTEZ tous issus du collectif Mutant Ninja, nous livrent un subtil mélange d’électro et ambient servi sur un beat terriblement efficace : la musique Lo-fi. \n\nUn mélange de Hip Hop Lofi relaxant et méditatif pour le bien-être, de nostalgie et d’atmosphères lounge paisibles et chaleureuses.",
-      "releaseDate": "21/10/2023",
+      "category": "Music library album",
+      "description": "With this album, Tcheep, Bonetrips and Chicho Cortez, all from the Mutant Ninja collective, deliver a subtle blend of electro and ambient served to a terribly effective beat: Lo-fi music.\n\n",
+      "releaseDate": "10/21/2023",
       "genre": "Hip-Hop / Lo-fi",
       "compositeurs": [
         {
-          "name": "Tcheep",
+          "name": "Cheep",
           "compoImg": "/images/portfolio/photosCompo/Tcheep.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/tcheep"
-          }
+          "links": "https://soundcloud.com/tcheep"
         },
         {
           "name": "Bonetrips",
           "compoImg": "/images/portfolio/photosCompo/Bonetrips.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Bonetrips"
-          }
+          "links": "https://soundcloud.com/Bonetrips"
         },
         {
           "name": "Chicho Cortez",
           "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/chicho-cortez"
-          }
+          "links": "https://soundcloud.com/chicho-cortez"
         },
         {
-          "name": "Collectif Mutant Ninja",
-          "compoImg": "/images/portfolio/albums/PGO0051.png",
-          "links": {
-            "soundcloud": "https://soundcloud.com/mutantninja"
-          }
+          "name": "Mutant Ninja Records",
+          "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         }
       ],
       "synchronisation": [
@@ -1527,7 +1151,7 @@
     },
     {
       "id": 28,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1536,17 +1160,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Au nom de la mer",
+      "title": "In the name of the sea",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/au-nom-de-la-mer/",
-      "src": "/images/portfolio/documentaires/au-nom-de-la-mer2.jpeg",
+      "src": "/images/portfolio/documentaries/in-the-name-of-the-sea2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 31,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1555,17 +1179,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Comment te dire adieu",
+      "title": "How to say goodbye to you",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu3.png",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu3.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 32,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1574,18 +1198,18 @@
       "w1380": 190,
       "w1400": 190,
       "w1540": 190,
-      "title": "Des antilles au djebel",
+      "title": "From the Antilles to the Jebel",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/des-antilles-au-djebel/",
-      "src": "/images/portfolio/documentaires/des-antilles-au-djebel2.jpeg",
+      "src": "/images/portfolio/documentaries/des-antilles-au-djebel2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 33,
-      "w320": 180,
-      "w575": 200,
+      "w320": 380,
+      "w575": 500,
       "w768": 300,
       "w991": 400,
       "w1080": 600,
@@ -1593,17 +1217,17 @@
       "w1380": 370,
       "w1400": 370,
       "w1540": 370,
-      "title": "Numéro 387 disparu en Méditerranée",
+      "title": "Number 387 disappeared in the Mediterranean",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "http://www.film-documentaire.fr/4DACTION/w_fiche_film/52256_1",
-      "src": "/images/portfolio/documentaires/DISPARU_387.jpeg",
+      "src": "/images/portfolio/documentaries/DISPARU_387.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 34,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1612,17 +1236,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 170,
-      "title": "Eric Piolle, le pèlerin vert",
+      "title": "Eric Piolle, the green pilgrim",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/eric-piolle-le-pelerin-vert/",
-      "src": "/images/portfolio/documentaires/eric-piolle2.jpeg",
+      "src": "/images/portfolio/documentaries/eric-piolle2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 29,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1631,17 +1255,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 150,
-      "title": "Avant que la grande nacre meure",
+      "title": "Before the great mother-of-pearl dies",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/avant-que-la-grande-nacre-meure/",
-      "src": "/images/portfolio/documentaires/avant-que-la-grande-nacre-meure2.png",
+      "src": "/images/portfolio/documentaries/before-que-la-grande-nacre-meure2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 35,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1650,17 +1274,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 180,
-      "title": "Gaudin, l'heure de l'inventaire",
+      "title": "Gaudin, time for inventory",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/gaudin-lheure-de-linventaire/",
-      "src": "/images/portfolio/documentaires/gaudin2.png",
+      "externalLink": "https://www.13prods.fr/gaudin-lheure-de-lentreprises/",
+      "src": "/images/portfolio/documentaries/gaudin2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 36,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1669,17 +1293,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 170,
-      "title": "Génération grand bleu",
+      "title": "Big Blue Generation",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/generation-grand-bleu-3.webp",
+      "src": "/images/portfolio/documentaries/generation-grand-bleu-3.webp",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 37,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -1688,17 +1312,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Georges Perec, l'homme qui ne voulait pas oublier",
+      "title": "Georges Perec, the man who did not want to forget",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/goerges-perec2.jpeg",
+      "src": "/images/portfolio/documentaries/goerges-perec2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 38,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -1707,17 +1331,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Jamee Lee Curtis, un cri de liberté à Hollywood",
+      "title": "Jamie Lee Curtis, a cry for freedom in Hollywood",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jamie-lee-curtis-un-cri-de-liberte-a-hollywood/",
-      "src": "/images/portfolio/documentaires/jamie-lee-curtis2.jpeg",
+      "src": "/images/portfolio/documentaries/jamie-lee-curtis2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 39,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1726,17 +1350,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "J'irai crier sur vos murs",
+      "title": "I will scream on your walls",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jirai-crier-sur-vos-murs/",
-      "src": "/images/portfolio/documentaires/jirai-crier2.jpeg",
+      "src": "/images/portfolio/documentaries/jirai-crier2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 40,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1745,20 +1369,20 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "La double vie du Cognac",
+      "title": "The double life of Cognac",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-double-vie-du-cognac/",
-      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac2.png",
+      "src": "/images/portfolio/documentaries/la-double-vie-du-cognac2.png",
       "height": "",
-      "category": "documentaires",
+      "category": "documentaries",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "releaseDate": "2021-01-01",
-      "genre": "Documentaire"
+      "genre": "Documentary"
     },
     {
       "id": 41,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1767,17 +1391,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "La double vie du Cognac",
+      "title": "The double life of Cognac",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/la-double-vie-du-cognac3.png",
+      "src": "/images/portfolio/documentaries/la-double-vie-du-cognac3.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 42,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1786,17 +1410,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "title": "The woman without a name - the story of Jeanne and Baudelaire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.unifrance.org/film/56020/la-femme-sans-nom-l-histoire-de-jeanne-et-baudelaire",
-      "src": "/images/portfolio/documentaires/la-femme-sans-nom2.jpeg",
+      "src": "/images/portfolio/documentaries/the-woman-without-name2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 43,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 220,
       "w991": 300,
@@ -1805,17 +1429,17 @@
       "w1380": 200,
       "w1400": 200,
       "w1540": 270,
-      "title": "La rumeur d'Orléans",
+      "title": "The rumor of Orléans",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-rumeur-dorleans/",
-      "src": "/images/portfolio/documentaires/la-rumeur-dorleans2.png",
+      "src": "/images/portfolio/documentaries/la-rumeur-dorleans2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 44,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 360,
       "w991": 450,
@@ -1824,17 +1448,17 @@
       "w1380": 350,
       "w1400": 350,
       "w1540": 390,
-      "title": "Concordat et laicité, l'exception",
+      "title": "Concordat and secularism, the exception",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/concordat-et-laicite/",
-      "src": "/images/portfolio/documentaires/Laicité et concordat.webp",
+      "src": "/images/portfolio/documentaries/Secularism and concordat.webp",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 45,
-      "w320": 180,
+      "w320": 460,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1843,17 +1467,17 @@
       "w1380": 380,
       "w1400": 380,
       "w1540": 450,
-      "title": "Le procès d'Auschwitz, la fin du silence",
+      "title": "The Auschwitz trial, the end of silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-proces-dauschwitz-la-fin-du-silence-de-barbara-necek/",
-      "src": "/images/portfolio/documentaires/le-proces.jpeg",
+      "src": "/images/portfolio/documentaries/le-proces.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 46,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1862,17 +1486,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Le temps d'aimer",
+      "title": "Time to love",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-temps-daimer/",
-      "src": "/images/portfolio/documentaires/le-temps-daimer2.jpeg",
+      "src": "/images/portfolio/documentaries/le-temps-daimer2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 47,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1881,17 +1505,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Les oubliés de la justice",
+      "title": "Those forgotten by justice",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/les-oublies-de-la-justice/",
-      "src": "/images/portfolio/documentaires/les-oublies-de-la-justice.jpeg",
+      "externalLink": "https://www.13prods.fr/les-oublis-de-la-justice/",
+      "src": "/images/portfolio/documentaries/les-oublis-de-la-justice.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 48,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1900,17 +1524,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 160,
-      "title": "Makaeta, la terre convoitée",
+      "title": "Makaeta, the coveted land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/makatea-une-terre-convoitee/",
-      "src": "/images/portfolio/documentaires/makatea2.png",
+      "src": "/images/portfolio/documentaries/makatea2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 30,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1919,17 +1543,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Comment te dire adieu",
+      "title": "How to say goodbye to you",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu2.jpeg",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 49,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1938,17 +1562,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "D'IAM à Jul, Marseille capitale Rap",
+      "title": "From IAM to Jul, Marseille capital Rap",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/rap-marseille/",
-      "src": "/images/portfolio/documentaires/marseille-capitale2.jpeg",
+      "src": "/images/portfolio/documentaries/marseille-capitale2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 50,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1957,17 +1581,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Opération Biodiversité",
+      "title": "Operation Biodiversity",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/operation-biodiversite/",
-      "src": "/images/portfolio/documentaires/operation-biodiv.jpeg",
+      "src": "/images/portfolio/documentaries/operation-biodiv.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 51,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1976,17 +1600,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Opération Biodiversité",
+      "title": "Operation Biodiversity",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/operation-biodiversite/",
-      "src": "/images/portfolio/documentaires/operation-biodiversite3.png",
+      "src": "/images/portfolio/documentaries/operation-biodiversite3.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 52,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -1995,17 +1619,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Outre-Mer, 100 ans en clichés",
+      "title": "Overseas, 100 years in photos",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/outremer-100-ans-en-cliches/",
-      "src": "/images/portfolio/documentaires/outremer100.webp",
+      "src": "/images/portfolio/documentaries/outremer100.webp",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 53,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2014,17 +1638,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Par nos yeux",
+      "title": "Through our eyes",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/par-nos-yeux/",
-      "src": "/images/portfolio/documentaires/par-nos-yeux.jpeg",
+      "src": "/images/portfolio/documentaries/par-nos-yeux.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 54,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2033,17 +1657,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 190,
-      "title": "Almodovar, l'insolent de la Mancha",
+      "title": "Almodovar, the insolent La Mancha",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/almodovar-linsolent-de-la-mancha/",
-      "src": "/images/portfolio/documentaires/pedroalmodovar.jpeg",
+      "src": "/images/portfolio/documentaries/pedroalmodovar.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 55,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2052,17 +1676,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Petit pays je t'aime beaucoup",
+      "title": "Small country I love you very much",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/petit-pays-je-t-aime-beaucoup/",
-      "src": "/images/portfolio/documentaires/petit-pays-je-taime-beaucoup.png",
+      "src": "/images/portfolio/documentaries/petit-pays-je-taime-beaucoup.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 56,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2071,17 +1695,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 130,
-      "title": "Petit pays je t'aime beaucoup",
+      "title": "Small country I love you very much",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/petit-pays.png",
+      "src": "/images/portfolio/documentaries/petit-pays.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 57,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2090,17 +1714,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Plonger pour guérir",
+      "title": "Dive to heal",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/plonger-pour-guerir/",
-      "src": "/images/portfolio/documentaires/plonger-pour-guerir.jpeg",
+      "src": "/images/portfolio/documentaries/plonger-pour-guerir.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 58,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2109,17 +1733,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "39-45, les résistantes allemandes",
+      "title": "39-45, German resistance fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/39-45-les-resistantes-allemandes/",
-      "src": "/images/portfolio/documentaires/resistantes-allemandes.webp",
+      "src": "/images/portfolio/documentaries/resistantes-allemandes.webp",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 59,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2128,17 +1752,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 220,
-      "title": "Solidarnosc, la premère brèche",
+      "title": "Solidarnosc, the first breach",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/solidarnosc-la-premiere-breche/",
-      "src": "/images/portfolio/documentaires/solidarnosc2.jpeg",
+      "src": "/images/portfolio/documentaries/solidarnosc2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 60,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2147,17 +1771,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 200,
-      "title": "Sous la loi des talibans",
+      "title": "Under Taliban rule",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/sous-la-loi-des-talibans/",
-      "src": "/images/portfolio/documentaires/sous-la-loi-des-talibans2.jpeg",
+      "src": "/images/portfolio/documentaries/under-the-law-of-the-talibans2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 61,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2166,17 +1790,17 @@
       "w1380": 130,
       "w1400": 130,
       "w1540": 160,
-      "title": "Souvenirs en cuisine",
+      "title": "Memories in the kitchen",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine2.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 62,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2185,17 +1809,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 200,
-      "title": "Naissance d'un héro noir au cinéma, Sweet Sweetback",
+      "title": "Birth of a black hero in cinema, Sweet Sweetback",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/sweet-sweetback/",
-      "src": "/images/portfolio/documentaires/sweet sweetback2.jpeg",
+      "src": "/images/portfolio/documentaries/sweet sweetback2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 63,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2204,17 +1828,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Unique en mon genre",
+      "title": "One of a kind",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/unique-en-mon-genre2.png",
+      "src": "/images/portfolio/documentaries/unique-en-mon-genre2.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 64,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2223,17 +1847,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Blood, Sex & Royalty",
+      "title": "Blood, Sex",
       "subtitle": "Would you like to",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/BloodSex_Royalty.jpg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 65,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2248,11 +1872,11 @@
       "externalLink": "https://www.youtube.com/watch?v=KES5ncRZxBA",
       "src": "/images/portfolio/photosynchro/Captain-Fall-Cover.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 66,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2267,11 +1891,11 @@
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Control-Z.jpg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 67,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2281,16 +1905,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Kleo",
-      "subtitle": "See more",
+      "subtitle": "Original 86",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=xxVgORUhQ3E",
       "src": "/images/portfolio/photosynchro/KLEO-paysage.jpg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 68,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2299,17 +1923,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Le monde de demain",
-      "subtitle": "Where U AH! / Rock it up",
+      "title": "The world of tomorrow",
+      "subtitle": "Where U AH!",
       "slug": "",
       "externalLink": "/videos-synchros/Le-Monde-de-demain-Ep2-WHERE-U-AH!.mov",
-      "src": "/images/portfolio/photosynchro/LeMondeDeDemain.png",
+      "src": "/images/portfolio/photosynchro/le-monde-de-demain2.jpeg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 69,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2319,16 +1943,16 @@
       "w1400": 150,
       "w1540": 180,
       "title": "La Primera vez",
-      "subtitle": "Cali groove / Señorita / María Botella",
+      "subtitle": "Latin Experience Album",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=YbHMdF7Oum8",
       "src": "/images/portfolio/photosynchro/Primera-Vez.jpeg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 70,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2338,16 +1962,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Somebody",
-      "subtitle": "Saxy girl",
+      "subtitle": "Sassy girl",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/SAXY-GIRL-PGO0023.jpeg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 71,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2357,16 +1981,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Tapie",
-      "subtitle": "Moi je n'aimerais que toi",
+      "subtitle": "I would only love you",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=FgWtZznWyno",
       "src": "/images/portfolio/photosynchro/tapie-photo.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 72,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -2375,18 +1999,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Vengeances",
-      "subtitle": "See more",
+      "title": "Revenge",
+      "subtitle": "Solo Rider",
       "slug": "",
       "externalLink": "",
       "src": "/images/portfolio/photosynchro/Vengeances-visu.jpg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 73,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 360,
       "w991": 500,
       "w1080": 680,
@@ -2400,12 +2024,12 @@
       "externalLink": "https://www.youtube.com/watch?v=Lvq-nel3_HY",
       "src": "/images/portfolio/photosynchro/emily.jpeg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 74,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2413,48 +2037,29 @@
       "w1380": 260,
       "w1400": 260,
       "w1540": 310,
-      "title": "Hand Funktion",
-      "subtitle": "See more",
-      "slug": "hand-funktion",
+      "title": "Hand Function",
+      "subtitle": "Aeon Seven",
+      "slug": "hand-function",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/1n2wbxbrK6LAutiNHLKesA",
       "src": "/images/portfolio/vinyles/HAND-FUNKTION.jpg",
       "height": "",
-      "category": "vinyles",
-      "description": "Le premier album complet d'Aeon Seven est enfin là. Après une carrière de producteur remontant à l'an 2000, ce maestro français a été une force créatrice dans tous les domaines de la production, du DJing et de l'animation. Il a d'abord attiré l'attention de la communauté funk/breaks du monde entier avec son exceptionnel 'Funky Furious ep' (2005), puis a produit une série d'incroyables mix tapes qui révèlent magnifiquement son habileté aux platines et en studio. Il a écrit quelques singles pour 45 Live Records et a produit des outils de DJ astucieux avec la série 'Thundercuts' en 7 et en 12.\n\nPendant tout ce temps, Aeon Seven a perfectionné son art à la fois musicalement et visuellement. Son amour de l'instrumental et sa passion évidente pour les bandes originales, le psyché et le jazz transparaissent dans toutes ses productions. Qu'il s'agisse des thèmes atmosphériques et merveilleusement inquiétants de ''The Hidden Hand'', du paysage sonore cosmique mené par la harpe du morceau d'ouverture ''Outer Space Illusion'' ou des vibrations blaxploitation uptempo et funky de ''Mankind Hunt'', Aeon Seven fait preuve d'une grande maturité et d'une exécution experte dans l'écriture des chansons. Je dois également mentionner l'attention qu'Aeon porte aux détails de l'aspect visuel de ses efforts créatifs, ce qui fait que ses sorties se démarquent vraiment.",
-      "releaseDate": "22/04/2022",
+      "category": "Vinyl",
+      "description": "Aeon Seven's first full-length album is finally here. ",
+      "releaseDate": "04/22/2022",
       "genre": "Electro Funk",
       "compositeurs": [
         {
           "name": "Aeon Seven",
           "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aeonseven4130",
-            "soundcloud": "https://soundcloud.com/aeon-seven"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/@aeonseven4130"
         }
       ]
     },
     {
       "id": 75,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2463,46 +2068,28 @@
       "w1400": 260,
       "w1540": 310,
       "title": "Egocentric Visuo-Spatial Perspective",
-      "subtitle": "See more",
+      "subtitle": "Hexahedron",
       "slug": "egocentric-visuo-spatial-perspective",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/0O7bmhtk9WczLpeQAvxItj",
       "src": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
       "height": "",
-      "category": "vinyles",
-      "description": "Hexahedre est la rencontre musicale et plastique des deux artistes JB Hanak (dDamage) et Cyril Laurent (Lambwool). Leur collaboration s’est concentrée sur l’illustration de divers témoignages d’expériences extra corporelles : sentiment de mort imminente, voyage astral, prise de substances hallucinogènes, méditation...\n\nCette démarche se veut parfaitement subjective et reste une proposition de vision artistique sans but ni prétention scientifique. Elle est le fruit d’un échange de pièces sonores sur plusieurs années entre les deux musiciens. JB Hanak a principalement produit des lignes de guitares à l’archet électronique (ebow) et aux claviers analogiques à tendance noise. Cyril Laurent s’est focalisé sur toutes les parties de clavier ambient, l’orchestration des samples, les parties rythmiques et la production finale. Les illustrations visuelles sont réalisées par JB Hanak à travers treize peintures grand formats. À l’issue de cette sortie, le projet Hexahedre prendra vie en galeries d’art : au travers d’expositions de peintures de JB Hanak accompagnées de multiples variations musicales de l’album.\n\nIl s'agit d’un double vinyle 25cm tricolore comportant 8 titres. Ces deux disques, ainsi que leurs pochettes seront placés dans un coffret comportant 8 lithographies. Chacune des lithographies est une illustration d’un des titres de l’album. Le coffret est un objet limité à 300 exemplaires numérotés à la main, destinés uniquement à la vente sur internet et durant les expositions liées au projet. En plus des huit illustrations sous forme de lithographies, trois pochettes recto-verso sont présentes à l’intérieur du coffret : deux pour les disques et une pour contenir les lithographies. Ainsi, le projet comporte dans son ensemble 13 illustrations, toutes réalisées par Jean-Baptiste Hanak sur une période de deux ans. Les impressions furent réalisées en atelier de manière artisanale",
+      "category": "Vinyl",
+      "description": "Hexahedre is the musical and visual encounter of the two artists JB Hanak (dDamage) and Cyril Laurent (Lambwool). ",
       "releaseDate": "12/11/2023",
-      "genre": "Musique électronique",
+      "genre": "Electronic music",
       "compositeurs": [
         {
-          "name": "Hexahèdre",
+          "name": "Hexahedron",
           "compoImg": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
-          "links": {
-            "mowno": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/"
         }
       ]
     },
     {
       "id": 76,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2511,55 +2098,38 @@
       "w1400": 260,
       "w1540": 310,
       "title": "Mustang Force",
-      "subtitle": "See more",
+      "subtitle": "Sébastien Blanchon",
       "slug": "mustang-force",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/3qyTqVQ0ZHq59ebqyBV4l2",
-      "src": "/images/portfolio/vinyles/MUSTANG-FORCE.jpeg",
+      "src": "/images/portfolio/vinyls/MUSTANG-FORCE.jpeg",
       "height": "",
-      "category": "vinyles",
-      "description": "Il y a vingt ans, on avait tout de suite aimé les accords jazz de sa trompette au sein de la formation hip-hop dub à soudures électro, Le Peuple de l'Herbe.\n\nMais la routine d'un groupe a fini par lasser l'aventureux Sébastien Blanchon (N'Zeng), qu'on a repéré par la suite chez les producteurs de techno Agoria ou Rone, ou bien, soufflant dans une veine plus énervée et funky, chez les Anglais Gorillaz ou les beatmakers stéphanois l'Entourloop. Du jazz et du funk, mais aussi de la bagarre, des poursuites en voiture, des promenades rêveuses et, bien sûr, une scène de sexe moite, on retrouve tout cela dans ce disque instrumental piloté par ses soins et s'inspirant avec gourmandise des BO des films policiers des années 1970.\n\nEntre le générique de la série Les Rues de San Francisco, les musiques de 'Inspecteur Harry ou de Shaft, on est en terrain connu, et même archi balisé. On aurait pu craindre le cliché, on est maintenu en haleine. Blanchon, qui joue aussi du Clavinet et du Fender Rhodes, s'est bien entouré avec Emmanuel Marée (batterie, basse, guitare...), qui cosigne les morceaux, de Dominique Mandin (saxophone ténor) et de Thomas Henning (trombone). Les musiciens déploient une telle précision, prennent tant d'amusement à composer avec toute la sellerie du genre qu'il est impossible de ne pas se laisser embarquer à bord de leur Ford Mustang, dont les chromes brillent de mille feux.\n\nLe disque qui fera plaisir à tous les diggers (excavateurs de sons) qui squattent les boutiques de vinyles à la recherche de raretés groove.",
-      "releaseDate": "29/05/2020",
+      "category": "Vinyl",
+      "description": "Twenty years ago, we immediately loved the jazz chords of his trumpet within the hip-hop dub electro-welded group, Le Peuple de l'Herbe.\n\n",
+      "releaseDate": "05/29/2020",
       "genre": "Funk",
       "compositeurs": [
         {
           "name": "Sébastien Blanchon",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Emmanuel Marée",
           "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
-          }
-        }
-      ],
-      "synchronisation": [
+          "links": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
+        },
         {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "name": "Ugly Mac Beer",
+          "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
     {
       "id": 77,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2567,55 +2137,34 @@
       "w1380": 260,
       "w1400": 260,
       "w1540": 310,
-      "title": "NY Parigos",
-      "subtitle": "See more",
-      "slug": "ny-parigos",
+      "title": "Ny Parigo",
+      "subtitle": "F. Stokes",
+      "slug": "ny-parigo",
       "externalLink": "",
-      "linkSpotify": "https://open.spotify.com/intl-fr/track/2di0rTQGqBQN0RZtSh5Sba",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/2HKBtTS8PC2rT6n0G15yL5",
       "src": "/images/portfolio/vinyles/NY-PARIGO.jpg",
       "height": "",
-      "category": "vinyles",
-      "description": "NY Parigo est une nouvelle collaboration entre le Chicagoien F.Stokes et le Parisien Ugly Mac Beer.\n\nGrâce à des images vivantes et à des jeux de mots habiles, F.Stokes réinterprète les traditions thématiques des mouvements soul et blues pour une nouvelle génération de fans de musique. Au-delà de son indéniable talent de parolier, F.Stokes est animé d'un profond sens des responsabilités qui lui permet de promouvoir le progrès et la compassion par le biais de sa musique. Se produisant aux États-Unis et dans le monde entier, F.Stokes a partagé la scène avec des artistes tels que Ghostface Killah, The Cool Kids, Fashawn, Camp Lo, P.O.S., Doomtree, Toki Wright, Nice and Smooth, Twista, ainsi qu'avec une multitude d'autres artistes nationaux et internationaux.\n\nF.Stokes a également occupé des postes dans le domaine du marketing et de la promotion chez G-Unit Records - où il a travaillé en étroite collaboration avec l'icône du rap 50 Cent sur l'image de marque et la promotion créative de l'album Before I Self Destruct - ainsi que chez Def Jam Records, où il a contribué au format marketing international du Black Album de Jay-Z.\n\nUne rencontre parfaite entre les textes de F.Stokes et la production d'Ugly Mac Beer. Les lyrics de F.Stokes font référence à Paris et New York City alors que le track de Mac Beer avec des scratchs se souvient d'un duo célèbre comme Gang Starr ou Eric B et Rakim.",
-      "releaseDate": "17/01/2020",
-      "genre": "Hip Hop / Rap",
+      "category": "Vinyl",
+      "description": "Ny Parigo is a new collaboration between Chicagoan F.Stokes and Parisian Ugly Mac Beer.\n\n",
+      "releaseDate": "01/17/2020",
+      "genre": "Hip Hop/Rap",
       "compositeurs": [
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
-          "name": "F.Stokes",
+          "name": "F. Stokes",
           "compoImg": "/images/portfolio/photosCompo/FStokes.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@TheRealFStokes"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/@TheRealFStokes"
         }
       ]
     },
     {
       "id": 78,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2623,60 +2172,39 @@
       "w1380": 260,
       "w1400": 260,
       "w1540": 310,
-      "title": "Une dernière fois",
-      "subtitle": "See more",
-      "slug": "une-derniere-fois",
+      "title": "One last time",
+      "subtitle": "JB Hanak, Cédric Hanak",
+      "slug": "one last time",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/7nfXtRFt6ZEQ4yCHr59kEf",
-      "src": "/images/portfolio/vinyles/UNE-DERNIERE-FOIS.jpg",
+      "src": "/images/portfolio/vinyls/ONE-LAST-FOIS.jpg",
       "height": "",
-      "category": "vinyles",
-      "description": "Bande originale du Film « Une dernière fois » d’Olympe de G avec Brigitte Lahaie composée par Jb Hanak (dDamage). Les musiques de films pornos des années 70 sont devenues la marotte des diggers et Brigitte Lahaie une icône absolue de ces années marquées par la libération sexuelle.\n\nEn 2020, la cinéaste féministe Olympe de G. se lance dans la réalisation d’un long métrage post-porn inclusif et éthique. Brigitte Lahaie, 64 ans, militante pour le droit à mourir dans la dignité, y joue le rôle principal, poussée par son désir profond de libérer les corps et les sexualités des femmes de son âge. Ce film est certainement l’un des plus beaux films pornérotiques de l’icône Brigitte Lahaie.\n\nLa bande originale du film est confiée à Jb Hanak. Figure de l’underground musical, cet hyperactif multiplie les projets depuis plus de 20 ans. Avec le groupe dDamage qu’il formait avec son frère Fred, il explorait les frontières du Hip Hop, de l’IDM et de l’électro. Avec Cobra, groupe de punk rock à prendre au 14ème degré il traversait les contrées de l’absurde. En cette fin d’années 2020, il va sortir un album avec l’acteur Pierre Richard. En parallèle il expose ses œuvres plastiques en galeries d’art… hyperactif on a dit. Pour cette BO, Jb Hanak s’est entouré de son petit frère Cédric Hanak et a convié la chanteuse Zoé Wolf pour la chanson du générique façon pop song au synthétiseur.\n\nLe reste de la bande originale est une suite de portraits croisés entre tous les personnages du film. Des instrumentaux souvent planants empreint d’émotion. Les synthétiseurs et les nappes de guitare électriques revisitent des mélodies qui évoquent les musiques de Philippe Sarde en les faisant basculer du côté de Tortoise ou de Klaus Schulze. La rêverie et l’émotion sont avant tout le fil conducteur de cette bande originale unique et si particulière. Un collector avant même d’être pressé.",
-      "releaseDate": "18/03/2021",
-      "genre": "Bande originale",
+      "category": "Vinyl",
+      "description": "Original film soundtrack <a href= \"https://www.youtube.com/watch?v=EPnfDdfOx94\" target=\"_blank\" className=\"link\"}>One last time</a> of<a href= \"https://www.instagram.com/olympedege/?hl=fr\" target=\"_blank\" className=\"link\"}>Olympe de G</a> with Brigitte Lahaie composed by JB Hanak (dDamage). ",
+      "releaseDate": "03/18/2021",
+      "genre": "Original Sound Track",
       "compositeurs": [
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {}
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
-          "name": "Cédric Hanak,",
+          "name": "Cedric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
-          "name": "Zoe Wolf,",
+          "name": "Zoe Wolf",
           "compoImg": "/images/portfolio/photosCompo/ZoeWolf.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
         }
       ]
     },
     {
       "id": 79,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2684,47 +2212,29 @@
       "w1380": 260,
       "w1400": 260,
       "w1540": 310,
-      "title": "Vélodrome",
-      "subtitle": "See more",
-      "slug": "velodrome",
+      "title": "Velodrome",
+      "subtitle": "Modulhater",
+      "slug": "Velodrome",
       "externalLink": "",
       "linkSpotify": "https://open.spotify.com/intl-fr/album/23kSxhym1LiiAjkkgnOuDx",
-      "src": "/images/portfolio/vinyles/VELODROME.jpeg",
+      "src": "/images/portfolio/vinyls/VELODROME.jpeg",
       "height": "",
-      "category": "vinyles",
-      "description": "Depuis le début des années 2000, Thomas PAPAY (aka Le Diktat) a sorti plusieurs disques remarquables sur les labels Audiotrauma, Syrphe et OPN. Inspiré par des artistes tels que Scorn, Techno Animal et Dalëk, sa musique a été décrite comme un type de musique industrielle urbaine forte et sans compromis. Avec son nouveau projet Modulhater, Thomas retourne à ses racines techno : il abandonne totalement les ordinateurs pour ne travailler qu'avec des machines hardware, en particulier des synthés analogiques et vintage. Influencée par l'EBM et l'acid music, la techno froide et hypnotique de Modulhater situe le projet dans la même veine que Dopplereffekt, Arnaud Rebotini, Thomas P. Heckmann ou Silent servant. Pour commencer il y a un son. Un son qui nous pénètre, qui affole tous nos sens.\n\nPuis ensuite, il y a cette énergie, comme un noyau en fusion qui irradierait de ses BPM tout ce qui l'entoure, une sorte de bande-son revisitée de ''WipeOut'', le jeu vidéo culte sorti en 1995 au design réalisé par The Designers Republic de Warp, sur laquelle apparaissaient des titres incroyables de The Prodigy, Chemical Brothers ou Orbital. Ensuite, alors que ''Velodrome'' a démarré depuis moins de trois minutes, ces références se brouillent déjà, et c'est un tout autre univers qui se révèle, ouvrant de nouvelles voies avec des sonorités qui, dans un premier temps, se greffent discrètement, puis prennent rapidement tout l'espace. On pense à DAF, à Nitzer Ebb… Très vite l'impression se confirme, l'EBM est sans nul doute en très bonne place parmi les références de Modulhater. Tout devient plus agressif, mais une agressivité qui reste malgré tout très ronde, subtile, qui exhausse le rythme effréné qui fait le socle de l'EP. Un rythme et une énergie presque cinématiques qui renvoient à Speed Tribe, le projet de Daniel Bressanuti et Patrick Codenys de Front 242 sorti en 2003, bande-son imaginaire des 24 Heures du Mans.\n\nOn sort de l'écoute de ces 30 minutes haletantes, les yeux brillants et les oreilles encore vibrantes d'avoir croisé ces mille ombres. Et surtout, on est impressionné de la digestion électronique qu'a été capable d'en faire Modulhater. Alors, on n'a plus qu'une seule envie, y replonger le plus vite possible.",
-      "releaseDate": "08/04/2019",
+      "category": "Vinyl",
+      "description": "Since the early 2000s, Thomas PAPAY (aka Le Diktat) has released several remarkable records on the Audiotrauma, Syrphe and OPN labels. ",
+      "releaseDate": "04/08/2019",
       "genre": "Techno / Acid",
       "compositeurs": [
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/lediktat"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://soundcloud.com/lediktat"
         }
       ]
     },
     {
       "id": 80,
-      "w320": 540,
-      "w575": 540,
+      "w320": 300,
+      "w575": 340,
       "w768": 250,
       "w991": 330,
       "w1080": 460,
@@ -2732,56 +2242,34 @@
       "w1380": 260,
       "w1400": 260,
       "w1540": 310,
-      "title": "Videoclub",
-      "subtitle": "See more",
-      "slug": "videoclub",
+      "title": "Video club",
+      "subtitle": "Yann Kornowicz",
+      "slug": "video club",
       "externalLink": "",
-      "linkSpotify": "https://open.spotify.com/intl-fr/album/1oemtAHd4fX6Du4RJiBlUN",
+      "linkSpotify": "https://open.spotify.com/intl-fr/album/6H7mtNYSsfmhgAuwmg5M2d",
       "src": "/images/portfolio/vinyles/VIDEOCLUB.jpg",
       "height": "",
-      "category": "vinyles",
-      "description": "En mode action sur un magnifique disque vinyle au format simple LP. Le label Parigo Music, Beatsqueeze Records et Bigwax Distribution sont fiers de présenter VIDEOCLUB composé par Yann Kornowicz et Dan Amozig.\n\nGraphiste d'origine pour la presse et la pub, Yann Kornowicz a composé « Chaos in Châtelet », une B.O d'un film futuriste et imaginaire sous forme d'hommage au cinéma de genre des années 1980-90, disponible depuis mars 2016 :  un vrai chef d’œuvre de synthés analogiques et nappes rétrofuturistes, fraîchement habillé d'un court métrage d'animation. Il explose grâce à ce projet hybride à la croisée entre l’animation et le film. Ce compositeur vient d'une famille de musiciens, il fait du violon en conservatoire très tôt mais préfère les cassettes VHS de Batman, Piège de Cristal, Maman j'ai raté l'avion, et s'amuse à copier à l’oreille les sonorités des musiques des films sur le piano de sa grand-mère. Pendant de nombreuses années il se passionne pour le rap et travaille exclusivement ce genre. Il sort sous pseudo des projets discrets, tantôt rap français, tantôt rap anglophone. Même s’il s'aventure ailleurs dorénavant, cela reste un genre musical qui fait partie de son univers et son travail : Il participe la création du dernier album du rappeur Lautrec, avec Guts à la production.\n\nIl s’inspire d’un univers très contemplatif, du compositeur John Adams au duo Boards of Canada, de Wu-Tang à MF Doom. Pour « Chaos in Châtelet » son influence majeure a bien sûr été Carpenter, mais aussi, même si c'est plus caché, le travail de Michael Kamen sur Highlander. Pendant longtemps il se laisse porter par les expérimentations avec les machines. Il devient le spécialiste des bandes originales de film qui n'existe pas : il imagine l'histoire, prépare un storyboard à suivre pour composer les morceaux, et glisse beaucoup de Easter Eggs dans la musique. Il y a des clins d'œil à pas mal de musiques d'enfance des gens de sa génération, notamment une mélodie inspirée d'un passage de ''La fureur du Dragon''. Au-delà du plaisir du pastiche, il met des émotions sincères dans ses compositions, idéales pour la musique à l’image.\n\nAmoureux des golden samples et de leurs originaux funk, jazz et soul, Daniel Amozig est toujours prêt à dégainer son instrument sur scène ou en studio, d'où son surnom de ''sampler à cordes''. A la croisée des chemins entre hiphop et jazz, ce compositeur joue dans différentes formations (Abara Quintet, le Double Jack, Mantras Crew, Collectif Laché Chivé...). Les voyages forment la jeunesse. Après les aventures musico-spatio-temporelles du 1er album intitulé « Retour vers le futur », son groupe Mantras se prépare à entrer dans l’actualité du Hip Hop/Jazz avec un nouvel opus savamment produit. Daniel Amozig a rejoint Kung Lao Lao et Nébié en ajoutant le groove d’une vraie basse et les envolées lyriques de sa guitare, soulignant l’orientation jazz dès la phase de composition.\n\nVIDEOCLUB est un disque vinyle aux allures d'album concept composé de 17 compositions originales qui vous rappelleront les souvenirs fantasmés de vos sessions VHS en compagnie de Charles Bronson, Roger Moore, Pam Grier... Déserts poussiéreux, casinos de la Riviera, jungles sauvages hantées par des sectes lugubres, base ennemie au sommet de sommets enneigés...Plongez dans la quête épique de la VHS d'OR, un artefact puissant qui vous ouvrira les portes de la fiction.",
-      "releaseDate": "19/02/2021",
-      "genre": "Bande originale",
+      "category": "Vinyl",
+      "description": "In action mode on a magnificent vinyl record in single LP format.  <a href= \"https://www.youtube.com/@BEATSQUEEZE\" target=\"_blank\" className=\"link\"}>BeatsqueezeRecords</a> And <a href= \"https://www.instagram.com/bigwaxdistribution/\" target=\"_blank\" className=\"link\"}>Bigwax Distribution</a> are proud to present VIDEOCLUB composed by Yann Kornowicz and Dan Amozig.\n\n",
+      "releaseDate": "02/19/2021",
+      "genre": "Original Sound Track",
       "compositeurs": [
         {
           "name": "Dan Amozig",
           "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/daniel.amozig"
-          }
+          "links": "https://www.facebook.com/daniel.amozig"
         },
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         }
       ]
     },
-
     {
       "id": 81,
-      "w320": 180,
-      "w575": 200,
+      "w320": 160,
+      "w575": 400,
       "w768": 350,
       "w991": 500,
       "w1080": 650,
@@ -2789,18 +2277,18 @@
       "w1380": 380,
       "w1400": 380,
       "w1540": 470,
-      "title": "BNP Paribas, dans les eaux troubles de la plus grande banque Européenne",
+      "title": "BNP Paribas, in the troubled waters of the largest European bank",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/55535_0",
-      "src": "/images/portfolio/documentaires/bnp-paribas-dans-les-eaux-troubles-de-la-plus-grande-banque-européenne.JPG",
+      "src": "/images/portfolio/documentaries/bnp-paribas-in-the-troubled-waters-of-the-largest-European-bank.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 82,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 350,
       "w991": 500,
       "w1080": 600,
@@ -2808,17 +2296,17 @@
       "w1380": 400,
       "w1400": 400,
       "w1540": 470,
-      "title": "La démocratie du dollar",
+      "title": "The democracy of the dollar",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-democratie-du-dollar/",
-      "src": "/images/portfolio/documentaires/la-democratie-du-doller.JPG",
+      "src": "/images/portfolio/documentaries/la-democratie-du-doller.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 83,
-      "w320": 180,
+      "w320": 360,
       "w575": 200,
       "w768": 260,
       "w991": 200,
@@ -2827,17 +2315,17 @@
       "w1380": 350,
       "w1400": 350,
       "w1540": 350,
-      "title": "La femme sans nom - l'histoire de Jeanne et Baudelaire",
+      "title": "The woman without a name - the story of Jeanne and Baudelaire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/la-femme-sans-nom-lhistoire-de-jeanne-et-baudelaire.JPG",
+      "src": "/images/portfolio/documentaries/the-woman-without-a-name-the-story-of-jeanne-et-baudelaire.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 84,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2846,17 +2334,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "L'empire de l'or rouge",
+      "title": "The empire of red gold",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/52255_0",
-      "src": "/images/portfolio/documentaires/lempire-de-lor-rouge2.jpeg",
+      "src": "/images/portfolio/documentaries/lempire-de-lor-rouge2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 85,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2865,17 +2353,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Les oubliés de l'atome",
+      "title": "The Forgotten of the Atom",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272",
-      "src": "/images/portfolio/documentaires/les-oublies-de-latome.JPG",
+      "src": "/images/portfolio/documentaries/les-oublis-de-latome.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 86,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2884,18 +2372,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Les oubliés de l'atome",
+      "title": "The Forgotten of the Atom",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68272",
-      "src": "/images/portfolio/documentaires/les-oublies-de-latome2.jpg",
+      "src": "/images/portfolio/documentaries/les-oublis-de-latome2.jpg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 87,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 260,
       "w991": 460,
       "w1080": 560,
@@ -2903,17 +2391,17 @@
       "w1380": 350,
       "w1400": 350,
       "w1540": 410,
-      "title": "Les poisons de Poutine",
+      "title": "Putin's poisons",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/68279_0",
-      "src": "/images/portfolio/documentaires/les-poisons-de-poutine.WEBP",
+      "src": "/images/portfolio/documentaries/les-poisons-de-poutine.WEBP",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 88,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2922,17 +2410,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Marcus Klingberg, un pur espion",
+      "title": "Marcus Klingberg, a pure spy",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0",
-      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion.JPG",
+      "src": "/images/portfolio/documentaries/marcus-klingberg-un-pure-spy.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 89,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2941,18 +2429,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Marcus Klingberg, un pur espion",
+      "title": "Marcus Klingberg, a pure spy",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/67198_0",
-      "src": "/images/portfolio/documentaires/marcus-klingberg-un-pur-espion2.JPG",
+      "src": "/images/portfolio/documentaries/marcus-klingberg-un-pure-spy2.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 90,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 360,
       "w991": 500,
       "w1080": 600,
@@ -2960,17 +2448,17 @@
       "w1380": 350,
       "w1400": 350,
       "w1540": 470,
-      "title": "Taiwan, une démocratie à l'ombre de la Chine",
+      "title": "Taiwan, a democracy in the shadow of China",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "http://www.film-documentaire.fr/4DACTION/w_fiche_film/63324",
-      "src": "/images/portfolio/documentaires/taiwan-une-democratie-a-lombre-de-la-chine.JPG",
+      "src": "/images/portfolio/documentaries/taiwan-une-democracy-in-the-shadow-of-china.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 91,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -2979,17 +2467,17 @@
       "w1380": 160,
       "w1400": 160,
       "w1540": 200,
-      "title": "Andre Mailfert, l'épopée d'un faussaire industriel",
+      "title": "Andre Mailfert, the epic tale of an industrial forger",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/andre-mailfert/",
-      "src": "/images/portfolio/documentaires/andre-mailfert-lepopee-dun-faussaire-industriel.PNG",
+      "src": "/images/portfolio/documentaries/andre-mailfert-lepopee-dun-faussaire-industriel.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 92,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 120,
       "w991": 200,
@@ -2998,18 +2486,18 @@
       "w1380": 130,
       "w1400": 130,
       "w1540": 160,
-      "title": "Cabrera, un secret révélé",
+      "title": "Cabrera, a secret revealed",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cabrera-un-secret-revele/",
-      "src": "/images/portfolio/documentaires/cabrera-un-secret-revele.PNG",
+      "src": "/images/portfolio/documentaries/cabrera-un-secret-revele.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 93,
-      "w320": 180,
-      "w575": 200,
+      "w320": 360,
+      "w575": 430,
       "w768": 290,
       "w991": 420,
       "w1080": 560,
@@ -3017,17 +2505,17 @@
       "w1380": 320,
       "w1400": 320,
       "w1540": 380,
-      "title": "Cahier d'un retour en langue natale",
+      "title": "Notebook of a return to native language",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/cahier-dun-retour-en-langue-natale/",
-      "src": "/images/portfolio/documentaires/CAHIER D_UN RETOUR.png",
+      "externalLink": "https://www.13prods.fr/cahier-dun-RETIR-en-langue-natale/",
+      "src": "/images/portfolio/documentaries/CAHIER D_UN RETOUR.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 94,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3036,17 +2524,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Cancre",
+      "title": "Dunce",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cancre/",
-      "src": "/images/portfolio/documentaires/cancre-2.jpeg",
+      "src": "/images/portfolio/documentaries/cancre-2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 95,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3055,17 +2543,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Clearstream et moi",
+      "title": "Clearstream and me",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/clearstream/",
-      "src": "/images/portfolio/documentaires/clearstream-et-moi.JPG",
+      "src": "/images/portfolio/documentaries/clearstream-et-moi.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 96,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3074,17 +2562,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Cogolin, ville à prendre",
+      "title": "Cogolin, town to take",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/cogolin-ville-a-prendre/",
-      "src": "/images/portfolio/documentaires/cogolin-ville-a-prendre.png",
+      "src": "/images/portfolio/documentaries/cogolin-ville-a-prendre.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 98,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3093,17 +2581,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Déconfinés en Ré",
+      "title": "Deconfined in Re",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/deconfines-en-re/",
-      "src": "/images/portfolio/documentaires/deconfines-en-re.png",
+      "src": "/images/portfolio/documentaries/deconfines-en-re.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 99,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3112,17 +2600,17 @@
       "w1380": 130,
       "w1400": 130,
       "w1540": 150,
-      "title": "D'IAM à Jul, Marseille capitale Rap",
+      "title": "From IAM to Jul, Marseille capital Rap",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/diam-a-jul-marseille-capitale-rap2.jpeg",
+      "src": "/images/portfolio/documentaries/diam-a-jul-marseille-capitale-rap2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 100,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3131,17 +2619,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 200,
-      "title": "En jachère",
+      "title": "Fallow",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/en-jachere/",
-      "src": "/images/portfolio/documentaires/en-jachere.JPG",
+      "src": "/images/portfolio/documentaries/en-jahere.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 101,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3150,17 +2638,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Filles de harkis",
+      "title": "harkis girls",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/filles-de-harkis/",
-      "src": "/images/portfolio/documentaires/filles-de-harkis.PNG",
+      "src": "/images/portfolio/documentaries/filles-de-harkis.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 102,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 260,
       "w991": 360,
@@ -3169,18 +2657,18 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 330,
-      "title": "Génération grand bleu",
+      "title": "Big Blue Generation",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/generation-grand-bleu-de-jerome-espla/",
-      "src": "/images/portfolio/documentaires/generation-grand-bleu2.JPG",
+      "src": "/images/portfolio/documentaries/generation-grand-bleu2.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 103,
-      "w320": 180,
-      "w575": 200,
+      "w320": 360,
+      "w575": 400,
       "w768": 260,
       "w991": 300,
       "w1080": 460,
@@ -3188,17 +2676,17 @@
       "w1380": 200,
       "w1400": 200,
       "w1540": 240,
-      "title": "Guadeloup - les soldats de la terre",
+      "title": "Guadeloupe - the soldiers of the earth",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-soldats-de-la-terre/",
-      "src": "/images/portfolio/documentaires/guadeloupe-les-soldats-de-la-terre.JPG",
+      "src": "/images/portfolio/documentaries/guadeloupe-les-soldats-de-la-terre.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 104,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3207,17 +2695,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Gurs, un silence assourdissant",
+      "title": "Gurs, a deafening silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/gurs-un-silence-assourdissant/",
-      "src": "/images/portfolio/documentaires/gurs-un-silence-assourdissant .PNG",
+      "src": "/images/portfolio/documentaries/gurs-un-deafening-silence .PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 105,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3226,18 +2714,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Guyane underground",
+      "title": "Guyana underground",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/guyane-underground/",
-      "src": "/images/portfolio/documentaires/guyane-underground.PNG",
+      "src": "/images/portfolio/documentaries/guyane-underground.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 106,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 480,
       "w768": 360,
       "w991": 500,
       "w1080": 620,
@@ -3245,17 +2733,17 @@
       "w1380": 380,
       "w1400": 380,
       "w1540": 430,
-      "title": "Jean Jouzel, dans la bataille du siècle",
+      "title": "Jean Jouzel, in the battle of the century",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jean-jouzel-la-bataille-du-siecle/",
-      "src": "/images/portfolio/documentaires/jean_jouzel_dans_la_bataille_du_siecle.jpeg",
+      "src": "/images/portfolio/documentaries/jean_jouzel_dans_la_bataille_du_siecle.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 107,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3264,17 +2752,17 @@
       "w1380": 160,
       "w1400": 160,
       "w1540": 180,
-      "title": "Karim contre Mittal",
+      "title": "Karim against Mittal",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/karim-contre-mittal/",
-      "src": "/images/portfolio/documentaires/karim-contre-mittal.jpeg",
+      "src": "/images/portfolio/documentaries/karim-contre-mittal.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 108,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3283,17 +2771,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 200,
-      "title": "La brousse une terre en partage",
+      "title": "The bush is a shared land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-brousse-une-terre-en-partage/",
-      "src": "/images/portfolio/documentaires/la-brousse-une-terre-en-partage.JPG",
+      "src": "/images/portfolio/documentaries/la-brousse-une-terre-en-partage.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 109,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3302,17 +2790,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "La clinique de l'amour",
+      "title": "The love clinic",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/la-clinique-de-lamour/",
-      "src": "/images/portfolio/documentaires/la-clinique-de-lamour.jpeg",
+      "src": "/images/portfolio/documentaries/la-clinique-de-lamour.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 110,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3321,17 +2809,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 210,
-      "title": "La grève du siècle",
+      "title": "The strike of the century",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/68lagrevedusiecle/",
-      "src": "/images/portfolio/documentaires/la-greve-du-siecle.JPG",
+      "src": "/images/portfolio/documentaries/la-greve-du-siecle.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 111,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3340,18 +2828,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Lâche ton smartphone",
+      "title": "Drop your smartphone",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/lache-ton-smartphone/",
-      "src": "/images/portfolio/documentaires/lache-ton-smartphone.PNG",
+      "src": "/images/portfolio/documentaries/lache-ton-smartphone.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 112,
-      "w320": 180,
-      "w575": 200,
+      "w320": 380,
+      "w575": 450,
       "w768": 250,
       "w991": 340,
       "w1080": 460,
@@ -3359,17 +2847,17 @@
       "w1380": 270,
       "w1400": 270,
       "w1540": 300,
-      "title": "Le 3e Reich n'aura pas la bombe",
+      "title": "The 3rd Reich will not have the bomb",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-3eme-reich-naura-pas-la-bombe/",
-      "src": "/images/portfolio/documentaires/leIIIeme-reich-naura-pas-la-bombe.JPG",
+      "src": "/images/portfolio/documentaries/theIIIeme-reich-naura-pas-la-bombe.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 113,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3378,17 +2866,17 @@
       "w1380": 160,
       "w1400": 160,
       "w1540": 180,
-      "title": "Le procès d'Auschwitz, la fin du silence",
+      "title": "The Auschwitz trial, the end of silence",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/leproces-daushwitz-la-fin-du-silence2.JPG",
+      "src": "/images/portfolio/documentaries/leproces-daushwitz-la-fin-du-silence2.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 114,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3397,17 +2885,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 180,
-      "title": "Les femmes du IIIeme Reich",
+      "title": "Women of the Third Reich",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-femmes-du-iiie-reich/",
-      "src": "/images/portfolio/documentaires/les-femmes-du-IIIeme-reich.JPG",
+      "src": "/images/portfolio/documentaries/les-femmes-du-IIIeme-reich.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 115,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3416,17 +2904,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Les murs de la honte",
+      "title": "Walls of shame",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-murs-de-la-honte/",
-      "src": "/images/portfolio/documentaires/les-murs-de-la-honte.JPG",
+      "src": "/images/portfolio/documentaries/the-walls-of-shame.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 116,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 250,
@@ -3435,17 +2923,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 200,
-      "title": "Les ouvrières du made in France",
+      "title": "Made in France workers",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/les-ouvrieres-du-made-in-france/",
-      "src": "/images/portfolio/documentaires/les-ouvrieres-du-made-in-france.JPG",
+      "src": "/images/portfolio/documentaries/les-ouvrieres-du-made-in-france.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 117,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3454,17 +2942,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Les résistants de Mauthausen",
+      "title": "The Mauthausen resistance fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mauthausen/",
-      "src": "/images/portfolio/documentaires/les-resistants-de-mauthausen.PNG",
+      "src": "/images/portfolio/documentaries/les-resistants-de-mauthausen.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 118,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3473,17 +2961,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Martinique, la reconquête de la terre",
+      "title": "Martinique, the reconquest of the land",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/martinique-reconquete-terre/",
-      "src": "/images/portfolio/documentaires/martinique-la-reconquete-de-la-terre.jpeg",
+      "src": "/images/portfolio/documentaries/martinique-la-reconquete-de-la-terre.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 119,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3492,17 +2980,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Le masque de fer",
+      "title": "The iron mask",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/masque-de-fer/",
-      "src": "/images/portfolio/documentaires/masque-de-fer.JPG",
+      "src": "/images/portfolio/documentaries/iron-mask.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 120,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3511,17 +2999,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Mayotte, l'enfance en danger",
+      "title": "Mayotte, childhood in danger",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/mayotte-lenfance-en-danger/",
-      "src": "/images/portfolio/documentaires/mayotte-lenfance-danger.PNG",
+      "externalLink": "https://www.13prods.fr/mayotte-lenfant-en-danger/",
+      "src": "/images/portfolio/documentaries/mayotte-lenfant-danger.PNG",
       "height": "150",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 121,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3530,17 +3018,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Mayotte, les combattantes",
+      "title": "Mayotte, the fighters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mayotte-les-combattantes-sur-france-o/",
-      "src": "/images/portfolio/documentaires/mayotte-les-combattantes.jpeg",
+      "src": "/images/portfolio/documentaries/mayotte-les-combattantes.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 122,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3549,17 +3037,17 @@
       "w1380": 140,
       "w1400": 140,
       "w1540": 160,
-      "title": "Micmac à Millau, les paysans face à la mondialisation",
+      "title": "Micmac in Millau, peasants facing globalization",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mic-mac-a-millau-des-paysans-face-a-la-mondialisation/",
-      "src": "/images/portfolio/documentaires/micmac-a-millau-les-paysans-face-a-la-mondialisation.PNG",
+      "src": "/images/portfolio/documentaries/micmac-a-millau-les-peasans-face-a-la-globalisation.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 123,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3568,17 +3056,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Miquelon entre deux eaux",
+      "title": "Miquelon between two waters",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/entre-deux-eaux/",
-      "src": "/images/portfolio/documentaires/miquelon-entre-deux-eaux.PNG",
+      "src": "/images/portfolio/documentaries/miquelon-entre-deux-eaux.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 124,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3587,17 +3075,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Pas folle la liberté",
+      "title": "Freedom is not crazy",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/pas-folle-la-liberte/",
-      "src": "/images/portfolio/documentaires/pas-folle-la-liberte.png",
+      "src": "/images/portfolio/documentaries/pas-folle-la-liberte.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 125,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3606,17 +3094,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 220,
-      "title": "Quand l'Afrique sauva la France",
+      "title": "When Africa saved France",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/quand-l-afrique-sauva-la-france/",
-      "src": "/images/portfolio/documentaires/quand-lafrique-sauva-la-france.JPG",
+      "src": "/images/portfolio/documentaries/when-lafrique-sauva-la-france.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 126,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3625,17 +3113,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Rêves de princesses",
+      "title": "Princess dreams",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/reves-de-princesses/",
-      "src": "/images/portfolio/documentaires/reves-de-princesses2.JPG",
+      "src": "/images/portfolio/documentaries/reves-de-princesses2.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 127,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3644,17 +3132,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Souvenirs en cuisine",
+      "title": "Memories in the kitchen",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine2.jpeg",
+      "src": "/images/portfolio/documentaries/souvenirs-in-kitchen2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 128,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3663,17 +3151,17 @@
       "w1380": 120,
       "w1400": 120,
       "w1540": 160,
-      "title": "Souvenirs en cuisine",
+      "title": "Memories in the kitchen",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine3.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine3.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 129,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 150,
@@ -3682,19 +3170,18 @@
       "w1380": 120,
       "w1400": 120,
       "w1540": 140,
-      "title": "Souvenirs en cuisine",
+      "title": "Memories in the kitchen",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/souvenirs-en-cuisine/",
-      "src": "/images/portfolio/documentaires/souvenirs-en-cuisine4.png",
+      "src": "/images/portfolio/documentaries/souvenirs-en-cuisine4.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
-
     {
       "id": 130,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 360,
       "w991": 500,
       "w1080": 660,
@@ -3702,17 +3189,17 @@
       "w1380": 360,
       "w1400": 360,
       "w1540": 450,
-      "title": "T Gros",
+      "title": "T Big",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/t-gros/",
-      "src": "/images/portfolio/documentaires/tgros.JPG",
+      "src": "/images/portfolio/documentaries/tgros.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 131,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3721,17 +3208,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Unique en mon genre",
+      "title": "One of a kind",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/unique-en-mon-genre/",
-      "src": "/images/portfolio/documentaires/unique-en-mon-genre.PNG",
+      "src": "/images/portfolio/documentaries/unique-en-mon-genre.PNG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 132,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3740,17 +3227,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Chants Grégoriens 2.0",
+      "title": "Gregorian Chants 2.0",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/chants-gregoriens-2-0/",
-      "src": "/images/portfolio/documentaires/chants-gregoriens-2.0.JPG",
+      "src": "/images/portfolio/documentaries/gregorian-chants-2.0.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 133,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3759,17 +3246,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Georges Perec, l'homme qui ne voulait pas oublier",
+      "title": "Georges Perec, the man who did not want to forget",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oublier/",
-      "src": "/images/portfolio/documentaires/georges-perec-lhomme-qui-ne-voulait-pas-oublier2.jpeg",
+      "externalLink": "https://www.13prods.fr/georges-perec-lhomme-qui-ne-voulait-pas-oubli/",
+      "src": "/images/portfolio/documentaries/georges-perec-the-man-who-didn’t-want-to-forget2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 134,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3778,17 +3265,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 190,
-      "title": "Gorongosa, le parc de réconciliation",
+      "title": "Gorongosa, the reconciliation park",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://lukarn.fr/programme/gorongosa-le-parc-de-la-reconciliation/",
-      "src": "/images/portfolio/documentaires/gorongosa-le-parc-de-reconciliation.jpeg",
+      "src": "/images/portfolio/documentaries/gorongosa-le-parc-de-reconciliation.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 135,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3797,17 +3284,17 @@
       "w1380": 180,
       "w1400": 180,
       "w1540": 210,
-      "title": "Jules Vernes et le défi du tour du monde",
+      "title": "Jules Vernes and the challenge of traveling around the world",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/jules-verne-et-le-defi-du-tour-du-monde/",
-      "src": "/images/portfolio/documentaires/jules-verne-et-le-defi-du-tour-du-tour-du-monde.jpeg",
+      "src": "/images/portfolio/documentaries/jules-verne-and-the-challenge-of-the-tour-du-monde.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 136,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3816,17 +3303,17 @@
       "w1380": 170,
       "w1400": 170,
       "w1540": 180,
-      "title": "Naissance d'un héro noir au cinéma, Sweet Sweetback",
+      "title": "Birth of a black hero in cinema, Sweet Sweetback",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "",
-      "src": "/images/portfolio/documentaires/naissance-dun-heros-noir-au-cinema-sweet-sweetback.JPG",
+      "src": "/images/portfolio/documentaries/birth-of-a-black-hero-at-cinema-sweet-sweetback.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 137,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 120,
       "w991": 200,
@@ -3835,17 +3322,17 @@
       "w1380": 130,
       "w1400": 130,
       "w1540": 160,
-      "title": "Patrick Edlinger, la liberté au bout des doigts",
+      "title": "Patrick Edlinger, freedom at your fingertips",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://popfilms.fr/index.php/edlinger-la-liberte-au-bout-des-doigts/",
-      "src": "/images/portfolio/documentaires/patrick-edlinger-la-liberte-au-bout-des-doigts.JPG",
+      "src": "/images/portfolio/documentaries/patrick-edlinger-freedom-at-the-fingertips.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 138,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3854,17 +3341,17 @@
       "w1380": 160,
       "w1400": 160,
       "w1540": 190,
-      "title": "Si loin de la Polynésie",
+      "title": "So far from Polynesia",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/si-loin-de-la-polynesie/",
-      "src": "/images/portfolio/documentaires/si-loin-de-la-polynesie.JPG",
+      "src": "/images/portfolio/documentaries/si-loin-de-la-polynesie.JPG",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 139,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3873,17 +3360,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Leila une vie à Miquelon",
+      "title": "Leila a life in Miquelon",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/leila-une-vie-a-miquelon/",
-      "src": "/images/portfolio/documentaires/leila-une-vie-a-miquelon2.jpeg",
+      "src": "/images/portfolio/documentaries/leila-une-vie-a-miquelon2.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 140,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3892,17 +3379,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "Les amoureux de Marianne",
+      "title": "Marianne's lovers",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.film-documentaire.fr/4DACTION/w_fiche_film/64091_0",
-      "src": "/images/portfolio/documentaires/les-amoureux-de-marianne.jpeg",
+      "src": "/images/portfolio/documentaries/les-amoureux-de-marianne.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 141,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3911,17 +3398,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Ma cité mon village",
+      "title": "My city my village",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/ma-cite-mon-village-disabelle-cadiere/",
-      "src": "/images/portfolio/documentaires/ma-cite-mon-village.jpg",
+      "src": "/images/portfolio/documentaries/ma-cite-mon-village.jpg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 142,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3930,17 +3417,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Mes parents ces héros",
+      "title": "My parents these heroes",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/mes-parents-ces-heros-ordinaires/",
-      "src": "/images/portfolio/documentaires/mes-parents.jpeg",
+      "src": "/images/portfolio/documentaries/my-parents.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 143,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 190,
@@ -3949,17 +3436,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 180,
-      "title": "À vous de juger",
+      "title": "Your turn to judge",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/a-vous-de-juger/",
-      "src": "/images/portfolio/documentaires/a-vous-de-juger.jpeg",
+      "src": "/images/portfolio/documentaries/a-vous-de-juger.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 144,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3968,17 +3455,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "De Gérard à Monsieur Collomb, itinéraire d'un baron",
+      "title": "From Gérard to Monsieur Collomb, itinerary of a baron",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/itineraire-d-un-baron/ ",
-      "src": "/images/portfolio/documentaires/de-gerard-a-monsieur.jpeg",
+      "src": "/images/portfolio/documentaries/de-gerard-a-monsieur.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 145,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -3987,17 +3474,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Juppé, un roman bordelais",
+      "title": "Juppé, a Bordeaux novel",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/juppe-un-roman-bordelais/",
-      "src": "/images/portfolio/documentaires/juppe.jpg",
+      "src": "/images/portfolio/documentaries/juppe.jpg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 146,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4006,18 +3493,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Matrine Aubry, la dame de Lille",
+      "title": "Matrine Aubry, the lady of Lille",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/aubry-la-dame-de-lille/",
-      "src": "/images/portfolio/documentaires/martineaubry.jpg",
+      "src": "/images/portfolio/documentaries/martineaubry.jpg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 147,
-      "w320": 180,
-      "w575": 200,
+      "w320": 460,
+      "w575": 500,
       "w768": 360,
       "w991": 500,
       "w1080": 660,
@@ -4025,18 +3512,18 @@
       "w1380": 350,
       "w1400": 350,
       "w1540": 430,
-      "title": "Nous ne sommes rien, soyons tout",
+      "title": "We are nothing, let's be everything",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/nous-ne-sommes-rien-soyons-tout/",
-      "src": "/images/portfolio/documentaires/nous-ne-sommes-rien.jpeg",
+      "src": "/images/portfolio/documentaries/we-are-nothing.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 148,
-      "w320": 180,
-      "w575": 200,
+      "w320": 260,
+      "w575": 300,
       "w768": 180,
       "w991": 300,
       "w1080": 360,
@@ -4044,18 +3531,18 @@
       "w1380": 220,
       "w1400": 220,
       "w1540": 270,
-      "title": "Déconnectés, les oubliés du numérique",
+      "title": "Disconnected, the forgotten by digital",
       "subtitle": "See Details",
       "slug": "",
-      "externalLink": "https://www.13prods.fr/deconnectes-les-oublies-du-numerique/",
-      "src": "/images/portfolio/documentaires/deconnectes.jpeg",
+      "externalLink": "https://www.13prods.fr/deconnectes-les-oublis-du-numerique/",
+      "src": "/images/portfolio/documentaries/deconnectes.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 149,
       "w320": 180,
-      "w575": 200,
+      "w575": 250,
       "w768": 140,
       "w991": 200,
       "w1080": 300,
@@ -4063,17 +3550,17 @@
       "w1380": 200,
       "w1400": 200,
       "w1540": 200,
-      "title": "Chanter à tout prix",
+      "title": "Sing at all costs",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/chanter-a-tout-prix/",
-      "src": "/images/portfolio/documentaires/chanter-a-tout-prix.jpeg",
+      "src": "/images/portfolio/documentaries/chanter-a-tout-prix.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 150,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4082,17 +3569,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 160,
-      "title": "L'éveil du désir",
+      "title": "The awakening of desire",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/leveil-du-desir/",
-      "src": "/images/portfolio/documentaires/leveil-du-désir.jpeg",
+      "src": "/images/portfolio/documentaries/leveil-du-désir.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 151,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4101,18 +3588,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Le ministère",
+      "title": "The Ministry",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/le-ministere/",
-      "src": "/images/portfolio/documentaires/le-ministere.jpeg",
+      "src": "/images/portfolio/documentaries/le-ministere.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 152,
-      "w320": 180,
-      "w575": 290,
+      "w320": 160,
+      "w575": 200,
       "w768": 140,
       "w991": 200,
       "w1080": 260,
@@ -4120,17 +3607,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Votez jeunesse",
+      "title": "Vote youth",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/votez-jeunesse/",
-      "src": "/images/portfolio/documentaires/votez-jeunesse.jpeg",
+      "src": "/images/portfolio/documentaries/votez-jeunesse.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 153,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4139,17 +3626,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 160,
-      "title": "Calanques, les usines du bout du monde",
+      "title": "Calanques, factories at the end of the world",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/calanques-les-usines-du-bout-du-monde/",
-      "src": "/images/portfolio/documentaires/calanques.jpeg",
+      "src": "/images/portfolio/documentaries/calanques.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 154,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4158,18 +3645,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 160,
-      "title": "Une deuxième chance",
+      "title": "A second chance",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/deuxieme-chance/",
-      "src": "/images/portfolio/documentaires/une-deuxieme-chance.jpeg",
+      "src": "/images/portfolio/documentaries/une-second-chance.jpeg",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 156,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4178,7 +3665,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Alien Suites Remixes",
-      "subtitle": "See Details",
+      "subtitle": "N’Zeng",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=Xc5-EKeDO6Y",
       "src": "/images/portfolio/clips/alien-suites-remixes.png",
@@ -4188,7 +3675,7 @@
     {
       "id": 157,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4196,8 +3683,8 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Dark Ambient Vol2",
-      "subtitle": "See Details",
+      "title": "Dark Ambient Vol.2",
+      "subtitle": "Ugly Mac Beer",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=E3O5PfylPxs",
       "src": "/images/portfolio/clips/dark-ambient-vol2.png",
@@ -4207,7 +3694,7 @@
     {
       "id": 158,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4216,7 +3703,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Dark Ambient 2 Making Of",
-      "subtitle": "See Details",
+      "subtitle": "Ugly Mac Beer",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=NI04hAc0SW4",
       "src": "/images/portfolio/clips/dark-ambient2-making-of.png",
@@ -4224,28 +3711,9 @@
       "category": "clips"
     },
     {
-      "id": 159,
-      "w320": 160,
-      "w575": 300,
-      "w768": 140,
-      "w991": 190,
-      "w1080": 250,
-      "w1199": 250,
-      "w1380": 150,
-      "w1400": 150,
-      "w1540": 170,
-      "title": "Dub Experience",
-      "subtitle": "See Details",
-      "slug": "",
-      "externalLink": "https://www.youtube.com/watch?v=AaxPsUElbKQ",
-      "src": "/images/portfolio/clips/dub-experience.png",
-      "height": "200",
-      "category": "clips"
-    },
-    {
       "id": 160,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4254,7 +3722,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Egocentric Visuo-Spatial Perspective",
-      "subtitle": "See Details",
+      "subtitle": "Hexahedron",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=10LSc8MjTmM",
       "src": "/images/portfolio/clips/egocentric visuo-spatial perspective.png",
@@ -4264,7 +3732,7 @@
     {
       "id": 161,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4273,7 +3741,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Hold Me Closer",
-      "subtitle": "See Details",
+      "subtitle": "DJ Hertz",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=ugsBtjXVgN0",
       "src": "/images/portfolio/clips/hold-me-closer.png",
@@ -4283,7 +3751,7 @@
     {
       "id": 162,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4292,7 +3760,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Lofi Hip Hop",
-      "subtitle": "See Details",
+      "subtitle": "Mutant Ninja Collective",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=lsXj6hGHM-Q",
       "src": "/images/portfolio/clips/lofi-hip-hop.png",
@@ -4302,7 +3770,7 @@
     {
       "id": 163,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4311,7 +3779,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "NY Parigo",
-      "subtitle": "See Details",
+      "subtitle": "F. Stokes",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=jfTecY6qM2Q",
       "src": "/images/portfolio/clips/ny-parigo.png",
@@ -4321,7 +3789,7 @@
     {
       "id": 164,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4330,7 +3798,7 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Pixel Fiction",
-      "subtitle": "See Details",
+      "subtitle": "2080",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=RewFfsLHZSc",
       "src": "/images/portfolio/clips/pixel-fiction.png",
@@ -4340,7 +3808,7 @@
     {
       "id": 165,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4348,8 +3816,8 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Riviera Bizarre",
-      "subtitle": "See Details",
+      "title": "Bizarre Riviera",
+      "subtitle": "Minimatic",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=wrO96WV69aY",
       "src": "/images/portfolio/clips/riviera-bizarre.png",
@@ -4359,7 +3827,7 @@
     {
       "id": 166,
       "w320": 160,
-      "w575": 300,
+      "w575": 250,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4367,18 +3835,18 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Une dernière fois",
-      "subtitle": "See Details",
+      "title": "One last time",
+      "subtitle": "JB Hanak, Cédric Hanak",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=EPnfDdfOx94",
-      "src": "/images/portfolio/clips/une-derniere-fois.png",
+      "src": "/images/portfolio/clips/one-last-time.png",
       "height": "200",
       "category": "clips"
     },
     {
       "id": 167,
       "w320": 160,
-      "w575": 300,
+      "w575": 200,
       "w768": 140,
       "w991": 190,
       "w1080": 250,
@@ -4386,8 +3854,8 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Vidéo Club",
-      "subtitle": "See Details",
+      "title": "Video club",
+      "subtitle": "Yann Kornowicz",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=anT5ocBumDk",
       "src": "/images/portfolio/clips/videoclub.png",
@@ -4396,7 +3864,7 @@
     },
     {
       "id": 168,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 200,
@@ -4405,17 +3873,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Comment te dire adieu",
+      "title": "How to say goodbye to you",
       "subtitle": "See Details",
       "slug": "",
       "externalLink": "https://www.13prods.fr/comment-te-dire-adieu/",
-      "src": "/images/portfolio/documentaires/comment-te-dire-adieu.png",
+      "src": "/images/portfolio/documentaries/comment-te-dire-adieu.png",
       "height": "",
-      "category": "documentaires"
+      "category": "documentaries"
     },
     {
       "id": 169,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4425,16 +3893,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Pinterest",
-      "subtitle": "See Details",
+      "subtitle": "Una vez mas",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=x--kTXN1DTY",
       "src": "/images/portfolio/photosynchro/pinterest-una-vez-mas.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 170,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4444,16 +3912,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Yongman Pizza",
-      "subtitle": "See Details",
+      "subtitle": "New Sheriff in Town",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=9u0zqjrsAFU",
       "src": "/images/portfolio/photosynchro/pub-youngman-pizza-new-sheriff-in-town.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 171,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4463,16 +3931,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Yves Rocher",
-      "subtitle": "See Details",
+      "subtitle": "The River Flows",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=xfy0FWlJucs",
       "src": "/images/portfolio/photosynchro/the-river-flows-yves-rocher.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 172,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4482,16 +3950,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "True Lies",
-      "subtitle": "See Details",
+      "subtitle": "Una vez mas",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=ngBH8bsqvV8",
       "src": "/images/portfolio/photosynchro/true-lies-una-vez-mas.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 173,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4501,16 +3969,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Bad Boys",
-      "subtitle": "See Details",
+      "subtitle": "Hey Boy",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=6xkrqHRGwx0",
       "src": "/images/portfolio/photosynchro/bad-boys-hey-boy.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 174,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4519,17 +3987,17 @@
       "w1380": 150,
       "w1400": 150,
       "w1540": 170,
-      "title": "Le monde de demain",
-      "subtitle": "Where U AH! / Rock it up",
+      "title": "The world of tomorrow",
+      "subtitle": "Rock it up",
       "slug": "",
       "externalLink": "/videos-synchros/Le-Monde-de-demain-Ep6-ROCK-IT-UP.mov",
       "src": "/images/portfolio/photosynchro/LeMondeDeDemain.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 175,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4539,16 +4007,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "OVM Petrom",
-      "subtitle": "See Details",
+      "subtitle": "Pointillism",
       "slug": "",
       "externalLink": "/videos-synchros/OMV-Petrom-Pointillism.mov",
       "src": "/images/portfolio/photosynchro/omv-petrom-pointillism.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 176,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4558,16 +4026,16 @@
       "w1400": 150,
       "w1540": 170,
       "title": "ZDF History",
-      "subtitle": "See Details",
+      "subtitle": "Una vez mas",
       "slug": "",
       "externalLink": "/videos-synchros/Jazz-Funk-Sabor-ZDF-HISTORY.mp4",
-      "src": "/images/portfolio/photosynchro/zdf-history.png",
+      "src": "/images/portfolio/photosynchro/jazz-funk-sabor-zdf-history.png",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
     },
     {
       "id": 177,
-      "w320": 180,
+      "w320": 160,
       "w575": 200,
       "w768": 140,
       "w991": 180,
@@ -4577,12 +4045,248 @@
       "w1400": 150,
       "w1540": 170,
       "title": "Tokyo Vice",
-      "subtitle": "See Details",
+      "subtitle": "Gevaert",
       "slug": "",
       "externalLink": "https://www.youtube.com/watch?v=Ke41rOP9Nm8",
-      "src": "/images/portfolio/photosynchro/tokyo-vice.png",
+      "src": "/images/portfolio/photosynchro/tokyo-vice-portfolio.jpeg",
       "height": "",
-      "category": "synchros"
+      "category": "sync"
+    },
+    {
+      "id": 178,
+      "w320": 160,
+      "w575": 250,
+      "w768": 140,
+      "w991": 190,
+      "w1080": 250,
+      "w1199": 250,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Klang Brutt",
+      "subtitle": "See Detais",
+      "slug": "",
+      "externalLink": "https://www.youtube.com/watch?v=FPhmJMAzsQ4",
+      "src": "/images/portfolio/clips/Modulhater-Klang-Brutt.png",
+      "height": "",
+      "category": "clips"
+    },
+    {
+      "id": 179,
+      "w320": 160,
+      "w575": 250,
+      "w768": 140,
+      "w991": 190,
+      "w1080": 250,
+      "w1199": 250,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Garden of Eden",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.youtube.com/watch?v=6JYSP7NekGo",
+      "src": "/images/portfolio/clips/gardenofeden2.png",
+      "height": "",
+      "category": "clips"
+    },
+    {
+      "id": 180,
+      "w320": 160,
+      "w575": 250,
+      "w768": 140,
+      "w991": 190,
+      "w1080": 250,
+      "w1199": 250,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Acid Body Music",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "",
+      "src": "/images/portfolio/clips/Acid.png",
+      "height": "",
+      "category": "clips"
+    },
+    {
+      "id": 181,
+      "w320": 160,
+      "w575": 200,
+      "w768": 140,
+      "w991": 200,
+      "w1080": 280,
+      "w1199": 280,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "The alive",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.13prods.fr/les-vivants/",
+      "src": "/images/portfolio/documentaries/les-viants-portfolio.jpeg",
+      "height": "",
+      "category": "documentaries"
+    },
+    {
+      "id": 182,
+      "w320": 460,
+      "w575": 500,
+      "w768": 260,
+      "w991": 460,
+      "w1080": 560,
+      "w1199": 560,
+      "w1380": 350,
+      "w1400": 350,
+      "w1540": 410,
+      "title": "Mangas, a French revolution",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.13prods.fr/mangas-une-revolution-francaise-2/",
+      "src": "/images/portfolio/documentaries/mangas2portfolio.jpg",
+      "height": "",
+      "category": "documentaries"
+    },
+    {
+      "id": 183,
+      "w320": 160,
+      "w575": 200,
+      "w768": 140,
+      "w991": 200,
+      "w1080": 280,
+      "w1199": 280,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Going green, a utopia in Périgord",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.13prods.fr/se-mise-au-vert-une-utopia-en-perigord/",
+      "src": "/images/portfolio/documentaries/se-mise-au-vert-portfolio.png",
+      "height": "",
+      "category": "documentaries"
+    },
+    {
+      "id": 184,
+      "w320": 160,
+      "w575": 200,
+      "w768": 140,
+      "w991": 200,
+      "w1080": 280,
+      "w1199": 280,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Hear us, domestic violence in Polynesia",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.francetvpro.fr/contenu-de-presse/65053800",
+      "src": "/images/portfolio/documentaries/hear-us-portfolio.jpeg",
+      "height": "",
+      "category": "documentaries"
+    },
+    {
+      "id": 185,
+      "w320": 160,
+      "w575": 200,
+      "w768": 140,
+      "w991": 200,
+      "w1080": 280,
+      "w1199": 280,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "The children of Huahine in Occitania",
+      "subtitle": "See Details",
+      "slug": "",
+      "externalLink": "https://www.13prods.fr/les-enfants-de-huahine-en-occitanie/",
+      "src": "/images/portfolio/documentaries/the-children-of-huahine-portfolio.jpeg",
+      "height": "",
+      "category": "documentaries"
+    },
+    {
+      "id": 186,
+      "w320": 160,
+      "w575": 200,
+      "w768": 140,
+      "w991": 190,
+      "w1080": 250,
+      "w1199": 250,
+      "w1380": 150,
+      "w1400": 150,
+      "w1540": 170,
+      "title": "Elsewhere",
+      "subtitle": "Arom",
+      "slug": "",
+      "externalLink": "https://www.youtube.com/watch?v=7JLe1hLIu_U",
+      "src": "/images/portfolio/clips/Ailleurs.png",
+      "height": "200",
+      "category": "clips"
+    },
+    {
+      "id": 187,
+      "w320": 300,
+      "w575": 340,
+      "w768": 250,
+      "w991": 330,
+      "w1080": 460,
+      "w1199": 460,
+      "w1380": 260,
+      "w1400": 260,
+      "w1540": 310,
+      "title": "Acid Body Music",
+      "subtitle": "Modulhater",
+      "slug": "acid-body-music",
+      "externalLink": "",
+      "linkSpotify": "",
+      "src": "/images/portfolio/vinyles/ACID-BODY-MUSIC.jpg",
+      "height": "",
+      "category": "Vinyl",
+      "description": "Thomas Papay's career began in the early 2000s. ",
+      "releaseDate": "03/22/2024",
+      "genre": "Techno",
+      "compositeurs": [
+        {
+          "name": "Modulhater",
+          "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
+          "links": "https://soundcloud.com/lediktat"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "w320": 300,
+      "w575": 340,
+      "w768": 250,
+      "w991": 330,
+      "w1080": 460,
+      "w1199": 460,
+      "w1380": 260,
+      "w1400": 260,
+      "w1540": 310,
+      "title": "The Trip",
+      "subtitle": "N’ZENG",
+      "slug": "the-trip",
+      "externalLink": "",
+      "linkSpotify": "",
+      "src": "/images/portfolio/vinyls/THE TRIP.jpg",
+      "height": "",
+      "category": "Vinyl",
+      "description": "THE TRIP is the first solo album by N’ZENG, still unknown, under the name Sébastien Blanchon. ",
+      "releaseDate": "03/22/2024",
+      "genre": "Trip Hop",
+      "compositeurs": [
+        {
+          "name": "N’ZENG",
+          "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
+          "links": "https://soundcloud.com/nzeng"
+        },
+        {
+          "name": "Charlotte Savary",
+          "compoImg": "/images/portfolio/photosCompo/CharlotteSavary.jpeg",
+          "links": "https://www.youtube.com/@CharlotteSavaryMusic/featured"
+        }
+      ]
     }
   ]
 }

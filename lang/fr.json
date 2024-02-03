@@ -53,20 +53,7 @@
         {
           "name": "Laurent Dury",
           "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
-            "soundcloud": "https://soundcloud.com/laurentdury"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow"
         }
       ]
     },
@@ -96,24 +83,12 @@
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
+          "links": "https://soundcloud.com/ducermusic"
         },
         {
           "name": "Ghostmaker",
           "compoImg": "/images/portfolio/photosCompo/Ghostmaker.jpeg",
           "links": {}
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
         }
       ]
     },
@@ -143,17 +118,12 @@
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
           "name": "Liqid",
           "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Liqid"
-          }
+          "links": "https://soundcloud.com/Liqid"
         },
         {
           "name": "Bonetrips",
@@ -165,23 +135,17 @@
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
           "name": "Chicho Cortez",
           "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/chicho-cortez"
-          }
+          "links": "https://soundcloud.com/chicho-cortez"
         },
         {
           "name": "DJ Troubl",
           "compoImg": "/images/portfolio/photosCompo/DJTroubl.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djtroubl"
-          }
+          "links": "https://soundcloud.com/djtroubl"
         },
         {
           "name": "Gerz Marcellino",
@@ -193,19 +157,7 @@
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/ducermusic"
         }
       ]
     },
@@ -235,19 +187,7 @@
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/lediktat"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/lediktat"
         }
       ]
     },
@@ -277,34 +217,17 @@
         {
           "name": "Sr Ortegon",
           "compoImg": "/images/portfolio/photosCompo/SrOrtegon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@SrOrtegon"
-          }
+          "links": "https://www.youtube.com/@SrOrtegon"
         },
         {
           "name": "Stan Galouo (Palma Coco Reccords)",
           "compoImg": "/images/portfolio/photosCompo/StanGalouo.jpeg",
-          "links": {
-            "youtube": "https://soundcloud.com/palmacoco ",
-            "soundcloud": "https://soundcloud.com/palmacoco"
-          }
+          "links": "https://soundcloud.com/palmacoco"
         },
         {
           "name": "Pana Black",
           "compoImg": "/images/portfolio/photosCompo/PanaBlack.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/panablack"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/panablack"
         }
       ]
     },
@@ -334,10 +257,7 @@
         {
           "name": "9 O'Clock",
           "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@9oclock162",
-            "soundcloud": "https://soundcloud.com/9-oclock"
-          }
+          "links": "https://www.youtube.com/@9oclock162"
         },
         {
           "name": "Bonetrips",
@@ -349,33 +269,17 @@
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
+          "links": "https://soundcloud.com/ducermusic"
         },
         {
           "name": "Liqid",
           "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Liqid"
-          }
+          "links": "https://soundcloud.com/Liqid"
         },
         {
           "name": "Mutant Ninja Records",
           "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
-          "links": {
-            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         }
       ]
     },
@@ -403,38 +307,19 @@
       "genre": "Funk",
       "compositeurs": [
         {
-          "name": "Sébastien Blanchon / N’ZENG",
+          "name": "Sébastien Blanchon / N'ZENG",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Emmanuel Marée",
           "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
         },
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
@@ -464,27 +349,12 @@
         {
           "name": "Bruno Hovart",
           "compoImg": "/images/portfolio/photosCompo/BrunoHovart.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@brunopatchworks4249"
-          }
+          "links": "https://www.youtube.com/@brunopatchworks4249"
         },
         {
           "name": "The Real Fake MC",
           "compoImg": "/images/portfolio/photosCompo/TheRealFakeMC.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@THEREALFAKEMC",
-            "soundcloud": "https://soundcloud.com/therealfakemc"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@THEREALFAKEMC"
         }
       ]
     },
@@ -514,20 +384,7 @@
         {
           "name": "Arat Kilo",
           "compoImg": "/images/portfolio/photosCompo/AratKilo.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aratkilo7994",
-            "soundcloud": "https://soundcloud.com/arat_kilo_band"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@aratkilo7994"
         }
       ]
     },
@@ -557,19 +414,7 @@
         {
           "name": "After In Paris",
           "compoImg": "/images/portfolio/photosCompo/AfterInParis.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCTEyPqy3PEAGWDDGr03sysw"
         }
       ]
     },
@@ -599,57 +444,37 @@
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
           "name": "Mutant Ninja Records",
           "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
-          "links": {
-            "youtube": "https://www.youtube.com/@MutantNinjaRecords"
-          }
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         },
         {
           "name": "Blanka",
           "compoImg": "/images/portfolio/photosCompo/Blanka.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/blankalfe"
-          }
+          "links": "https://soundcloud.com/blankalfe"
         },
         {
           "name": "Drixxxé",
           "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
-            "soundcloud": "https://soundcloud.com/drixxxe-2"
-          }
+          "links": "https://soundcloud.com/drixxxe-2"
         },
         {
           "name": "Ducer",
           "compoImg": "/images/portfolio/photosCompo/DUCER.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/ducermusic"
-          }
+          "links": "https://soundcloud.com/ducermusic"
         },
         {
           "name": "Schérazade",
           "compoImg": "/images/portfolio/photosCompo/Scherazade.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ",
-            "facebook": "https://www.facebook.com/scherazadeofficiel"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
+          "links": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ"
+        },
         {
-          "eventImg": ""
+          "name": "F.Stokes",
+          "compoImg": "/images/portfolio/photosCompo/FStokes.jpeg",
+          "links": "https://www.youtube.com/@TheRealFStokes"
         }
       ]
     },
@@ -679,48 +504,27 @@
         {
           "name": "Marie-Sophie Mallet",
           "compoImg": "/images/portfolio/photosCompo/Marie-Sophie-Mallet.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
-          }
+          "links": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX"
         },
         {
           "name": "Emile Sornin (Forever Pavot)",
           "compoImg": "/images/portfolio/photosCompo/ForeverPavot.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/ForeverPavot/?locale=fr_FR"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/0IeJOb65ZEwVTKs77bx9vW "
         },
         {
           "name": "Patrice Dambrine (Viro Major Records )",
           "compoImg": "/images/portfolio/photosCompo/ViroMajorRecords.png",
-          "links": {
-            "facebook": "https://www.facebook.com/viromajor/",
-            "bandcamp": "https://viromajorrecords.bandcamp.com/"
-          }
+          "links": "https://www.facebook.com/viromajor/"
         },
         {
           "name": "Alexis Molenat (Les Cavaliers)",
           "compoImg": "/images/portfolio/photosCompo/LesCavaliers.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/68VVrFrf8sXN9NxkIRvYNO"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/68VVrFrf8sXN9NxkIRvYNO"
         },
         {
           "name": "Maxime Raynier (Les Arondes)",
           "compoImg": "/images/portfolio/photosCompo/LesArondes.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/5TugFO50h3uzx6lsAmZaoA"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/5TugFO50h3uzx6lsAmZaoA"
         }
       ]
     },
@@ -750,20 +554,7 @@
         {
           "name": "Ana Kap",
           "compoImg": "/images/portfolio/photosCompo/AnaKap.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/anakaptrio/?locale=fr_FR",
-            "youtube": "https://www.youtube.com/@anakap8263"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@anakap8263"
         }
       ]
     },
@@ -793,63 +584,37 @@
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
           "name": "Liqid",
           "compoImg": "/images/portfolio/photosCompo/Liqid.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Liqid"
-          }
+          "links": "https://soundcloud.com/Liqid"
         },
         {
           "name": "Roma Luca",
           "compoImg": "/images/portfolio/photosCompo/RomaLuca.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@romaluca",
-            "soundcloud": "https://soundcloud.com/camilleluca"
-          }
+          "links": "https://www.youtube.com/@romaluca"
         },
         {
           "name": "Chris Kemp",
           "compoImg": "/images/portfolio/photosCompo/ChrisKemp.jpg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/kempfest"
-          }
+          "links": "https://soundcloud.com/kempfest"
         },
         {
           "name": "Cory Tate",
           "compoImg": "/images/portfolio/photosCompo/CoryTate.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCvzoh7xQ3fYX47auU_HCc2w",
-            "soundcloud": "https://soundcloud.com/corytate"
-          }
+          "links": "https://soundcloud.com/corytate"
         },
         {
           "name": "Cally Reed",
           "compoImg": "/images/portfolio/photosCompo/CallyReed.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/4R7CNJ3OyT9G1bEkvcCi9X"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/4R7CNJ3OyT9G1bEkvcCi9X"
         },
         {
           "name": "Coeur",
           "compoImg": "/images/portfolio/photosCompo/Coeur.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@Coeurkokoro"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@Coeurkokoro"
         }
       ]
     },
@@ -879,57 +644,32 @@
         {
           "name": "DJ Hertz",
           "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djhertz-music"
-          }
+          "links": "https://soundcloud.com/djhertz-music"
         },
         {
           "name": "9 O'Clock",
           "compoImg": "/images/portfolio/photosCompo/9oClock.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@9oclock162",
-            "soundcloud": "https://soundcloud.com/9-oclock"
-          }
+          "links": "https://www.youtube.com/@9oclock162"
         },
         {
           "name": "Syra",
           "compoImg": "/images/portfolio/photosCompo/Syra.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@syra7874/featured",
-            "soundcloud": "https://soundcloud.com/syra-sc"
-          }
+          "links": "https://www.youtube.com/@syra7874/featured"
         },
         {
           "name": "DaXoVii",
           "compoImg": "/images/portfolio/photosCompo/Daxovii.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/4nQRld5mxpXtOY7GJt7AJN"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/4nQRld5mxpXtOY7GJt7AJN"
         },
         {
           "name": "LovLion",
           "compoImg": "/images/portfolio/photosCompo/LovLion.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/4iLSUJSIR7y2vknbGaZXD1"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/4iLSUJSIR7y2vknbGaZXD1"
         },
         {
           "name": "Schérazade",
           "compoImg": "/images/portfolio/photosCompo/Scherazade.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ",
-            "facebook": "https://www.facebook.com/scherazadeofficiel"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCsG36srWE1YHxYJI6ASnKGQ"
         }
       ]
     },
@@ -959,41 +699,22 @@
         {
           "name": "Frédéric Hanak",
           "compoImg": "/images/portfolio/photosCompo/dDash.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/2HXjjAcmNeyqM1InDkqFbu"
         },
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
-          }
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
           "name": "Cédric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
           "name": "dDamage",
           "compoImg": "/images/portfolio/photosCompo/dDamage.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCuSV_oQIah-mMF8C6OcvQdQ"
         }
       ]
     },
@@ -1023,33 +744,12 @@
         {
           "name": "Dan Amozig",
           "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/daniel.amozig"
-          }
+          "links": "https://www.facebook.com/daniel.amozig"
         },
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         }
       ]
     },
@@ -1079,20 +779,7 @@
         {
           "name": "Laurent Dury",
           "compoImg": "/images/portfolio/photosCompo/LaurentDury.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow",
-            "soundcloud": "https://soundcloud.com/laurentdury"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCmmr9nj-GOwiB3qB2xGa2ow"
         }
       ]
     },
@@ -1122,20 +809,7 @@
         {
           "name": "Aeon Seven",
           "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aeonseven4130",
-            "soundcloud": "https://soundcloud.com/aeon-seven"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/@aeonseven4130"
         }
       ]
     },
@@ -1165,34 +839,17 @@
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
-          }
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
           "name": "Cédric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
           "name": "Zoe Wolf",
           "compoImg": "/images/portfolio/photosCompo/ZoeWolf.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
         }
       ]
     },
@@ -1222,42 +879,22 @@
         {
           "name": "DJ Hertz",
           "compoImg": "/images/portfolio/photosCompo/DJHertz.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/djhertz-music"
-          }
+          "links": "https://soundcloud.com/djhertz-music"
         },
         {
           "name": "Nicolas Pisani",
           "compoImg": "/images/portfolio/photosCompo/NicolasPisani.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/cosmicdude"
-          }
+          "links": "https://soundcloud.com/cosmicdude"
         },
         {
           "name": "Mr Viktor",
           "compoImg": "/images/portfolio/photosCompo/MrViktor.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UC4U1YdCBptWTIrrXWpck52w",
-            "soundcloud": "https://soundcloud.com/mr-viktor"
-          }
+          "links": "https://soundcloud.com/mr-viktor"
         },
         {
           "name": "Rebecca Meyer",
           "compoImg": "/images/portfolio/photosCompo/RebeccaMeyer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCRweKKqx5mtXOkRuFy8yXVg/about",
-            "spotify": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/4tpHyEUjJcXlLSQPBpSNkk"
         }
       ]
     },
@@ -1287,28 +924,12 @@
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         },
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
@@ -1338,20 +959,7 @@
         {
           "name": "2080",
           "compoImg": "/images/portfolio/photosCompo/2080.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@The2080",
-            "soundcloud": "https://soundcloud.com/2080"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/2080"
         }
       ]
     },
@@ -1381,20 +989,7 @@
         {
           "name": "Nicodrums & Friends",
           "compoImg": "/images/portfolio/photosCompo/Nicodrum.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UC-wBKGqXxqbzTJM2xQH42ug",
-            "spotify": "https://open.spotify.com/intl-fr/artist/55h2juci7J6sa1hSIBYf3W"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://open.spotify.com/intl-fr/artist/55h2juci7J6sa1hSIBYf3W"
         }
       ]
     },
@@ -1422,77 +1017,44 @@
       "genre": "Musique électronique",
       "compositeurs": [
         {
-          "name": "N’ZENG",
+          "name": "Sébastien Blanchon",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Arandel",
           "compoImg": "/images/portfolio/photosCompo/Arandel.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arandel"
-          }
+          "links": "https://soundcloud.com/arandel"
         },
         {
           "name": "Flore",
           "compoImg": "/images/portfolio/photosCompo/Flore.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@FloreMusic/releases",
-            "soundcloud": "https://soundcloud.com/flore"
-          }
+          "links": "https://soundcloud.com/flore"
         },
         {
           "name": "Drixxxé",
           "compoImg": "/images/portfolio/photosCompo/Drixxxe.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/user/DRIXXXEBEATS",
-            "soundcloud": "https://soundcloud.com/drixxxe-2"
-          }
+          "links": "https://soundcloud.com/drixxxe-2"
         },
         {
           "name": "Madben",
           "compoImg": "/images/portfolio/photosCompo/madben.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UChTegJsrojWlBiUhpWY7IOQ",
-            "soundcloud": "https://soundcloud.com/madben"
-          }
+          "links": "https://soundcloud.com/madben"
         },
         {
           "name": "Arom",
           "compoImg": "/images/portfolio/photosCompo/Arom.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/arom-de-la-spirale"
-          }
+          "links": "https://soundcloud.com/arom-de-la-spirale"
         },
         {
           "name": "NSDOS",
           "compoImg": "/images/portfolio/photosCompo/NSDOS.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@NSDOS",
-            "soundcloud": "https://soundcloud.com/nsdoslazerconnect"
-          }
+          "links": "https://www.youtube.com/@NSDOS"
         },
         {
           "name": "The Architect",
           "compoImg": "/images/portfolio/photosCompo/TheArchitect.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw",
-            "soundcloud": "https://soundcloud.com/fresh-and-dusty-loops"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://www.youtube.com/channel/UCB5YJuWzpqeAa-t6wDwZBpw"
         }
       ]
     },
@@ -1522,20 +1084,7 @@
         {
           "name": "Minimatic",
           "compoImg": "/images/portfolio/photosCompo/Minimatic.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/minimatic",
-            "youtube": "https://www.youtube.com/@MinimaticMusic"
-          }
-        }
-      ],
-      "synchronisation": [],
-      "clip": {
-        "title": "",
-        "externalLink": ""
-      },
-      "events": [
-        {
-          "eventImg": ""
+          "links": "https://soundcloud.com/minimatic"
         }
       ]
     },
@@ -1565,30 +1114,22 @@
         {
           "name": "Tcheep",
           "compoImg": "/images/portfolio/photosCompo/Tcheep.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/tcheep"
-          }
+          "links": "https://soundcloud.com/tcheep"
         },
         {
           "name": "Bonetrips",
           "compoImg": "/images/portfolio/photosCompo/Bonetrips.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/Bonetrips"
-          }
+          "links": "https://soundcloud.com/Bonetrips"
         },
         {
           "name": "Chicho Cortez",
           "compoImg": "/images/portfolio/photosCompo/ChichoCortez.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/chicho-cortez"
-          }
+          "links": "https://soundcloud.com/chicho-cortez"
         },
         {
-          "name": "Collectif Mutant Ninja",
+          "name": "Mutant Ninja Records",
           "compoImg": "/images/portfolio/photosCompo/MutantNinja.png",
-          "links": {
-            "soundcloud": "https://soundcloud.com/mutantninja"
-          }
+          "links": "https://www.youtube.com/@MutantNinjaRecords"
         }
       ],
       "synchronisation": [
@@ -2511,26 +2052,7 @@
         {
           "name": "Aeon Seven",
           "compoImg": "/images/portfolio/photosCompo/AeonSeven.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@aeonseven4130",
-            "soundcloud": "https://soundcloud.com/aeon-seven"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/@aeonseven4130"
         }
       ]
     },
@@ -2560,25 +2082,7 @@
         {
           "name": "Hexahedre",
           "compoImg": "/images/portfolio/vinyles/HEXAHEDRE.jpg",
-          "links": {
-            "mowno": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/"
         }
       ]
     },
@@ -2608,42 +2112,17 @@
         {
           "name": "Sébastien Blanchon",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Emmanuel Marée",
           "compoImg": "/images/portfolio/photosCompo/EmmanuelMaree.jpeg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
-          }
+          "links": "https://open.spotify.com/intl-fr/artist/6WPBlXYBmOPAoZAxSeBORf"
         },
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://soundcloud.com/uglymacbeer"
         }
       ]
     },
@@ -2673,33 +2152,12 @@
         {
           "name": "Ugly Mac Beer",
           "compoImg": "/images/portfolio/photosCompo/UglyMacBeer.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCj8mVWiBl256CIfVl3qFHwA",
-            "soundcloud": "https://soundcloud.com/uglymacbeer"
-          }
+          "links": "https://soundcloud.com/uglymacbeer"
         },
         {
           "name": "F.Stokes",
           "compoImg": "/images/portfolio/photosCompo/FStokes.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@TheRealFStokes"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/@TheRealFStokes"
         }
       ]
     },
@@ -2729,40 +2187,17 @@
         {
           "name": "JB Hanak",
           "compoImg": "/images/portfolio/photosCompo/JBHanak.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/jbhak/?locale=fr_FR"
-          }
+          "links": "https://www.facebook.com/jbhak/?locale=fr_FR"
         },
         {
-          "name": "Cédric Hanak,",
+          "name": "Cédric Hanak",
           "compoImg": "/images/portfolio/photosCompo/CedricHanak.jpeg",
-          "links": {
-            "spotify": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN",
-            "youtube": "https://www.youtube.com/@HanakCedric"
-          }
+          "links": " https://open.spotify.com/intl-fr/artist/12M2hO0FUtnsXYMp5jjGuN"
         },
         {
-          "name": "Zoe Wolf,",
+          "name": "Zoe Wolf",
           "compoImg": "/images/portfolio/photosCompo/ZoeWolf.jpg",
-          "links": {
-            "spotify": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz"
         }
       ]
     },
@@ -2792,25 +2227,7 @@
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/lediktat"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://soundcloud.com/lediktat"
         }
       ]
     },
@@ -2840,33 +2257,12 @@
         {
           "name": "Dan Amozig",
           "compoImg": "/images/portfolio/photosCompo/DanAmozig.jpeg",
-          "links": {
-            "facebook": "https://www.facebook.com/daniel.amozig"
-          }
+          "links": "https://www.facebook.com/daniel.amozig"
         },
         {
           "name": "Yann Kornowicz",
           "compoImg": "/images/portfolio/photosCompo/YannKornowicz.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA",
-            "soundcloud": "https://soundcloud.com/chaosinchatelet"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/channel/UCNVPNRi4dBCOeCBG0rJJ-IA"
         }
       ]
     },
@@ -4848,32 +4244,14 @@
       "src": "/images/portfolio/vinyles/ACID-BODY-MUSIC.jpg",
       "height": "",
       "category": "Vinyle",
-      "description": "C'est au début des années 2000 que débute la carrière de Thomas Papay. Après plusieurs années d'activité en tant que DJ aux influences New wave, Post Punk et Cold wave, il se lance dans la production électronique en privilégiant les synthétiseurs et boîtes à rythmes vintage. Très actif dans les scènes électroniques indus/techno avec ses projets Le Diktat et Rope, Thomas développe déjà un univers musical sombre et cinématographique sans concessions. Après plusieurs albums salués par la critique sortis sur des labels tels que Audiotrauma, Kubernoise, OPN records ou Syrphe, Il collabore avec des artistes comme Punish yourself, Sonic area ou encore Niveau zero. Avec son nouvel projet Modulhater, Thomas se focalise depuis 2019 sur son inspiration Techno Old school, influencé par les scènes EBM, NEW BEAT et ACID, Il sera amené à se produire sur différentes scènes telles que le Point FMR, le Glazart, la Machine du Moulin rouge pour des sets remarqués à l'occasion desquels il partagera l'affiche avec des artistes tels que Krikor, Terence Fixmer ou Arnaud Rebotini.\n\nModulhater collaborera également avec le producteur Techno GHOST DANCE avec qui il signera deux collaborations remarquées (Malware et Structure) sur le prestigieux label américain Mau5trap. S'en suivra un premier album «Velodrome» sorti en vinyle sur Beatsqueeze records / PARIGO, plusieurs productions internationales s'emparent alors de ses morceaux pour le compte de séries à succès telles que La luz Mas Oscura, Kleo (Netflix) ou encore Tokyo Vice (HBO / CANAL+), avec le titre désormais culte «Gevaert» pour laquelle il se verra nominé et primé aux Production Music Awards 2022. 2023 signe le retour aux affaires pour Modulhater avec un nouvel Album «Acid Body Music» à la fois explosif et percutant, 12 titres mêlant à nouveau le meilleur d'une Techno exigeante et sombre avec des ambiances Electro analogiques rendant hommage aux pionniers de la Techno EBM, Rave et Acid. C'est dans l'atmosphère anxiogène du premier confinement que la genèse de ACID BODY MUSIC, le second album de MODULHATER, se met en place.\n\nComme une réponse en forme d'exutoire à l'injonction à se tenir tranquille, MODULHATER produit 10 pistes aux influences ACID, EBM et INDUSTRIELLES à la fois explosives et rageuses, Techno analogique rigoureuse et cathartique fortement influencée par les pionniers de DETROIT ou l'atmosphère fin 80's de la scène NEW BEAT/EBM, les synthétiseurs et boîtes à rythmes vintage rugissent et les Basslines hypnotiques cognent. MODULHATER nous entraîne dans un univers dystopique ou le Dancefloor noyé dans les stroboscopes est ici peuplé de cyborgs",
+      "description": "C'est au début des années 2000 que débute la carrière de Thomas Papay. Après plusieurs années d'activité en tant que DJ aux influences New wave, Post Punk et Cold wave, il se lance dans la production électronique en privilégiant les synthétiseurs et boîtes à rythmes vintage. Très actif dans les scènes électroniques indus/techno avec ses projets Le Diktat et Rope, Thomas développe déjà un univers musical sombre et cinématographique sans concessions. Après plusieurs albums salués par la critique sortis sur des labels tels que Audiotrauma, Kubernoise, OPN records ou Syrphe, Il collabore avec des artistes comme Punish yourself, Sonic area ou encore Niveau zero. Avec son nouvel projet Modulhater, Thomas se focalise depuis 2019 sur son inspiration Techno Old school, influencé par les scènes EBM, NEW BEAT et ACID, Il sera amené à se produire sur différentes scènes telles que le Point FMR, le Glazart, la Machine du Moulin rouge pour des sets remarqués à l'occasion desquels il partagera l'affiche avec des artistes tels que Krikor, Terence Fixmer ou Arnaud Rebotini.\n\nModulhater collaborera également avec le producteur Techno GHOST DANCE avec qui il signera deux collaborations remarquées (Malware et Structure) sur le prestigieux label américain Mau5trap. S'en suivra un premier album «Velodrome» sorti en vinyle sur Beatsqueeze records / PARIGO, plusieurs productions internationales s'emparent alors de ses morceaux pour le compte de séries à succès telles que La luz Mas Oscura, Kleo (Netflix) ou encore Tokyo Vice (HBO / CANAL+), avec le titre désormais culte «Gevaert» pour laquelle il se verra nominé et primé aux Production Music Awards 2022. 2023 signe le retour aux affaires pour Modulhater avec un nouvel Album «Acid Body Music» à la fois explosif et percutant, 12 titres mêlant à nouveau le meilleur d'une Techno exigeante et sombre avec des ambiances Electro analogiques rendant hommage aux pionniers de la Techno EBM, Rave et Acid. C'est dans l'atmosphère anxiogène du premier confinement que la genèse de ACID BODY MUSIC, le second album de Modulhater, se met en place.\n\nComme une réponse en forme d'exutoire à l'injonction à se tenir tranquille, Modulhater produit 10 pistes aux influences ACID, EBM et INDUSTRIELLES à la fois explosives et rageuses, Techno analogique rigoureuse et cathartique fortement influencée par les pionniers de DETROIT ou l'atmosphère fin 80's de la scène NEW BEAT/EBM, les synthétiseurs et boîtes à rythmes vintage rugissent et les Basslines hypnotiques cognent. Modulhater nous entraîne dans un univers dystopique ou le Dancefloor noyé dans les stroboscopes est ici peuplé de cyborgs",
       "releaseDate": "22/03/2024",
       "genre": "Techno",
       "compositeurs": [
         {
           "name": "Modulhater",
           "compoImg": "/images/portfolio/photosCompo/Modulhater.jpeg",
-          "links": {
-            "soundcloud": "https://soundcloud.com/lediktat"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://soundcloud.com/lediktat"
         }
       ]
     },
@@ -4903,34 +4281,12 @@
         {
           "name": "N’ZENG",
           "compoImg": "/images/portfolio/photosCompo/SebastienBlanchon.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@nzeng5115",
-            "soundcloud": "https://soundcloud.com/nzeng",
-            "soundcloud2": "https://soundcloud.com/s-bastien-blanchon"
-          }
+          "links": "https://soundcloud.com/nzeng"
         },
         {
           "name": "Charlotte Savary",
           "compoImg": "/images/portfolio/photosCompo/CharlotteSavary.jpeg",
-          "links": {
-            "youtube": "https://www.youtube.com/@CharlotteSavaryMusic/featured"
-          }
-        }
-      ],
-      "synchronisation": [
-        {
-          "name": "Jean-Michel Bernard",
-          "synchoImg": "/images/jean-michel-bernard.jpg",
-          "externalLink": "https://www.jeanmichelbernard.com/"
-        }
-      ],
-      "clip": {
-        "title": "Clip1",
-        "externalLink": "https://www.youtube.com/watch?v=9yj7DQvO9XU"
-      },
-      "events": [
-        {
-          "eventImg": "/images/jean-michel-bernard.jpg"
+          "links": "https://www.youtube.com/@CharlotteSavaryMusic/featured"
         }
       ]
     }
