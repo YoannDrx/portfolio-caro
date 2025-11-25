@@ -777,42 +777,46 @@ async function seedExpertises() {
 async function seedAdminUser() {
   console.log("\n👤 Seeding admin user...");
 
+  const { auth } = await import("../lib/auth");
+
   const adminEmail = process.env.ADMIN_EMAIL;
   const adminPassword = process.env.ADMIN_PASSWORD;
-  const bcrypt = await import("bcryptjs");
-  const hashedPassword = await bcrypt.hash(adminPassword, 10);
 
-  const adminUser = await prisma.user.upsert({
+  // Vérifier si l'utilisateur existe déjà
+  const existingUser = await prisma.user.findUnique({
     where: { email: adminEmail },
-    create: {
+    include: { accounts: true },
+  });
+
+  if (existingUser) {
+    console.log("   Utilisateur existant, suppression pour recréation...");
+    await prisma.account.deleteMany({
+      where: { userId: existingUser.id },
+    });
+    await prisma.session.deleteMany({
+      where: { userId: existingUser.id },
+    });
+    await prisma.user.delete({
+      where: { id: existingUser.id },
+    });
+  }
+
+  // Créer l'utilisateur via Better-Auth API (hash le mot de passe correctement)
+  const result = await auth.api.signUpEmail({
+    body: {
       email: adminEmail,
+      password: adminPassword,
       name: "Admin",
-      emailVerified: true,
-      isActive: true,
-    },
-    update: {
-      name: "Admin",
-      isActive: true,
-      emailVerified: true,
     },
   });
 
-  await prisma.account.upsert({
-    where: {
-      providerId_accountId: {
-        providerId: "credential",
-        accountId: adminUser.id,
-      },
-    },
-    create: {
-      userId: adminUser.id,
-      providerId: "credential",
-      accountId: adminUser.id,
-      password: hashedPassword,
-    },
-    update: {
-      userId: adminUser.id,
-      password: hashedPassword,
+  // Mettre à jour le rôle et le statut
+  await prisma.user.update({
+    where: { id: result.user.id },
+    data: {
+      role: "ADMIN",
+      emailVerified: true,
+      isActive: true,
     },
   });
 
