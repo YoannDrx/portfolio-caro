@@ -446,7 +446,7 @@ const dictionary: Dictionary = {
   admin: {
     nav: {
       dashboard: 'Tableau de bord',
-      albums: 'Albums',
+      projets: 'Projets',
       artists: 'Artistes',
       expertises: 'Expertises',
       categories: 'Catégories',

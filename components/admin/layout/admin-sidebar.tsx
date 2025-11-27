@@ -192,7 +192,7 @@ export function AdminSidebar({
     },
     {
       href: `/${locale}/admin/projets`,
-      label: dict.nav.albums,
+      label: dict.nav.projets,
       icon: MusicIcon,
       group: 'content',
     },
