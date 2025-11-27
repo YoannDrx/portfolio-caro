@@ -757,8 +757,8 @@ async function seedAdminUser() {
 
   const { auth } = await import('../lib/auth')
 
-  const adminEmail = process.env.ADMIN_EMAIL ?? 'admin@synck.fr'
-  const adminPassword = process.env.ADMIN_PASSWORD ?? 'admin123456'
+  const adminEmail = process.env.ADMIN_EMAIL ?? 'caroline.senyk@parigomusic.com'
+  const adminPassword = process.env.ADMIN_PASSWORD ?? 'admin123456!'
 
   // Vérifier si l'utilisateur existe déjà
   const existingUser = await prisma.user.findUnique({

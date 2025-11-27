@@ -5,7 +5,7 @@ async function createAdminViaBetterAuth() {
   try {
     console.log("\n👤 Création de l'admin via BetterAuth...\n")
 
-    const email = 'admin@synck.fr'
+    const email = 'caroline.senyk@parigomusic.com'
     const password = 'admin123456'
     const name = 'Admin'
 

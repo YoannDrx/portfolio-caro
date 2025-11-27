@@ -568,3 +568,379 @@ body {
   display: table;
   clear: both;
 }
+
+/* ============================================
+   ADMIN DASHBOARD TOKENS
+   ============================================ */
+
+:root {
+  /* === ADMIN SURFACES === */
+  --admin-bg: var(--neutral-950);
+  --admin-surface: #000000;
+  --admin-surface-hover: rgba(255, 255, 255, 0.05);
+  --admin-surface-active: rgba(255, 255, 255, 0.08);
+
+  /* === ADMIN BORDERS === */
+  --admin-border: rgba(213, 255, 10, 0.2);
+  --admin-border-hover: rgba(213, 255, 10, 0.4);
+  --admin-border-subtle: rgba(255, 255, 255, 0.1);
+  --admin-border-muted: rgba(255, 255, 255, 0.05);
+
+  /* === ADMIN TEXT === */
+  --admin-text-primary: rgba(255, 255, 255, 1);
+  --admin-text-secondary: rgba(255, 255, 255, 0.7);
+  --admin-text-muted: rgba(255, 255, 255, 0.5);
+  --admin-text-placeholder: rgba(255, 255, 255, 0.3);
+
+  /* === ADMIN ACCENT COLORS === */
+  --admin-accent: var(--brand-neon);
+  --admin-accent-hover: var(--neon-300);
+  --admin-accent-muted: rgba(213, 255, 10, 0.1);
+  --admin-accent-glow: rgba(213, 255, 10, 0.15);
+
+  /* === ADMIN STATUS COLORS === */
+  --admin-success: #22c55e;
+  --admin-success-bg: rgba(34, 197, 94, 0.1);
+  --admin-success-border: rgba(34, 197, 94, 0.3);
+
+  --admin-warning: #f97316;
+  --admin-warning-bg: rgba(249, 115, 22, 0.1);
+  --admin-warning-border: rgba(249, 115, 22, 0.3);
+
+  --admin-error: #ef4444;
+  --admin-error-bg: rgba(239, 68, 68, 0.1);
+  --admin-error-border: rgba(239, 68, 68, 0.3);
+
+  --admin-info: #3b82f6;
+  --admin-info-bg: rgba(59, 130, 246, 0.1);
+  --admin-info-border: rgba(59, 130, 246, 0.3);
+
+  /* === ADMIN GLOW EFFECTS === */
+  --admin-glow-neon: 0 0 30px rgba(213, 255, 10, 0.1);
+  --admin-glow-neon-strong: 0 0 40px rgba(213, 255, 10, 0.2);
+  --admin-glow-success: 0 0 30px rgba(34, 197, 94, 0.1);
+  --admin-glow-warning: 0 0 30px rgba(249, 115, 22, 0.1);
+  --admin-glow-error: 0 0 30px rgba(239, 68, 68, 0.1);
+
+  /* === ADMIN TIMING === */
+  --admin-transition-fast: 150ms;
+  --admin-transition-normal: 200ms;
+  --admin-transition-slow: 300ms;
+  --admin-ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --admin-ease-bounce: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+/* ============================================
+   ADMIN ANIMATIONS
+   ============================================ */
+
+@keyframes admin-pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes admin-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes admin-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes admin-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-4px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes admin-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes admin-slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes admin-slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes admin-glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(213, 255, 10, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(213, 255, 10, 0.2);
+  }
+}
+
+@keyframes admin-counter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === ADMIN ANIMATION UTILITIES === */
+.admin-animate-pulse {
+  animation: admin-pulse 1.5s ease-in-out infinite;
+}
+
+.admin-animate-spin {
+  animation: admin-spin 1s linear infinite;
+}
+
+.admin-animate-bounce {
+  animation: admin-bounce 1.5s ease-in-out infinite;
+}
+
+.admin-animate-shake {
+  animation: admin-shake 0.5s ease-in-out;
+}
+
+.admin-animate-scale-in {
+  animation: admin-scale-in 0.3s var(--admin-ease-spring) forwards;
+}
+
+.admin-animate-slide-in-left {
+  animation: admin-slide-in-left 0.3s var(--admin-ease-spring) forwards;
+}
+
+.admin-animate-slide-in-up {
+  animation: admin-slide-in-up 0.3s var(--admin-ease-spring) forwards;
+}
+
+.admin-animate-glow {
+  animation: admin-glow-pulse 2s ease-in-out infinite;
+}
+
+/* ============================================
+   ADMIN UTILITY CLASSES
+   ============================================ */
+
+/* === ADMIN CARDS === */
+.admin-card {
+  background: var(--admin-surface);
+  border: 1px solid var(--admin-border);
+  border-radius: var(--radius-lg);
+  transition:
+    border-color var(--admin-transition-normal) var(--admin-ease-spring),
+    box-shadow var(--admin-transition-normal) var(--admin-ease-spring);
+}
+
+.admin-card:hover {
+  border-color: var(--admin-border-hover);
+  box-shadow: var(--admin-glow-neon);
+}
+
+/* === ADMIN BUTTONS === */
+.admin-btn-primary {
+  background: var(--admin-accent);
+  color: var(--neutral-950);
+  transition:
+    transform var(--admin-transition-fast),
+    box-shadow var(--admin-transition-fast),
+    background-color var(--admin-transition-fast);
+}
+
+.admin-btn-primary:hover {
+  transform: scale(1.02);
+  box-shadow: var(--admin-glow-neon-strong);
+  background: var(--admin-accent-hover);
+}
+
+.admin-btn-primary:active {
+  transform: scale(0.98);
+}
+
+.admin-btn-outline {
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text-secondary);
+  transition:
+    border-color var(--admin-transition-fast),
+    background-color var(--admin-transition-fast),
+    color var(--admin-transition-fast);
+}
+
+.admin-btn-outline:hover {
+  border-color: var(--admin-border-hover);
+  background: var(--admin-accent-muted);
+  color: var(--admin-accent);
+}
+
+/* === ADMIN TABLE === */
+.admin-table {
+  border: 1px solid var(--admin-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.admin-table-header {
+  background: var(--admin-surface);
+  border-bottom: 1px solid var(--admin-border);
+}
+
+.admin-table-row {
+  border-bottom: 1px solid var(--admin-border-muted);
+  transition: background-color var(--admin-transition-fast);
+}
+
+.admin-table-row:hover {
+  background: var(--admin-surface-hover);
+}
+
+/* === ADMIN INPUTS === */
+.admin-input {
+  background: var(--admin-surface);
+  border: 1px solid var(--admin-border-subtle);
+  color: var(--admin-text-primary);
+  transition:
+    border-color var(--admin-transition-fast),
+    box-shadow var(--admin-transition-fast);
+}
+
+.admin-input::placeholder {
+  color: var(--admin-text-placeholder);
+}
+
+.admin-input:focus {
+  border-color: var(--admin-accent);
+  box-shadow: 0 0 0 3px var(--admin-accent-muted);
+  outline: none;
+}
+
+/* === ADMIN BADGES === */
+.admin-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.admin-badge-success {
+  background: var(--admin-success-bg);
+  color: var(--admin-success);
+  border: 1px solid var(--admin-success-border);
+}
+
+.admin-badge-warning {
+  background: var(--admin-warning-bg);
+  color: var(--admin-warning);
+  border: 1px solid var(--admin-warning-border);
+}
+
+.admin-badge-error {
+  background: var(--admin-error-bg);
+  color: var(--admin-error);
+  border: 1px solid var(--admin-error-border);
+}
+
+.admin-badge-info {
+  background: var(--admin-info-bg);
+  color: var(--admin-info);
+  border: 1px solid var(--admin-info-border);
+}
+
+/* === ADMIN GLOW EFFECTS === */
+.admin-glow {
+  box-shadow: var(--admin-glow-neon);
+}
+
+.admin-glow-strong {
+  box-shadow: var(--admin-glow-neon-strong);
+}
+
+/* === ADMIN STAGGER DELAYS === */
+.admin-stagger-1 {
+  animation-delay: 0.05s;
+}
+.admin-stagger-2 {
+  animation-delay: 0.1s;
+}
+.admin-stagger-3 {
+  animation-delay: 0.15s;
+}
+.admin-stagger-4 {
+  animation-delay: 0.2s;
+}
+.admin-stagger-5 {
+  animation-delay: 0.25s;
+}
+.admin-stagger-6 {
+  animation-delay: 0.3s;
+}
+.admin-stagger-7 {
+  animation-delay: 0.35s;
+}
+.admin-stagger-8 {
+  animation-delay: 0.4s;
+}
+
+/* === ADMIN SKELETON LOADING === */
+.admin-skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--admin-surface-hover) 25%,
+    var(--admin-surface-active) 50%,
+    var(--admin-surface-hover) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
