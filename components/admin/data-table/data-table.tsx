@@ -257,16 +257,10 @@ export function DataTable<T extends { id: string }>({
             ) : data.length === 0 ? (
               <EmptyState colSpan={columns.length} message={emptyMessage} />
             ) : (
-              data.map((item, rowIndex) => (
+              data.map((item) => (
                 <motion.tr
                   key={item.id}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{
-                    duration: 0.3,
-                    delay: rowIndex * 0.05,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
+                  initial={false}
                   whileHover={{
                     backgroundColor: 'rgba(255, 255, 255, 0.05)',
                     transition: { duration: 0.15 },

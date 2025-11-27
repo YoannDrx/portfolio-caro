@@ -335,7 +335,7 @@ export type AuthDictionary = {
 export type AdminDictionary = {
   nav: {
     dashboard: string
-    albums: string
+    projets: string
     artists: string
     expertises: string
     categories: string
