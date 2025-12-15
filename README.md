@@ -1,6 +1,6 @@
-# Synck - Portfolio Caroline Senyk
+# Portfolio Caroline Senyk
 
-[![CI](https://github.com/YoannDrx/synck/actions/workflows/ci.yml/badge.svg)](https://github.com/YoannDrx/synck/actions/workflows/ci.yml)
+[![CI](https://github.com/YoannDrx/portfolio-caro/actions/workflows/ci.yml/badge.svg)](https://github.com/YoannDrx/portfolio-caro/actions/workflows/ci.yml)
 
 Portfolio professionnel multilingue (FR/EN) pour Caroline Senyk, gestionnaire de droits musicaux. Site vitrine avec gestion de 500+ oeuvres musicales, compositeurs, labels et expertises.
 

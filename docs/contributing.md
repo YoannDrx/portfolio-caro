@@ -1,11 +1,11 @@
-# Guide de Contribution Synck
+# Guide de Contribution Portfolio-Caro
 
 ## Setup local
 
 ```bash
 # 1. Clone
-git clone https://github.com/YoannDrx/synck.git
-cd synck
+git clone https://github.com/YoannDrx/portfolio-caro.git
+cd portfolio-caro
 
 # 2. Install
 pnpm install

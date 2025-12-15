@@ -14,7 +14,7 @@ concurrency:
 env:
   NODE_VERSION: "20"
   PNPM_VERSION: "9"
-  LOCAL_PG_URL: postgresql://postgres@localhost:5432/synck
+  LOCAL_PG_URL: postgresql://postgres@localhost:5432/portfolio-caro
 
 jobs:
   # Job 1: Lint & TypeScript (fastest, runs first)
@@ -79,7 +79,7 @@ jobs:
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: synck
+          POSTGRES_DB: portfolio-caro
           POSTGRES_HOST_AUTH_METHOD: trust
         ports:
           - 5432:5432
@@ -241,7 +241,7 @@ jobs:
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: synck
+          POSTGRES_DB: portfolio-caro
           POSTGRES_HOST_AUTH_METHOD: trust
         ports:
           - 5432:5432

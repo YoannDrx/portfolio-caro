@@ -1,5 +1,5 @@
 {
-  "name": "synck",
+  "name": "portfolio-caro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "db:check": "prisma migrate diff --from-schema-datasource prisma/schema.prisma --to-schema-datamodel prisma/schema.prisma --exit-code || echo '\n⚠️  Schema drift detected. Run: pnpm db:migrate'",
     "db:clear": "pnpm db:reset",
     "db:generate": "prisma generate",
-    "db:local:setup": "createdb synck 2>/dev/null || true && pnpm db:reset:seed",
+    "db:local:setup": "createdb portfolio-caro 2>/dev/null || true && pnpm db:reset:seed",
     "db:migrate": "prisma migrate dev",
     "db:migrate:check": "prisma migrate diff --from-schema-datasource prisma/schema.prisma --to-schema-datamodel prisma/schema.prisma --exit-code",
     "db:migrate:prod": "tsx scripts/db/migrate-prod.ts",
@@ -34,7 +34,7 @@
     "start": "next start",
     "test": "playwright test",
     "test:debug": "playwright test --debug",
-    "test:e2e:ci": "bash -c 'E2E_PORT=${E2E_PORT:-3100}; DB_URL=${DATABASE_URL:-postgresql://postgres@localhost:5432/synck}; export E2E_TEST=true DATABASE_URL=$DB_URL DIRECT_URL=${DIRECT_URL:-$DB_URL}; command -v createdb >/dev/null 2>&1 && createdb synck 2>/dev/null || true; pnpm exec prisma migrate deploy && pnpm db:seed:prod && pnpm run build || exit $?; PORT=$E2E_PORT pnpm run start >/tmp/next-e2e.log 2>&1 & APP_PID=$!; pnpm exec wait-on http://localhost:$E2E_PORT -t 60000 || { kill $APP_PID 2>/dev/null || true; cat /tmp/next-e2e.log; exit 1; }; PLAYWRIGHT_TEST_BASE_URL=http://localhost:$E2E_PORT pnpm exec playwright test; CODE=$?; kill $APP_PID 2>/dev/null || true; exit $CODE'",
+    "test:e2e:ci": "bash -c 'E2E_PORT=${E2E_PORT:-3100}; DB_URL=${DATABASE_URL:-postgresql://postgres@localhost:5432/portfolio-caro}; export E2E_TEST=true DATABASE_URL=$DB_URL DIRECT_URL=${DIRECT_URL:-$DB_URL}; command -v createdb >/dev/null 2>&1 && createdb portfolio-caro 2>/dev/null || true; pnpm exec prisma migrate deploy && pnpm db:seed:prod && pnpm run build || exit $?; PORT=$E2E_PORT pnpm run start >/tmp/next-e2e.log 2>&1 & APP_PID=$!; pnpm exec wait-on http://localhost:$E2E_PORT -t 60000 || { kill $APP_PID 2>/dev/null || true; cat /tmp/next-e2e.log; exit 1; }; PLAYWRIGHT_TEST_BASE_URL=http://localhost:$E2E_PORT pnpm exec playwright test; CODE=$?; kill $APP_PID 2>/dev/null || true; exit $CODE'",
     "test:fresh": "pnpm db:reset:seed && pnpm test:full",
     "test:full": "concurrently -k -s first \"pnpm start\" \"wait-on http://localhost:3000 && pnpm test\"",
     "test:headed": "playwright test --headed",

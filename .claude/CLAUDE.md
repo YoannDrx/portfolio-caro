@@ -52,8 +52,8 @@ DATABASE_URL="postgresql://...@ep-royal-breeze-xxx.neon.tech/..."
 DIRECT_URL="postgresql://...@ep-royal-breeze-xxx.neon.tech/..."
 
 # OU PostgreSQL local
-DATABASE_URL="postgresql://localhost:5432/synck"
-DIRECT_URL="postgresql://localhost:5432/synck"
+DATABASE_URL="postgresql://localhost:5432/portfolio-caro"
+DIRECT_URL="postgresql://localhost:5432/portfolio-caro"
 ```
 
 **Production** (utilise `.env` uniquement - ⚠️ ATTENTION !) :
@@ -569,24 +569,24 @@ URL : `/{locale}/admin` (requiert authentification ADMIN)
 
 Les agents spécialisés sont dans `.claude/agents/` :
 
-| Agent          | Usage                                       |
-| -------------- | ------------------------------------------- |
-| `synck-crud`   | Créer/modifier entités Prisma et routes API |
-| `synck-design` | Maintenir cohérence design system           |
-| `synck-tests`  | Écrire tests Playwright                     |
-| `synck-i18n`   | Gérer traductions FR/EN                     |
+| Agent    | Usage                                       |
+| -------- | ------------------------------------------- |
+| `crud`   | Créer/modifier entités Prisma et routes API |
+| `design` | Maintenir cohérence design system           |
+| `tests`  | Écrire tests Playwright                     |
+| `i18n`   | Gérer traductions FR/EN                     |
 
 ### Skills disponibles
 
 Les skills sont dans `.claude/commands/` :
 
-| Skill                 | Usage                                 |
-| --------------------- | ------------------------------------- |
-| `/synck-status`       | État du projet (DB, migrations, logs) |
-| `/synck-seed`         | Reset et seed la base                 |
-| `/synck-deploy-check` | Vérification pré-déploiement          |
-| `/synck-add-work`     | Ajout guidé d'un work                 |
-| `/synck-design-audit` | Audit du design system                |
+| Skill           | Usage                                 |
+| --------------- | ------------------------------------- |
+| `/status`       | État du projet (DB, migrations, logs) |
+| `/seed`         | Reset et seed la base                 |
+| `/deploy-check` | Vérification pré-déploiement          |
+| `/add-work`     | Ajout guidé d'un work                 |
+| `/design-audit` | Audit du design system                |
 
 ---
 
