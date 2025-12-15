@@ -74,4 +74,4 @@ RESEND_API_KEY="..."
 
 ## License
 
-Private - All rights reserved
+Private - All rights reserved.
