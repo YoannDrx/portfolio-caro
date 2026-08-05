@@ -20,6 +20,11 @@ test.describe('Artistes Page', () => {
     })
     const artistCards = page.locator('[data-testid="artist-card"]')
     await expect(artistCards.first()).toBeVisible()
+
+    // Public profiles must be complete: one image and at least one active project.
+    const cardCount = await artistCards.count()
+    await expect(artistCards.locator('img')).toHaveCount(cardCount)
+    await expect(page.getByText('0 projet', { exact: true })).toHaveCount(0)
   })
 
   test('should navigate to artist detail', async ({ page }) => {

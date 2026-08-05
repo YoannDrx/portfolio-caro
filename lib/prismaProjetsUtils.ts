@@ -367,15 +367,32 @@ export type ArtistWithContributions = Prisma.ArtistGetPayload<{
   }
 }>
 
+/**
+ * Un profil artiste n'est publiable que lorsqu'il est complet et relié à au
+ * moins un projet public. Les fiches incomplètes restent disponibles dans
+ * l'administration sans créer de cartes vides sur le site public.
+ */
+const publicArtistWhere = {
+  isActive: true,
+  imageId: {
+    not: null,
+  },
+  contributions: {
+    some: {
+      work: {
+        isActive: true,
+      },
+    },
+  },
+} satisfies Prisma.ArtistWhereInput
+
 // Get all artists with translations
 // NOTE: cache() is used for performance. If image paths appear incorrect after DB changes,
 // restart the dev server to clear React's in-memory cache.
 export const getArtistsFromPrisma = cache(async (locale: Locale): Promise<GalleryArtist[]> => {
   try {
     const artists = await prisma.artist.findMany({
-      where: {
-        isActive: true,
-      },
+      where: publicArtistWhere,
       include: {
         translations: {
           where: {
@@ -421,8 +438,11 @@ export const getArtistsFromPrisma = cache(async (locale: Locale): Promise<Galler
 export const getArtistBySlug = cache(
   async (slug: string, locale: Locale): Promise<ArtistWithContributions | null> => {
     try {
-      const artist = await prisma.artist.findUnique({
-        where: { slug },
+      const artist = await prisma.artist.findFirst({
+        where: {
+          ...publicArtistWhere,
+          slug,
+        },
         include: {
           translations: {
             where: {
@@ -480,9 +500,7 @@ export const getArtistBySlug = cache(
 export async function getAllArtistSlugs(): Promise<string[]> {
   try {
     const artists = await prisma.artist.findMany({
-      where: {
-        isActive: true,
-      },
+      where: publicArtistWhere,
       orderBy: [
         {
           order: 'asc',
@@ -515,7 +533,7 @@ export async function getAdjacentArtists(
 }> {
   try {
     const artists = await prisma.artist.findMany({
-      where: { isActive: true },
+      where: publicArtistWhere,
       include: {
         translations: {
           where: { locale },
