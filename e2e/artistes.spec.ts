@@ -21,10 +21,9 @@ test.describe('Artistes Page', () => {
     const artistCards = page.locator('[data-testid="artist-card"]')
     await expect(artistCards.first()).toBeVisible()
 
-    // Public profiles must be complete: one image and at least one active project.
-    const cardCount = await artistCards.count()
-    await expect(artistCards.locator('img')).toHaveCount(cardCount)
-    await expect(page.getByText('0 projet', { exact: true })).toHaveCount(0)
+    // Active profiles must remain public even when their data is incomplete.
+    await expect(page.getByRole('heading', { name: 'Aïwa', exact: true })).toBeAttached()
+    await expect(page.getByRole('heading', { name: 'Fabien Girard', exact: true })).toBeAttached()
   })
 
   test('should navigate to artist detail', async ({ page }) => {

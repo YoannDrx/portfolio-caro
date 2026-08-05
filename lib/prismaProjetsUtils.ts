@@ -368,22 +368,12 @@ export type ArtistWithContributions = Prisma.ArtistGetPayload<{
 }>
 
 /**
- * Un profil artiste n'est publiable que lorsqu'il est complet et relié à au
- * moins un projet public. Les fiches incomplètes restent disponibles dans
- * l'administration sans créer de cartes vides sur le site public.
+ * Toutes les fiches artistes actives sont publiques, même lorsqu'une image ou
+ * une contribution manque encore. L'interface fournit un état de repli pour
+ * ces données incomplètes au lieu de masquer la fiche.
  */
-const publicArtistWhere = {
+const activeArtistWhere = {
   isActive: true,
-  imageId: {
-    not: null,
-  },
-  contributions: {
-    some: {
-      work: {
-        isActive: true,
-      },
-    },
-  },
 } satisfies Prisma.ArtistWhereInput
 
 // Get all artists with translations
@@ -392,7 +382,7 @@ const publicArtistWhere = {
 export const getArtistsFromPrisma = cache(async (locale: Locale): Promise<GalleryArtist[]> => {
   try {
     const artists = await prisma.artist.findMany({
-      where: publicArtistWhere,
+      where: activeArtistWhere,
       include: {
         translations: {
           where: {
@@ -440,7 +430,7 @@ export const getArtistBySlug = cache(
     try {
       const artist = await prisma.artist.findFirst({
         where: {
-          ...publicArtistWhere,
+          ...activeArtistWhere,
           slug,
         },
         include: {
@@ -500,7 +490,7 @@ export const getArtistBySlug = cache(
 export async function getAllArtistSlugs(): Promise<string[]> {
   try {
     const artists = await prisma.artist.findMany({
-      where: publicArtistWhere,
+      where: activeArtistWhere,
       orderBy: [
         {
           order: 'asc',
@@ -533,7 +523,7 @@ export async function getAdjacentArtists(
 }> {
   try {
     const artists = await prisma.artist.findMany({
-      where: publicArtistWhere,
+      where: activeArtistWhere,
       include: {
         translations: {
           where: { locale },

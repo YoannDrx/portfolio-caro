@@ -1343,5 +1343,22 @@
     ],
     "order": 68,
     "isActive": true
+  },
+  {
+    "id": 77,
+    "slug": "aiwa",
+    "name": "Aïwa",
+    "image": "public/images/projets/photoscompo/aiwa.jpg",
+    "externalUrl": null,
+    "links": [
+      {
+        "platform": "soundcloud",
+        "url": "https://soundcloud.com/a-wa",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 69,
+    "isActive": true
   }
 ]
