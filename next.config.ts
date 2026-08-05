@@ -2,6 +2,8 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   images: {
+    // Serve source assets directly while Vercel's image optimizer is unavailable.
+    unoptimized: true,
     remotePatterns: [],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
