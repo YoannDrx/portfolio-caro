@@ -1360,5 +1360,137 @@
     ],
     "order": 69,
     "isActive": true
+  },
+  {
+    "id": 39,
+    "slug": "ghostmaker",
+    "name": "Ghostmaker",
+    "image": "public/images/projets/photoscompo/ghostmaker.jpg",
+    "externalUrl": null,
+    "links": [],
+    "order": 38,
+    "isActive": true
+  },
+  {
+    "id": 40,
+    "slug": "hexahedre",
+    "name": "Hexahedre",
+    "image": "public/images/projets/vinyles/hexahedre.jpg",
+    "externalUrl": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/",
+    "links": [
+      {
+        "platform": "website",
+        "url": "https://www.mowno.com/news/infos/avec-hexahedre-jb-hanak-et-cyril-laurent-invitent-au-voyage-extra-corporel/",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 39,
+    "isActive": true
+  },
+  {
+    "id": 44,
+    "slug": "lovlion",
+    "name": "LovLion",
+    "image": "public/images/projets/photoscompo/lovlion.jpg",
+    "externalUrl": "https://open.spotify.com/intl-fr/artist/4iLSUJSIR7y2vknbGaZXD1",
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/intl-fr/artist/4iLSUJSIR7y2vknbGaZXD1",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 43,
+    "isActive": true
+  },
+  {
+    "id": 46,
+    "slug": "marie-sophie-mallet",
+    "name": "Marie-Sophie Mallet",
+    "image": "public/images/projets/photoscompo/marie-sophie-mallet.jpg",
+    "externalUrl": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX",
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/intl-fr/track/4BOrPAF6kbOW3mXbLQrfgX",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 45,
+    "isActive": true
+  },
+  {
+    "id": 70,
+    "slug": "syra",
+    "name": "Syra",
+    "image": "public/images/projets/photoscompo/syra.jpg",
+    "externalUrl": "https://www.youtube.com/@syra7874/featured",
+    "links": [
+      {
+        "platform": "soundcloud",
+        "url": "https://soundcloud.com/syra-sc",
+        "label": "SoundCloud",
+        "order": 0
+      }
+    ],
+    "order": 69,
+    "isActive": true
+  },
+  {
+    "id": 76,
+    "slug": "zoe-wolf",
+    "name": "Zoe Wolf",
+    "image": "public/images/projets/photoscompo/zoewolf.jpg",
+    "externalUrl": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz",
+    "links": [
+      {
+        "platform": "spotify",
+        "url": "https://open.spotify.com/intl-fr/artist/6sJbyR4JKjsQaCp6T0E3Pz",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 75,
+    "isActive": true
+  },
+  {
+    "id": 91,
+    "slug": "amaury-messelier",
+    "name": "Amaury Messelier",
+    "image": null,
+    "externalUrl": null,
+    "links": [],
+    "order": 77,
+    "isActive": true
+  },
+  {
+    "id": 92,
+    "slug": "franck-sinnassamy",
+    "name": "Franck Sinnassamy",
+    "image": null,
+    "externalUrl": null,
+    "links": [],
+    "order": 80,
+    "isActive": true
+  },
+  {
+    "id": 87,
+    "slug": "thierry-los",
+    "name": "Thierry Los",
+    "image": "public/images/projets/photoscompo/thierry-los.jpeg",
+    "externalUrl": null,
+    "links": [
+      {
+        "platform": "website",
+        "url": "http://www.dng-music.com/3jt/thierrylos/index.html",
+        "label": null,
+        "order": 0
+      }
+    ],
+    "order": 86,
+    "isActive": true
   }
 ]
