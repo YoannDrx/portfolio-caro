@@ -8,6 +8,20 @@ import sharp from 'sharp'
 
 const prisma = new PrismaClient()
 const SKIP_SEED_IF_DATA_PRESENT = process.env.SKIP_SEED_IF_DATA_PRESENT === '1'
+const SEED_TARGET = process.env.SEED_TARGET
+
+if (
+  process.env.ALLOW_CONTENT_SEED !== '1' ||
+  !['development', 'test'].includes(SEED_TARGET ?? '')
+) {
+  throw new Error(
+    'Content seed refused. Use pnpm db:seed for development or pnpm db:seed:test for tests.'
+  )
+}
+
+if (process.env.VERCEL_ENV === 'production') {
+  throw new Error('Content seed is disabled on Vercel production.')
+}
 
 // ============================================
 // TYPES
@@ -749,61 +763,6 @@ async function seedExpertises() {
 }
 
 // ============================================
-// SEED ADMIN USER
-// ============================================
-
-async function seedAdminUser() {
-  console.log('\n👤 Seeding admin user...')
-
-  const { auth } = await import('../lib/auth')
-
-  const adminEmail = process.env.ADMIN_EMAIL
-  const adminPassword = process.env.ADMIN_PASSWORD
-
-  // Vérifier si l'utilisateur existe déjà
-  const existingUser = await prisma.user.findUnique({
-    where: { email: adminEmail },
-    include: { accounts: true },
-  })
-
-  if (existingUser) {
-    console.log('   Utilisateur existant, suppression pour recréation...')
-    await prisma.account.deleteMany({
-      where: { userId: existingUser.id },
-    })
-    await prisma.session.deleteMany({
-      where: { userId: existingUser.id },
-    })
-    await prisma.user.delete({
-      where: { id: existingUser.id },
-    })
-  }
-
-  // Créer l'utilisateur via Better-Auth API (hash le mot de passe correctement)
-  const result = await auth.api.signUpEmail({
-    body: {
-      email: adminEmail,
-      password: adminPassword,
-      name: 'Admin',
-    },
-  })
-
-  // Mettre à jour le rôle et le statut
-  await prisma.user.update({
-    where: { id: result.user.id },
-    data: {
-      role: 'ADMIN',
-      emailVerified: true,
-      isActive: true,
-    },
-  })
-
-  console.log(`✅ Admin user created: ${adminEmail}`)
-  console.log(`   Password: ${adminPassword}`)
-  console.log('   ⚠️  IMPORTANT: Change this password after first login!')
-}
-
-// ============================================
 // MAIN SEED FUNCTION
 // ============================================
 
@@ -829,7 +788,6 @@ async function main() {
     await seedArtists()
     await seedWorks()
     await seedExpertises()
-    await seedAdminUser()
 
     console.log('\n🎉 Database seeding completed!')
   } catch (error: unknown) {

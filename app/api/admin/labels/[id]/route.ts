@@ -6,6 +6,7 @@ import { ApiError } from '@/lib/api/error-handler'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const labelSchema = z.object({
   website: z
@@ -150,6 +151,8 @@ export const PUT = withAuthAndValidation(labelSchema, async (req, context, user,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
 
+  revalidatePublicContent('taxonomy')
+
   return NextResponse.json(updatedLabel)
 })
 
@@ -203,6 +206,8 @@ export const DELETE = withAuth(async (req, context, user) => {
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('taxonomy')
 
   return NextResponse.json({ success: true })
 })

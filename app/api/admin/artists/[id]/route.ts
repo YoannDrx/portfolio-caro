@@ -6,6 +6,7 @@ import { ApiError } from '@/lib/api/error-handler'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const artistLinkSchema = z.object({
   platform: z.string().min(1),
@@ -186,6 +187,9 @@ export const PUT = withAuthAndValidation(artistUpdateSchema, async (req, context
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
 
+  revalidatePublicContent('artist', updated?.slug ?? existing.slug)
+  if (data.slug && data.slug !== existing.slug) revalidatePublicContent('artist', existing.slug)
+
   return NextResponse.json(updated)
 })
 
@@ -239,6 +243,8 @@ export const DELETE = withAuth(async (req, context, user) => {
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('artist', existing.slug)
 
   return NextResponse.json({ success: true })
 })

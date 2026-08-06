@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { getDictionary } from '@/lib/dictionaries'
@@ -5,17 +6,20 @@ import type { Locale } from '@/lib/i18n-config'
 import {
   type WorkContribution,
   type WorkImage,
-  getAllWorkSlugs,
-  getProjetsFromPrisma,
+  getAdjacentWorks,
+  getArtistsForWorkSlugs,
+  getFeaturedWorkSlugs,
   getWorkBySlug,
+  getWorkRelationCandidates,
 } from '@/lib/prismaProjetsUtils'
+import { pageMetadata } from '@/lib/seo'
 import { buildWorkRelations, toSimpleWork } from '@/lib/workRelations'
 
 import { ProjetDetailClient } from '@/components/sections/projet-detail-client'
 
 // Generate static params for all work slugs
 export async function generateStaticParams() {
-  const slugs = await getAllWorkSlugs()
+  const slugs = await getFeaturedWorkSlugs()
   const locales: Locale[] = ['fr', 'en']
 
   const params: { locale: Locale; slug: string }[] = []
@@ -34,9 +38,30 @@ type WorkDetailPageParams = {
     locale: Locale
     slug: string
   }>
-  searchParams?: Promise<{
-    category?: string
-  }>
+}
+
+export async function generateMetadata({
+  params,
+}: Pick<WorkDetailPageParams, 'params'>): Promise<Metadata> {
+  const { locale, slug } = await params
+  const safeLocale = locale === 'en' ? 'en' : 'fr'
+  const work = await getWorkBySlug(slug, safeLocale)
+  if (!work) return { title: safeLocale === 'fr' ? 'Projet introuvable' : 'Project not found' }
+  const translation = work.translations[0]
+  const title = translation?.title ?? work.slug
+  const description = translation?.description?.trim()
+  return pageMetadata({
+    locale: safeLocale,
+    title,
+    description:
+      description && description.length > 0
+        ? description
+        : safeLocale === 'fr'
+          ? `Crédits et informations professionnelles pour ${title}.`
+          : `Credits and professional information for ${title}.`,
+    path: `/projets/${work.slug}`,
+    image: assetPathToUrl(work.coverImage?.path),
+  })
 }
 
 // Helper function to transform asset path to URL
@@ -68,27 +93,22 @@ function createSpotifyEmbedUrl(rawUrl: string | null): string | undefined {
   }
 }
 
-export default async function WorkDetailPage({ params, searchParams }: WorkDetailPageParams) {
+export default async function WorkDetailPage({ params }: WorkDetailPageParams) {
   const { locale, slug } = await params
   const safeLocale = locale === 'en' ? 'en' : 'fr'
-  const work = await getWorkBySlug(slug, safeLocale)
-  const dictionary = await getDictionary(safeLocale)
+  const [work, dictionary, adjacentWorks, relationCandidates] = await Promise.all([
+    getWorkBySlug(slug, safeLocale),
+    getDictionary(safeLocale),
+    getAdjacentWorks(slug, safeLocale),
+    getWorkRelationCandidates(safeLocale, [slug]),
+  ])
   const detailCopy = dictionary.projetDetail
-
-  // Get category from search params for breadcrumb
-  const resolvedSearchParams = searchParams ? await searchParams : {}
-  const categoryParam = resolvedSearchParams.category
 
   if (!work) {
     notFound()
   }
 
-  // Get all works for prev/next navigation
-  const allWorks = await getProjetsFromPrisma(safeLocale)
-  const relations = buildWorkRelations(allWorks.map(toSimpleWork))
-  const currentIndex = allWorks.findIndex((w) => w.slug === slug)
-  const prevWork = currentIndex > 0 ? allWorks[currentIndex - 1] : null
-  const nextWork = currentIndex < allWorks.length - 1 ? allWorks[currentIndex + 1] : null
+  const relations = buildWorkRelations(relationCandidates.map(toSimpleWork))
 
   // Extract data from Prisma work
   const translation = work.translations[0]
@@ -113,6 +133,8 @@ export default async function WorkDetailPage({ params, searchParams }: WorkDetai
     category: categoryTranslation?.name,
     categorySlug: work.category?.slug,
     label: labelTranslation?.name,
+    role: translation?.role ?? undefined,
+    year: work.year ?? undefined,
     genre: work.genre ?? undefined,
     releaseDate: work.releaseDate ?? undefined,
     externalUrl: work.externalUrl?.trim() ?? undefined,
@@ -134,24 +156,15 @@ export default async function WorkDetailPage({ params, searchParams }: WorkDetai
     }
   }
 
-  let relatedProjectArtists: ReturnType<typeof mapContributionToArtist>[] = []
-  if (relatedProjects.length > 0) {
-    const relatedContributions = await Promise.all(
-      relatedProjects.map(async (proj) => {
-        const relatedWork = await getWorkBySlug(proj.slug, safeLocale)
-        return relatedWork?.contributions ?? []
-      })
-    )
-
-    const deduped = new Map<string, ReturnType<typeof mapContributionToArtist>>()
-    relatedContributions.flat().forEach((contribution) => {
-      const artistData = mapContributionToArtist(contribution, 'related')
-      if (!deduped.has(artistData.slug)) {
-        deduped.set(artistData.slug, artistData)
-      }
-    })
-    relatedProjectArtists = Array.from(deduped.values())
-  }
+  const relatedArtists = await getArtistsForWorkSlugs(
+    relatedProjects.map((project) => project.slug),
+    safeLocale
+  )
+  const relatedProjectArtists = Array.from(
+    new Map(
+      relatedArtists.map((artist) => [artist.slug, { id: `related-${artist.slug}`, ...artist }])
+    ).values()
+  )
 
   // Prepare artists data
   const artists = (work.contributions ?? []).map((contribution) =>
@@ -166,8 +179,8 @@ export default async function WorkDetailPage({ params, searchParams }: WorkDetai
   }))
 
   // Prepare navigation works
-  const navPrevWork = prevWork ? { slug: prevWork.slug, title: prevWork.title } : null
-  const navNextWork = nextWork ? { slug: nextWork.slug, title: nextWork.title } : null
+  const navPrevWork = adjacentWorks.previous
+  const navNextWork = adjacentWorks.next
 
   return (
     <ProjetDetailClient
@@ -185,7 +198,6 @@ export default async function WorkDetailPage({ params, searchParams }: WorkDetai
         projets: dictionary.nav.projets,
       }}
       copy={detailCopy}
-      categoryParam={categoryParam}
     />
   )
 }

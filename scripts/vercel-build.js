@@ -17,26 +17,25 @@
  * Usage: This script is automatically called by Vercel when "vercel-build" script exists
  */
 
-const { execSync } = require('child_process')
+const { spawnSync } = require('child_process')
 
 /**
  * Execute a command with proper error handling and logging
  */
-function run(command, description) {
+function run(command, args, description) {
   console.log(`\n📦 ${description}...`)
-  console.log(`   Command: ${command}`)
+  const result = spawnSync(command, args, {
+    stdio: 'inherit',
+    env: process.env,
+  })
 
-  try {
-    execSync(command, {
-      stdio: 'inherit',
-      env: process.env,
-    })
-    console.log(`✅ ${description} - Success`)
-  } catch (error) {
+  if (result.status !== 0) {
     console.error(`❌ ${description} - Failed`)
-    console.error(`   Exit code: ${error.status}`)
+    console.error(`   Exit code: ${String(result.status ?? 'unknown')}`)
     process.exit(1)
   }
+
+  console.log(`✅ ${description} - Success`)
 }
 
 console.log('\n' + '━'.repeat(60))
@@ -55,23 +54,16 @@ if (!process.env.DATABASE_URL || !process.env.DIRECT_URL) {
 console.log('\n📊 Environment:')
 console.log(`   NODE_ENV: ${process.env.NODE_ENV || 'production'}`)
 console.log(`   VERCEL_ENV: ${process.env.VERCEL_ENV || 'N/A'}`)
-console.log(`   DATABASE_URL: ${process.env.DATABASE_URL?.substring(0, 40)}...`)
-console.log(`   DIRECT_URL: ${process.env.DIRECT_URL?.substring(0, 40)}...`)
+console.log('   Database configuration: loaded')
 
 // Step 1: Apply migrations (uses DIRECT_URL)
-run('pnpm exec prisma migrate deploy', 'Applying database migrations')
+run('pnpm', ['exec', 'prisma', 'migrate', 'deploy'], 'Applying database migrations')
 
 // Step 2: Generate Prisma Client
-run('pnpm exec prisma generate', 'Generating Prisma Client')
+run('pnpm', ['exec', 'prisma', 'generate'], 'Generating Prisma Client')
 
-// Step 3: Seed database (idempotent - uses upsert)
-console.log('\n📊 Seeding database...')
-console.log('   Mode: Idempotent (upsert - creates or updates)')
-console.log('   Source: seed-data/works.json, seed-data/composers.json')
-run('pnpm db:seed:prod', 'Seeding production database')
-
-// Step 4: Build Next.js application
-run('pnpm exec next build', 'Building Next.js application')
+// Step 3: Build Next.js application. Content is never seeded during deployment.
+run('pnpm', ['exec', 'next', 'build'], 'Building Next.js application')
 
 console.log('\n' + '━'.repeat(60))
 console.log('✅ BUILD COMPLETED SUCCESSFULLY! 🎉')

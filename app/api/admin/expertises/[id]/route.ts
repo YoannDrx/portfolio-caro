@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const expertiseUpdateSchema = z.object({
   slug: z.string().min(1).optional(),
@@ -167,6 +168,9 @@ export const PATCH = withAuthAndValidation(
       userAgent: req.headers.get('user-agent') ?? undefined,
     })
 
+    revalidatePublicContent('expertise', expertise.slug)
+    if (expertise.slug !== existing.slug) revalidatePublicContent('expertise', existing.slug)
+
     return NextResponse.json(expertise)
   }
 )
@@ -208,6 +212,8 @@ export const DELETE = withAuth(async (req, context, user) => {
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('expertise', expertise.slug)
 
   return NextResponse.json({ success: true })
 })

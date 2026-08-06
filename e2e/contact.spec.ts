@@ -28,7 +28,7 @@ test.describe('Contact Page', () => {
     const submitButton = page.locator('button[type="submit"]').first()
     await submitButton.click()
 
-    // Should show validation errors or not submit
-    // (This depends on your form validation implementation)
+    await expect(page.locator('form [role="alert"]')).toContainText(/vérifiez/i)
+    await expect(page.locator('#name')).toHaveAttribute('aria-invalid', 'true')
   })
 })

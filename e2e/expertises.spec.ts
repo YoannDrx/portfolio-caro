@@ -42,7 +42,7 @@ test.describe('Expertises Page', () => {
     await page.goto('/fr/expertises/gestion-administrative-et-editoriale')
 
     // Check that the page loads
-    await expect(page.locator('h1')).toBeVisible()
+    await expect(page.locator('h1').first()).toBeVisible()
 
     // Should have documentaires gallery (if any)
     const documentairesSection = page.locator('text=/documentaires/i').first()

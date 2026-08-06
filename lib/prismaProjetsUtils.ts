@@ -305,6 +305,162 @@ export async function getAllWorkSlugs(): Promise<string[]> {
   }
 }
 
+export async function getFeaturedWorkSlugs(limit = 12): Promise<string[]> {
+  const works = await prisma.work.findMany({
+    where: { isActive: true, isFeatured: true },
+    select: { slug: true },
+    orderBy: [{ order: 'asc' }, { slug: 'asc' }],
+    take: limit,
+  })
+  return works.map((work) => work.slug)
+}
+
+type AdjacentWork = { slug: string; title: string }
+
+export async function getAdjacentWorks(
+  slug: string,
+  locale: Locale
+): Promise<{ previous: AdjacentWork | null; next: AdjacentWork | null }> {
+  const current = await prisma.work.findFirst({
+    where: { slug, isActive: true },
+    select: { order: true, createdAt: true, slug: true },
+  })
+  if (!current) return { previous: null, next: null }
+
+  const select = {
+    slug: true,
+    translations: { where: { locale }, select: { title: true }, take: 1 },
+  } satisfies Prisma.WorkSelect
+  const [previous, next] = await Promise.all([
+    prisma.work.findFirst({
+      where: {
+        isActive: true,
+        OR: [
+          { order: { lt: current.order } },
+          { order: current.order, createdAt: { lt: current.createdAt } },
+          { order: current.order, createdAt: current.createdAt, slug: { lt: current.slug } },
+        ],
+      },
+      select,
+      orderBy: [{ order: 'desc' }, { createdAt: 'desc' }, { slug: 'desc' }],
+    }),
+    prisma.work.findFirst({
+      where: {
+        isActive: true,
+        OR: [
+          { order: { gt: current.order } },
+          { order: current.order, createdAt: { gt: current.createdAt } },
+          { order: current.order, createdAt: current.createdAt, slug: { gt: current.slug } },
+        ],
+      },
+      select,
+      orderBy: [{ order: 'asc' }, { createdAt: 'asc' }, { slug: 'asc' }],
+    }),
+  ])
+
+  const map = (work: typeof previous): AdjacentWork | null =>
+    work ? { slug: work.slug, title: work.translations[0]?.title ?? work.slug } : null
+  return { previous: map(previous), next: map(next) }
+}
+
+export async function getWorkRelationCandidates(
+  locale: Locale,
+  relevantSlugs: string[]
+): Promise<GalleryWork[]> {
+  const works = await prisma.work.findMany({
+    where: {
+      isActive: true,
+      OR: [
+        { slug: { in: relevantSlugs } },
+        { category: { slug: { in: ['clip', 'clips', 'music-video', 'music-videos'] } } },
+        {
+          category: {
+            translations: {
+              some: {
+                locale,
+                OR: [
+                  { name: { contains: 'clip', mode: 'insensitive' } },
+                  { name: { contains: 'video', mode: 'insensitive' } },
+                ],
+              },
+            },
+          },
+        },
+      ],
+    },
+    select: {
+      id: true,
+      slug: true,
+      year: true,
+      externalUrl: true,
+      youtubeUrl: true,
+      coverImage: true,
+      translations: { where: { locale }, select: { title: true, subtitle: true }, take: 1 },
+      category: {
+        select: {
+          slug: true,
+          translations: { where: { locale }, select: { name: true }, take: 1 },
+        },
+      },
+      contributions: {
+        where: { artist: { isActive: true } },
+        select: {
+          artist: {
+            select: { translations: { where: { locale }, select: { name: true }, take: 1 } },
+          },
+        },
+        orderBy: { order: 'asc' },
+      },
+    },
+    orderBy: [{ order: 'asc' }, { slug: 'asc' }],
+  })
+
+  return works.map((work) => ({
+    id: work.id,
+    slug: work.slug,
+    title: work.translations[0]?.title ?? work.slug,
+    subtitle: work.translations[0]?.subtitle ?? undefined,
+    category: work.category.translations[0]?.name ?? work.category.slug,
+    categorySlug: work.category.slug,
+    coverImage: assetPathToUrl(work.coverImage?.path) ?? '/images/placeholder.jpg',
+    coverImageAlt: work.coverImage?.alt ?? work.translations[0]?.title ?? work.slug,
+    coverImageWidth: work.coverImage?.width ?? undefined,
+    coverImageHeight: work.coverImage?.height ?? undefined,
+    coverImageAspectRatio: work.coverImage?.aspectRatio ?? undefined,
+    coverImageBlurDataUrl: work.coverImage?.blurDataUrl ?? undefined,
+    artists: work.contributions.map(
+      (contribution) => contribution.artist.translations[0]?.name ?? ''
+    ),
+    externalUrl: work.externalUrl ?? undefined,
+    youtubeUrl: work.youtubeUrl ?? undefined,
+    year: work.year ?? undefined,
+  }))
+}
+
+export async function getArtistsForWorkSlugs(slugs: string[], locale: Locale) {
+  if (slugs.length === 0) return []
+  const contributions = await prisma.contribution.findMany({
+    where: { work: { slug: { in: slugs }, isActive: true }, artist: { isActive: true } },
+    select: {
+      artist: {
+        select: {
+          slug: true,
+          image: { select: { path: true, alt: true } },
+          translations: { where: { locale }, select: { name: true }, take: 1 },
+        },
+      },
+    },
+    orderBy: { order: 'asc' },
+  })
+
+  return contributions.map(({ artist }) => ({
+    slug: artist.slug,
+    name: artist.translations[0]?.name ?? artist.slug,
+    image: assetPathToUrl(artist.image?.path),
+    imageAlt: artist.image?.alt ?? artist.translations[0]?.name ?? artist.slug,
+  }))
+}
+
 // ============================================
 // ARTISTS
 // ============================================
@@ -513,6 +669,16 @@ export async function getAllArtistSlugs(): Promise<string[]> {
   }
 }
 
+export async function getFeaturedArtistSlugs(limit = 12): Promise<string[]> {
+  const artists = await prisma.artist.findMany({
+    where: activeArtistWhere,
+    select: { slug: true },
+    orderBy: [{ order: 'asc' }, { createdAt: 'asc' }, { slug: 'asc' }],
+    take: limit,
+  })
+  return artists.map((artist) => artist.slug)
+}
+
 // Get previous/next artists based on order field
 export async function getAdjacentArtists(
   slug: string,
@@ -522,25 +688,43 @@ export async function getAdjacentArtists(
   next: { slug: string; name: string } | null
 }> {
   try {
-    const artists = await prisma.artist.findMany({
-      where: activeArtistWhere,
-      include: {
-        translations: {
-          where: { locale },
-        },
-      },
-      orderBy: [{ order: 'asc' }, { createdAt: 'asc' }, { slug: 'asc' }],
+    const current = await prisma.artist.findFirst({
+      where: { ...activeArtistWhere, slug },
+      select: { order: true, createdAt: true, slug: true },
     })
+    if (!current) return { previous: null, next: null }
+    const select = {
+      slug: true,
+      translations: { where: { locale }, select: { name: true }, take: 1 },
+    } satisfies Prisma.ArtistSelect
+    const [previousArtist, nextArtist] = await Promise.all([
+      prisma.artist.findFirst({
+        where: {
+          ...activeArtistWhere,
+          OR: [
+            { order: { lt: current.order } },
+            { order: current.order, createdAt: { lt: current.createdAt } },
+            { order: current.order, createdAt: current.createdAt, slug: { lt: current.slug } },
+          ],
+        },
+        select,
+        orderBy: [{ order: 'desc' }, { createdAt: 'desc' }, { slug: 'desc' }],
+      }),
+      prisma.artist.findFirst({
+        where: {
+          ...activeArtistWhere,
+          OR: [
+            { order: { gt: current.order } },
+            { order: current.order, createdAt: { gt: current.createdAt } },
+            { order: current.order, createdAt: current.createdAt, slug: { gt: current.slug } },
+          ],
+        },
+        select,
+        orderBy: [{ order: 'asc' }, { createdAt: 'asc' }, { slug: 'asc' }],
+      }),
+    ])
 
-    const currentIndex = artists.findIndex((artist) => artist.slug === slug)
-    if (currentIndex === -1) {
-      return { previous: null, next: null }
-    }
-
-    const previousArtist = artists[currentIndex - 1]
-    const nextArtist = artists[currentIndex + 1]
-
-    const mapArtist = (artist: (typeof artists)[number] | undefined) =>
+    const mapArtist = (artist: typeof previousArtist) =>
       artist
         ? {
             slug: artist.slug,

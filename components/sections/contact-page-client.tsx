@@ -107,14 +107,10 @@ export function ContactPageClient({ locale, nav, copy, formDictionary }: Contact
             transition={{ duration: 0.5, delay: 0.2 }}
             className="rounded-[24px] border-2 border-white/10 bg-white/[0.02] p-5 sm:p-6 lg:p-8"
           >
-            <div className="mb-6 flex items-center justify-between">
+            <div className="mb-6">
               <h2 className="text-xs tracking-[0.4em] text-white/40 uppercase">
                 {copy.introTitle}
               </h2>
-              <span className="flex items-center gap-2 text-xs tracking-[0.3em] text-white/40 uppercase">
-                <span className="h-2 w-2 animate-pulse rounded-full bg-[#d5ff0a]" />
-                Online
-              </span>
             </div>
             <p className="mb-6 text-sm text-white/50">{copy.introDescription}</p>
             <ContactForm dictionary={formDictionary} />

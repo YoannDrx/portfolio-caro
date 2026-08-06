@@ -20,9 +20,12 @@ test.describe('Artistes Page', () => {
     })
     const artistCards = page.locator('[data-testid="artist-card"]')
     await expect(artistCards.first()).toBeVisible()
+    expect(await artistCards.count()).toBeLessThanOrEqual(24)
 
     // Active profiles must remain public even when their data is incomplete.
     await expect(page.getByRole('heading', { name: 'Aïwa', exact: true })).toBeAttached()
+    await page.getByTestId('artists-search').fill('Fabien Girard')
+    await expect(page).toHaveURL(/q=Fabien(?:\+|%20)Girard/)
     await expect(page.getByRole('heading', { name: 'Fabien Girard', exact: true })).toBeAttached()
   })
 
@@ -39,15 +42,15 @@ test.describe('Artistes Page', () => {
 
     // Verify the href attribute is valid
     const href = await firstArtist.getAttribute('href')
-    expect(href).toMatch(/^\/fr\/artistes\/[^/]+$/)
+    expect(href).toMatch(/^\/fr\/artistes\/[^/?]+\?returnTo=/)
 
     // Click and wait for navigation
     await Promise.all([
-      page.waitForURL(/\/fr\/artistes\/[^/]+$/, { timeout: 10000 }),
+      page.waitForURL(/\/fr\/artistes\/[^/?]+\?returnTo=/, { timeout: 10000 }),
       firstArtist.click(),
     ])
 
     // Verify we're on the detail page
-    await expect(page).toHaveURL(/\/fr\/artistes\/[^/]+$/)
+    await expect(page).toHaveURL(/\/fr\/artistes\/[^/?]+\?returnTo=/)
   })
 })

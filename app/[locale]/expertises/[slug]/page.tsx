@@ -1,8 +1,10 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { getDictionary } from '@/lib/dictionaries'
 import type { Locale } from '@/lib/i18n-config'
 import { getAllExpertiseSlugs, getAllExpertises, getExpertise } from '@/lib/prismaExpertiseUtils'
+import { pageMetadata } from '@/lib/seo'
 
 import { ExpertiseDetailClient } from '@/components/sections/expertise-detail-client'
 
@@ -29,12 +31,29 @@ type ExpertiseDetailParams = {
   }>
 }
 
-export default async function ExpertiseDetailPage({ params }: ExpertiseDetailParams) {
+export async function generateMetadata({ params }: ExpertiseDetailParams): Promise<Metadata> {
   const { locale, slug } = await params
   const safeLocale = locale === 'en' ? 'en' : 'fr'
   const expertise = await getExpertise(slug, safeLocale)
-  const allExpertises = await getAllExpertises(safeLocale)
-  const dictionary = await getDictionary(safeLocale)
+  if (!expertise)
+    return { title: safeLocale === 'fr' ? 'Expertise introuvable' : 'Expertise not found' }
+  return pageMetadata({
+    locale: safeLocale,
+    title: expertise.title,
+    description: expertise.description,
+    path: `/expertises/${expertise.slug}`,
+    image: expertise.imgHome,
+  })
+}
+
+export default async function ExpertiseDetailPage({ params }: ExpertiseDetailParams) {
+  const { locale, slug } = await params
+  const safeLocale = locale === 'en' ? 'en' : 'fr'
+  const [expertise, allExpertises, dictionary] = await Promise.all([
+    getExpertise(slug, safeLocale),
+    getAllExpertises(safeLocale),
+    getDictionary(safeLocale),
+  ])
 
   if (!expertise) {
     notFound()

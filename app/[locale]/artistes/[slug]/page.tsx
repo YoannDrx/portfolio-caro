@@ -1,21 +1,23 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { getDictionary } from '@/lib/dictionaries'
 import type { Locale } from '@/lib/i18n-config'
 import {
   getAdjacentArtists,
-  getAllArtistSlugs,
   getArtistBySlug,
-  getProjetsFromPrisma,
+  getFeaturedArtistSlugs,
+  getWorkRelationCandidates,
 } from '@/lib/prismaProjetsUtils'
 import type { ArtistWithContributions } from '@/lib/prismaProjetsUtils'
+import { pageMetadata } from '@/lib/seo'
 import { buildWorkRelations, toSimpleWork } from '@/lib/workRelations'
 
 import { ArtistDetailClient } from '@/components/sections/artist-detail-client'
 
 // Generate static params for all artist slugs
 export async function generateStaticParams() {
-  const slugs = await getAllArtistSlugs()
+  const slugs = await getFeaturedArtistSlugs()
   const locales: Locale[] = ['fr', 'en']
 
   const params: { locale: Locale; slug: string }[] = []
@@ -34,6 +36,28 @@ type ArtistDetailParams = {
     locale: Locale
     slug: string
   }>
+}
+
+export async function generateMetadata({ params }: ArtistDetailParams): Promise<Metadata> {
+  const { locale, slug } = await params
+  const safeLocale = locale === 'en' ? 'en' : 'fr'
+  const artist = await getArtistBySlug(slug, safeLocale)
+  if (!artist) return { title: safeLocale === 'fr' ? 'Artiste introuvable' : 'Artist not found' }
+  const translation = artist.translations[0]
+  const name = translation?.name ?? artist.slug
+  const bio = translation?.bio?.trim()
+  return pageMetadata({
+    locale: safeLocale,
+    title: name,
+    description:
+      bio && bio.length > 0
+        ? bio
+        : safeLocale === 'fr'
+          ? `Profil, tracks, albums et crédits de ${name}.`
+          : `Profile, tracks, albums and credits for ${name}.`,
+    path: `/artistes/${artist.slug}`,
+    image: artist.image?.path ? assetPathToUrl(artist.image.path) : undefined,
+  })
 }
 
 type ArtistWorkSummary = {
@@ -90,12 +114,17 @@ function getPlatformName(url: string, locale: Locale): string {
 export default async function ArtisteDetailPage({ params }: ArtistDetailParams) {
   const { locale, slug } = await params
   const safeLocale = locale === 'en' ? 'en' : 'fr'
-  const artist = await getArtistBySlug(slug, safeLocale)
-  const dictionary = await getDictionary(safeLocale)
+  const [artist, dictionary, adjacentArtists] = await Promise.all([
+    getArtistBySlug(slug, safeLocale),
+    getDictionary(safeLocale),
+    getAdjacentArtists(slug, safeLocale),
+  ])
   const copy = dictionary.artistDetail
-  const adjacentArtists = await getAdjacentArtists(slug, safeLocale)
-  const allWorks = await getProjetsFromPrisma(safeLocale)
-  const simpleWorks = allWorks.map(toSimpleWork)
+  const relationCandidates = await getWorkRelationCandidates(
+    safeLocale,
+    artist?.contributions.map((contribution) => contribution.work.slug) ?? []
+  )
+  const simpleWorks = relationCandidates.map(toSimpleWork)
   const relations = buildWorkRelations(simpleWorks)
   const workMap = new Map(simpleWorks.map((work) => [work.slug, work]))
 
@@ -192,7 +221,7 @@ export default async function ArtisteDetailPage({ params }: ArtistDetailParams) 
     slug: artist.slug,
     name: translation?.name ?? artist.slug,
     bio: translation?.bio ?? undefined,
-    image: assetPathToUrl(artist.image?.path),
+    image: artist.image?.path ? assetPathToUrl(artist.image.path) : undefined,
     imageAlt: artist.image?.alt ?? translation?.name ?? artist.slug,
   }
 

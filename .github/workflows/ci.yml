@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [main, master, layout-expertise]
+    branches: [main]
   pull_request:
-    branches: [main, master, layout-expertise]
+    branches: [main]
 
 # Cancel in-progress runs for the same workflow and branch
 concurrency:
@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "20"
+  NODE_VERSION: "22"
   LOCAL_PG_URL: postgresql://postgres@localhost:5432/portfolio-caro
 
 jobs:
@@ -46,6 +46,25 @@ jobs:
 
       - name: Run TypeScript check
         run: pnpm exec tsc --noEmit
+
+  security:
+    name: Secrets & Deployment Safety
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check repository security invariants
+        run: ./scripts/check-security.sh
+
+      - name: Scan secrets with Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Job 2: Design System Check
   design-lint:
@@ -103,20 +122,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Set database URLs (PR → local Postgres)
-        if: github.event_name == 'pull_request'
+      - name: Set isolated database URLs
         run: |
           echo "DATABASE_URL=${{ env.LOCAL_PG_URL }}" >> $GITHUB_ENV
           echo "DIRECT_URL=${{ env.LOCAL_PG_URL }}" >> $GITHUB_ENV
 
-      - name: Set database URLs (main/master → Neon)
-        if: github.event_name != 'pull_request'
-        run: |
-          echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
-          echo "DIRECT_URL=${{ secrets.DIRECT_URL }}" >> $GITHUB_ENV
-
-      - name: Wait for Postgres (PR)
-        if: github.event_name == 'pull_request'
+      - name: Wait for Postgres
         run: pnpm exec wait-on tcp:localhost:5432 -t 20000
 
       - name: Generate Prisma Client
@@ -166,7 +177,23 @@ jobs:
     name: Build Application
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    needs: lint-and-typecheck
+    needs: [lint-and-typecheck, security]
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: portfolio-caro
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
     steps:
       - name: Checkout code
@@ -197,12 +224,21 @@ jobs:
       - name: Generate Prisma Client
         run: pnpm exec prisma generate
 
+      - name: Prepare isolated build database
+        run: |
+          pnpm exec wait-on tcp:localhost:5432 -t 20000
+          pnpm exec prisma migrate deploy
+          pnpm db:seed:test
+        env:
+          DATABASE_URL: ${{ env.LOCAL_PG_URL }}
+          DIRECT_URL: ${{ env.LOCAL_PG_URL }}
+
       - name: Build application
         run: pnpm run build
         env:
           DATABASE_URL: ${{ env.LOCAL_PG_URL }}
           DIRECT_URL: ${{ env.LOCAL_PG_URL }}
-          NEXT_PUBLIC_SITE_URL: https://example.com
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
 
       - name: Check build output
         run: |
@@ -219,14 +255,12 @@ jobs:
           path: .next
           retention-days: 1
 
-  # Job 4: E2E Tests (runs only on PRs)
+  # Job 4: E2E Tests
   e2e-tests:
     name: E2E Tests (Playwright)
     runs-on: ubuntu-latest
     timeout-minutes: 30
     needs: build
-    # Run E2E only on PRs (already validated before merge)
-    if: github.event_name == 'pull_request'
 
     services:
       postgres:
@@ -260,21 +294,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Set database URLs (PR → local Postgres)
-        if: github.event_name == 'pull_request'
+      - name: Set isolated database URLs
         run: |
           echo "DATABASE_URL=${{ env.LOCAL_PG_URL }}" >> $GITHUB_ENV
           echo "DIRECT_URL=${{ env.LOCAL_PG_URL }}" >> $GITHUB_ENV
 
-      - name: Set database URLs (main/master → Neon)
-        if: github.event_name != 'pull_request'
-        run: |
-          echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
-          echo "DIRECT_URL=${{ secrets.DIRECT_URL }}" >> $GITHUB_ENV
-
-      - name: Wait for Postgres (PR)
-        if: github.event_name == 'pull_request'
+      - name: Wait for Postgres
         run: pnpm exec wait-on tcp:localhost:5432 -t 20000
+
+      - name: Generate an ephemeral auth secret
+        run: echo "BETTER_AUTH_SECRET=$(openssl rand -base64 48)" >> $GITHUB_ENV
 
       - name: Install Playwright Browsers
         run: pnpm exec playwright install --with-deps chromium
@@ -285,8 +314,8 @@ jobs:
       - name: Apply migrations
         run: pnpm exec prisma migrate deploy
 
-      - name: Seed database for E2E (idempotent)
-        run: pnpm db:seed:prod
+      - name: Seed database for E2E
+        run: pnpm db:seed:test
         env:
           SKIP_SEED_IF_DATA_PRESENT: "1"
 
@@ -304,7 +333,7 @@ jobs:
         env:
           DATABASE_URL: ${{ env.LOCAL_PG_URL }}
           DIRECT_URL: ${{ env.LOCAL_PG_URL }}
-          NEXT_PUBLIC_SITE_URL: https://caroline-senyk.fr
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
 
       - name: Start application in background
         run: |
@@ -313,7 +342,7 @@ jobs:
         env:
           DATABASE_URL: ${{ env.DATABASE_URL }}
           DIRECT_URL: ${{ env.DIRECT_URL }}
-          BETTER_AUTH_SECRET: ${{ secrets.BETTER_AUTH_SECRET }}
+          BETTER_AUTH_SECRET: ${{ env.BETTER_AUTH_SECRET }}
           PORT: 3000
 
       - name: Run Playwright tests
@@ -321,7 +350,7 @@ jobs:
         env:
           PLAYWRIGHT_TEST_BASE_URL: http://localhost:3000
           DATABASE_URL: ${{ env.DATABASE_URL }}
-          BETTER_AUTH_SECRET: ${{ secrets.BETTER_AUTH_SECRET }}
+          BETTER_AUTH_SECRET: ${{ env.BETTER_AUTH_SECRET }}
 
       - name: Upload test results
         if: always()
@@ -343,7 +372,7 @@ jobs:
   ci-success:
     name: CI Success
     runs-on: ubuntu-latest
-    needs: [lint-and-typecheck, design-lint, prisma, build]
+    needs: [lint-and-typecheck, security, design-lint, prisma, build, e2e-tests]
     if: success()
 
     steps:
@@ -377,8 +406,8 @@ jobs:
   deploy-ready:
     name: Deployment Ready
     runs-on: ubuntu-latest
-    needs: [lint-and-typecheck, design-lint, prisma, build]
-    if: success() && github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    needs: [lint-and-typecheck, security, design-lint, prisma, build, e2e-tests]
+    if: success() && github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
       - name: Production Deployment Notification
@@ -392,7 +421,7 @@ jobs:
           echo "🚀 Automatic deployment:"
           echo "  • Vercel will deploy this commit"
           echo "  • Migrations applied via vercel-build script"
-          echo "  • Site: https://caroline-senyk.fr"
+          echo "  • Site: https://synck-psi.vercel.app"
           echo ""
           echo "📊 Commit info:"
           echo "  • SHA: ${{ github.sha }}"

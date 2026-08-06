@@ -1,12 +1,17 @@
-import { Geist, Geist_Mono } from 'next/font/google'
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono, Instrument_Serif } from 'next/font/google'
 
-import { ReactQueryProvider } from '@/lib/react-query'
-
-import { Toaster } from '@/components/ui/sonner'
+import { SITE_URL } from '@/lib/seo'
 
 import { ThemeProvider } from '@/components/theme-provider'
 
 import './globals.css'
+
+export const metadata: Metadata = {
+  metadataBase: SITE_URL,
+  title: 'Caroline Senyk — Gestion de droits musicaux',
+  description: "Gestionnaire de droits d'auteur et experte en droits musicaux",
+}
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -18,6 +23,12 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 })
 
+const instrumentSerif = Instrument_Serif({
+  variable: '--font-instrument-serif',
+  subsets: ['latin'],
+  weight: '400',
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,15 +37,10 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
         suppressHydrationWarning
       >
-        <ThemeProvider>
-          <ReactQueryProvider>
-            {children}
-            <Toaster />
-          </ReactQueryProvider>
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   )

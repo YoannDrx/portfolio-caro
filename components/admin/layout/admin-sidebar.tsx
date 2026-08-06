@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { AnimatePresence, type Variants, motion } from 'framer-motion'
 import {
   AlertTriangleIcon,
+  BarChart3Icon,
   BookOpenIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -230,6 +231,12 @@ export function AdminSidebar({
       href: `/${locale}/admin/medias`,
       label: 'Médias',
       icon: ImageIcon,
+      group: 'system',
+    },
+    {
+      href: `/${locale}/admin/data-quality`,
+      label: locale === 'fr' ? 'Qualité des données' : 'Data quality',
+      icon: BarChart3Icon,
       group: 'system',
     },
     {

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { headers } from 'next/headers'
 
 import { getDictionary } from '@/lib/dictionaries'
 import { i18n } from '@/lib/i18n-config'
@@ -19,12 +18,23 @@ export async function generateMetadata({
   const safeLocale = locale === 'en' ? 'en' : 'fr'
 
   return {
-    title:
-      safeLocale === 'fr' ? 'SYNCK - Caroline Senyk Projets' : 'SYNCK - Caroline Senyk Projects',
+    title: {
+      default:
+        safeLocale === 'fr'
+          ? 'Caroline Senyk — Gestion de droits musicaux'
+          : 'Caroline Senyk — Music Rights Management',
+      template: '%s — Caroline Senyk',
+    },
     description:
       safeLocale === 'fr'
         ? "Gestionnaire de droits d'auteur et experte en droits musicaux"
         : 'Copyright Manager & Music Rights Expert',
+    alternates: {
+      languages: {
+        fr: '/fr',
+        en: '/en',
+      },
+    },
   }
 }
 
@@ -38,31 +48,16 @@ export default async function LocaleLayout({
   const { locale } = await params
   const safeLocale = locale === 'en' ? 'en' : 'fr'
   const dictionary = await getDictionary(safeLocale)
-  const headersList = await headers()
-
-  // Get current path from headers
-  const currentPath =
-    headersList.get('x-pathname') ??
-    headersList.get('x-invoke-path') ??
-    headersList.get('x-matched-path') ??
-    headersList.get('next-url') ??
-    ''
-
-  // More strict check: path must START with /locale/admin, not just contain it
-  // This prevents false positives from referer headers
-  const isAdmin = currentPath.startsWith(`/${safeLocale}/admin`)
 
   return (
     <>
-      {!isAdmin && (
-        <SiteHeader
-          locale={safeLocale}
-          navigation={dictionary.nav}
-          language={dictionary.layout.language}
-          menu={dictionary.layout.menu}
-        />
-      )}
-      {children}
+      <SiteHeader
+        locale={safeLocale}
+        navigation={dictionary.nav}
+        language={dictionary.layout.language}
+        menu={dictionary.layout.menu}
+      />
+      <div id="main-content">{children}</div>
     </>
   )
 }

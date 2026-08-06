@@ -107,44 +107,47 @@ function assetPathToImageSrc(path: string): string {
 /**
  * Get all expertise items for a locale (metadata only)
  */
-export const getAllExpertises = cache(async (locale: Locale): Promise<ExpertiseListItem[]> => {
-  try {
-    const expertises = await prisma.expertise.findMany({
-      where: {
-        isActive: true,
-      },
-      include: {
-        translations: {
-          where: {
-            locale,
-          },
+export const getAllExpertises = cache(
+  async (locale: Locale, limit?: number): Promise<ExpertiseListItem[]> => {
+    try {
+      const expertises = await prisma.expertise.findMany({
+        where: {
+          isActive: true,
         },
-        coverImage: true,
-      },
-      orderBy: {
-        order: 'asc',
-      },
-    })
+        include: {
+          translations: {
+            where: {
+              locale,
+            },
+          },
+          coverImage: true,
+        },
+        orderBy: {
+          order: 'asc',
+        },
+        take: limit && limit > 0 ? limit : undefined,
+      })
 
-    return expertises.map((expertise) => {
-      const translation = expertise.translations[0]
+      return expertises.map((expertise) => {
+        const translation = expertise.translations[0]
 
-      return {
-        id: expertise.id,
-        slug: expertise.slug,
-        href: `/${locale}/expertises/${expertise.slug}`,
-        title: translation?.title ?? expertise.slug,
-        subtitle: translation?.description ?? '',
-        imgHome: expertise.coverImage
-          ? assetPathToImageSrc(expertise.coverImage.path)
-          : '/images/placeholder.jpg',
-        description: translation?.description ?? '',
-      }
-    })
-  } catch {
-    return []
+        return {
+          id: expertise.id,
+          slug: expertise.slug,
+          href: `/${locale}/expertises/${expertise.slug}`,
+          title: translation?.title ?? expertise.slug,
+          subtitle: translation?.description ?? '',
+          imgHome: expertise.coverImage
+            ? assetPathToImageSrc(expertise.coverImage.path)
+            : '/images/placeholder.jpg',
+          description: translation?.description ?? '',
+        }
+      })
+    } catch {
+      return []
+    }
   }
-})
+)
 
 /**
  * Parse additional metadata from markdown content (labels, documentaires, image links)

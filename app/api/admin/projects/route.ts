@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 // Schema validation for creating/updating works
 const workSchema = z.object({
@@ -244,6 +245,8 @@ export const POST = withAuthAndValidation(workSchema, async (req, _context, user
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('project', work.slug)
 
   return NextResponse.json(work, { status: 201 })
 })

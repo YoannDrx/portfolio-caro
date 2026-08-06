@@ -6,6 +6,7 @@ import { ApiError } from '@/lib/api/error-handler'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const workSchema = z.object({
   slug: z.string().min(1),
@@ -202,6 +203,9 @@ export const PUT = withAuthAndValidation(workSchema, async (req, context, user, 
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
 
+  revalidatePublicContent('project', work.slug)
+  if (oldWork?.slug && oldWork.slug !== work.slug) revalidatePublicContent('project', oldWork.slug)
+
   return NextResponse.json(work)
 })
 
@@ -240,6 +244,8 @@ export const DELETE = withAuth(async (req, context, user) => {
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('project', existing.slug)
 
   return NextResponse.json({ success: true })
 })

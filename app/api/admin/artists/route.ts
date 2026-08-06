@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const artistLinkSchema = z.object({
   platform: z.string().min(1),
@@ -143,6 +144,8 @@ export const POST = withAuthAndValidation(artistSchema, async (req, _context, us
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('artist', artist.slug)
 
   return NextResponse.json(artist, { status: 201 })
 })

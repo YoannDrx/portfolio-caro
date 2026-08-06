@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const importProjectSchema = z.object({
   slug: z.string().min(1),
@@ -147,6 +148,8 @@ export const POST = withAuth(async (req, _context, user) => {
       ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
       userAgent: req.headers.get('user-agent') ?? undefined,
     })
+
+    if (results.created > 0 || results.updated > 0) revalidatePublicContent('project')
 
     return NextResponse.json(results)
   } catch (error) {

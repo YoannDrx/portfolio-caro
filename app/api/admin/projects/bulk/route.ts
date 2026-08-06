@@ -4,6 +4,7 @@ import { z } from 'zod'
 
 import { withAuth } from '@/lib/api/with-auth'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const bulkSchema = z.object({
   ids: z.array(z.string()).min(1),
@@ -52,6 +53,8 @@ export const POST = withAuth(async (req) => {
         })
         break
     }
+
+    revalidatePublicContent('project')
 
     return NextResponse.json({
       success: true,

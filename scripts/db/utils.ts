@@ -35,14 +35,7 @@ export const log = {
 
   env: (envFile: string) => console.log(`📁 Config: ${envFile}`),
 
-  db: (url: string) => {
-    // Mask credentials in URL for safe logging
-    const masked = url.replace(/\/\/[^:]+:[^@]+@/, '//***:***@')
-    // Extract host for clarity
-    const host = url.match(/@([^/]+)/)?.[1] || 'unknown'
-    console.log(`🗄️  Database: ${masked.substring(0, 60)}...`)
-    console.log(`🌐 Host: ${host}`)
-  },
+  db: (_url: string) => console.log('🗄️  Database configuration loaded'),
 
   separator: () => console.log(''),
 
@@ -146,10 +139,14 @@ export function runPrismaReset(): void {
 /**
  * Run Prisma seed script
  */
-export function runPrismaSeed(): void {
+export function runPrismaSeed(target: 'development' | 'test'): void {
   execSync('tsx prisma/seed.ts', {
     stdio: 'inherit',
-    env: process.env,
+    env: {
+      ...process.env,
+      ALLOW_CONTENT_SEED: '1',
+      SEED_TARGET: target,
+    },
   })
 }
 

@@ -13,6 +13,7 @@ import type { Locale } from '@/lib/i18n-config'
 import { cn } from '@/lib/utils'
 
 import { Breadcrumb } from '@/components/breadcrumb'
+import { DeferredEmbed } from '@/components/deferred-embed'
 import { PageLayout } from '@/components/layout/page-layout'
 
 import type { ProjetDetailDictionary } from '@/types/dictionary'
@@ -125,6 +126,8 @@ type ProjetDetailClientProps = {
     category?: string
     categorySlug?: string
     label?: string
+    role?: string
+    year?: number
     genre?: string
     releaseDate?: string
     externalUrl?: string
@@ -143,7 +146,6 @@ type ProjetDetailClientProps = {
     projets: string
   }
   copy: ProjetDetailDictionary
-  categoryParam?: string
 }
 
 export function ProjetDetailClient({
@@ -155,7 +157,6 @@ export function ProjetDetailClient({
   nextWork,
   nav,
   copy,
-  categoryParam,
   relatedClips = [],
   relatedProjects = [],
   relatedProjectArtists = [],
@@ -174,12 +175,25 @@ export function ProjetDetailClient({
   const [lightboxImage, setLightboxImage] = useState<string | null>(null)
   const [isCoverOpen, setIsCoverOpen] = useState(false)
   const [mounted, setMounted] = useState(false)
+  const [catalogPath, setCatalogPath] = useState<string>()
 
   useEffect(() => {
-    setTimeout(() => {
+    const searchParams = new URLSearchParams(window.location.search)
+    const returnTo = searchParams.get('returnTo')
+    const category = searchParams.get('category')
+    const nextCatalogPath = returnTo?.startsWith(`/${locale}/projets`)
+      ? returnTo
+      : category
+        ? `/${locale}/projets?category=${encodeURIComponent(category)}`
+        : undefined
+    const timeout = setTimeout(() => {
+      setCatalogPath(nextCatalogPath)
       setMounted(true)
     }, 0)
-  }, [])
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, [locale])
 
   const accent = getCategoryAccent(project.categorySlug)
   const hasArtists = artists.length > 0
@@ -233,9 +247,7 @@ export function ProjetDetailClient({
           { label: nav.home, href: `/${locale}` },
           {
             label: nav.projets,
-            href: categoryParam
-              ? `/${locale}/projets?category=${categoryParam}`
-              : `/${locale}/projets`,
+            href: catalogPath ?? `/${locale}/projets`,
           },
           { label: project.title },
         ]}
@@ -384,31 +396,25 @@ export function ProjetDetailClient({
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="overflow-hidden rounded-[20px] border-2 border-white/10 bg-black"
                 >
-                  <iframe
+                  <DeferredEmbed
                     src={`https://www.youtube.com/embed/${youtubeVideoId}`}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                    className="aspect-video w-full"
+                    poster={`https://i.ytimg.com/vi/${youtubeVideoId}/hqdefault.jpg`}
+                    title={locale === 'fr' ? 'Lire la vidéo' : 'Play video'}
                   />
                 </motion.div>
               )}
 
-              {hasSpotify && (
+              {project.spotifyEmbedUrl && (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.25 }}
                   className="overflow-hidden rounded-[20px] border-2 border-white/10 bg-white/[0.02]"
                 >
-                  <iframe
+                  <DeferredEmbed
                     src={project.spotifyEmbedUrl}
-                    width="100%"
-                    height="352"
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                    className="h-[352px] w-full sm:h-[352px] lg:h-full"
-                    style={{ minHeight: 240 }}
+                    title={locale === 'fr' ? 'Charger le lecteur Spotify' : 'Load Spotify player'}
+                    aspect="spotify"
                   />
                 </motion.div>
               )}
@@ -457,6 +463,12 @@ export function ProjetDetailClient({
           <div className="space-y-3">
             {project.releaseDate && (
               <InfoRow label={copy.releaseDate} value={project.releaseDate} />
+            )}
+            {project.year && (
+              <InfoRow label={locale === 'fr' ? 'Année' : 'Year'} value={String(project.year)} />
+            )}
+            {project.role && (
+              <InfoRow label={locale === 'fr' ? 'Rôle' : 'Role'} value={project.role} />
             )}
             {project.category && <InfoRow label={copy.category} value={project.category} />}
             {project.genre && <InfoRow label={copy.genre} value={project.genre} />}
@@ -545,7 +557,7 @@ export function ProjetDetailClient({
       >
         {prevWork ? (
           <Link
-            href={`/${locale}/projets/${prevWork.slug}`}
+            href={`/${locale}/projets/${prevWork.slug}${catalogPath ? `?returnTo=${encodeURIComponent(catalogPath)}` : ''}`}
             className={cn(
               'group rounded-[20px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6',
               'transition-all duration-300',
@@ -565,7 +577,7 @@ export function ProjetDetailClient({
 
         {nextWork ? (
           <Link
-            href={`/${locale}/projets/${nextWork.slug}`}
+            href={`/${locale}/projets/${nextWork.slug}${catalogPath ? `?returnTo=${encodeURIComponent(catalogPath)}` : ''}`}
             className={cn(
               'group rounded-[20px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6 text-right',
               'transition-all duration-300',

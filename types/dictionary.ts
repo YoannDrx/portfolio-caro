@@ -285,6 +285,9 @@ export type ContactFormDictionary = {
   }
   success: string
   error: string
+  required: string
+  invalidEmail: string
+  errorSummary: string
 }
 
 export type LayoutMenuDictionary = {

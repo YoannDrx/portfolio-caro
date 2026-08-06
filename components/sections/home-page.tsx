@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from 'react'
 
+import type { ArtistCatalogItem, ProjectCatalogItem } from '@/lib/catalog/types'
 import type { Locale } from '@/lib/i18n-config'
+import type { ExpertiseListItem } from '@/lib/prismaExpertiseUtils'
 
 import { InfiniteMarquee } from '@/components/infinite-marquee'
 import { Footer } from '@/components/layout/footer'
@@ -20,9 +22,12 @@ type HomePageProps = {
   locale: Locale
   layout: LayoutDictionary
   home: HomeDictionary
+  projects: ProjectCatalogItem[]
+  artists: ArtistCatalogItem[]
+  expertises: ExpertiseListItem[]
 }
 
-export function HomePage({ locale, layout, home }: HomePageProps) {
+export function HomePage({ locale, layout, home, projects, artists, expertises }: HomePageProps) {
   const [progress, setProgress] = useState(0)
 
   useEffect(() => {
@@ -65,11 +70,11 @@ export function HomePage({ locale, layout, home }: HomePageProps) {
             timelineStatus={home.studio.timelineStatus}
           />
 
-          <ExpertisesSection locale={locale} copy={home.expertises} />
+          <ExpertisesSection locale={locale} copy={home.expertises} expertises={expertises} />
 
-          <ProjectsSection locale={locale} copy={home.projects} />
+          <ProjectsSection locale={locale} copy={home.projects} works={projects} />
 
-          <ArtistsSection locale={locale} copy={home.artists} />
+          <ArtistsSection locale={locale} copy={home.artists} artists={artists} />
 
           <ContactSection copy={home.contactSection} />
 

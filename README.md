@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/YoannDrx/portfolio-caro/actions/workflows/ci.yml/badge.svg)](https://github.com/YoannDrx/portfolio-caro/actions/workflows/ci.yml)
 
-Portfolio professionnel multilingue (FR/EN) pour Caroline Senyk, gestionnaire de droits musicaux. Site vitrine avec gestion de 500+ oeuvres musicales, compositeurs, labels et expertises.
+Portfolio professionnel multilingue (FR/EN) pour Caroline Senyk, gestionnaire de droits musicaux. La base administrée est la source de vérité des œuvres, artistes, labels et expertises.
 
 ## Stack
 
@@ -30,13 +30,16 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Scripts
 
-| Script           | Description           |
-| ---------------- | --------------------- |
-| `pnpm dev`       | Serveur developpement |
-| `pnpm build`     | Build production      |
-| `pnpm db:setup`  | Reset + seed database |
-| `pnpm test:full` | Tests E2E             |
-| `pnpm lint`      | ESLint                |
+| Script                | Description                                      |
+| --------------------- | ------------------------------------------------ |
+| `pnpm dev`            | Serveur de développement                         |
+| `pnpm build`          | Build de production, sans seed                   |
+| `pnpm db:setup`       | Reset + seed de la base locale uniquement        |
+| `pnpm data:audit`     | Rapport qualité et intégrité des données         |
+| `pnpm data:export`    | Export métier sans données d’authentification    |
+| `pnpm security:check` | Contrôle secrets, archives suivies et build seed |
+| `pnpm test:full`      | Tests E2E                                        |
+| `pnpm lint`           | ESLint                                           |
 
 ## Documentation
 
@@ -46,6 +49,7 @@ Voir le dossier [`/docs`](./docs) pour la documentation complete:
 - [Admin Guide](./docs/admin-guide.md)
 - [Design System](./docs/design-system.md)
 - [Deployment](./docs/deployment.md)
+- [Gouvernance des données](./docs/data-governance.md)
 - [API Reference](./docs/api-reference.md)
 - [Contributing](./docs/contributing.md)
 

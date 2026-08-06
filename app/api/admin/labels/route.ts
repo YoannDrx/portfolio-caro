@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const labelSchema = z.object({
   website: z
@@ -142,6 +143,8 @@ export const POST = withAuthAndValidation(labelSchema, async (req, _context, use
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('taxonomy')
 
   return NextResponse.json(label, { status: 201 })
 })

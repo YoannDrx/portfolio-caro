@@ -1,24 +1,32 @@
 import { NextResponse } from 'next/server'
 
-import { getArtistsFromPrisma } from '@/lib/prismaProjetsUtils'
+import { getArtistCatalog } from '@/lib/catalog/artists'
+import { parseCatalogQuery } from '@/lib/catalog/query'
 
 export async function GET(request: Request) {
   try {
-    const { searchParams } = new URL(request.url)
-    const locale = searchParams.get('locale') ?? 'fr'
-    const limitStr = searchParams.get('limit')
-    const limit = limitStr ? parseInt(limitStr, 10) : null
-
-    const artists = await getArtistsFromPrisma(locale as 'fr' | 'en')
-
-    // Si un limit est spécifié, retourner seulement les N premiers
-    if (limit && limit > 0) {
-      return NextResponse.json(artists.slice(0, limit))
+    const url = new URL(request.url)
+    const locale = url.searchParams.get('locale') === 'en' ? 'en' : 'fr'
+    const params = Object.fromEntries(url.searchParams.entries())
+    if (url.searchParams.has('limit') && !url.searchParams.has('pageSize')) {
+      params.pageSize = url.searchParams.get('limit') ?? '24'
     }
+    const query = parseCatalogQuery(locale, params, {
+      defaultSort: 'title',
+      allowedSorts: ['title', 'collaborations'],
+    })
+    const result = await getArtistCatalog(query)
 
-    // Sinon retourner tous les artistes
-    return NextResponse.json(artists)
+    if (url.searchParams.get('format') === 'legacy') {
+      return NextResponse.json(result.items, {
+        headers: { Deprecation: 'true', Sunset: 'Wed, 30 Sep 2026 23:59:59 GMT' },
+      })
+    }
+    return NextResponse.json(result)
   } catch {
-    return NextResponse.json({ error: 'Failed to fetch artists' }, { status: 500 })
+    return NextResponse.json(
+      { error: { code: 'ARTIST_CATALOG_FAILED', message: 'Failed to fetch artists' } },
+      { status: 500 }
+    )
   }
 }

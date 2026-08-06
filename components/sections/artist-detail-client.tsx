@@ -25,15 +25,6 @@ const artistAccent = {
   gradient: 'from-[#d5ff0a] via-[#9eff00] to-[#00d9ff]',
 }
 
-const clipAccent = {
-  border: 'border-[#f472b6]/30',
-  borderHover: 'hover:border-[#f472b6]',
-  glow: 'hover:shadow-[0_0_25px_rgba(244,114,182,0.25)]',
-  badge: 'bg-[#f472b6] text-white border-[#f472b6]',
-  ring: 'ring-[#f472b6]/50',
-  gradient: 'from-[#f472b6] via-[#fb8fbf] to-[#ffd1e8]',
-}
-
 type SocialLink = {
   label: string
   url: string
@@ -76,90 +67,44 @@ type ArtistDetailClientProps = {
   copy: ArtistDetailDictionary
 }
 
-function WorkCard({
-  work,
-  index,
-  locale,
-  accent = artistAccent,
-  isClip = false,
-}: {
-  work: ArtistWork
-  index: number
-  locale: Locale
-  accent?: typeof artistAccent
-  isClip?: boolean
-}) {
-  const cardRef = useRef<HTMLAnchorElement>(null)
-  const isInView = useInView(cardRef, {
-    once: true,
-    margin: '0px 0px -50px 0px',
-  })
-
-  const columnPosition = index % 4
-  const staggerDelay = columnPosition * 0.05
-
+function WorkCard({ work, locale }: { work: ArtistWork; locale: Locale }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{
-        duration: 0.5,
-        delay: staggerDelay,
-        ease: [0.22, 1, 0.36, 1],
-      }}
+    <Link
+      href={`/${locale}/projets/${work.slug}`}
+      prefetch={false}
+      className={cn(
+        'group relative flex flex-col overflow-hidden rounded-lg',
+        'border border-white/10 bg-white/[0.015]',
+        'transition-colors duration-200 hover:border-white/30 hover:bg-white/[0.035]',
+        'focus-visible:border-[var(--brand-neon)] focus-visible:outline-none'
+      )}
     >
-      <Link
-        ref={cardRef}
-        href={`/${locale}/projets/${work.slug}`}
-        className={cn(
-          'group relative flex flex-col overflow-hidden',
-          'rounded-[20px] border-2 bg-white/[0.02]',
-          'transition-all duration-300',
-          'hover:-translate-y-1',
-          accent.border,
-          accent.borderHover,
-          accent.glow
-        )}
-      >
-        <div
-          className={cn(
-            'pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-50',
-            'bg-gradient-to-br',
-            accent.gradient
-          )}
+      <div className="relative aspect-square overflow-hidden bg-white/[0.03]">
+        <Image
+          src={work.coverImage}
+          alt={work.coverImageAlt}
+          fill
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.025]"
         />
+        <div className="pointer-events-none absolute inset-0 border-[6px] border-transparent transition-colors duration-200 group-hover:border-black/10" />
+      </div>
 
-        <div className="relative aspect-square overflow-hidden">
-          {isClip && (
-            <span
-              className={cn(
-                'absolute top-2 right-2 z-20 rounded-full px-2 py-1 text-[10px] font-bold tracking-wider uppercase',
-                clipAccent.badge,
-                'border'
-              )}
-            >
-              Clips
-            </span>
-          )}
-          <Image
-            src={work.coverImage}
-            alt={work.coverImageAlt}
-            width={400}
-            height={400}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
+      <div className="flex min-h-28 flex-col p-4">
+        <div className="mb-2 flex items-center justify-between gap-3 font-mono text-[0.62rem] tracking-[0.14em] text-white/45 uppercase">
+          <span className="truncate">{work.category}</span>
+          <span
+            aria-hidden
+            className="transition-transform duration-200 group-hover:translate-x-0.5"
+          >
+            ↗
+          </span>
         </div>
-
-        <div className="relative z-20 p-4">
-          <div className="mb-1 text-[10px] font-semibold tracking-wider text-white/50 uppercase">
-            {work.category}
-          </div>
-          <h3 className="line-clamp-2 text-sm font-bold text-white/90 transition-colors group-hover:text-white">
-            {work.title}
-          </h3>
-        </div>
-      </Link>
-    </motion.div>
+        <h3 className="line-clamp-2 text-[0.95rem] leading-snug font-medium text-white/90">
+          {work.title}
+        </h3>
+      </div>
+    </Link>
   )
 }
 
@@ -181,16 +126,9 @@ function SocialLinkButton({ link }: { link: SocialLink }) {
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
-      className={cn(
-        'inline-flex items-center gap-2 rounded-full px-4 py-2',
-        'border-2 border-[#d5ff0a]/40 bg-[#d5ff0a]/5',
-        'text-xs font-bold tracking-wider text-[#d5ff0a] uppercase',
-        'transition-all duration-300',
-        'hover:border-[#d5ff0a] hover:bg-[#d5ff0a] hover:text-[#050505]',
-        'hover:shadow-[0_0_20px_rgba(213,255,10,0.3)]'
-      )}
+      className="inline-flex min-h-11 items-center gap-2 border-b border-white/25 px-1 py-2 text-xs font-medium tracking-[0.12em] text-white/70 uppercase transition-colors duration-200 hover:border-[var(--brand-neon)] hover:text-white"
     >
-      <span>{getIcon(link.url)}</span>
+      <span aria-hidden>{getIcon(link.url)}</span>
       <span>{link.label}</span>
       <span className="opacity-60">↗</span>
     </a>
@@ -214,12 +152,19 @@ export function ArtistDetailClient({
   const isWorksInView = useInView(worksRef, { once: true, margin: '-100px' })
   const [isImageOpen, setIsImageOpen] = useState(false)
   const [mounted, setMounted] = useState(false)
+  const [catalogPath, setCatalogPath] = useState<string>()
 
   useEffect(() => {
-    setTimeout(() => {
+    const returnTo = new URLSearchParams(window.location.search).get('returnTo')
+    const nextCatalogPath = returnTo?.startsWith(`/${locale}/artistes`) ? returnTo : undefined
+    const timeout = setTimeout(() => {
+      setCatalogPath(nextCatalogPath)
       setMounted(true)
     }, 0)
-  }, [])
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, [locale])
 
   const hasValidImage = Boolean(artist.image && artist.image.trim() !== '')
   const allWorks = [...projects, ...clips]
@@ -230,24 +175,12 @@ export function ArtistDetailClient({
   const hasWorks = allWorks.length > 0
   const worksInView = hasWorks ? isWorksInView : true
 
-  const isClipWork = (work: ArtistWork) => {
-    const slug = (work.categorySlug ?? '').toLowerCase()
-    const name = (work.category ?? '').toLowerCase()
-    return (
-      slug === 'clip' ||
-      slug === 'music-video' ||
-      name.includes('clip') ||
-      name.includes('music video') ||
-      name.includes('video')
-    )
-  }
-
   return (
     <PageLayout orbsConfig="subtle" className="mx-auto max-w-[1400px]">
       <Breadcrumb
         items={[
           { label: nav.home, href: `/${locale}` },
-          { label: nav.artists, href: `/${locale}/artistes` },
+          { label: nav.artists, href: catalogPath ?? `/${locale}/artistes` },
           { label: artist.name },
         ]}
       />
@@ -257,7 +190,7 @@ export function ArtistDetailClient({
         initial={{ opacity: 0, y: 40 }}
         animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="mb-8 rounded-[32px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6 shadow-[0_25px_60px_rgba(0,0,0,0.5)] backdrop-blur-sm sm:p-8 lg:p-10"
+        className="mb-8 rounded-2xl border border-white/10 bg-[#0a0a0f]/90 p-6 sm:p-8 lg:p-10"
       >
         <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
           <div className="flex-1">
@@ -313,21 +246,16 @@ export function ArtistDetailClient({
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-center sm:text-left"
               >
-                <h1 className="mb-3 text-3xl font-black tracking-tight uppercase sm:text-4xl lg:text-5xl">
-                  <span className="text-[#d5ff0a]">{artist.name.charAt(0)}</span>
-                  {artist.name.slice(1)}
+                <p className="mb-3 font-mono text-[0.65rem] tracking-[0.22em] text-[var(--brand-neon)] uppercase">
+                  {locale === 'fr' ? 'Compositeur · Catalogue' : 'Composer · Catalogue'}
+                </p>
+                <h1 className="mb-4 [font-family:var(--font-instrument-serif)] text-4xl leading-none tracking-[-0.025em] text-white sm:text-5xl lg:text-7xl">
+                  {artist.name}
                 </h1>
-                <div
-                  className={cn(
-                    'inline-flex items-center gap-2 rounded-full px-4 py-1.5',
-                    'border-2 text-xs font-bold tracking-wider uppercase',
-                    artistAccent.badge
-                  )}
-                >
-                  <span className="text-base">🎵</span>
-                  <span>
-                    {worksCount} {worksLabel}
-                  </span>
+                <div className="flex items-center gap-3 font-mono text-[0.65rem] tracking-[0.14em] text-white/50 uppercase">
+                  <span>{String(worksCount).padStart(2, '0')}</span>
+                  <span className="h-px w-8 bg-white/25" />
+                  <span>{worksLabel}</span>
                 </div>
               </motion.div>
             </div>
@@ -339,7 +267,7 @@ export function ArtistDetailClient({
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="mt-6"
               >
-                <p className="w-full text-base leading-relaxed whitespace-pre-line text-white/70">
+                <p className="max-w-[74ch] text-base leading-[1.75] whitespace-pre-line text-white/70 lg:text-lg">
                   {artist.bio}
                 </p>
               </motion.div>
@@ -367,12 +295,11 @@ export function ArtistDetailClient({
           initial={{ opacity: 0, y: 40 }}
           animate={isWorksInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-8 rounded-[32px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6 shadow-[0_25px_60px_rgba(0,0,0,0.5)] backdrop-blur-sm sm:p-8 lg:p-10"
+          className="mb-8 rounded-2xl border border-white/10 bg-[#0a0a0f]/90 p-6 sm:p-8 lg:p-10"
         >
           <div className="mb-8 flex items-end justify-between">
-            <h2 className="text-2xl font-black tracking-tight uppercase sm:text-3xl">
-              <span className="text-[#d5ff0a]">{copy.worksTitle.charAt(0)}</span>
-              {copy.worksTitle.slice(1)}
+            <h2 className="[font-family:var(--font-instrument-serif)] text-3xl tracking-[-0.02em] text-white sm:text-4xl">
+              {copy.worksTitle}
             </h2>
             <div className="text-right">
               <p className="text-2xl font-black text-white">{worksCount}</p>
@@ -380,21 +307,26 @@ export function ArtistDetailClient({
             </div>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {allWorks.map((work, index) => {
-              const clip = isClipWork(work)
-              return (
-                <WorkCard
-                  key={work.id}
-                  work={work}
-                  index={index}
-                  locale={locale}
-                  accent={clip ? clipAccent : artistAccent}
-                  isClip={clip}
-                />
-              )
-            })}
-          </div>
+          {projects.length > 0 ? (
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {projects.map((work) => (
+                <WorkCard key={work.id} work={work} locale={locale} />
+              ))}
+            </div>
+          ) : null}
+
+          {clips.length > 0 ? (
+            <div className={projects.length > 0 ? 'mt-10 border-t border-white/10 pt-8' : ''}>
+              <h3 className="mb-5 font-mono text-[0.68rem] tracking-[0.2em] text-white/50 uppercase">
+                Clips & videos
+              </h3>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {clips.map((work) => (
+                  <WorkCard key={work.id} work={work} locale={locale} />
+                ))}
+              </div>
+            </div>
+          ) : null}
         </motion.section>
       )}
 
@@ -407,7 +339,7 @@ export function ArtistDetailClient({
         >
           {previousArtist ? (
             <Link
-              href={`/${locale}/artistes/${previousArtist.slug}`}
+              href={`/${locale}/artistes/${previousArtist.slug}${catalogPath ? `?returnTo=${encodeURIComponent(catalogPath)}` : ''}`}
               className={cn(
                 'group rounded-[20px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6',
                 'transition-all duration-300',
@@ -427,7 +359,7 @@ export function ArtistDetailClient({
 
           {nextArtist ? (
             <Link
-              href={`/${locale}/artistes/${nextArtist.slug}`}
+              href={`/${locale}/artistes/${nextArtist.slug}${catalogPath ? `?returnTo=${encodeURIComponent(catalogPath)}` : ''}`}
               className={cn(
                 'group rounded-[20px] border-4 border-white/10 bg-[#0a0a0f]/90 p-6 text-right',
                 'transition-all duration-300',

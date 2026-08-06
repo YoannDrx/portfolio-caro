@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const expertiseSchema = z.object({
   slug: z.string().min(1),
@@ -134,6 +135,8 @@ export const POST = withAuthAndValidation(expertiseSchema, async (req, _context,
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('expertise', expertise.slug)
 
   return NextResponse.json(expertise, { status: 201 })
 })

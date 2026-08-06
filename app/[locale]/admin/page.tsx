@@ -1,4 +1,3 @@
-import { headers } from 'next/headers'
 import Link from 'next/link'
 
 import {
@@ -9,6 +8,8 @@ import {
   PlusIcon,
   UsersIcon,
 } from 'lucide-react'
+
+import { getDashboardStats } from '@/lib/admin/dashboard-stats'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -25,61 +26,13 @@ import {
 import { DuplicatesWidget } from '@/components/admin/dashboard/duplicates-widget'
 import { StatCard } from '@/components/admin/dashboard/stat-card'
 
-// Fetch stats server-side
-async function getStats() {
-  const headersList = await headers()
-  const host = headersList.get('host')
-  const protocol =
-    headersList.get('x-forwarded-proto') ?? (host?.includes('localhost') ? 'http' : 'https')
-  const baseUrl =
-    host && protocol
-      ? `${protocol}://${host}`
-      : (process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000')
-  const cookie = headersList.get('cookie')
-
-  try {
-    const res = await fetch(`${baseUrl}/api/admin/stats`, {
-      cache: 'no-store', // Always get fresh data
-      headers: cookie ? { cookie } : undefined, // Forward auth session
-    })
-
-    if (!res.ok) {
-      throw new Error('Failed to fetch stats')
-    }
-
-    return await (res.json() as Promise<{
-      works: { total: number; active: number; inactive: number }
-      artists: { total: number; active: number; inactive: number }
-      categories: { total: number; active: number }
-      labels: { total: number; active: number }
-      assets: { total: number; orphaned: number }
-      lastActivity: {
-        work: { id: string; title: string; createdAt: string } | null
-        artist: { id: string; name: string; createdAt: string } | null
-      }
-    }>)
-  } catch (error) {
-    // eslint-disable-next-line no-console
-    console.error('Error fetching stats:', error)
-    // Return default values on error
-    return {
-      works: { total: 0, active: 0, inactive: 0 },
-      artists: { total: 0, active: 0, inactive: 0 },
-      categories: { total: 0, active: 0 },
-      labels: { total: 0, active: 0 },
-      assets: { total: 0, orphaned: 0 },
-      lastActivity: { work: null, artist: null },
-    }
-  }
-}
-
 export default async function AdminDashboardPage({
   params,
 }: {
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const stats = await getStats()
+  const stats = await getDashboardStats()
 
   // Format date helper
   const formatDate = (dateString: string) => {

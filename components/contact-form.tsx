@@ -1,10 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
-import { AnimatePresence, motion } from 'framer-motion'
-
-import { smoothTransition } from '@/lib/animations'
+import { useRef, useState } from 'react'
 
 import type { ContactFormDictionary } from '@/types/dictionary'
 
@@ -12,66 +8,62 @@ type ContactFormProps = {
   dictionary: ContactFormDictionary
 }
 
-const fieldVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.1,
-      ...smoothTransition,
-    },
-  }),
+type FormData = {
+  name: string
+  email: string
+  subject: string
+  message: string
 }
 
-const statusVariants = {
-  hidden: { opacity: 0, scale: 0.95, y: -10 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: smoothTransition,
-  },
-  exit: {
-    opacity: 0,
-    scale: 0.95,
-    y: -10,
-    transition: { duration: 0.2 },
-  },
-}
+type FieldName = keyof FormData
+type FieldErrors = Partial<Record<FieldName, string>>
+
+const initialFormData: FormData = { name: '', email: '', subject: '', message: '' }
 
 export function ContactForm({ dictionary }: ContactFormProps) {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
+  const [formData, setFormData] = useState(initialFormData)
+  const [errors, setErrors] = useState<FieldErrors>({})
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
+  const errorSummaryRef = useRef<HTMLDivElement>(null)
+
+  const validate = () => {
+    const nextErrors: FieldErrors = {}
+    for (const field of ['name', 'email', 'subject', 'message'] as const) {
+      if (!formData[field].trim()) nextErrors[field] = dictionary.required
+    }
+    if (formData.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/u.test(formData.email.trim())) {
+      nextErrors.email = dictionary.invalidEmail
+    }
+    setErrors(nextErrors)
+    return nextErrors
+  }
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault()
+    const validationErrors = validate()
+    if (Object.keys(validationErrors).length > 0) {
+      setStatus('idle')
+      requestAnimationFrame(() => errorSummaryRef.current?.focus())
+      return
+    }
+
     setStatus('loading')
     setErrorMessage('')
-
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       })
-
-      const data = (await response.json()) as { error?: string }
-
+      const data = (await response.json()) as { error?: string | { message?: string } }
       if (!response.ok) {
-        throw new Error(data.error ?? dictionary.error)
+        const message = typeof data.error === 'string' ? data.error : data.error?.message
+        throw new Error(message ?? dictionary.error)
       }
-
       setStatus('success')
-      setFormData({ name: '', email: '', subject: '', message: '' })
+      setErrors({})
+      setFormData(initialFormData)
     } catch (error) {
       setStatus('error')
       setErrorMessage(error instanceof Error ? error.message : dictionary.error)
@@ -79,167 +71,110 @@ export function ContactForm({ dictionary }: ContactFormProps) {
   }
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData((previous) => ({
-      ...previous,
-      [event.target.name]: event.target.value,
-    }))
+    const field = event.target.name as FieldName
+    setFormData((previous) => ({ ...previous, [field]: event.target.value }))
+    if (errors[field]) setErrors((previous) => ({ ...previous, [field]: undefined }))
+    if (status === 'success') setStatus('idle')
   }
 
   const inputClasses =
-    'w-full rounded-[var(--radius-md)] border-2 border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-3 text-white placeholder:text-white/30 transition-all focus:border-[var(--brand-neon)] focus:outline-none focus:ring-2 focus:ring-[var(--brand-neon)]/30'
+    'min-h-11 w-full rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-3 text-white placeholder:text-white/30 transition-colors focus:border-[var(--brand-neon)] focus:outline-none focus:ring-2 focus:ring-[var(--brand-neon)]/20 aria-[invalid=true]:border-[var(--color-error)]'
+
+  const renderField = (field: Exclude<FieldName, 'message'>, type: 'text' | 'email') => {
+    const copy = dictionary.fields[field]
+    return (
+      <div>
+        <label
+          htmlFor={field}
+          className="mb-2 block text-xs font-semibold tracking-wider text-white/70 uppercase"
+        >
+          {copy.label}
+        </label>
+        <input
+          type={type}
+          id={field}
+          name={field}
+          value={formData[field]}
+          onChange={handleChange}
+          autoComplete={field === 'name' ? 'name' : field === 'email' ? 'email' : undefined}
+          aria-invalid={Boolean(errors[field])}
+          aria-describedby={errors[field] ? `${field}-error` : undefined}
+          className={inputClasses}
+          placeholder={copy.placeholder}
+        />
+        {errors[field] ? (
+          <p id={`${field}-error`} className="mt-2 text-sm text-[var(--color-error)]">
+            {errors[field]}
+          </p>
+        ) : null}
+      </div>
+    )
+  }
 
   return (
-    <motion.form
-      onSubmit={(e) => {
-        void handleSubmit(e)
-      }}
-      className="space-y-6"
-      initial="hidden"
-      animate="visible"
-    >
-      {/* Name field */}
-      <motion.div variants={fieldVariants} custom={0}>
-        <label
-          htmlFor="name"
-          className="mb-2 block text-xs font-bold tracking-wider text-[var(--brand-neon)] uppercase"
+    <form onSubmit={(event) => void handleSubmit(event)} className="space-y-6" noValidate>
+      {Object.keys(errors).length > 0 ? (
+        <div
+          ref={errorSummaryRef}
+          tabIndex={-1}
+          role="alert"
+          className="rounded-lg border border-[var(--color-error)] bg-[var(--color-error)]/10 p-4 text-sm text-white focus:ring-2 focus:ring-[var(--color-error)]/40 focus:outline-none"
         >
-          {dictionary.fields.name.label}
-        </label>
-        <motion.input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-          className={inputClasses}
-          placeholder={dictionary.fields.name.placeholder}
-          whileFocus={{ scale: 1.01 }}
-        />
-      </motion.div>
+          {dictionary.errorSummary}
+        </div>
+      ) : null}
 
-      {/* Email field */}
-      <motion.div variants={fieldVariants} custom={1}>
-        <label
-          htmlFor="email"
-          className="mb-2 block text-xs font-bold tracking-wider text-[var(--brand-neon)] uppercase"
-        >
-          {dictionary.fields.email.label}
-        </label>
-        <motion.input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          className={inputClasses}
-          placeholder={dictionary.fields.email.placeholder}
-          whileFocus={{ scale: 1.01 }}
-        />
-      </motion.div>
+      {renderField('name', 'text')}
+      {renderField('email', 'email')}
+      {renderField('subject', 'text')}
 
-      {/* Subject field */}
-      <motion.div variants={fieldVariants} custom={2}>
-        <label
-          htmlFor="subject"
-          className="mb-2 block text-xs font-bold tracking-wider text-[var(--brand-neon)] uppercase"
-        >
-          {dictionary.fields.subject.label}
-        </label>
-        <motion.input
-          type="text"
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          required
-          className={inputClasses}
-          placeholder={dictionary.fields.subject.placeholder}
-          whileFocus={{ scale: 1.01 }}
-        />
-      </motion.div>
-
-      {/* Message field */}
-      <motion.div variants={fieldVariants} custom={3}>
+      <div>
         <label
           htmlFor="message"
-          className="mb-2 block text-xs font-bold tracking-wider text-[var(--brand-neon)] uppercase"
+          className="mb-2 block text-xs font-semibold tracking-wider text-white/70 uppercase"
         >
           {dictionary.fields.message.label}
         </label>
-        <motion.textarea
+        <textarea
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
-          required
-          rows={6}
-          className={`${inputClasses} resize-none`}
+          rows={7}
+          aria-invalid={Boolean(errors.message)}
+          aria-describedby={errors.message ? 'message-error' : undefined}
+          className={`${inputClasses} resize-y`}
           placeholder={dictionary.fields.message.placeholder}
-          whileFocus={{ scale: 1.01 }}
         />
-      </motion.div>
+        {errors.message ? (
+          <p id="message-error" className="mt-2 text-sm text-[var(--color-error)]">
+            {errors.message}
+          </p>
+        ) : null}
+      </div>
 
-      {/* Status messages */}
-      <AnimatePresence mode="wait">
-        {status === 'error' && (
-          <motion.div
-            key="error"
-            variants={statusVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            className="rounded-[var(--radius-md)] border-2 border-red-500 bg-red-500/10 p-4"
-          >
-            <p className="text-sm font-bold text-red-500">{errorMessage || dictionary.error}</p>
-          </motion.div>
-        )}
+      <div aria-live="polite" aria-atomic="true">
+        {status === 'error' ? (
+          <p className="rounded-lg border border-[var(--color-error)] bg-[var(--color-error)]/10 p-4 text-sm text-white">
+            {errorMessage || dictionary.error}
+          </p>
+        ) : null}
+        {status === 'success' ? (
+          <p className="rounded-lg border border-[var(--brand-neon)]/40 bg-[var(--brand-neon)]/10 p-4 text-sm text-[var(--brand-neon)]">
+            {dictionary.success}
+          </p>
+        ) : null}
+      </div>
 
-        {status === 'success' && (
-          <motion.div
-            key="success"
-            variants={statusVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            className="rounded-[var(--radius-md)] border-2 border-[var(--brand-neon)] bg-[var(--brand-neon)]/10 p-4"
-          >
-            <motion.p
-              className="text-sm font-bold text-[var(--brand-neon)]"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              {dictionary.success}
-            </motion.p>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* Submit button */}
-      <motion.div variants={fieldVariants} custom={4} className="flex justify-end">
-        <motion.button
+      <div className="flex justify-end">
+        <button
           type="submit"
           disabled={status === 'loading'}
-          className="rounded-full border-2 border-[var(--brand-neon)] bg-[var(--brand-neon)] px-6 py-3 text-sm font-bold tracking-wide text-[#050505] uppercase transition-colors hover:bg-transparent hover:text-[var(--brand-neon)] disabled:cursor-not-allowed disabled:opacity-50"
-          whileHover={{ scale: status === 'loading' ? 1 : 1.02 }}
-          whileTap={{ scale: status === 'loading' ? 1 : 0.98 }}
+          className="min-h-11 border border-[var(--brand-neon)] bg-[var(--brand-neon)] px-6 py-3 text-sm font-semibold tracking-wide text-black uppercase transition-colors hover:bg-transparent hover:text-[var(--brand-neon)] disabled:cursor-not-allowed disabled:opacity-50"
         >
-          {status === 'loading' ? (
-            <span className="flex items-center justify-center gap-2">
-              <motion.span
-                className="inline-block h-4 w-4 rounded-full border-2 border-[#050505] border-t-transparent"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-              />
-              {dictionary.submit.loading}
-            </span>
-          ) : (
-            dictionary.submit.idle
-          )}
-        </motion.button>
-      </motion.div>
-    </motion.form>
+          {status === 'loading' ? dictionary.submit.loading : dictionary.submit.idle}
+        </button>
+      </div>
+    </form>
   )
 }

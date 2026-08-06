@@ -2,8 +2,8 @@
 
 import { createAuthClient } from 'better-auth/react'
 
-export const authClient = createAuthClient({
-  baseURL: process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
-})
+// Better Auth is served by this application. Keeping the client same-origin
+// prevents preview and Vercel aliases from calling the production hostname.
+export const authClient = createAuthClient()
 
 export const { signIn, signUp, signOut, useSession } = authClient

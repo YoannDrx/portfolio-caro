@@ -1,5 +1,8 @@
+import type { Metadata } from 'next'
+
 import { getDictionary } from '@/lib/dictionaries'
 import type { Locale } from '@/lib/i18n-config'
+import { pageMetadata } from '@/lib/seo'
 
 import { ContactPageClient } from '@/components/sections/contact-page-client'
 
@@ -7,6 +10,20 @@ type ContactPageParams = {
   params: Promise<{
     locale: Locale
   }>
+}
+
+export async function generateMetadata({ params }: ContactPageParams): Promise<Metadata> {
+  const { locale } = await params
+  const safeLocale = locale === 'en' ? 'en' : 'fr'
+  return pageMetadata({
+    locale: safeLocale,
+    title: 'Contact',
+    description:
+      safeLocale === 'fr'
+        ? 'Échanger avec Caroline Senyk au sujet de vos droits et projets musicaux.'
+        : 'Contact Caroline Senyk about your music rights and projects.',
+    path: '/contact',
+  })
 }
 
 export default async function ContactPage({ params }: ContactPageParams) {

@@ -16,6 +16,6 @@ runScript('seed-dev', () => {
 
   // Step 2: Seed database
   log.step(2, 2, 'Seeding database...')
-  runPrismaSeed()
+  runPrismaSeed('development')
   log.success('Development database seeded!')
 })

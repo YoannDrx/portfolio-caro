@@ -5,6 +5,7 @@ import { z } from 'zod'
 import { withAuth, withAuthAndValidation } from '@/lib/api/with-auth'
 import { createAuditLog } from '@/lib/audit-log'
 import { prisma } from '@/lib/prisma'
+import { revalidatePublicContent } from '@/lib/public-revalidation'
 
 const categorySchema = z.object({
   color: z.string().regex(/^#[0-9A-Fa-f]{6}$/),
@@ -127,6 +128,8 @@ export const POST = withAuthAndValidation(categorySchema, async (req, _context, 
     ipAddress: req.headers.get('x-forwarded-for') ?? undefined,
     userAgent: req.headers.get('user-agent') ?? undefined,
   })
+
+  revalidatePublicContent('taxonomy')
 
   return NextResponse.json(category, { status: 201 })
 })

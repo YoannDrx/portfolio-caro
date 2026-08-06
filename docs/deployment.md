@@ -1,87 +1,89 @@
-# Guide de Deploiement Synck
+# Guide de déploiement — Caroline Senyk
 
 ## Environnements
 
-| Env         | Database          | Config         | Usage       |
-| ----------- | ----------------- | -------------- | ----------- |
-| Development | Neon dev branch   | `.env.local`   | `pnpm dev`  |
-| CI          | PostgreSQL Docker | GitHub secrets | Tests E2E   |
-| Production  | Neon main branch  | Vercel secrets | Deploiement |
+| Environnement | Base de données   | Configuration    | Usage       |
+| ------------- | ----------------- | ---------------- | ----------- |
+| Développement | branche Neon dev  | `.env.local`     | `pnpm dev`  |
+| CI            | PostgreSQL isolé  | secrets GitHub   | tests       |
+| Production    | branche Neon main | variables Vercel | déploiement |
 
-## Variables d'environnement
+## Principe non négociable
 
-### Requises
+Un déploiement ne modifie jamais le contenu métier et ne recrée jamais le compte administrateur. `scripts/vercel-build.js` se limite à :
 
-```bash
-DATABASE_URL="postgresql://..."        # Connection pooling
-DIRECT_URL="postgresql://..."          # Direct (migrations)
-NEXT_PUBLIC_SITE_URL="https://..."     # URL du site
-RESEND_API_KEY="re_..."                # Email
-BETTER_AUTH_SECRET="..."               # Auth
-```
+1. appliquer les migrations validées ;
+2. générer le client Prisma ;
+3. compiler Next.js.
 
-### Optionnelles
+Le seed est réservé au développement et aux tests. Il exige `ALLOW_CONTENT_SEED=1` et refuse Vercel ou une cible de production.
+
+## Variables requises
 
 ```bash
-BLOB_READ_WRITE_TOKEN="vercel_blob_..." # Stockage images
+DATABASE_URL="postgresql://..."     # connexion poolée
+DIRECT_URL="postgresql://..."       # connexion directe pour les migrations
+NEXT_PUBLIC_SITE_URL="https://..."  # domaine canonique
+RESEND_API_KEY="re_..."             # envoi du formulaire de contact
+BETTER_AUTH_SECRET="..."            # secret long et aléatoire
+BLOB_READ_WRITE_TOKEN="..."         # obligatoire pour les uploads en production
 ```
 
-## Deploiement Vercel
+`BETTER_AUTH_TRUSTED_ORIGINS` peut lister plusieurs origines exactes séparées par des virgules. Aucun wildcard n’est accepté.
 
-### Automatique
+## Pipeline Vercel
 
-- Push sur `main` → Deploy production
-- Push sur autres branches → Preview deploy
+- un push sur `main` déclenche la production ;
+- une autre branche produit une preview ;
+- les migrations passent avant le build ;
+- aucun seed, import ou bootstrap administrateur n’est exécuté.
 
-### Cron jobs
-
-Configure dans `vercel.json`:
-
-```json
-{
-  "crons": [
-    {
-      "path": "/api/admin/scheduled-publish",
-      "schedule": "0 3 * * *"
-    }
-  ]
-}
-```
-
-## Pre-deploiement checklist
+## Checklist avant publication
 
 ```bash
-# 1. Lint
+pnpm security:check
 pnpm lint
-
-# 2. Build
-pnpm build
-
-# 3. Check migrations
+pnpm exec tsc --noEmit
 pnpm db:check
-
-# 4. Tests (optionnel)
+pnpm build
 pnpm test:full
 ```
 
-## Migrations en production
+## Initialisation exceptionnelle d’un administrateur
+
+Cette opération est manuelle, hors pipeline, et seulement si aucun administrateur n’existe :
 
 ```bash
-# Appliquer migrations
-pnpm db:migrate:prod
-
-# Seed (si necessaire)
-pnpm db:seed:prod
+ADMIN_EMAIL='…' ADMIN_PASSWORD='…' pnpm admin:bootstrap
 ```
 
-## Rollback
+Le mot de passe doit faire au moins 20 caractères. Les variables ne doivent pas rester dans Vercel après l’opération.
 
-1. Revert le commit dans Git
-2. Redeploy via Vercel dashboard
-3. Si migration problematique: restaurer backup Neon
+Pour invalider toutes les sessions après rotation d’un secret ou d’un mot de passe :
+
+```bash
+CONFIRM_SESSION_INVALIDATION=INVALIDATE_ADMIN_SESSIONS pnpm admin:invalidate-sessions
+```
+
+## Sauvegardes
+
+- exporter uniquement les données métier avec `pnpm data:export` ;
+- conserver le manifeste SHA-256 avec chaque export ;
+- archiver les médias séparément ;
+- ne jamais versionner `backups/`, `exports/`, dumps SQL ou archives ;
+- ne jamais archiver les tables d’authentification dans le dépôt.
+
+La procédure complète est décrite dans [Gouvernance des données](./data-governance.md).
+
+## Retour arrière
+
+1. revenir au déploiement Vercel précédent ;
+2. restaurer les données métier uniquement si elles ont réellement été modifiées ;
+3. utiliser un point de restauration Neon pour une migration destructive ;
+4. invalider les sessions si un secret a été exposé.
 
 ## Monitoring
 
-- **Vercel**: Analytics, logs, functions
-- **Neon**: Database metrics, query insights
-- **Admin**: `/admin/logs` pour audit trail
+- Vercel : erreurs, logs, fonctions et Web Vitals ;
+- Neon : connexions, requêtes lentes et dérive de schéma ;
+- administration : audit, doublons et qualité des données.

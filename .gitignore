@@ -35,6 +35,13 @@ yarn-error.log*
 .env*.local
 .env.vercel.*
 backups/
+/exports/
+/archives/
+*.backup
+*.dump
+*.sql.gz
+*.tar.zst
+*.age
 
 # vercel
 .vercel

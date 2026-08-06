@@ -2,9 +2,13 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   images: {
-    // Serve source assets directly while Vercel's image optimizer is unavailable.
-    unoptimized: true,
-    remotePatterns: [],
+    unoptimized: process.env.NEXT_PUBLIC_IMAGE_OPTIMIZATION_DISABLED === 'true',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '*.public.blob.vercel-storage.com',
+      },
+    ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
   },

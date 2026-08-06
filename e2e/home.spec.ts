@@ -2,6 +2,14 @@ import { expect, test } from '@playwright/test'
 
 test.describe('Home Page', () => {
   test('should load homepage successfully', async ({ page }) => {
+    const contentApiRequests: string[] = []
+    page.on('request', (request) => {
+      const pathname = new URL(request.url()).pathname
+      if (pathname === '/api/projets' || pathname === '/api/artists') {
+        contentApiRequests.push(pathname)
+      }
+    })
+
     await page.goto('/fr')
 
     // Check that the page loads
@@ -9,6 +17,7 @@ test.describe('Home Page', () => {
 
     // Check for main sections
     await expect(page.locator('h1')).toBeVisible()
+    expect(contentApiRequests).toEqual([])
   })
 
   test('should display expertises section', async ({ page }) => {

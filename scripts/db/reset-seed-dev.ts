@@ -22,7 +22,7 @@ runScript('reset-seed-dev', () => {
 
   // Step 3: Seed database
   log.step(3, 4, 'Seeding database...')
-  runPrismaSeed()
+  runPrismaSeed('development')
   log.success('Database seeded')
   log.separator()
 

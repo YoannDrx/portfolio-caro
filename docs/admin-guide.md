@@ -1,4 +1,4 @@
-# Guide Admin Synck
+# Guide d’administration — Caroline Senyk
 
 ## Acces
 
@@ -61,6 +61,9 @@ Authentification requise: email + password (role ADMIN)
 - **Audit logs**: Toutes les actions tracees
 - **Duplicates**: Detection automatique
 - **Stats**: Metriques globales
+- **Qualité des données**: images, biographies, liens, traductions et collaborations manquants
+
+Une fiche incomplète reste publiée si elle est active. La qualité des données produit une alerte dans l’administration ; elle ne masque jamais silencieusement un artiste ou une œuvre du site public.
 
 ## API Admin
 

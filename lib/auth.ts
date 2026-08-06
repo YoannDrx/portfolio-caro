@@ -1,9 +1,11 @@
 import { betterAuth } from 'better-auth'
 import { prismaAdapter } from 'better-auth/adapters/prisma'
 
+import { getAuthBaseUrl, getTrustedOrigins } from './auth-origins'
 import { prisma } from './prisma'
 
 export const auth = betterAuth({
+  baseURL: getAuthBaseUrl(),
   database: prismaAdapter(prisma, {
     provider: 'postgresql',
   }),
@@ -32,7 +34,7 @@ export const auth = betterAuth({
       },
     },
   },
-  trustedOrigins: [process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'],
+  trustedOrigins: getTrustedOrigins(),
 })
 
 export type Session = typeof auth.$Infer.Session

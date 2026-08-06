@@ -54,6 +54,9 @@ const dictionary: Dictionary = {
     },
     success: 'Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.',
     error: 'Une erreur est survenue, veuillez réessayer.',
+    required: 'Ce champ est obligatoire.',
+    invalidEmail: 'Saisissez une adresse email valide.',
+    errorSummary: 'Vérifiez les champs signalés avant d’envoyer votre message.',
   },
   home: {
     navSections: [
@@ -360,9 +363,9 @@ const dictionary: Dictionary = {
     ctaButton: 'Me contacter',
   },
   artistDetail: {
-    worksTitle: 'Projets collaboratifs',
-    worksSingular: 'projet',
-    worksPlural: 'projets',
+    worksTitle: 'Tracks & albums',
+    worksSingular: 'référence',
+    worksPlural: 'références',
     previousArtistLabel: '← Artiste précédent',
     nextArtistLabel: 'Artiste suivant →',
     ctaTitle: 'Vous êtes artiste ?',
