@@ -13,8 +13,11 @@ test.describe('Projets Page', () => {
   test('should load projets page successfully', async ({ page }) => {
     await page.goto('/fr/projets')
 
-    // Check that the page loads
-    await expect(page.locator('h1')).toContainText(/projets/i)
+    // A cold production server can briefly retain the previous React tree while
+    // hydrating. Wait for the page landmark to settle before asserting content.
+    const heading = page.getByRole('heading', { level: 1, name: /projets/i })
+    await expect(heading).toHaveCount(1)
+    await expect(heading).toBeVisible()
 
     // Check for breadcrumb
     await expect(page.locator('nav[aria-label="Breadcrumb"]')).toBeVisible()
@@ -76,7 +79,10 @@ test.describe('Projets Page', () => {
     await page.goto('/fr/projets')
 
     // Find search input
-    const searchInput = page.locator('[data-testid="projects-search"]')
+    const filters = page.getByRole('region', { name: 'Filtres du catalogue' })
+    await expect(filters).toHaveCount(1)
+    const searchInput = filters.getByTestId('projects-search')
+    await expect(searchInput).toHaveCount(1)
     await searchInput.fill('minimal')
 
     // Should show results for seeded data

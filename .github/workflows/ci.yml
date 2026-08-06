@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: '22'
   LOCAL_PG_URL: postgresql://postgres@localhost:5432/portfolio-caro
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -117,7 +117,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -206,7 +206,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Cache Next.js build
         uses: actions/cache@v4
@@ -253,6 +253,8 @@ jobs:
         with:
           name: build-artifacts
           path: .next
+          include-hidden-files: true
+          if-no-files-found: error
           retention-days: 1
 
   # Job 4: E2E Tests
@@ -289,7 +291,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -317,23 +319,13 @@ jobs:
       - name: Seed database for E2E
         run: pnpm db:seed:test
         env:
-          SKIP_SEED_IF_DATA_PRESENT: "1"
+          SKIP_SEED_IF_DATA_PRESENT: '1'
 
       - name: Download build artifacts
-        id: download-build
         uses: actions/download-artifact@v4
-        continue-on-error: true
         with:
           name: build-artifacts
           path: .next
-
-      - name: Build application (fallback if artifact missing)
-        if: steps.download-build.outcome == 'failure'
-        run: pnpm run build
-        env:
-          DATABASE_URL: ${{ env.LOCAL_PG_URL }}
-          DIRECT_URL: ${{ env.LOCAL_PG_URL }}
-          NEXT_PUBLIC_SITE_URL: http://localhost:3000
 
       - name: Start application in background
         run: |
