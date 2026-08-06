@@ -16,7 +16,9 @@ test.describe('Home Page', () => {
     await expect(page).toHaveTitle(/Caroline Senyk/)
 
     // Check for main sections
-    await expect(page.locator('h1')).toBeVisible()
+    const heading = page.getByRole('heading', { level: 1 })
+    await expect(heading).toHaveCount(1)
+    await expect(heading).toBeVisible()
     expect(contentApiRequests).toEqual([])
   })
 

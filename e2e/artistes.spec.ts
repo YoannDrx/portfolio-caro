@@ -4,8 +4,10 @@ test.describe('Artistes Page', () => {
   test('should load artistes page successfully', async ({ page }) => {
     await page.goto('/fr/artistes')
 
-    // Check that the page loads
-    await expect(page.locator('h1')).toContainText(/artistes/i)
+    // Wait for the cold server-rendered tree to settle after hydration.
+    const heading = page.getByRole('heading', { level: 1, name: /artistes/i })
+    await expect(heading).toHaveCount(1)
+    await expect(heading).toBeVisible()
 
     // Check for breadcrumb
     await expect(page.locator('nav[aria-label="Breadcrumb"]')).toBeVisible()

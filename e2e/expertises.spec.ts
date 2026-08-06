@@ -5,7 +5,9 @@ test.describe('Expertises Page', () => {
     await page.goto('/fr/expertises')
 
     // Check that the page loads
-    await expect(page.locator('h1')).toContainText(/expertises/i)
+    const heading = page.getByRole('heading', { level: 1, name: /expertises/i })
+    await expect(heading).toHaveCount(1)
+    await expect(heading).toBeVisible()
 
     // Check for breadcrumb
     await expect(page.locator('nav[aria-label="Breadcrumb"]')).toBeVisible()

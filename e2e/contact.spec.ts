@@ -5,7 +5,9 @@ test.describe('Contact Page', () => {
     await page.goto('/fr/contact')
 
     // Check that the page loads
-    await expect(page.locator('h1')).toContainText(/contact/i)
+    const heading = page.getByRole('heading', { level: 1, name: /contact/i })
+    await expect(heading).toHaveCount(1)
+    await expect(heading).toBeVisible()
   })
 
   test('should display contact form', async ({ page }) => {
