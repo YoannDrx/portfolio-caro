@@ -48,7 +48,7 @@ export async function POST(request: Request) {
 
     // Send email with Resend
     const data = await resend.emails.send({
-      from: 'Contact Portfolio <onboarding@resend.dev>', // Replace with your verified domain
+      from: process.env.CONTACT_FROM_EMAIL ?? 'Portfolio Caroline <portfolio-caro@yodev.fr>',
       to: ['caroline.senyk@gmail.com'],
       replyTo: email,
       subject: `[Portfolio Contact] ${subject}`,
